@@ -230,34 +230,30 @@ class first_appView extends WatchUi.WatchFace {
       var percentYear = ((dayOfYear - 1) + secondsToday / 86400.0) / daysInYear * 100;
 
       // Hiển thị
-      var dayLabel = View.findDrawableById("DayProgress") as Text;
-      if (dayLabel != null) {
-        dayLabel.setText("D: " + percentDay.format("%.2f"));
-      }
+      // var dayLabel = View.findDrawableById("DayProgress") as Text;
+      // if (dayLabel != null) {
+      //   dayLabel.setText("D: " + percentDay.format("%.2f"));
+      // }
 
-      var weekLabel = View.findDrawableById("WeekProgress") as Text;
-      if (weekLabel != null) {
-        weekLabel.setText("W: " + percentWeek.format("%.2f"));
-      }
+      // var weekLabel = View.findDrawableById("WeekProgress") as Text;
+      // if (weekLabel != null) {
+      //   weekLabel.setText("W: " + percentWeek.format("%.2f"));
+      // }
 
-      var monthLabel = View.findDrawableById("MonthProgress") as Text;
-      if (monthLabel != null) {
-        monthLabel.setText("M: " + percentMonth.format("%.2f"));
-      }
+      // var monthLabel = View.findDrawableById("MonthProgress") as Text;
+      // if (monthLabel != null) {
+      //   monthLabel.setText("M: " + percentMonth.format("%.2f"));
+      // }
 
-      var yearLabel = View.findDrawableById("YearProgress") as Text;
-      if (yearLabel != null) {
-        yearLabel.setText("Y: " + percentYear.format("%.2f"));
-      }
+      // var yearLabel = View.findDrawableById("YearProgress") as Text;
+      // if (yearLabel != null) {
+      //   yearLabel.setText("Y: " + percentYear.format("%.2f"));
+      // }
 
-      drawCircleProgress(dc, 40, 100, 20, percentDay, Graphics.COLOR_BLUE);
-      drawCircleProgress(dc, 90, 100, 20, percentWeek, Graphics.COLOR_BLUE);
-      drawCircleProgress(dc, 140, 100, 20, percentMonth, Graphics.COLOR_BLUE);
-      drawCircleProgress(dc, 190, 100, 20, percentYear, Graphics.COLOR_BLUE);
-
-
-
-
+      drawCircleProgress(dc, 38, 165, 25, percentDay, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 91, 165, 25, percentWeek, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 145, 165, 25, percentMonth, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 200, 165, 25, percentYear, Graphics.COLOR_GREEN);
     }
 
     // Chuyển thứ sang số
@@ -325,22 +321,32 @@ class first_appView extends WatchUi.WatchFace {
 
 
     private function drawCircleProgress(dc as Dc, cx as Number, cy as Number, r as Number, percentage as Float, color as Graphics.ColorType) {
-      // Xóa vùng trước khi vẽ
-      dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_DK_GRAY);
-      dc.fillCircle(cx, cy, r);
+      if (percentage >= 80) {
+        color = Graphics.COLOR_RED;
+      } else if (percentage >= 50) {
+        color = Graphics.COLOR_YELLOW;
+      } else {
+        color = Graphics.COLOR_GREEN;
+      }
 
-      // Vẽ vòng tròn nền (xám)
-      dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_DK_GRAY);
-      dc.drawCircle(cx, cy, r);
+      // Xóa vùng trước khi vẽ
+      dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
+      dc.fillCircle(cx, cy, r);
 
       // Tính góc quay (0-360 độ)
       var sweepAngle = percentage * 360 / 100;
 
-      // Vẽ vòng tròn tiến trình theo chiều kim đồng hồ
-      dc.setColor(color, Graphics.COLOR_DK_GRAY);
-        for (var thickness = 0; thickness < 3; thickness++) {
-          dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, 0, sweepAngle);
-        }
+      // Vẽ vòng tròn nền (xám) - toàn bộ 360 độ
+      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 3; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, 270);  // Vẽ toàn bộ nền
+      }
+
+      // Vẽ vòng tròn tiến trình (màu) theo phần trăm
+      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 3; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);  // Vẽ tiến trình
+      }
 
       // Hiển thị phần trăm ở giữa vòng tròn
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);

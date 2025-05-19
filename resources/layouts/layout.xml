@@ -5,24 +5,28 @@
 
   <!-- Cụm thông số trên (2 cột) -->
   <!-- Cột bên trái -->
-  <label id="HeartrateDisplay" text="000" x="80" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-  <bitmap id="heartIcon" x="95" y="7" filename="../images/heart.png"/>
+  <label id="HeartrateDisplay" text="000" x="70" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_RED" />
+  <label text="bpm" x="95" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <!-- <bitmap id="heartIcon" x="80" y="7" filename="../images/heart.png"/> -->
 
-  <label id="StepCountDisplay" text="00000" x="80" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-  <bitmap id="stepIcon" x="95" y="25" filename="../images/step.png"/>
+  <label id="StepCountDisplay" text="00000" x="70" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
+  <label text="steps" x="95" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <!-- <bitmap id="stepIcon" x="80" y="25" filename="../images/step.png"/> -->
 
   <!-- Cột bên phải -->
-  <label id="CaloriesDisplay" text="0000" x="160" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-  <bitmap id="caloriesIcon" x="127" y="25" filename="../images/calories.png"/>
+  <label id="CaloriesDisplay" text="0000" x="140" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_YELLOW" />
+  <label text="kcals" x="170" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <!-- <bitmap id="caloriesIcon" x="127" y="25" filename="../images/calories.png"/> -->
 
-  <label id="FloorsClimbedDisplay" text="000" x="160" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-  <bitmap id="steepIcon" x="127" y="7" filename="../images/steep.png"/>
+  <label id="FloorsClimbedDisplay" text="000" x="140" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
+  <label text="floors" x="170" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <!-- <bitmap id="steepIcon" x="127" y="7" filename="../images/steep.png"/> -->
 
   <!-- Pin và Ngày (dưới cùng) -->
-  <label id="BatteryDisplay" text="00%" x="72" y="188" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-  <bitmap id="batteryFull" x="60" y="205" filename="../images/battery-full.png"/>
-  <bitmap id="batteryMedium" x="60" y="205" filename="../images/battery-medium.png"/>
-  <bitmap id="batteryLow" x="60" y="205" filename="../images/battery-low.png"/>
+  <label id="BatteryDisplay" text="00%" x="center" y="55" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <bitmap id="batteryFull" x="center" y="70" filename="../images/battery-full.png"/>
+  <bitmap id="batteryMedium" x="center" y="70" filename="../images/battery-medium.png"/>
+  <bitmap id="batteryLow" x="center" y="70" filename="../images/battery-low.png"/>
 
   <label id="DeviceConnectionStatusDisplay" x="right" y="center" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_RED" />
   <bitmap id="connected" x="2" y="115" filename="../images/connected.png"/>
@@ -30,7 +34,7 @@
 
   <label id="DayOrNight" text="AM" x="220" y="115" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
 
-  <label
+  <!-- <label
     id="DayProgress"
     x="9"
     y="150"
@@ -64,10 +68,10 @@
     font="Gfx.FONT_XTINY"
     justification="Gfx.TEXT_JUSTIFY_LEFT"
     color="Gfx.COLOR_WHITE" 
-  />
+  /> -->
   
 
-  <label id="DateDisplay" text="00/00/00" x="135" y="205" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
+  <label id="DateDisplay" text="00/00/00" x="center" y="205" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
   
 
 </layout>

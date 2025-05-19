@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="1" lineNum="10" parent="globals/first_appView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="4" lineNum="5" parent="globals/first_appApp" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="5" lineNum="140" parent="globals/first_appView" pc="268435548" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="5" lineNum="141" parent="globals/first_appView" pc="268435552" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="5" lineNum="142" parent="globals/first_appView" pc="268435584" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="5" lineNum="143" parent="globals/first_appView" pc="268435612" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="173" parent="globals/first_appView" pc="268435627" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="174" parent="globals/first_appView" pc="268435631" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="175" parent="globals/first_appView" pc="268435648" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="177" parent="globals/first_appView" pc="268435658" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="178" parent="globals/first_appView" pc="268435686" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="181" parent="globals/first_appView" pc="268435714" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="182" parent="globals/first_appView" pc="268435721" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="184" parent="globals/first_appView" pc="268435738" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="185" parent="globals/first_appView" pc="268435745" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="188" parent="globals/first_appView" pc="268435762" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="189" parent="globals/first_appView" pc="268435769" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="190" parent="globals/first_appView" pc="268435776" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="193" parent="globals/first_appView" pc="268435796" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="6" lineNum="194" parent="globals/first_appView" pc="268435803" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="313" parent="globals/first_appView" pc="268435821" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="314" parent="globals/first_appView" pc="268435825" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="315" parent="globals/first_appView" pc="268435832" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="316" parent="globals/first_appView" pc="268435847" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="318" parent="globals/first_appView" pc="268435880" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="7" lineNum="319" parent="globals/first_appView" pc="268435887" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="8" lineNum="100" parent="globals/first_appView" pc="268435890" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="8" lineNum="101" parent="globals/first_appView" pc="268435894" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="8" lineNum="102" parent="globals/first_appView" pc="268435917" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="8" lineNum="103" parent="globals/first_appView" pc="268435945" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="199" parent="globals/first_appView" pc="268435980" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="200" parent="globals/first_appView" pc="268435984" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="201" parent="globals/first_appView" pc="268436001" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="203" parent="globals/first_appView" pc="268436011" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="205" parent="globals/first_appView" pc="268436039" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="9" lineNum="206" parent="globals/first_appView" pc="268436065" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="73" parent="globals/first_appView" pc="268436080" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="74" parent="globals/first_appView" pc="268436084" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="76" parent="globals/first_appView" pc="268436091" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="77" parent="globals/first_appView" pc="268436106" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="80" parent="globals/first_appView" pc="268436122" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="83" parent="globals/first_appView" pc="268436129" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="10" lineNum="84" parent="globals/first_appView" pc="268436157" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="11" lineNum="277" parent="globals/first_appView" pc="268436172" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="11" lineNum="278" parent="globals/first_appView" pc="268436176" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="11" lineNum="292" parent="globals/first_appView" pc="268436340" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="11" lineNum="293" parent="globals/first_appView" pc="268436356" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="11" lineNum="295" parent="globals/first_appView" pc="268436365" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="12" lineNum="299" parent="globals/first_appView" pc="268436371" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="12" lineNum="300" parent="globals/first_appView" pc="268436375" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="12" lineNum="301" parent="globals/first_appView" pc="268436539" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="12" lineNum="302" parent="globals/first_appView" pc="268436566" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="12" lineNum="304" parent="globals/first_appView" pc="268436575" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="14" lineNum="260" parent="globals/first_appView" pc="268436587" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="14" lineNum="261" parent="globals/first_appView" pc="268436591" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="14" lineNum="270" parent="globals/first_appView" pc="268436690" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="14" lineNum="271" parent="globals/first_appView" pc="268436706" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="14" lineNum="273" parent="globals/first_appView" pc="268436715" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="16" lineNum="64" parent="globals/first_appView" pc="268436721" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="16" lineNum="65" parent="globals/first_appView" pc="268436725" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="16" lineNum="66" parent="globals/first_appView" pc="268436742" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="16" lineNum="67" parent="globals/first_appView" pc="268436816" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="16" lineNum="69" parent="globals/first_appView" pc="268436844" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="323" parent="globals/first_appView" pc="268436859" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="324" parent="globals/first_appView" pc="268436863" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="325" parent="globals/first_appView" pc="268436874" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="326" parent="globals/first_appView" pc="268436884" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="327" parent="globals/first_appView" pc="268436895" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="329" parent="globals/first_appView" pc="268436905" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="333" parent="globals/first_appView" pc="268436912" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="334" parent="globals/first_appView" pc="268436934" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="337" parent="globals/first_appView" pc="268436952" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="340" parent="globals/first_appView" pc="268436968" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="341" parent="globals/first_appView" pc="268436990" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="342" parent="globals/first_appView" pc="268437008" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="346" parent="globals/first_appView" pc="268437057" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="347" parent="globals/first_appView" pc="268437076" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="348" parent="globals/first_appView" pc="268437094" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="352" parent="globals/first_appView" pc="268437146" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="353" parent="globals/first_appView" pc="268437168" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="18" lineNum="354" parent="globals/first_appView" pc="268437192" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="19" lineNum="17" parent="globals/first_appView" pc="268437233" symbol="onLayout"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="19" lineNum="18" parent="globals/first_appView" pc="268437235" symbol="onLayout"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="20" lineNum="308" parent="globals/first_appView" pc="268437277" symbol="&lt;globals/first_appView/&lt;&gt;isLeapYear&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="20" lineNum="309" parent="globals/first_appView" pc="268437279" symbol="&lt;globals/first_appView/&lt;&gt;isLeapYear&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="147" parent="globals/first_appView" pc="268437334" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="148" parent="globals/first_appView" pc="268437338" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="149" parent="globals/first_appView" pc="268437355" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="150" parent="globals/first_appView" pc="268437379" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="151" parent="globals/first_appView" pc="268437455" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="21" lineNum="152" parent="globals/first_appView" pc="268437483" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="88" parent="globals/first_appView" pc="268437498" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="89" parent="globals/first_appView" pc="268437502" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="90" parent="globals/first_appView" pc="268437522" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="92" parent="globals/first_appView" pc="268437541" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="93" parent="globals/first_appView" pc="268437552" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="22" lineNum="96" parent="globals/first_appView" pc="268437561" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="209" parent="globals/first_appView" pc="268437578" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="210" parent="globals/first_appView" pc="268437582" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="211" parent="globals/first_appView" pc="268437599" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="214" parent="globals/first_appView" pc="268437623" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="215" parent="globals/first_appView" pc="268437663" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="218" parent="globals/first_appView" pc="268437679" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="219" parent="globals/first_appView" pc="268437689" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="220" parent="globals/first_appView" pc="268437704" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="221" parent="globals/first_appView" pc="268437717" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="224" parent="globals/first_appView" pc="268437733" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="225" parent="globals/first_appView" pc="268437773" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="228" parent="globals/first_appView" pc="268437807" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="229" parent="globals/first_appView" pc="268437844" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="230" parent="globals/first_appView" pc="268437892" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="253" parent="globals/first_appView" pc="268437920" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="254" parent="globals/first_appView" pc="268437956" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="255" parent="globals/first_appView" pc="268437992" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="23" lineNum="256" parent="globals/first_appView" pc="268438028" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="107" parent="globals/first_appView" pc="268438065" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="108" parent="globals/first_appView" pc="268438069" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="109" parent="globals/first_appView" pc="268438097" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="110" parent="globals/first_appView" pc="268438125" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="113" parent="globals/first_appView" pc="268438153" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="114" parent="globals/first_appView" pc="268438160" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="116" parent="globals/first_appView" pc="268438177" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="117" parent="globals/first_appView" pc="268438184" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="119" parent="globals/first_appView" pc="268438201" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="120" parent="globals/first_appView" pc="268438208" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="124" parent="globals/first_appView" pc="268438225" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="125" parent="globals/first_appView" pc="268438236" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="126" parent="globals/first_appView" pc="268438243" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="128" parent="globals/first_appView" pc="268438263" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="129" parent="globals/first_appView" pc="268438274" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="130" parent="globals/first_appView" pc="268438281" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="133" parent="globals/first_appView" pc="268438301" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="25" lineNum="134" parent="globals/first_appView" pc="268438308" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="26" lineNum="12" parent="globals/first_appView" pc="268438326" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="26" lineNum="13" parent="globals/first_appView" pc="268438328" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="28" parent="globals/first_appView" pc="268438347" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="29" parent="globals/first_appView" pc="268438351" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="30" parent="globals/first_appView" pc="268438363" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="31" parent="globals/first_appView" pc="268438375" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="32" parent="globals/first_appView" pc="268438387" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="33" parent="globals/first_appView" pc="268438399" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="34" parent="globals/first_appView" pc="268438411" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="35" parent="globals/first_appView" pc="268438423" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="36" parent="globals/first_appView" pc="268438435" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="37" parent="globals/first_appView" pc="268438447" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="39" parent="globals/first_appView" pc="268438459" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="40" parent="globals/first_appView" pc="268438482" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="42" parent="globals/first_appView" pc="268438505" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="43" parent="globals/first_appView" pc="268438517" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="27" lineNum="45" parent="globals/first_appView" pc="268438541" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="28" lineNum="156" parent="globals/first_appView" pc="268438556" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="28" lineNum="157" parent="globals/first_appView" pc="268438560" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="28" lineNum="158" parent="globals/first_appView" pc="268438592" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="28" lineNum="159" parent="globals/first_appView" pc="268438620" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="28" lineNum="160" parent="globals/first_appView" pc="268438627" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="29" lineNum="165" parent="globals/first_appView" pc="268438645" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="29" lineNum="166" parent="globals/first_appView" pc="268438649" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="29" lineNum="167" parent="globals/first_appView" pc="268438681" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="29" lineNum="168" parent="globals/first_appView" pc="268438709" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" id="29" lineNum="169" parent="globals/first_appView" pc="268438716" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="30" lineNum="12" parent="globals/first_appApp" pc="268438734" symbol="onStart"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="31" lineNum="20" parent="globals/first_appApp" pc="268438737" symbol="getInitialView"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="31" lineNum="21" parent="globals/first_appApp" pc="268438739" symbol="getInitialView"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="32" lineNum="7" parent="globals/first_appApp" pc="268438780" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="32" lineNum="8" parent="globals/first_appApp" pc="268438782" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appApp.mc" id="33" lineNum="16" parent="globals/first_appApp" pc="268438801" symbol="onStop"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="18" parent="globals/Rez/Layouts" pc="268438804" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="19" parent="globals/Rez/Layouts" pc="268438816" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="21" parent="globals/Rez/Layouts" pc="268438951" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="23" parent="globals/Rez/Layouts" pc="268439076" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="25" parent="globals/Rez/Layouts" pc="268439188" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="27" parent="globals/Rez/Layouts" pc="268439313" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="29" parent="globals/Rez/Layouts" pc="268439425" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268439550" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="33" parent="globals/Rez/Layouts" pc="268439662" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="35" parent="globals/Rez/Layouts" pc="268439787" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="37" parent="globals/Rez/Layouts" pc="268439899" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="39" parent="globals/Rez/Layouts" pc="268440024" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="40" parent="globals/Rez/Layouts" pc="268440129" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="42" parent="globals/Rez/Layouts" pc="268440169" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="43" parent="globals/Rez/Layouts" pc="268440274" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="45" parent="globals/Rez/Layouts" pc="268440314" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="46" parent="globals/Rez/Layouts" pc="268440419" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="48" parent="globals/Rez/Layouts" pc="268440459" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="50" parent="globals/Rez/Layouts" pc="268440594" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="52" parent="globals/Rez/Layouts" pc="268440699" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="54" parent="globals/Rez/Layouts" pc="268440804" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="56" parent="globals/Rez/Layouts" pc="268440929" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/bin/gen/006-B3113-00/source/Rez.mcgen" id="34" lineNum="58" parent="globals/Rez/Layouts" pc="268441054" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8" method="true" symbol="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="13" method="true" symbol="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;"/>
+        <entry id="23" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="19" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry id="14" method="true" symbol="&lt;globals/first_appView/&lt;&gt;isLeapYear&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="15" method="true" symbol="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;"/>
+        <entry field="true" id="33" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="7" object="true" symbol="first_appView"/>
+        <entry field="true" id="29" symbol="batteryLow"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="30" symbol="batteryMedium"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="32" symbol="disConnect"/>
+        <entry id="6" object="true" symbol="first_appApp"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="25" method="true" symbol="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="12" method="true" symbol="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="8389714" symbol="INVALID_HR_SAMPLE"/>
+        <entry field="true" id="28" symbol="batteryFull"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="11" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry id="9" method="true" symbol="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="21" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="20" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry field="true" id="31" symbol="connected"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="27" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="10" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="24" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="16" method="true" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry id="26" module="true" symbol="Layouts"/>
+        <entry id="18" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="22" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry id="17" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435625" name="stepCount" stackId="1" startPc="268435552"/>
+        <entry endPc="268435625" name="stepCountDisplay" stackId="2" startPc="268435552"/>
+        <entry endPc="268435819" name="mySettings" stackId="1" startPc="268435631"/>
+        <entry endPc="268435819" name="phoneConnected" stackId="2" startPc="268435631"/>
+        <entry endPc="268435819" name="connected" stackId="3" startPc="268435631"/>
+        <entry endPc="268435819" name="disConnect" stackId="4" startPc="268435631"/>
+        <entry arg="true" endPc="268435889" name="year" stackId="1" startPc="268435821"/>
+        <entry arg="true" endPc="268435889" name="month" stackId="2" startPc="268435821"/>
+        <entry arg="true" endPc="268435889" name="day" stackId="3" startPc="268435821"/>
+        <entry endPc="268435889" name="dayCount" stackId="4" startPc="268435825"/>
+        <entry endPc="268435879" name="m" stackId="5" startPc="268435847"/>
+        <entry endPc="268435978" name="battery" stackId="1" startPc="268435894"/>
+        <entry endPc="268435978" name="batteryDisplay" stackId="2" startPc="268435894"/>
+        <entry endPc="268436078" name="now" stackId="1" startPc="268435984"/>
+        <entry endPc="268436078" name="hour" stackId="2" startPc="268435984"/>
+        <entry endPc="268436078" name="timeLabel" stackId="3" startPc="268435984"/>
+        <entry endPc="268436078" name="period" stackId="4" startPc="268435984"/>
+        <entry endPc="268436170" name="heartRate" stackId="1" startPc="268436084"/>
+        <entry endPc="268436170" name="heartrateDisplay" stackId="2" startPc="268436084"/>
+        <entry arg="true" endPc="268436370" name="monthStr" stackId="1" startPc="268436172"/>
+        <entry endPc="268436370" name="monthsMap" stackId="2" startPc="268436176"/>
+        <entry arg="true" endPc="268436586" name="year" stackId="1" startPc="268436371"/>
+        <entry arg="true" endPc="268436586" name="month" stackId="2" startPc="268436371"/>
+        <entry endPc="268436586" name="daysPerMonth" stackId="3" startPc="268436375"/>
+        <entry arg="true" endPc="268436720" name="dayStr" stackId="1" startPc="268436587"/>
+        <entry endPc="268436720" name="daysMap" stackId="2" startPc="268436591"/>
+        <entry endPc="268436857" name="clockTime" stackId="1" startPc="268436725"/>
+        <entry endPc="268436857" name="timeString" stackId="2" startPc="268436725"/>
+        <entry endPc="268436857" name="view" stackId="3" startPc="268436725"/>
+        <entry arg="true" endPc="268437232" name="dc" stackId="1" startPc="268436859"/>
+        <entry arg="true" endPc="268437232" name="cx" stackId="2" startPc="268436859"/>
+        <entry arg="true" endPc="268437232" name="cy" stackId="3" startPc="268436859"/>
+        <entry arg="true" endPc="268437232" name="r" stackId="4" startPc="268436859"/>
+        <entry arg="true" endPc="268437232" name="percentage" stackId="5" startPc="268436859"/>
+        <entry arg="true" endPc="268437232" name="color" stackId="6" startPc="268436859"/>
+        <entry endPc="268437231" name="sweepAngle" stackId="7" startPc="268436863"/>
+        <entry endPc="268437056" name="thickness" stackId="8" startPc="268437008"/>
+        <entry endPc="268437145" name="thickness" stackId="9" startPc="268437094"/>
+        <entry endPc="268437231" name="percentageStr" stackId="10" startPc="268436863"/>
+        <entry arg="true" endPc="268437276" name="dc" stackId="1" startPc="268437233"/>
+        <entry arg="true" endPc="268437333" name="year" stackId="1" startPc="268437277"/>
+        <entry endPc="268437496" name="now" stackId="1" startPc="268437338"/>
+        <entry endPc="268437496" name="date" stackId="2" startPc="268437338"/>
+        <entry endPc="268437496" name="dateString" stackId="3" startPc="268437338"/>
+        <entry endPc="268437496" name="dateDisplay" stackId="4" startPc="268437338"/>
+        <entry endPc="268437577" name="heartrateIterator" stackId="1" startPc="268437502"/>
+        <entry endPc="268437577" name="currentHeartrate" stackId="2" startPc="268437502"/>
+        <entry arg="true" endPc="268438064" name="dc" stackId="1" startPc="268437578"/>
+        <entry endPc="268438063" name="now" stackId="2" startPc="268437582"/>
+        <entry endPc="268438063" name="today" stackId="3" startPc="268437582"/>
+        <entry endPc="268438063" name="secondsToday" stackId="4" startPc="268437582"/>
+        <entry endPc="268438063" name="percentDay" stackId="5" startPc="268437582"/>
+        <entry endPc="268438063" name="dayOfWeekStr" stackId="6" startPc="268437582"/>
+        <entry endPc="268438063" name="dayOfWeek" stackId="7" startPc="268437582"/>
+        <entry endPc="268438063" name="secondsWeek" stackId="8" startPc="268437582"/>
+        <entry endPc="268438063" name="percentWeek" stackId="9" startPc="268437582"/>
+        <entry endPc="268438063" name="daysInMonth" stackId="10" startPc="268437582"/>
+        <entry endPc="268438063" name="percentMonth" stackId="11" startPc="268437582"/>
+        <entry endPc="268438063" name="daysInYear" stackId="12" startPc="268437582"/>
+        <entry endPc="268438063" name="dayOfYear" stackId="13" startPc="268437582"/>
+        <entry endPc="268438063" name="percentYear" stackId="14" startPc="268437582"/>
+        <entry arg="true" endPc="268438325" name="batteryPercent" stackId="1" startPc="268438065"/>
+        <entry endPc="268438324" name="batteryFull" stackId="2" startPc="268438069"/>
+        <entry endPc="268438324" name="batteryMedium" stackId="3" startPc="268438069"/>
+        <entry endPc="268438324" name="batteryLow" stackId="4" startPc="268438069"/>
+        <entry arg="true" endPc="268438555" name="dc" stackId="1" startPc="268438347"/>
+        <entry endPc="268438554" name="battery" stackId="2" startPc="268438351"/>
+        <entry endPc="268438643" name="calories" stackId="1" startPc="268438560"/>
+        <entry endPc="268438643" name="caloriesDisplay" stackId="2" startPc="268438560"/>
+        <entry endPc="268438732" name="floorsClimbed" stackId="1" startPc="268438649"/>
+        <entry endPc="268438732" name="floorsClimbedDisplay" stackId="2" startPc="268438649"/>
+        <entry arg="true" endPc="268441240" name="dc" stackId="1" startPc="268438804"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_HeartrateDisplay" stackId="3" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_1193959466" stackId="4" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_StepCountDisplay" stackId="5" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_1139614796" stackId="6" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_CaloriesDisplay" stackId="7" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_8374157491" stackId="8" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_FloorsClimbedDisplay" stackId="9" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_1429538713" stackId="10" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_BatteryDisplay" stackId="11" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_bitmap_batteryFull" stackId="12" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_bitmap_batteryMedium" stackId="13" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_bitmap_batteryLow" stackId="14" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_DeviceConnectionStatusDisplay" stackId="15" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_bitmap_connected" stackId="16" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_bitmap_disConnect" stackId="17" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_DayOrNight" stackId="18" startPc="268438816"/>
+        <entry endPc="268441240" name="rez_cmp_local_text_DateDisplay" stackId="19" startPc="268438816"/>
+    </localVars>
+    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3113-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryMedium"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryFull"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="disConnect"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryLow"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="connected"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/first_appView" offset="134" parentId="globals" symbolId="first_appView" type="class"/>
+        <dataEntry label="globals/Rez" offset="373" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/first_appApp" offset="428" parentId="globals" symbolId="first_appApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="499" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="578" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="617" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="first_appView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="first_appApp" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435626" name="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;" parent="first_appView" startPc="268435548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435820" name="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;" parent="first_appView" startPc="268435627">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435889" name="&lt;globals/first_appView/&lt;&gt;dayOfYearFunc&gt;" parent="first_appView" startPc="268435821">
+            <param id="year"/>
+            <param id="month"/>
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435979" name="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;" parent="first_appView" startPc="268435890">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436079" name="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;" parent="first_appView" startPc="268435980">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436171" name="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;" parent="first_appView" startPc="268436080">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436370" name="&lt;globals/first_appView/&lt;&gt;monthToNumber&gt;" parent="first_appView" startPc="268436172">
+            <param id="monthStr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436586" name="&lt;globals/first_appView/&lt;&gt;daysInMonthFunc&gt;" parent="first_appView" startPc="268436371">
+            <param id="year"/>
+            <param id="month"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436720" name="&lt;globals/first_appView/&lt;&gt;getDayOfWeekNumber&gt;" parent="first_appView" startPc="268436587">
+            <param id="dayStr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436858" name="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;" parent="first_appView" startPc="268436721">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437232" name="&lt;globals/first_appView/&lt;&gt;drawCircleProgress&gt;" parent="first_appView" startPc="268436859">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="percentage"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437276" name="onLayout" parent="first_appView" startPc="268437233">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437333" name="&lt;globals/first_appView/&lt;&gt;isLeapYear&gt;" parent="first_appView" startPc="268437277">
+            <param id="year"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437497" name="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;" parent="first_appView" startPc="268437334">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437577" name="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;" parent="first_appView" startPc="268437498">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438064" name="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;" parent="first_appView" startPc="268437578">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438325" name="&lt;globals/first_appView/&lt;&gt;updateBatteryIcon&gt;" parent="first_appView" startPc="268438065">
+            <param id="batteryPercent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438346" name="initialize" parent="first_appView" startPc="268438326">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438555" name="onUpdate" parent="first_appView" startPc="268438347">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438644" name="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;" parent="first_appView" startPc="268438556">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438733" name="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;" parent="first_appView" startPc="268438645">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438736" name="onStart" parent="first_appApp" startPc="268438734">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438779" name="getInitialView" parent="first_appApp" startPc="268438737">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438800" name="initialize" parent="first_appApp" startPc="268438780">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438803" name="onStop" parent="first_appApp" startPc="268438801">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441240" name="WatchFace" parent="Layouts" startPc="268438804">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

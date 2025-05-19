@@ -1,43 +1,43 @@
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
 import Toybox.System;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [ActivityMonitor,5,13,28]; @symbol_usingAlias = [Mon,5,32,35]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [ActivityMonitor,5,13,28]; @symbol_usingAlias = [Mon,5,32,35]; ]
 using Toybox.ActivityMonitor as :Mon;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [System,6,13,19]; @symbol_usingAlias = [Sys,6,23,26]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [System,6,13,19]; @symbol_usingAlias = [Sys,6,23,26]; ]
 using Toybox.System as :Sys;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Time,7,13,17]; @symbol_usingdef<2> = [Gregorian,7,18,27]; @symbol_usingAlias = [Date,7,31,35]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Time,7,13,17]; @symbol_usingdef<2> = [Gregorian,7,18,27]; @symbol_usingAlias = [Date,7,31,35]; ]
 using Toybox.Time.Gregorian as :Date;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Application,8,13,24]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Application,8,13,24]; ]
 using Toybox.Application;
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 10; @symbol_classdef = [first_appView,10,6,19]; @symbol_extends<0> = [WatchUi,10,28,35]; @symbol_extends<1> = [WatchFace,10,36,45]; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 10; @symbol_classdef = [first_appView,10,6,19]; @symbol_extends<0> = [WatchUi,10,28,35]; @symbol_extends<1> = [WatchFace,10,36,45]; ]
 class first_appView extends WatchUi.WatchFace {
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 10; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 10; ]
     <init> {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 10; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 10; ]
     static
     <init> {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
     function initialize() as Void {
-D_Workspace_GarminApp_source_first_appView_mc_12_26_14_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 13 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_12_26_14_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 13 8 ]
         symbol [ WatchFace %tmp.2 13 8 17 ];
         %tmp.2 = getv ? :WatchFace;
         symbol [ initialize %tmp.3 13 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D_Workspace_GarminApp_source_first_appView_mc_12_26_14_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_12_26_14_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 17; @symbol_functiondef = [onLayout,17,13,21]; @symbol_param<0> = [dc,17,22,24]; @symbol_param<0>_type<0> = [Dc,17,28,30]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 17; @symbol_functiondef = [onLayout,17,13,21]; @symbol_param<0> = [dc,17,22,24]; @symbol_param<0>_type<0> = [Dc,17,28,30]; ]
     function onLayout(dc as Dc) as Void {
-D_Workspace_GarminApp_source_first_appView_mc_17_40_19_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 18 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_17_40_19_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 18 8 ]
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 18 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
@@ -51,61 +51,61 @@ D_Workspace_GarminApp_source_first_appView_mc_17_40_19_4_start:
         symbol [ dc %tmp.7 18 40 42 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-D_Workspace_GarminApp_source_first_appView_mc_17_40_19_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_17_40_19_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 24; @symbol_functiondef = [onShow,24,13,19]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 24; @symbol_functiondef = [onShow,24,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 28; @symbol_functiondef = [onUpdate,28,13,21]; @symbol_param<0> = [dc,28,22,24]; @symbol_param<0>_type<0> = [Dc,28,28,30]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 28; @symbol_functiondef = [onUpdate,28,13,21]; @symbol_param<0> = [dc,28,22,24]; @symbol_param<0>_type<0> = [Dc,28,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 29 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_28_40_47_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 29 8 ]
         %tmp.1 = self;
         symbol [ setClockDisplay %tmp.2 29 8 23 ];
         %tmp.2 = getv function %tmp.1 :setClockDisplay;
         invoke %tmp.1 %tmp.2();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 30 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 30 8 ]
         %tmp.3 = self;
         symbol [ setHeartrateDisplay %tmp.4 30 8 27 ];
         %tmp.4 = getv function %tmp.3 :setHeartrateDisplay;
         invoke %tmp.3 %tmp.4();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 31 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 31 8 ]
         %tmp.5 = self;
         symbol [ setBatteryDisplay %tmp.6 31 8 25 ];
         %tmp.6 = getv function %tmp.5 :setBatteryDisplay;
         invoke %tmp.5 %tmp.6();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 32 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 32 8 ]
         %tmp.7 = self;
         symbol [ setStepCountDisplay %tmp.8 32 8 27 ];
         %tmp.8 = getv function %tmp.7 :setStepCountDisplay;
         invoke %tmp.7 %tmp.8();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 33 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 33 8 ]
         %tmp.9 = self;
         symbol [ setDateDisplay %tmp.10 33 8 22 ];
         %tmp.10 = getv function %tmp.9 :setDateDisplay;
         invoke %tmp.9 %tmp.10();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 34 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 34 8 ]
         %tmp.11 = self;
         symbol [ setCaloriesDisplay %tmp.12 34 8 26 ];
         %tmp.12 = getv function %tmp.11 :setCaloriesDisplay;
         invoke %tmp.11 %tmp.12();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 35 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 35 8 ]
         %tmp.13 = self;
         symbol [ setFloorsClimbedDisplay %tmp.14 35 8 31 ];
         %tmp.14 = getv function %tmp.13 :setFloorsClimbedDisplay;
         invoke %tmp.13 %tmp.14();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 36 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 36 8 ]
         %tmp.15 = self;
         symbol [ setConnectionStatusDisplay %tmp.16 36 8 34 ];
         %tmp.16 = getv function %tmp.15 :setConnectionStatusDisplay;
         invoke %tmp.15 %tmp.16();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 37 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 37 8 ]
         %tmp.17 = self;
         symbol [ displayDayNight %tmp.18 37 8 23 ];
         %tmp.18 = getv function %tmp.17 :displayDayNight;
         invoke %tmp.17 %tmp.18();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 39 8 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_start" "D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 39 8 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_28_40_47_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_28_40_47_4_stop" ]
         %battery.1 = local;
         symbol [ battery %battery.1 39 12 19 ];
         symbol [ Sys %tmp.19 39 22 25 ];
@@ -117,7 +117,7 @@ D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_start:
         %tmp.22 = getv %tmp.21 :battery;
         lputv %battery.1 %tmp.22;
         symbol [ battery %battery.1 39 12 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 40 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 40 8 ]
         %tmp.23 = self;
         symbol [ updateBatteryIcon %tmp.24 40 8 25 ];
         %tmp.24 = getv function %tmp.23 :updateBatteryIcon;
@@ -127,12 +127,12 @@ D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_start:
         %tmp.26 = getv function %tmp.25 :toNumber;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         invoke %tmp.23 %tmp.24(%tmp.27);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 42 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 42 8 ]
         %tmp.28 = self;
         symbol [ setConnectionStatusDisplay %tmp.29 42 8 34 ];
         %tmp.29 = getv function %tmp.28 :setConnectionStatusDisplay;
         invoke %tmp.28 %tmp.29();
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 43 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 43 8 ]
         symbol [ View %tmp.31 43 8 12 ];
         %tmp.31 = getv ? :View;
         symbol [ onUpdate %tmp.32 43 13 21 ];
@@ -140,30 +140,30 @@ D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_start:
         %tmp.33 = lgetv %dc;
         symbol [ dc %tmp.33 43 22 24 ];
         invoke %tmp.31 %tmp.32(%tmp.33);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 45 8 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 45 8 ]
         %tmp.34 = self;
         symbol [ displayProgressPercentages %tmp.35 45 8 34 ];
         %tmp.35 = getv function %tmp.34 :displayProgressPercentages;
         %tmp.36 = lgetv %dc;
         symbol [ dc %tmp.36 45 35 37 ];
         invoke %tmp.34 %tmp.35(%tmp.36);
-D_Workspace_GarminApp_source_first_appView_mc_28_40_47_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_28_40_47_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 52; @symbol_functiondef = [onHide,52,13,19]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 52; @symbol_functiondef = [onHide,52,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 56; @symbol_functiondef = [onExitSleep,56,13,24]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 56; @symbol_functiondef = [onExitSleep,56,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 60; @symbol_functiondef = [onEnterSleep,60,13,25]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 60; @symbol_functiondef = [onEnterSleep,60,13,25]; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 64; @symbol_functiondef = [setClockDisplay,64,21,36]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 64; @symbol_functiondef = [setClockDisplay,64,21,36]; ]
     private
     function setClockDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 65 5 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start" "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 65 5 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_stop" ]
         %clockTime.1 = local;
         symbol [ clockTime %clockTime.1 65 9 18 ];
         symbol [ Sys %tmp.1 65 21 24 ];
@@ -173,8 +173,8 @@ D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start:
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
         symbol [ clockTime %clockTime.1 65 9 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 66 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start" "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 66 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_stop" ]
         %timeString.2 = local;
         symbol [ timeString %timeString.2 66 10 20 ];
         symbol [ Lang %tmp.4 66 23 27 ];
@@ -202,8 +202,8 @@ D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start:
         %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
         lputv %timeString.2 %tmp.19;
         symbol [ timeString %timeString.2 66 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 67 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start" "D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 67 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_stop" ]
         %view.3 = local;
         symbol [ view %view.3 67 10 14 ];
         symbol [ View %tmp.21 67 17 21 ];
@@ -216,7 +216,7 @@ D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start:
         symbol [ Text %tmp.25 67 57 61 ];
         lputv %view.3 %tmp.25;
         symbol [ view %view.3 67 10 14 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 69 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 69 6 ]
         %tmp.26 = lgetv %view.3;
         symbol [ view %tmp.26 69 6 10 ];
         symbol [ setText %tmp.27 69 11 18 ];
@@ -224,48 +224,48 @@ D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_start:
         %tmp.28 = lgetv %timeString.2;
         symbol [ timeString %tmp.28 69 19 29 ];
         invoke %tmp.26 %tmp.27(%tmp.28);
-D_Workspace_GarminApp_source_first_appView_mc_64_39_70_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_64_39_70_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 73; @symbol_functiondef = [setHeartrateDisplay,73,21,40]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 73; @symbol_functiondef = [setHeartrateDisplay,73,21,40]; ]
     private
     function setHeartrateDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 74 5 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_start" "D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 74 5 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_stop" ]
         %heartRate.1 = local;
         symbol [ heartRate %heartRate.1 74 9 18 ];
         %tmp.1 = "";
         lputv %heartRate.1 %tmp.1;
         symbol [ heartRate %heartRate.1 74 9 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 76 5 ]
-D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 76 5 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_stmt:
         symbol [ Mon %tmp.2 76 8 11 ];
         %tmp.2 = getm $.Toybox.ActivityMonitor;
         %tmp.4 = const :INVALID_HR_SAMPLE;
         symbol [ INVALID_HR_SAMPLE %tmp.4 76 17 34 const ];
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
-        bf %tmp.5 @D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_else_false;
-D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_76_36_78_5_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 77 6 ]
+        bf %tmp.5 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_else_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_36_78_5_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 77 6 ]
         %tmp.6 = self;
         symbol [ retrieveHeartrateText %tmp.7 77 18 39 ];
         %tmp.7 = getv function %tmp.6 :retrieveHeartrateText;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         lputv %heartRate.1 %tmp.8;
         symbol [ heartRate %heartRate.1 77 6 15 ];
-D_Workspace_GarminApp_source_first_appView_mc_76_36_78_5_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_else_false:
-D_Workspace_GarminApp_source_first_appView_mc_79_10_81_5_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 80 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_36_78_5_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_else_false:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_79_10_81_5_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 80 6 ]
         %tmp.9 = "";
         lputv %heartRate.1 %tmp.9;
         symbol [ heartRate %heartRate.1 80 6 15 ];
-D_Workspace_GarminApp_source_first_appView_mc_79_10_81_5_stop:
-D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 83 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_start" "D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_79_10_81_5_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_76_5_81_5_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 83 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_stop" ]
         %heartrateDisplay.2 = local;
         symbol [ heartrateDisplay %heartrateDisplay.2 83 10 26 ];
         symbol [ View %tmp.11 83 29 33 ];
@@ -278,7 +278,7 @@ D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_end:
         symbol [ Text %tmp.15 83 74 78 ];
         lputv %heartrateDisplay.2 %tmp.15;
         symbol [ heartrateDisplay %heartrateDisplay.2 83 10 26 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 84 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 84 6 ]
         %tmp.16 = lgetv %heartrateDisplay.2;
         symbol [ heartrateDisplay %tmp.16 84 6 22 ];
         symbol [ setText %tmp.17 84 23 30 ];
@@ -286,14 +286,14 @@ D_Workspace_GarminApp_source_first_appView_mc_76_5_81_5_if_end:
         %tmp.18 = lgetv %heartRate.1;
         symbol [ heartRate %tmp.18 84 31 40 ];
         invoke %tmp.16 %tmp.17(%tmp.18);
-D_Workspace_GarminApp_source_first_appView_mc_73_43_85_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_73_43_85_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 88; @symbol_functiondef = [retrieveHeartrateText,88,21,42]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 88; @symbol_functiondef = [retrieveHeartrateText,88,21,42]; ]
     private
     function retrieveHeartrateText() {
-D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 89 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_start" "D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 89 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_stop" ]
         %heartrateIterator.1 = local;
         symbol [ heartrateIterator %heartrateIterator.1 89 10 27 ];
         symbol [ ActivityMonitor %tmp.2 89 30 45 ];
@@ -305,8 +305,8 @@ D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_start:
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
         lputv %heartrateIterator.1 %tmp.6;
         symbol [ heartrateIterator %heartrateIterator.1 89 10 27 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 90 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_start" "D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 90 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_stop" ]
         %currentHeartrate.2 = local;
         symbol [ currentHeartrate %currentHeartrate.2 90 10 26 ];
         %tmp.7 = lgetv %heartrateIterator.1;
@@ -318,8 +318,8 @@ D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_start:
         %tmp.10 = getv %tmp.9 :heartRate;
         lputv %currentHeartrate.2 %tmp.10;
         symbol [ currentHeartrate %currentHeartrate.2 90 10 26 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 92 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 92 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_6_94_6_if_stmt:
         %tmp.11 = lgetv %currentHeartrate.2;
         symbol [ currentHeartrate %tmp.11 92 9 25 ];
         symbol [ Mon %tmp.12 92 29 32 ];
@@ -327,16 +327,16 @@ D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_stmt:
         symbol [ INVALID_HR_SAMPLE %tmp.13 92 33 50 ];
         %tmp.13 = getv %tmp.12 :INVALID_HR_SAMPLE;
         %tmp.14 = eq %tmp.11 %tmp.13;
-        bf %tmp.14 @D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_92_52_94_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 93 8 ]
+        bf %tmp.14 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_6_94_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_6_94_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_52_94_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 93 8 ]
         %tmp.15 = "";
         ret %tmp.15;
-D_Workspace_GarminApp_source_first_appView_mc_92_52_94_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 96 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_52_94_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_6_94_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_92_6_94_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 96 6 ]
         %tmp.16 = lgetv %currentHeartrate.2;
         symbol [ currentHeartrate %tmp.16 96 13 29 ];
         symbol [ format %tmp.17 96 30 36 ];
@@ -344,14 +344,14 @@ D_Workspace_GarminApp_source_first_appView_mc_92_6_94_6_if_end:
         %tmp.18 = "%d";
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         ret %tmp.19;
-D_Workspace_GarminApp_source_first_appView_mc_88_45_97_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_88_45_97_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 100; @symbol_functiondef = [setBatteryDisplay,100,21,38]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 100; @symbol_functiondef = [setBatteryDisplay,100,21,38]; ]
     private
     function setBatteryDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 101 5 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start" "D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 101 5 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_stop" ]
         %battery.1 = local;
         symbol [ battery %battery.1 101 9 16 ];
         symbol [ Sys %tmp.1 101 19 22 ];
@@ -363,8 +363,8 @@ D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start:
         %tmp.4 = getv %tmp.3 :battery;
         lputv %battery.1 %tmp.4;
         symbol [ battery %battery.1 101 9 16 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 102 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start" "D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 102 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_stop" ]
         %batteryDisplay.2 = local;
         symbol [ batteryDisplay %batteryDisplay.2 102 10 24 ];
         symbol [ View %tmp.6 102 27 31 ];
@@ -377,7 +377,7 @@ D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start:
         symbol [ Text %tmp.10 102 70 74 ];
         lputv %batteryDisplay.2 %tmp.10;
         symbol [ batteryDisplay %batteryDisplay.2 102 10 24 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 103 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 103 6 ]
         %tmp.11 = lgetv %batteryDisplay.2;
         symbol [ batteryDisplay %tmp.11 103 6 20 ];
         symbol [ setText %tmp.12 103 21 28 ];
@@ -391,14 +391,14 @@ D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_start:
         %tmp.17 = "%";
         %tmp.18 = add %tmp.16 %tmp.17;
         invoke %tmp.11 %tmp.12(%tmp.18);
-D_Workspace_GarminApp_source_first_appView_mc_100_41_104_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_100_41_104_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 107; @symbol_functiondef = [updateBatteryIcon,107,21,38]; @symbol_param<0> = [batteryPercent,107,39,53]; @symbol_param<0>_type<0> = [Integer,107,57,64]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 107; @symbol_functiondef = [updateBatteryIcon,107,21,38]; @symbol_param<0> = [batteryPercent,107,39,53]; @symbol_param<0>_type<0> = [Integer,107,57,64]; ]
     private
     function updateBatteryIcon(batteryPercent as Integer) as Void {
-D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 108 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start" "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 108 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_stop" ]
         %batteryFull.1 = local;
         symbol [ batteryFull %batteryFull.1 108 10 21 ];
         symbol [ View %tmp.2 108 24 28 ];
@@ -411,8 +411,8 @@ D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start:
         symbol [ Drawable %tmp.6 108 64 72 ];
         lputv %batteryFull.1 %tmp.6;
         symbol [ batteryFull %batteryFull.1 108 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 109 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start" "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 109 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_stop" ]
         %batteryMedium.2 = local;
         symbol [ batteryMedium %batteryMedium.2 109 10 23 ];
         symbol [ View %tmp.8 109 26 30 ];
@@ -425,8 +425,8 @@ D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start:
         symbol [ Drawable %tmp.12 109 68 76 ];
         lputv %batteryMedium.2 %tmp.12;
         symbol [ batteryMedium %batteryMedium.2 109 10 23 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 110 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start" "D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 110 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_stop" ]
         %batteryLow.3 = local;
         symbol [ batteryLow %batteryLow.3 110 10 20 ];
         symbol [ View %tmp.14 110 23 27 ];
@@ -439,16 +439,16 @@ D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_start:
         symbol [ Drawable %tmp.18 110 62 70 ];
         lputv %batteryLow.3 %tmp.18;
         symbol [ batteryLow %batteryLow.3 110 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 113 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_113_6_115_6_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 113 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_6_115_6_if_stmt:
         %tmp.19 = lgetv %batteryFull.1;
         symbol [ batteryFull %tmp.19 113 10 21 ];
         %tmp.20 = null;
         %tmp.21 = ne %tmp.19 %tmp.20;
-        bf %tmp.21 @D_Workspace_GarminApp_source_first_appView_mc_113_6_115_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_113_6_115_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_113_31_115_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 114 8 ]
+        bf %tmp.21 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_6_115_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_6_115_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_31_115_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 114 8 ]
         %tmp.22 = lgetv %batteryFull.1;
         symbol [ batteryFull %tmp.22 114 8 19 ];
         %tmp.23 = as %tmp.22 { (!Null) };
@@ -456,19 +456,19 @@ D_Workspace_GarminApp_source_first_appView_mc_113_31_115_6_start:
         %tmp.24 = getv function %tmp.23 :setVisible;
         %tmp.25 = false;
         invoke %tmp.23 %tmp.24(%tmp.25);
-D_Workspace_GarminApp_source_first_appView_mc_113_31_115_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_113_6_115_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_113_6_115_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 116 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_116_6_118_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_31_115_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_6_115_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_113_6_115_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 116 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_6_118_6_if_stmt:
         %tmp.26 = lgetv %batteryMedium.2;
         symbol [ batteryMedium %tmp.26 116 10 23 ];
         %tmp.27 = null;
         %tmp.28 = ne %tmp.26 %tmp.27;
-        bf %tmp.28 @D_Workspace_GarminApp_source_first_appView_mc_116_6_118_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_116_6_118_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_116_33_118_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 117 8 ]
+        bf %tmp.28 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_6_118_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_6_118_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_33_118_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 117 8 ]
         %tmp.29 = lgetv %batteryMedium.2;
         symbol [ batteryMedium %tmp.29 117 8 21 ];
         %tmp.30 = as %tmp.29 { (!Null) };
@@ -476,19 +476,19 @@ D_Workspace_GarminApp_source_first_appView_mc_116_33_118_6_start:
         %tmp.31 = getv function %tmp.30 :setVisible;
         %tmp.32 = false;
         invoke %tmp.30 %tmp.31(%tmp.32);
-D_Workspace_GarminApp_source_first_appView_mc_116_33_118_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_116_6_118_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_116_6_118_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 119 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_119_6_121_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_33_118_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_6_118_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_116_6_118_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 119 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_6_121_6_if_stmt:
         %tmp.33 = lgetv %batteryLow.3;
         symbol [ batteryLow %tmp.33 119 10 20 ];
         %tmp.34 = null;
         %tmp.35 = ne %tmp.33 %tmp.34;
-        bf %tmp.35 @D_Workspace_GarminApp_source_first_appView_mc_119_6_121_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_119_6_121_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_119_30_121_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 120 8 ]
+        bf %tmp.35 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_6_121_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_6_121_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_30_121_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 120 8 ]
         %tmp.36 = lgetv %batteryLow.3;
         symbol [ batteryLow %tmp.36 120 8 18 ];
         %tmp.37 = as %tmp.36 { (!Null) };
@@ -496,28 +496,28 @@ D_Workspace_GarminApp_source_first_appView_mc_119_30_121_6_start:
         %tmp.38 = getv function %tmp.37 :setVisible;
         %tmp.39 = false;
         invoke %tmp.37 %tmp.38(%tmp.39);
-D_Workspace_GarminApp_source_first_appView_mc_119_30_121_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_119_6_121_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_119_6_121_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 124 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_30_121_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_6_121_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_119_6_121_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 124 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_stmt:
         %tmp.40 = lgetv %batteryPercent;
         symbol [ batteryPercent %tmp.40 124 10 24 ];
         %tmp.41 = 50;
         %tmp.42 = gt %tmp.40 %tmp.41;
-        bf %tmp.42 @D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_false;
-D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_124_31_128_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 125 8 ]
-D_Workspace_GarminApp_source_first_appView_mc_125_8_127_8_if_stmt:
+        bf %tmp.42 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_31_128_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 125 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_8_127_8_if_stmt:
         %tmp.43 = lgetv %batteryFull.1;
         symbol [ batteryFull %tmp.43 125 12 23 ];
         %tmp.44 = null;
         %tmp.45 = ne %tmp.43 %tmp.44;
-        bf %tmp.45 @D_Workspace_GarminApp_source_first_appView_mc_125_8_127_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_125_8_127_8_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_125_33_127_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 126 10 ]
+        bf %tmp.45 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_8_127_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_8_127_8_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_33_127_8_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 126 10 ]
         %tmp.46 = lgetv %batteryFull.1;
         symbol [ batteryFull %tmp.46 126 10 21 ];
         %tmp.47 = as %tmp.46 { (!Null) };
@@ -525,31 +525,31 @@ D_Workspace_GarminApp_source_first_appView_mc_125_33_127_8_start:
         %tmp.48 = getv function %tmp.47 :setVisible;
         %tmp.49 = true;
         invoke %tmp.47 %tmp.48(%tmp.49);
-D_Workspace_GarminApp_source_first_appView_mc_125_33_127_8_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_125_8_127_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_125_8_127_8_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_124_31_128_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_false:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 128 13 ]
-D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_33_127_8_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_8_127_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_125_8_127_8_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_31_128_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_false:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 128 13 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_stmt:
         %tmp.50 = lgetv %batteryPercent;
         symbol [ batteryPercent %tmp.50 128 17 31 ];
         %tmp.51 = 40;
         %tmp.52 = gte %tmp.50 %tmp.51;
-        bf %tmp.52 @D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_else_false;
-D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_128_39_132_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 129 8 ]
-D_Workspace_GarminApp_source_first_appView_mc_129_8_131_8_if_stmt:
+        bf %tmp.52 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_else_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_39_132_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 129 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_8_131_8_if_stmt:
         %tmp.53 = lgetv %batteryMedium.2;
         symbol [ batteryMedium %tmp.53 129 12 25 ];
         %tmp.54 = null;
         %tmp.55 = ne %tmp.53 %tmp.54;
-        bf %tmp.55 @D_Workspace_GarminApp_source_first_appView_mc_129_8_131_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_129_8_131_8_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_129_35_131_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 130 10 ]
+        bf %tmp.55 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_8_131_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_8_131_8_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_35_131_8_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 130 10 ]
         %tmp.56 = lgetv %batteryMedium.2;
         symbol [ batteryMedium %tmp.56 130 10 23 ];
         %tmp.57 = as %tmp.56 { (!Null) };
@@ -557,23 +557,23 @@ D_Workspace_GarminApp_source_first_appView_mc_129_35_131_8_start:
         %tmp.58 = getv function %tmp.57 :setVisible;
         %tmp.59 = true;
         invoke %tmp.57 %tmp.58(%tmp.59);
-D_Workspace_GarminApp_source_first_appView_mc_129_35_131_8_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_129_8_131_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_129_8_131_8_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_128_39_132_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_else_false:
-D_Workspace_GarminApp_source_first_appView_mc_132_13_136_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 133 8 ]
-D_Workspace_GarminApp_source_first_appView_mc_133_8_135_8_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_35_131_8_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_8_131_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_129_8_131_8_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_39_132_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_else_false:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_132_13_136_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 133 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_8_135_8_if_stmt:
         %tmp.60 = lgetv %batteryLow.3;
         symbol [ batteryLow %tmp.60 133 12 22 ];
         %tmp.61 = null;
         %tmp.62 = ne %tmp.60 %tmp.61;
-        bf %tmp.62 @D_Workspace_GarminApp_source_first_appView_mc_133_8_135_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_133_8_135_8_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_133_32_135_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 134 10 ]
+        bf %tmp.62 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_8_135_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_8_135_8_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_32_135_8_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 134 10 ]
         %tmp.63 = lgetv %batteryLow.3;
         symbol [ batteryLow %tmp.63 134 10 20 ];
         %tmp.64 = as %tmp.63 { (!Null) };
@@ -581,20 +581,20 @@ D_Workspace_GarminApp_source_first_appView_mc_133_32_135_8_start:
         %tmp.65 = getv function %tmp.64 :setVisible;
         %tmp.66 = true;
         invoke %tmp.64 %tmp.65(%tmp.66);
-D_Workspace_GarminApp_source_first_appView_mc_133_32_135_8_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_133_8_135_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_133_8_135_8_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_132_13_136_6_stop:
-D_Workspace_GarminApp_source_first_appView_mc_128_13_136_6_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_124_6_136_6_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_107_74_137_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_32_135_8_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_8_135_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_133_8_135_8_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_132_13_136_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_128_13_136_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_124_6_136_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_107_74_137_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 140; @symbol_functiondef = [setStepCountDisplay,140,21,40]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 140; @symbol_functiondef = [setStepCountDisplay,140,21,40]; ]
     private
     function setStepCountDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 141 5 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start" "D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 141 5 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_stop" ]
         %stepCount.1 = local;
         symbol [ stepCount %stepCount.1 141 9 18 ];
         symbol [ Mon %tmp.1 141 21 24 ];
@@ -609,8 +609,8 @@ D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start:
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %stepCount.1 %tmp.6;
         symbol [ stepCount %stepCount.1 141 9 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 142 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start" "D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 142 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_stop" ]
         %stepCountDisplay.2 = local;
         symbol [ stepCountDisplay %stepCountDisplay.2 142 10 26 ];
         symbol [ View %tmp.8 142 29 33 ];
@@ -623,7 +623,7 @@ D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start:
         symbol [ Text %tmp.12 142 74 78 ];
         lputv %stepCountDisplay.2 %tmp.12;
         symbol [ stepCountDisplay %stepCountDisplay.2 142 10 26 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 143 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 143 6 ]
         %tmp.13 = lgetv %stepCountDisplay.2;
         symbol [ stepCountDisplay %tmp.13 143 6 22 ];
         symbol [ setText %tmp.14 143 23 30 ];
@@ -631,14 +631,14 @@ D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_start:
         %tmp.15 = lgetv %stepCount.1;
         symbol [ stepCount %tmp.15 143 31 40 ];
         invoke %tmp.13 %tmp.14(%tmp.15);
-D_Workspace_GarminApp_source_first_appView_mc_140_43_144_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_140_43_144_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 147; @symbol_functiondef = [setDateDisplay,147,21,35]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 147; @symbol_functiondef = [setDateDisplay,147,21,35]; ]
     private
     function setDateDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 148 5 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start" "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 148 5 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_stop" ]
         %now.1 = local;
         symbol [ now %now.1 148 9 12 ];
         symbol [ Time %tmp.2 148 15 19 ];
@@ -648,8 +648,8 @@ D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %now.1 %tmp.4;
         symbol [ now %now.1 148 9 12 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 149 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start" "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 149 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_stop" ]
         %date.2 = local;
         symbol [ date %date.2 149 10 14 ];
         symbol [ Date %tmp.5 149 17 21 ];
@@ -665,8 +665,8 @@ D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
         %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.10);
         lputv %date.2 %tmp.11;
         symbol [ date %date.2 149 10 14 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 150 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start" "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 150 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_stop" ]
         %dateString.3 = local;
         symbol [ dateString %dateString.3 150 10 20 ];
         symbol [ Lang %tmp.12 150 23 27 ];
@@ -696,8 +696,8 @@ D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
         %tmp.28 = invoke %tmp.12 %tmp.13(%tmp.14, %tmp.27);
         lputv %dateString.3 %tmp.28;
         symbol [ dateString %dateString.3 150 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 151 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start" "D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 151 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_stop" ]
         %dateDisplay.4 = local;
         symbol [ dateDisplay %dateDisplay.4 151 10 21 ];
         symbol [ View %tmp.30 151 24 28 ];
@@ -710,7 +710,7 @@ D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
         symbol [ Text %tmp.34 151 64 68 ];
         lputv %dateDisplay.4 %tmp.34;
         symbol [ dateDisplay %dateDisplay.4 151 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 152 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 152 6 ]
         %tmp.35 = lgetv %dateDisplay.4;
         symbol [ dateDisplay %tmp.35 152 6 17 ];
         symbol [ setText %tmp.36 152 18 25 ];
@@ -718,14 +718,14 @@ D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_start:
         %tmp.37 = lgetv %dateString.3;
         symbol [ dateString %tmp.37 152 26 36 ];
         invoke %tmp.35 %tmp.36(%tmp.37);
-D_Workspace_GarminApp_source_first_appView_mc_147_38_153_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_147_38_153_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 156; @symbol_functiondef = [setCaloriesDisplay,156,21,39]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 156; @symbol_functiondef = [setCaloriesDisplay,156,21,39]; ]
     private
     function setCaloriesDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 157 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_start" "D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 157 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_stop" ]
         %calories.1 = local;
         symbol [ calories %calories.1 157 10 18 ];
         symbol [ Mon %tmp.1 157 21 24 ];
@@ -740,8 +740,8 @@ D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_start:
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %calories.1 %tmp.6;
         symbol [ calories %calories.1 157 10 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 158 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_start" "D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 158 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_stop" ]
         %caloriesDisplay.2 = local;
         symbol [ caloriesDisplay %caloriesDisplay.2 158 10 25 ];
         symbol [ View %tmp.8 158 28 32 ];
@@ -754,16 +754,16 @@ D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_start:
         symbol [ Text %tmp.12 158 72 76 ];
         lputv %caloriesDisplay.2 %tmp.12;
         symbol [ caloriesDisplay %caloriesDisplay.2 158 10 25 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 159 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_159_6_161_6_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 159 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_6_161_6_if_stmt:
         %tmp.13 = lgetv %caloriesDisplay.2;
         symbol [ caloriesDisplay %tmp.13 159 10 25 ];
         %tmp.14 = null;
         %tmp.15 = ne %tmp.13 %tmp.14;
-        bf %tmp.15 @D_Workspace_GarminApp_source_first_appView_mc_159_6_161_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_159_6_161_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_159_35_161_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 160 8 ]
+        bf %tmp.15 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_6_161_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_6_161_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_35_161_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 160 8 ]
         %tmp.16 = lgetv %caloriesDisplay.2;
         symbol [ caloriesDisplay %tmp.16 160 8 23 ];
         %tmp.17 = as %tmp.16 { (!Null) };
@@ -772,17 +772,17 @@ D_Workspace_GarminApp_source_first_appView_mc_159_35_161_6_start:
         %tmp.19 = lgetv %calories.1;
         symbol [ calories %tmp.19 160 32 40 ];
         invoke %tmp.17 %tmp.18(%tmp.19);
-D_Workspace_GarminApp_source_first_appView_mc_159_35_161_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_159_6_161_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_159_6_161_6_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_156_42_162_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_35_161_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_6_161_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_159_6_161_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_156_42_162_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 165; @symbol_functiondef = [setFloorsClimbedDisplay,165,21,44]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 165; @symbol_functiondef = [setFloorsClimbedDisplay,165,21,44]; ]
     private
     function setFloorsClimbedDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 166 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_start" "D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 166 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_stop" ]
         %floorsClimbed.1 = local;
         symbol [ floorsClimbed %floorsClimbed.1 166 10 23 ];
         symbol [ Mon %tmp.1 166 26 29 ];
@@ -797,8 +797,8 @@ D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_start:
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %floorsClimbed.1 %tmp.6;
         symbol [ floorsClimbed %floorsClimbed.1 166 10 23 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 167 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_start" "D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 167 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_stop" ]
         %floorsClimbedDisplay.2 = local;
         symbol [ floorsClimbedDisplay %floorsClimbedDisplay.2 167 10 30 ];
         symbol [ View %tmp.8 167 33 37 ];
@@ -811,16 +811,16 @@ D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_start:
         symbol [ Text %tmp.12 167 89 93 ];
         lputv %floorsClimbedDisplay.2 %tmp.12;
         symbol [ floorsClimbedDisplay %floorsClimbedDisplay.2 167 10 30 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 168 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_168_6_170_6_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 168 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_6_170_6_if_stmt:
         %tmp.13 = lgetv %floorsClimbedDisplay.2;
         symbol [ floorsClimbedDisplay %tmp.13 168 10 30 ];
         %tmp.14 = null;
         %tmp.15 = ne %tmp.13 %tmp.14;
-        bf %tmp.15 @D_Workspace_GarminApp_source_first_appView_mc_168_6_170_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_168_6_170_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_168_40_170_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 169 8 ]
+        bf %tmp.15 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_6_170_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_6_170_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_40_170_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 169 8 ]
         %tmp.16 = lgetv %floorsClimbedDisplay.2;
         symbol [ floorsClimbedDisplay %tmp.16 169 8 28 ];
         %tmp.17 = as %tmp.16 { (!Null) };
@@ -829,17 +829,17 @@ D_Workspace_GarminApp_source_first_appView_mc_168_40_170_6_start:
         %tmp.19 = lgetv %floorsClimbed.1;
         symbol [ floorsClimbed %tmp.19 169 37 50 ];
         invoke %tmp.17 %tmp.18(%tmp.19);
-D_Workspace_GarminApp_source_first_appView_mc_168_40_170_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_168_6_170_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_168_6_170_6_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_165_47_171_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_40_170_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_6_170_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_168_6_170_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_165_47_171_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 173; @symbol_functiondef = [setConnectionStatusDisplay,173,21,47]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 173; @symbol_functiondef = [setConnectionStatusDisplay,173,21,47]; ]
     private
     function setConnectionStatusDisplay() {
-D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 174 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start" "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 174 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_stop" ]
         %mySettings.1 = local;
         symbol [ mySettings %mySettings.1 174 10 20 ];
         symbol [ System %tmp.1 174 23 29 ];
@@ -849,8 +849,8 @@ D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start:
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %mySettings.1 %tmp.3;
         symbol [ mySettings %mySettings.1 174 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 175 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start" "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 175 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_stop" ]
         %phoneConnected.2 = local;
         symbol [ phoneConnected %phoneConnected.2 175 10 24 ];
         %tmp.4 = lgetv %mySettings.1;
@@ -859,8 +859,8 @@ D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start:
         %tmp.5 = getv %tmp.4 :phoneConnected;
         lputv %phoneConnected.2 %tmp.5;
         symbol [ phoneConnected %phoneConnected.2 175 10 24 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 177 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start" "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 177 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_stop" ]
         %connected.3 = local;
         symbol [ connected %connected.3 177 10 19 ];
         symbol [ View %tmp.7 177 22 26 ];
@@ -873,8 +873,8 @@ D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start:
         symbol [ Drawable %tmp.11 177 60 68 ];
         lputv %connected.3 %tmp.11;
         symbol [ connected %connected.3 177 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 178 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start" "D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 178 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_stop" ]
         %disConnect.4 = local;
         symbol [ disConnect %disConnect.4 178 10 20 ];
         symbol [ View %tmp.13 178 23 27 ];
@@ -887,16 +887,16 @@ D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_start:
         symbol [ Drawable %tmp.17 178 62 70 ];
         lputv %disConnect.4 %tmp.17;
         symbol [ disConnect %disConnect.4 178 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 181 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_181_6_183_6_if_stmt:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 181 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_6_183_6_if_stmt:
         %tmp.18 = lgetv %connected.3;
         symbol [ connected %tmp.18 181 10 19 ];
         %tmp.19 = null;
         %tmp.20 = ne %tmp.18 %tmp.19;
-        bf %tmp.20 @D_Workspace_GarminApp_source_first_appView_mc_181_6_183_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_181_6_183_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_181_29_183_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 182 8 ]
+        bf %tmp.20 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_6_183_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_6_183_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_29_183_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 182 8 ]
         %tmp.21 = lgetv %connected.3;
         symbol [ connected %tmp.21 182 8 17 ];
         %tmp.22 = as %tmp.21 { (!Null) };
@@ -904,19 +904,19 @@ D_Workspace_GarminApp_source_first_appView_mc_181_29_183_6_start:
         %tmp.23 = getv function %tmp.22 :setVisible;
         %tmp.24 = false;
         invoke %tmp.22 %tmp.23(%tmp.24);
-D_Workspace_GarminApp_source_first_appView_mc_181_29_183_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_181_6_183_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_181_6_183_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 184 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_184_6_186_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_29_183_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_6_183_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_181_6_183_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 184 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_6_186_6_if_stmt:
         %tmp.25 = lgetv %disConnect.4;
         symbol [ disConnect %tmp.25 184 10 20 ];
         %tmp.26 = null;
         %tmp.27 = ne %tmp.25 %tmp.26;
-        bf %tmp.27 @D_Workspace_GarminApp_source_first_appView_mc_184_6_186_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_184_6_186_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_184_30_186_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 185 8 ]
+        bf %tmp.27 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_6_186_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_6_186_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_30_186_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 185 8 ]
         %tmp.28 = lgetv %disConnect.4;
         symbol [ disConnect %tmp.28 185 8 18 ];
         %tmp.29 = as %tmp.28 { (!Null) };
@@ -924,28 +924,28 @@ D_Workspace_GarminApp_source_first_appView_mc_184_30_186_6_start:
         %tmp.30 = getv function %tmp.29 :setVisible;
         %tmp.31 = false;
         invoke %tmp.29 %tmp.30(%tmp.31);
-D_Workspace_GarminApp_source_first_appView_mc_184_30_186_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_184_6_186_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_184_6_186_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 188 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_30_186_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_6_186_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_184_6_186_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 188 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_stmt:
         %tmp.32 = lgetv %phoneConnected.2;
         symbol [ phoneConnected %tmp.32 188 10 24 ];
         %tmp.33 = null;
         %tmp.34 = ne %tmp.32 %tmp.33;
-        bf %tmp.34 @D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_else_false;
-D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_188_34_192_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 189 8 ]
-D_Workspace_GarminApp_source_first_appView_mc_189_8_191_8_if_stmt:
+        bf %tmp.34 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_else_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_34_192_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 189 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_8_191_8_if_stmt:
         %tmp.35 = lgetv %connected.3;
         symbol [ connected %tmp.35 189 12 21 ];
         %tmp.36 = null;
         %tmp.37 = ne %tmp.35 %tmp.36;
-        bf %tmp.37 @D_Workspace_GarminApp_source_first_appView_mc_189_8_191_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_189_8_191_8_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_189_31_191_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 190 10 ]
+        bf %tmp.37 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_8_191_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_8_191_8_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_31_191_8_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 190 10 ]
         %tmp.38 = lgetv %connected.3;
         symbol [ connected %tmp.38 190 10 19 ];
         %tmp.39 = as %tmp.38 { (!Null) };
@@ -953,23 +953,23 @@ D_Workspace_GarminApp_source_first_appView_mc_189_31_191_8_start:
         %tmp.40 = getv function %tmp.39 :setVisible;
         %tmp.41 = true;
         invoke %tmp.39 %tmp.40(%tmp.41);
-D_Workspace_GarminApp_source_first_appView_mc_189_31_191_8_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_189_8_191_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_189_8_191_8_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_188_34_192_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_else_false:
-D_Workspace_GarminApp_source_first_appView_mc_192_13_196_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 193 8 ]
-D_Workspace_GarminApp_source_first_appView_mc_193_8_195_8_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_31_191_8_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_8_191_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_189_8_191_8_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_34_192_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_else_false:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_192_13_196_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 193 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_8_195_8_if_stmt:
         %tmp.42 = lgetv %disConnect.4;
         symbol [ disConnect %tmp.42 193 12 22 ];
         %tmp.43 = null;
         %tmp.44 = ne %tmp.42 %tmp.43;
-        bf %tmp.44 @D_Workspace_GarminApp_source_first_appView_mc_193_8_195_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_193_8_195_8_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_193_32_195_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 194 10 ]
+        bf %tmp.44 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_8_195_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_8_195_8_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_32_195_8_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 194 10 ]
         %tmp.45 = lgetv %disConnect.4;
         symbol [ disConnect %tmp.45 194 10 20 ];
         %tmp.46 = as %tmp.45 { (!Null) };
@@ -977,19 +977,19 @@ D_Workspace_GarminApp_source_first_appView_mc_193_32_195_8_start:
         %tmp.47 = getv function %tmp.46 :setVisible;
         %tmp.48 = true;
         invoke %tmp.46 %tmp.47(%tmp.48);
-D_Workspace_GarminApp_source_first_appView_mc_193_32_195_8_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_193_8_195_8_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_193_8_195_8_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_192_13_196_6_stop:
-D_Workspace_GarminApp_source_first_appView_mc_188_6_196_6_if_end:
-D_Workspace_GarminApp_source_first_appView_mc_173_50_197_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_32_195_8_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_8_195_8_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_193_8_195_8_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_192_13_196_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_188_6_196_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_173_50_197_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 199; @symbol_functiondef = [displayDayNight,199,21,36]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 199; @symbol_functiondef = [displayDayNight,199,21,36]; ]
     private
     function displayDayNight() {
-D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 200 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start" "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 200 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_stop" ]
         %now.1 = local;
         symbol [ now %now.1 200 10 13 ];
         symbol [ System %tmp.1 200 16 22 ];
@@ -999,8 +999,8 @@ D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start:
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %now.1 %tmp.3;
         symbol [ now %now.1 200 10 13 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 201 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start" "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 201 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_stop" ]
         %hour.2 = local;
         symbol [ hour %hour.2 201 10 14 ];
         %tmp.4 = lgetv %now.1;
@@ -1009,8 +1009,8 @@ D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start:
         %tmp.5 = getv %tmp.4 :hour;
         lputv %hour.2 %tmp.5;
         symbol [ hour %hour.2 201 10 14 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 203 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start" "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 203 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_stop" ]
         %timeLabel.3 = local;
         symbol [ timeLabel %timeLabel.3 203 10 19 ];
         symbol [ View %tmp.7 203 22 26 ];
@@ -1023,28 +1023,28 @@ D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start:
         symbol [ Text %tmp.11 203 61 65 ];
         lputv %timeLabel.3 %tmp.11;
         symbol [ timeLabel %timeLabel.3 203 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 205 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_start" "D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 205 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_stop" ]
         %period.4 = local;
         symbol [ period %period.4 205 10 16 ];
-D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_begin:
         %tmp.12 = lgetv %hour.2;
         symbol [ hour %tmp.12 205 20 24 ];
         %tmp.13 = 12;
         %tmp.14 = gte %tmp.12 %tmp.13;
-        bf %tmp.14 @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_false;
-D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_true:
+        bf %tmp.14 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_true:
         %tmp.15 = "PM";
         push %tmp.15;
-        goto @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_end;
-D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_false:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_false:
         %tmp.16 = "AM";
         push %tmp.16;
-D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_end:
-        %tmp.17 = phi [%tmp.14 @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_begin] [%tmp.15 @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_true] [%tmp.16 @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_false] [%tmp.17 @D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_end];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_end:
+        %tmp.17 = phi [%tmp.14 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_begin] [%tmp.15 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_true] [%tmp.16 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_false] [%tmp.17 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_205_19_205_41_end];
         lputv %period.4 %tmp.17;
         symbol [ period %period.4 205 10 16 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 206 6 ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 206 6 ]
         %tmp.18 = lgetv %timeLabel.3;
         symbol [ timeLabel %tmp.18 206 6 15 ];
         symbol [ setText %tmp.19 206 16 23 ];
@@ -1052,14 +1052,14 @@ D_Workspace_GarminApp_source_first_appView_mc_205_19_205_41_end:
         %tmp.20 = lgetv %period.4;
         symbol [ period %tmp.20 206 24 30 ];
         invoke %tmp.18 %tmp.19(%tmp.20);
-D_Workspace_GarminApp_source_first_appView_mc_199_39_207_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_199_39_207_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 209; @symbol_functiondef = [displayProgressPercentages,209,21,47]; @symbol_param<0> = [dc,209,48,50]; @symbol_param<0>_type<0> = [Dc,209,54,56]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 209; @symbol_functiondef = [displayProgressPercentages,209,21,47]; @symbol_param<0> = [dc,209,48,50]; @symbol_param<0>_type<0> = [Dc,209,54,56]; ]
     private
     function displayProgressPercentages(dc as Dc) {
-D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 210 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 210 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %now.1 = local;
         symbol [ now %now.1 210 10 13 ];
         symbol [ Time %tmp.2 210 16 20 ];
@@ -1069,8 +1069,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %now.1 %tmp.4;
         symbol [ now %now.1 210 10 13 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 211 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 211 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %today.2 = local;
         symbol [ today %today.2 211 10 15 ];
         symbol [ Date %tmp.5 211 18 22 ];
@@ -1086,8 +1086,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.10);
         lputv %today.2 %tmp.11;
         symbol [ today %today.2 211 10 15 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 214 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 214 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %secondsToday.3 = local;
         symbol [ secondsToday %secondsToday.3 214 10 22 ];
         %tmp.12 = lgetv %today.2;
@@ -1110,8 +1110,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.23 = add %tmp.20 %tmp.22;
         lputv %secondsToday.3 %tmp.23;
         symbol [ secondsToday %secondsToday.3 214 10 22 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 215 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 215 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %percentDay.4 = local;
         symbol [ percentDay %percentDay.4 215 10 20 ];
         %tmp.24 = lgetv %secondsToday.3;
@@ -1122,8 +1122,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.28 = mul %tmp.26 %tmp.27;
         lputv %percentDay.4 %tmp.28;
         symbol [ percentDay %percentDay.4 215 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 218 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 218 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %dayOfWeekStr.5 = local;
         symbol [ dayOfWeekStr %dayOfWeekStr.5 218 10 22 ];
         %tmp.29 = lgetv %today.2;
@@ -1132,8 +1132,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.30 = getv %tmp.29 :day_of_week;
         lputv %dayOfWeekStr.5 %tmp.30;
         symbol [ dayOfWeekStr %dayOfWeekStr.5 218 10 22 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 219 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 219 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %dayOfWeek.6 = local;
         symbol [ dayOfWeek %dayOfWeek.6 219 10 19 ];
         %tmp.31 = self;
@@ -1144,8 +1144,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
         lputv %dayOfWeek.6 %tmp.34;
         symbol [ dayOfWeek %dayOfWeek.6 219 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 220 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 220 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %secondsWeek.7 = local;
         symbol [ secondsWeek %secondsWeek.7 220 10 21 ];
         %tmp.35 = lgetv %dayOfWeek.6;
@@ -1157,8 +1157,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.39 = add %tmp.37 %tmp.38;
         lputv %secondsWeek.7 %tmp.39;
         symbol [ secondsWeek %secondsWeek.7 220 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 221 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 221 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %percentWeek.8 = local;
         symbol [ percentWeek %percentWeek.8 221 10 21 ];
         %tmp.40 = lgetv %secondsWeek.7;
@@ -1169,8 +1169,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.44 = mul %tmp.42 %tmp.43;
         lputv %percentWeek.8 %tmp.44;
         symbol [ percentWeek %percentWeek.8 221 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 224 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 224 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %daysInMonth.9 = local;
         symbol [ daysInMonth %daysInMonth.9 224 10 21 ];
         %tmp.45 = self;
@@ -1191,8 +1191,8 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.54 = invoke %tmp.45 %tmp.46(%tmp.48, %tmp.53);
         lputv %daysInMonth.9 %tmp.54;
         symbol [ daysInMonth %daysInMonth.9 224 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 225 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 225 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %percentMonth.10 = local;
         symbol [ percentMonth %percentMonth.10 225 10 22 ];
         %tmp.55 = lgetv %today.2;
@@ -1213,11 +1213,11 @@ D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start:
         %tmp.66 = mul %tmp.64 %tmp.65;
         lputv %percentMonth.10 %tmp.66;
         symbol [ percentMonth %percentMonth.10 225 10 22 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 228 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 228 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %daysInYear.11 = local;
         symbol [ daysInYear %daysInYear.11 228 10 20 ];
-D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_begin:
         %tmp.67 = self;
         symbol [ isLeapYear %tmp.68 228 23 33 ];
         %tmp.68 = getv function %tmp.67 :isLeapYear;
@@ -1226,20 +1226,20 @@ D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_begin:
         symbol [ year %tmp.70 228 40 44 ];
         %tmp.70 = getv %tmp.69 :year;
         %tmp.71 = invoke %tmp.67 %tmp.68(%tmp.70);
-        bf %tmp.71 @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_false;
-D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_true:
+        bf %tmp.71 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_true:
         %tmp.72 = 366;
         push %tmp.72;
-        goto @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_end;
-D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_false:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_false:
         %tmp.73 = 365;
         push %tmp.73;
-D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_end:
-        %tmp.74 = phi [%tmp.71 @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_begin] [%tmp.72 @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_true] [%tmp.73 @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_false] [%tmp.74 @D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_end];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_end:
+        %tmp.74 = phi [%tmp.71 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_begin] [%tmp.72 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_true] [%tmp.73 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_false] [%tmp.74 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_228_23_228_54_end];
         lputv %daysInYear.11 %tmp.74;
         symbol [ daysInYear %daysInYear.11 228 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 229 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 229 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %dayOfYear.12 = local;
         symbol [ dayOfYear %dayOfYear.12 229 10 19 ];
         %tmp.75 = self;
@@ -1264,8 +1264,8 @@ D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_end:
         %tmp.86 = invoke %tmp.75 %tmp.76(%tmp.78, %tmp.83, %tmp.85);
         lputv %dayOfYear.12 %tmp.86;
         symbol [ dayOfYear %dayOfYear.12 229 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 230 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 230 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop" ]
         %percentYear.13 = local;
         symbol [ percentYear %percentYear.13 230 10 21 ];
         %tmp.87 = lgetv %dayOfYear.12;
@@ -1284,244 +1284,80 @@ D_Workspace_GarminApp_source_first_appView_mc_228_23_228_54_end:
         %tmp.97 = mul %tmp.95 %tmp.96;
         lputv %percentYear.13 %tmp.97;
         symbol [ percentYear %percentYear.13 230 10 21 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 233 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
-        %dayLabel.14 = local;
-        symbol [ dayLabel %dayLabel.14 233 10 18 ];
-        symbol [ View %tmp.99 233 21 25 ];
-        %tmp.99 = getv ? :View;
-        symbol [ findDrawableById %tmp.100 233 26 42 ];
-        %tmp.100 = getv function %tmp.99 :findDrawableById;
-        %tmp.101 = "DayProgress";
-        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
-        %tmp.103 = as %tmp.102 Text;
-        symbol [ Text %tmp.103 233 61 65 ];
-        lputv %dayLabel.14 %tmp.103;
-        symbol [ dayLabel %dayLabel.14 233 10 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 234 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_234_6_236_6_if_stmt:
-        %tmp.104 = lgetv %dayLabel.14;
-        symbol [ dayLabel %tmp.104 234 10 18 ];
-        %tmp.105 = null;
-        %tmp.106 = ne %tmp.104 %tmp.105;
-        bf %tmp.106 @D_Workspace_GarminApp_source_first_appView_mc_234_6_236_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_234_6_236_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_234_28_236_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 235 8 ]
-        %tmp.107 = lgetv %dayLabel.14;
-        symbol [ dayLabel %tmp.107 235 8 16 ];
-        %tmp.108 = as %tmp.107 { (!Null) };
-        symbol [ setText %tmp.109 235 17 24 ];
-        %tmp.109 = getv function %tmp.108 :setText;
-        %tmp.110 = "D: ";
-        %tmp.111 = lgetv %percentDay.4;
-        symbol [ percentDay %tmp.111 235 33 43 ];
-        symbol [ format %tmp.112 235 44 50 ];
-        %tmp.112 = getv function %tmp.111 :format;
-        %tmp.113 = "%.2f";
-        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
-        %tmp.115 = add %tmp.110 %tmp.114;
-        invoke %tmp.108 %tmp.109(%tmp.115);
-D_Workspace_GarminApp_source_first_appView_mc_234_28_236_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_234_6_236_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_234_6_236_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 238 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
-        %weekLabel.15 = local;
-        symbol [ weekLabel %weekLabel.15 238 10 19 ];
-        symbol [ View %tmp.117 238 22 26 ];
-        %tmp.117 = getv ? :View;
-        symbol [ findDrawableById %tmp.118 238 27 43 ];
-        %tmp.118 = getv function %tmp.117 :findDrawableById;
-        %tmp.119 = "WeekProgress";
-        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
-        %tmp.121 = as %tmp.120 Text;
-        symbol [ Text %tmp.121 238 63 67 ];
-        lputv %weekLabel.15 %tmp.121;
-        symbol [ weekLabel %weekLabel.15 238 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 239 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_239_6_241_6_if_stmt:
-        %tmp.122 = lgetv %weekLabel.15;
-        symbol [ weekLabel %tmp.122 239 10 19 ];
-        %tmp.123 = null;
-        %tmp.124 = ne %tmp.122 %tmp.123;
-        bf %tmp.124 @D_Workspace_GarminApp_source_first_appView_mc_239_6_241_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_239_6_241_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_239_29_241_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 240 8 ]
-        %tmp.125 = lgetv %weekLabel.15;
-        symbol [ weekLabel %tmp.125 240 8 17 ];
-        %tmp.126 = as %tmp.125 { (!Null) };
-        symbol [ setText %tmp.127 240 18 25 ];
-        %tmp.127 = getv function %tmp.126 :setText;
-        %tmp.128 = "W: ";
-        %tmp.129 = lgetv %percentWeek.8;
-        symbol [ percentWeek %tmp.129 240 34 45 ];
-        symbol [ format %tmp.130 240 46 52 ];
-        %tmp.130 = getv function %tmp.129 :format;
-        %tmp.131 = "%.2f";
-        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
-        %tmp.133 = add %tmp.128 %tmp.132;
-        invoke %tmp.126 %tmp.127(%tmp.133);
-D_Workspace_GarminApp_source_first_appView_mc_239_29_241_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_239_6_241_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_239_6_241_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 243 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
-        %monthLabel.16 = local;
-        symbol [ monthLabel %monthLabel.16 243 10 20 ];
-        symbol [ View %tmp.135 243 23 27 ];
-        %tmp.135 = getv ? :View;
-        symbol [ findDrawableById %tmp.136 243 28 44 ];
-        %tmp.136 = getv function %tmp.135 :findDrawableById;
-        %tmp.137 = "MonthProgress";
-        %tmp.138 = invoke %tmp.135 %tmp.136(%tmp.137);
-        %tmp.139 = as %tmp.138 Text;
-        symbol [ Text %tmp.139 243 65 69 ];
-        lputv %monthLabel.16 %tmp.139;
-        symbol [ monthLabel %monthLabel.16 243 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 244 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_244_6_246_6_if_stmt:
-        %tmp.140 = lgetv %monthLabel.16;
-        symbol [ monthLabel %tmp.140 244 10 20 ];
-        %tmp.141 = null;
-        %tmp.142 = ne %tmp.140 %tmp.141;
-        bf %tmp.142 @D_Workspace_GarminApp_source_first_appView_mc_244_6_246_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_244_6_246_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_244_30_246_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 245 8 ]
-        %tmp.143 = lgetv %monthLabel.16;
-        symbol [ monthLabel %tmp.143 245 8 18 ];
-        %tmp.144 = as %tmp.143 { (!Null) };
-        symbol [ setText %tmp.145 245 19 26 ];
-        %tmp.145 = getv function %tmp.144 :setText;
-        %tmp.146 = "M: ";
-        %tmp.147 = lgetv %percentMonth.10;
-        symbol [ percentMonth %tmp.147 245 35 47 ];
-        symbol [ format %tmp.148 245 48 54 ];
-        %tmp.148 = getv function %tmp.147 :format;
-        %tmp.149 = "%.2f";
-        %tmp.150 = invoke %tmp.147 %tmp.148(%tmp.149);
-        %tmp.151 = add %tmp.146 %tmp.150;
-        invoke %tmp.144 %tmp.145(%tmp.151);
-D_Workspace_GarminApp_source_first_appView_mc_244_30_246_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_244_6_246_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_244_6_246_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 248 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_start" "D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop" ]
-        %yearLabel.17 = local;
-        symbol [ yearLabel %yearLabel.17 248 10 19 ];
-        symbol [ View %tmp.153 248 22 26 ];
-        %tmp.153 = getv ? :View;
-        symbol [ findDrawableById %tmp.154 248 27 43 ];
-        %tmp.154 = getv function %tmp.153 :findDrawableById;
-        %tmp.155 = "YearProgress";
-        %tmp.156 = invoke %tmp.153 %tmp.154(%tmp.155);
-        %tmp.157 = as %tmp.156 Text;
-        symbol [ Text %tmp.157 248 63 67 ];
-        lputv %yearLabel.17 %tmp.157;
-        symbol [ yearLabel %yearLabel.17 248 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 249 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_249_6_251_6_if_stmt:
-        %tmp.158 = lgetv %yearLabel.17;
-        symbol [ yearLabel %tmp.158 249 10 19 ];
-        %tmp.159 = null;
-        %tmp.160 = ne %tmp.158 %tmp.159;
-        bf %tmp.160 @D_Workspace_GarminApp_source_first_appView_mc_249_6_251_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_249_6_251_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_249_29_251_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 250 8 ]
-        %tmp.161 = lgetv %yearLabel.17;
-        symbol [ yearLabel %tmp.161 250 8 17 ];
-        %tmp.162 = as %tmp.161 { (!Null) };
-        symbol [ setText %tmp.163 250 18 25 ];
-        %tmp.163 = getv function %tmp.162 :setText;
-        %tmp.164 = "Y: ";
-        %tmp.165 = lgetv %percentYear.13;
-        symbol [ percentYear %tmp.165 250 34 45 ];
-        symbol [ format %tmp.166 250 46 52 ];
-        %tmp.166 = getv function %tmp.165 :format;
-        %tmp.167 = "%.2f";
-        %tmp.168 = invoke %tmp.165 %tmp.166(%tmp.167);
-        %tmp.169 = add %tmp.164 %tmp.168;
-        invoke %tmp.162 %tmp.163(%tmp.169);
-D_Workspace_GarminApp_source_first_appView_mc_249_29_251_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_249_6_251_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_249_6_251_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 253 6 ]
-        %tmp.170 = self;
-        symbol [ drawCircleProgress %tmp.171 253 6 24 ];
-        %tmp.171 = getv function %tmp.170 :drawCircleProgress;
-        %tmp.172 = lgetv %dc;
-        symbol [ dc %tmp.172 253 25 27 ];
-        %tmp.173 = 40;
-        %tmp.174 = 100;
-        %tmp.175 = 20;
-        %tmp.176 = lgetv %percentDay.4;
-        symbol [ percentDay %tmp.176 253 42 52 ];
-        symbol [ Graphics %tmp.177 253 54 62 ];
-        %tmp.177 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.178 253 63 73 ];
-        %tmp.178 = getv %tmp.177 :COLOR_BLUE;
-        invoke %tmp.170 %tmp.171(%tmp.172, %tmp.173, %tmp.174, %tmp.175, %tmp.176, %tmp.178);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 254 6 ]
-        %tmp.179 = self;
-        symbol [ drawCircleProgress %tmp.180 254 6 24 ];
-        %tmp.180 = getv function %tmp.179 :drawCircleProgress;
-        %tmp.181 = lgetv %dc;
-        symbol [ dc %tmp.181 254 25 27 ];
-        %tmp.182 = 90;
-        %tmp.183 = 100;
-        %tmp.184 = 20;
-        %tmp.185 = lgetv %percentWeek.8;
-        symbol [ percentWeek %tmp.185 254 42 53 ];
-        symbol [ Graphics %tmp.186 254 55 63 ];
-        %tmp.186 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.187 254 64 74 ];
-        %tmp.187 = getv %tmp.186 :COLOR_BLUE;
-        invoke %tmp.179 %tmp.180(%tmp.181, %tmp.182, %tmp.183, %tmp.184, %tmp.185, %tmp.187);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 255 6 ]
-        %tmp.188 = self;
-        symbol [ drawCircleProgress %tmp.189 255 6 24 ];
-        %tmp.189 = getv function %tmp.188 :drawCircleProgress;
-        %tmp.190 = lgetv %dc;
-        symbol [ dc %tmp.190 255 25 27 ];
-        %tmp.191 = 140;
-        %tmp.192 = 100;
-        %tmp.193 = 20;
-        %tmp.194 = lgetv %percentMonth.10;
-        symbol [ percentMonth %tmp.194 255 43 55 ];
-        symbol [ Graphics %tmp.195 255 57 65 ];
-        %tmp.195 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.196 255 66 76 ];
-        %tmp.196 = getv %tmp.195 :COLOR_BLUE;
-        invoke %tmp.188 %tmp.189(%tmp.190, %tmp.191, %tmp.192, %tmp.193, %tmp.194, %tmp.196);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 256 6 ]
-        %tmp.197 = self;
-        symbol [ drawCircleProgress %tmp.198 256 6 24 ];
-        %tmp.198 = getv function %tmp.197 :drawCircleProgress;
-        %tmp.199 = lgetv %dc;
-        symbol [ dc %tmp.199 256 25 27 ];
-        %tmp.200 = 190;
-        %tmp.201 = 100;
-        %tmp.202 = 20;
-        %tmp.203 = lgetv %percentYear.13;
-        symbol [ percentYear %tmp.203 256 43 54 ];
-        symbol [ Graphics %tmp.204 256 56 64 ];
-        %tmp.204 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.205 256 65 75 ];
-        %tmp.205 = getv %tmp.204 :COLOR_BLUE;
-        invoke %tmp.197 %tmp.198(%tmp.199, %tmp.200, %tmp.201, %tmp.202, %tmp.203, %tmp.205);
-D_Workspace_GarminApp_source_first_appView_mc_209_58_261_4_stop:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 253 6 ]
+        %tmp.98 = self;
+        symbol [ drawCircleProgress %tmp.99 253 6 24 ];
+        %tmp.99 = getv function %tmp.98 :drawCircleProgress;
+        %tmp.100 = lgetv %dc;
+        symbol [ dc %tmp.100 253 25 27 ];
+        %tmp.101 = 38;
+        %tmp.102 = 165;
+        %tmp.103 = 25;
+        %tmp.104 = lgetv %percentDay.4;
+        symbol [ percentDay %tmp.104 253 42 52 ];
+        symbol [ Graphics %tmp.105 253 54 62 ];
+        %tmp.105 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.106 253 63 74 ];
+        %tmp.106 = getv %tmp.105 :COLOR_GREEN;
+        invoke %tmp.98 %tmp.99(%tmp.100, %tmp.101, %tmp.102, %tmp.103, %tmp.104, %tmp.106);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 254 6 ]
+        %tmp.107 = self;
+        symbol [ drawCircleProgress %tmp.108 254 6 24 ];
+        %tmp.108 = getv function %tmp.107 :drawCircleProgress;
+        %tmp.109 = lgetv %dc;
+        symbol [ dc %tmp.109 254 25 27 ];
+        %tmp.110 = 91;
+        %tmp.111 = 165;
+        %tmp.112 = 25;
+        %tmp.113 = lgetv %percentWeek.8;
+        symbol [ percentWeek %tmp.113 254 42 53 ];
+        symbol [ Graphics %tmp.114 254 55 63 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.115 254 64 75 ];
+        %tmp.115 = getv %tmp.114 :COLOR_GREEN;
+        invoke %tmp.107 %tmp.108(%tmp.109, %tmp.110, %tmp.111, %tmp.112, %tmp.113, %tmp.115);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 255 6 ]
+        %tmp.116 = self;
+        symbol [ drawCircleProgress %tmp.117 255 6 24 ];
+        %tmp.117 = getv function %tmp.116 :drawCircleProgress;
+        %tmp.118 = lgetv %dc;
+        symbol [ dc %tmp.118 255 25 27 ];
+        %tmp.119 = 145;
+        %tmp.120 = 165;
+        %tmp.121 = 25;
+        %tmp.122 = lgetv %percentMonth.10;
+        symbol [ percentMonth %tmp.122 255 43 55 ];
+        symbol [ Graphics %tmp.123 255 57 65 ];
+        %tmp.123 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.124 255 66 77 ];
+        %tmp.124 = getv %tmp.123 :COLOR_GREEN;
+        invoke %tmp.116 %tmp.117(%tmp.118, %tmp.119, %tmp.120, %tmp.121, %tmp.122, %tmp.124);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 256 6 ]
+        %tmp.125 = self;
+        symbol [ drawCircleProgress %tmp.126 256 6 24 ];
+        %tmp.126 = getv function %tmp.125 :drawCircleProgress;
+        %tmp.127 = lgetv %dc;
+        symbol [ dc %tmp.127 256 25 27 ];
+        %tmp.128 = 200;
+        %tmp.129 = 165;
+        %tmp.130 = 25;
+        %tmp.131 = lgetv %percentYear.13;
+        symbol [ percentYear %tmp.131 256 43 54 ];
+        symbol [ Graphics %tmp.132 256 56 64 ];
+        %tmp.132 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.133 256 65 76 ];
+        %tmp.133 = getv %tmp.132 :COLOR_GREEN;
+        invoke %tmp.125 %tmp.126(%tmp.127, %tmp.128, %tmp.129, %tmp.130, %tmp.131, %tmp.133);
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_209_58_257_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 264; @symbol_functiondef = [getDayOfWeekNumber,264,21,39]; @symbol_param<0> = [dayStr,264,40,46]; @symbol_param<0>_type<0> = [String,264,50,56]; @symbol_return<0> = [Number,264,61,67]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 260; @symbol_functiondef = [getDayOfWeekNumber,260,21,39]; @symbol_param<0> = [dayStr,260,40,46]; @symbol_param<0>_type<0> = [String,260,50,56]; @symbol_return<0> = [Number,260,61,67]; ]
     private
     function getDayOfWeekNumber(dayStr as String) as Number {
-D_Workspace_GarminApp_source_first_appView_mc_264_68_278_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 265 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_264_68_278_4_start" "D_Workspace_GarminApp_source_first_appView_mc_264_68_278_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_260_68_274_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 261 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_260_68_274_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_260_68_274_4_stop" ]
         %daysMap.1 = local;
-        symbol [ daysMap %daysMap.1 265 10 17 ];
+        symbol [ daysMap %daysMap.1 261 10 17 ];
         %tmp.1 = newd 7;
         %tmp.2 = "Sun";
         %tmp.3 = 0;
@@ -1552,42 +1388,42 @@ D_Workspace_GarminApp_source_first_appView_mc_264_68_278_4_start:
         %tmp.28 = dup %tmp.25;
         %tmp.29 = aputv %tmp.28 %tmp.26 %tmp.27;
         lputv %daysMap.1 %tmp.29;
-        symbol [ daysMap %daysMap.1 265 10 17 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 274 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_274_6_276_6_if_stmt:
+        symbol [ daysMap %daysMap.1 261 10 17 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 270 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_6_272_6_if_stmt:
         %tmp.30 = lgetv %daysMap.1;
-        symbol [ daysMap %tmp.30 274 10 17 ];
-        symbol [ hasKey %tmp.31 274 18 24 ];
+        symbol [ daysMap %tmp.30 270 10 17 ];
+        symbol [ hasKey %tmp.31 270 18 24 ];
         %tmp.31 = getv function %tmp.30 :hasKey;
         %tmp.32 = lgetv %dayStr;
-        symbol [ dayStr %tmp.32 274 25 31 ];
+        symbol [ dayStr %tmp.32 270 25 31 ];
         %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
-        bf %tmp.33 @D_Workspace_GarminApp_source_first_appView_mc_274_6_276_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_274_6_276_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_274_34_276_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 275 8 ]
+        bf %tmp.33 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_6_272_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_6_272_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_34_272_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 271 8 ]
         %tmp.34 = lgetv %daysMap.1;
-        symbol [ daysMap %tmp.34 275 15 22 ];
+        symbol [ daysMap %tmp.34 271 15 22 ];
         %tmp.35 = lgetv %dayStr;
-        symbol [ dayStr %tmp.35 275 23 29 ];
+        symbol [ dayStr %tmp.35 271 23 29 ];
         %tmp.36 = agetv %tmp.34 %tmp.35;
         ret %tmp.36;
-D_Workspace_GarminApp_source_first_appView_mc_274_34_276_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_274_6_276_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_274_6_276_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 277 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_34_272_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_6_272_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_270_6_272_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 273 6 ]
         %tmp.37 = 0;
         ret %tmp.37;
-D_Workspace_GarminApp_source_first_appView_mc_264_68_278_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_260_68_274_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 281; @symbol_functiondef = [monthToNumber,281,21,34]; @symbol_param<0> = [monthStr,281,35,43]; @symbol_param<0>_type<0> = [String,281,47,53]; @symbol_return<0> = [Number,281,58,64]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 277; @symbol_functiondef = [monthToNumber,277,21,34]; @symbol_param<0> = [monthStr,277,35,43]; @symbol_param<0>_type<0> = [String,277,47,53]; @symbol_return<0> = [Number,277,58,64]; ]
     private
     function monthToNumber(monthStr as String) as Number {
-D_Workspace_GarminApp_source_first_appView_mc_281_65_300_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 282 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_281_65_300_4_start" "D_Workspace_GarminApp_source_first_appView_mc_281_65_300_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_277_65_296_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 278 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_277_65_296_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_277_65_296_4_stop" ]
         %monthsMap.1 = local;
-        symbol [ monthsMap %monthsMap.1 282 10 19 ];
+        symbol [ monthsMap %monthsMap.1 278 10 19 ];
         %tmp.1 = newd 12;
         %tmp.2 = "Jan";
         %tmp.3 = 1;
@@ -1638,42 +1474,42 @@ D_Workspace_GarminApp_source_first_appView_mc_281_65_300_4_start:
         %tmp.48 = dup %tmp.45;
         %tmp.49 = aputv %tmp.48 %tmp.46 %tmp.47;
         lputv %monthsMap.1 %tmp.49;
-        symbol [ monthsMap %monthsMap.1 282 10 19 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 296 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_296_6_298_6_if_stmt:
+        symbol [ monthsMap %monthsMap.1 278 10 19 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 292 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_6_294_6_if_stmt:
         %tmp.50 = lgetv %monthsMap.1;
-        symbol [ monthsMap %tmp.50 296 10 19 ];
-        symbol [ hasKey %tmp.51 296 20 26 ];
+        symbol [ monthsMap %tmp.50 292 10 19 ];
+        symbol [ hasKey %tmp.51 292 20 26 ];
         %tmp.51 = getv function %tmp.50 :hasKey;
         %tmp.52 = lgetv %monthStr;
-        symbol [ monthStr %tmp.52 296 27 35 ];
+        symbol [ monthStr %tmp.52 292 27 35 ];
         %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
-        bf %tmp.53 @D_Workspace_GarminApp_source_first_appView_mc_296_6_298_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_296_6_298_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_296_38_298_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 297 8 ]
+        bf %tmp.53 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_6_294_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_6_294_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_38_294_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 293 8 ]
         %tmp.54 = lgetv %monthsMap.1;
-        symbol [ monthsMap %tmp.54 297 15 24 ];
+        symbol [ monthsMap %tmp.54 293 15 24 ];
         %tmp.55 = lgetv %monthStr;
-        symbol [ monthStr %tmp.55 297 25 33 ];
+        symbol [ monthStr %tmp.55 293 25 33 ];
         %tmp.56 = agetv %tmp.54 %tmp.55;
         ret %tmp.56;
-D_Workspace_GarminApp_source_first_appView_mc_296_38_298_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_296_6_298_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_296_6_298_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 299 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_38_294_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_6_294_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_292_6_294_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 295 6 ]
         %tmp.57 = 0;
         ret %tmp.57;
-D_Workspace_GarminApp_source_first_appView_mc_281_65_300_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_277_65_296_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 303; @symbol_functiondef = [daysInMonthFunc,303,21,36]; @symbol_param<0> = [year,303,37,41]; @symbol_param<0>_type<0> = [Number,303,45,51]; @symbol_param<1> = [month,303,53,58]; @symbol_param<1>_type<0> = [Number,303,62,68]; @symbol_return<0> = [Number,303,73,79]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 299; @symbol_functiondef = [daysInMonthFunc,299,21,36]; @symbol_param<0> = [year,299,37,41]; @symbol_param<0>_type<0> = [Number,299,45,51]; @symbol_param<1> = [month,299,53,58]; @symbol_param<1>_type<0> = [Number,299,62,68]; @symbol_return<0> = [Number,299,73,79]; ]
     private
     function daysInMonthFunc(year as Number, month as Number) as Number {
-D_Workspace_GarminApp_source_first_appView_mc_303_80_309_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 304 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_303_80_309_4_start" "D_Workspace_GarminApp_source_first_appView_mc_303_80_309_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_299_80_305_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 300 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_299_80_305_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_299_80_305_4_stop" ]
         %daysPerMonth.1 = local;
-        symbol [ daysPerMonth %daysPerMonth.1 304 10 22 ];
+        symbol [ daysPerMonth %daysPerMonth.1 300 10 22 ];
         %tmp.1 = newa 12;
         %tmp.2 = 31;
         %tmp.3 = dup %tmp.1;
@@ -1712,338 +1548,425 @@ D_Workspace_GarminApp_source_first_appView_mc_303_80_309_4_start:
         %tmp.36 = dup %tmp.34;
         %tmp.37 = aputv %tmp.36 11 %tmp.35;
         lputv %daysPerMonth.1 %tmp.37;
-        symbol [ daysPerMonth %daysPerMonth.1 304 10 22 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 305 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_stmt:
-D_Workspace_GarminApp_source_first_appView_mc_305_10_305_39_begin:
+        symbol [ daysPerMonth %daysPerMonth.1 300 10 22 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 301 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_stmt:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_10_301_39_begin:
         %tmp.38 = lgetv %month;
-        symbol [ month %tmp.38 305 10 15 ];
+        symbol [ month %tmp.38 301 10 15 ];
         %tmp.39 = 2;
         %tmp.40 = eq %tmp.38 %tmp.39;
-        bf %tmp.40 @D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_305_24_305_39_true:
+        bf %tmp.40 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_24_301_39_true:
         %tmp.41 = self;
-        symbol [ isLeapYear %tmp.42 305 24 34 ];
+        symbol [ isLeapYear %tmp.42 301 24 34 ];
         %tmp.42 = getv function %tmp.41 :isLeapYear;
         %tmp.43 = lgetv %year;
-        symbol [ year %tmp.43 305 35 39 ];
+        symbol [ year %tmp.43 301 35 39 ];
         %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
         push %tmp.44;
-D_Workspace_GarminApp_source_first_appView_mc_305_24_305_39_end:
-        %tmp.45 = phi [%tmp.40 @D_Workspace_GarminApp_source_first_appView_mc_305_10_305_39_begin] [%tmp.44 @D_Workspace_GarminApp_source_first_appView_mc_305_24_305_39_true] [%tmp.45 @D_Workspace_GarminApp_source_first_appView_mc_305_24_305_39_end];
-        bf %tmp.45 @D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_true:
-D_Workspace_GarminApp_source_first_appView_mc_305_42_307_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 306 8 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_24_301_39_end:
+        %tmp.45 = phi [%tmp.40 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_10_301_39_begin] [%tmp.44 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_24_301_39_true] [%tmp.45 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_24_301_39_end];
+        bf %tmp.45 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_42_303_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 302 8 ]
         %tmp.46 = 29;
         ret %tmp.46;
-D_Workspace_GarminApp_source_first_appView_mc_305_42_307_6_stop:
-        goto @D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_end;
-D_Workspace_GarminApp_source_first_appView_mc_305_6_307_6_if_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 308 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_42_303_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_301_6_303_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 304 6 ]
         %tmp.47 = lgetv %daysPerMonth.1;
-        symbol [ daysPerMonth %tmp.47 308 13 25 ];
+        symbol [ daysPerMonth %tmp.47 304 13 25 ];
         %tmp.48 = lgetv %month;
-        symbol [ month %tmp.48 308 26 31 ];
+        symbol [ month %tmp.48 304 26 31 ];
         %tmp.49 = 1;
         %tmp.50 = sub %tmp.48 %tmp.49;
         %tmp.51 = agetv %tmp.47 %tmp.50;
         ret %tmp.51;
-D_Workspace_GarminApp_source_first_appView_mc_303_80_309_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_299_80_305_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 312; @symbol_functiondef = [isLeapYear,312,21,31]; @symbol_param<0> = [year,312,32,36]; @symbol_param<0>_type<0> = [Number,312,40,46]; @symbol_return<0> = [Boolean,312,51,58]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 308; @symbol_functiondef = [isLeapYear,308,21,31]; @symbol_param<0> = [year,308,32,36]; @symbol_param<0>_type<0> = [Number,308,40,46]; @symbol_return<0> = [Boolean,308,51,58]; ]
     private
     function isLeapYear(year as Number) as Boolean {
-D_Workspace_GarminApp_source_first_appView_mc_312_59_314_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 313 6 ]
-D_Workspace_GarminApp_source_first_appView_mc_313_13_313_67_begin:
-D_Workspace_GarminApp_source_first_appView_mc_313_14_313_45_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_308_59_310_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 309 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_13_309_67_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_14_309_45_begin:
         %tmp.1 = lgetv %year;
-        symbol [ year %tmp.1 313 14 18 ];
+        symbol [ year %tmp.1 309 14 18 ];
         %tmp.2 = 4;
         %tmp.3 = mod %tmp.1 %tmp.2;
         %tmp.4 = 0;
         %tmp.5 = eq %tmp.3 %tmp.4;
         %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @D_Workspace_GarminApp_source_first_appView_mc_313_31_313_45_end;
-D_Workspace_GarminApp_source_first_appView_mc_313_31_313_45_true:
+        bf %tmp.6 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_31_309_45_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_31_309_45_true:
         %tmp.7 = lgetv %year;
-        symbol [ year %tmp.7 313 31 35 ];
+        symbol [ year %tmp.7 309 31 35 ];
         %tmp.8 = 100;
         %tmp.9 = mod %tmp.7 %tmp.8;
         %tmp.10 = 0;
         %tmp.11 = ne %tmp.9 %tmp.10;
         %tmp.12 = and %tmp.5 %tmp.11;
         push %tmp.12;
-D_Workspace_GarminApp_source_first_appView_mc_313_31_313_45_end:
-        %tmp.13 = phi [%tmp.6 @D_Workspace_GarminApp_source_first_appView_mc_313_14_313_45_begin] [%tmp.12 @D_Workspace_GarminApp_source_first_appView_mc_313_31_313_45_true] [%tmp.13 @D_Workspace_GarminApp_source_first_appView_mc_313_31_313_45_end];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_31_309_45_end:
+        %tmp.13 = phi [%tmp.6 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_14_309_45_begin] [%tmp.12 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_31_309_45_true] [%tmp.13 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_31_309_45_end];
         %tmp.14 = dup %tmp.13;
-        bt %tmp.14 @D_Workspace_GarminApp_source_first_appView_mc_313_51_313_67_end;
-D_Workspace_GarminApp_source_first_appView_mc_313_51_313_67_false:
+        bt %tmp.14 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_51_309_67_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_51_309_67_false:
         %tmp.15 = lgetv %year;
-        symbol [ year %tmp.15 313 52 56 ];
+        symbol [ year %tmp.15 309 52 56 ];
         %tmp.16 = 400;
         %tmp.17 = mod %tmp.15 %tmp.16;
         %tmp.18 = 0;
         %tmp.19 = eq %tmp.17 %tmp.18;
         %tmp.20 = or %tmp.13 %tmp.19;
         push %tmp.20;
-D_Workspace_GarminApp_source_first_appView_mc_313_51_313_67_end:
-        %tmp.21 = phi [%tmp.14 @D_Workspace_GarminApp_source_first_appView_mc_313_13_313_67_begin] [%tmp.20 @D_Workspace_GarminApp_source_first_appView_mc_313_51_313_67_false] [%tmp.21 @D_Workspace_GarminApp_source_first_appView_mc_313_51_313_67_end];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_51_309_67_end:
+        %tmp.21 = phi [%tmp.14 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_13_309_67_begin] [%tmp.20 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_51_309_67_false] [%tmp.21 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_309_51_309_67_end];
         ret %tmp.21;
-D_Workspace_GarminApp_source_first_appView_mc_312_59_314_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_308_59_310_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 317; @symbol_functiondef = [dayOfYearFunc,317,21,34]; @symbol_param<0> = [year,317,35,39]; @symbol_param<0>_type<0> = [Number,317,43,49]; @symbol_param<1> = [month,317,51,56]; @symbol_param<1>_type<0> = [Number,317,60,66]; @symbol_param<2> = [day,317,68,71]; @symbol_param<2>_type<0> = [Number,317,75,81]; @symbol_return<0> = [Number,317,86,92]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 313; @symbol_functiondef = [dayOfYearFunc,313,21,34]; @symbol_param<0> = [year,313,35,39]; @symbol_param<0>_type<0> = [Number,313,43,49]; @symbol_param<1> = [month,313,51,56]; @symbol_param<1>_type<0> = [Number,313,60,66]; @symbol_param<2> = [day,313,68,71]; @symbol_param<2>_type<0> = [Number,313,75,81]; @symbol_return<0> = [Number,313,86,92]; ]
     private
     function dayOfYearFunc(year as Number, month as Number, day as Number) as Number {
-D_Workspace_GarminApp_source_first_appView_mc_317_93_324_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 318 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_317_93_324_4_start" "D_Workspace_GarminApp_source_first_appView_mc_317_93_324_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_313_93_320_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 314 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_313_93_320_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_313_93_320_4_stop" ]
         %dayCount.1 = local;
-        symbol [ dayCount %dayCount.1 318 10 18 ];
+        symbol [ dayCount %dayCount.1 314 10 18 ];
         %tmp.1 = 0;
         lputv %dayCount.1 %tmp.1;
-        symbol [ dayCount %dayCount.1 318 10 18 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 319 6 ]
-        for @D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_test @D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_incr @D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_end;
-D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_init:
-        [ "D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_begin" "D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_end" ]
+        symbol [ dayCount %dayCount.1 314 10 18 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 315 6 ]
+        for @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_test @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_incr @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_init:
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_begin" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_end" ]
         %m.2 = local;
-        symbol [ m %m.2 319 15 16 ];
+        symbol [ m %m.2 315 15 16 ];
         %tmp.2 = 1;
         lputv %m.2 %tmp.2;
-        symbol [ m %m.2 319 15 16 ];
-D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_test:
+        symbol [ m %m.2 315 15 16 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_test:
         %tmp.3 = lgetv %m.2;
-        symbol [ m %tmp.3 319 22 23 ];
+        symbol [ m %tmp.3 315 22 23 ];
         %tmp.4 = lgetv %month;
-        symbol [ month %tmp.4 319 26 31 ];
+        symbol [ month %tmp.4 315 26 31 ];
         %tmp.5 = lt %tmp.3 %tmp.4;
-        bf %tmp.5 @D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_end;
-D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_begin:
-D_Workspace_GarminApp_source_first_appView_mc_319_38_321_6_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 320 8 ]
+        bf %tmp.5 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_38_317_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 316 8 ]
         %tmp.6 = lgetv %dayCount.1;
-        symbol [ dayCount %tmp.6 320 8 16 ];
+        symbol [ dayCount %tmp.6 316 8 16 ];
         %tmp.7 = self;
-        symbol [ daysInMonthFunc %tmp.8 320 20 35 ];
+        symbol [ daysInMonthFunc %tmp.8 316 20 35 ];
         %tmp.8 = getv function %tmp.7 :daysInMonthFunc;
         %tmp.9 = lgetv %year;
-        symbol [ year %tmp.9 320 36 40 ];
+        symbol [ year %tmp.9 316 36 40 ];
         %tmp.10 = lgetv %m.2;
-        symbol [ m %tmp.10 320 42 43 ];
+        symbol [ m %tmp.10 316 42 43 ];
         %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10);
         %tmp.12 = add %tmp.6 %tmp.11;
         lputv %dayCount.1 %tmp.12;
-        symbol [ dayCount %dayCount.1 320 8 16 ];
-D_Workspace_GarminApp_source_first_appView_mc_319_38_321_6_stop:
-D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_incr:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 319 ]
+        symbol [ dayCount %dayCount.1 316 8 16 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_38_317_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_incr:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 315 ]
         %tmp.15 = lgetv %m.2;
-        symbol [ m %tmp.15 319 33 34 ];
+        symbol [ m %tmp.15 315 33 34 ];
         %tmp.16 = add %tmp.15 1;
         lputv %m.2 %tmp.16;
-        symbol [ m %m.2 319 33 34 ];
-        goto @D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_test;
-D_Workspace_GarminApp_source_first_appView_mc_319_6_321_6_for_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 322 6 ]
+        symbol [ m %m.2 315 33 34 ];
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_test;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_315_6_317_6_for_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 318 6 ]
         %tmp.17 = lgetv %dayCount.1;
-        symbol [ dayCount %tmp.17 322 6 14 ];
+        symbol [ dayCount %tmp.17 318 6 14 ];
         %tmp.18 = lgetv %day;
-        symbol [ day %tmp.18 322 18 21 ];
+        symbol [ day %tmp.18 318 18 21 ];
         %tmp.19 = add %tmp.17 %tmp.18;
         lputv %dayCount.1 %tmp.19;
-        symbol [ dayCount %dayCount.1 322 6 14 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 323 6 ]
+        symbol [ dayCount %dayCount.1 318 6 14 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 319 6 ]
         %tmp.20 = lgetv %dayCount.1;
-        symbol [ dayCount %tmp.20 323 13 21 ];
+        symbol [ dayCount %tmp.20 319 13 21 ];
         ret %tmp.20;
-D_Workspace_GarminApp_source_first_appView_mc_317_93_324_4_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_313_93_320_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 327; @symbol_functiondef = [drawCircleProgress,327,21,39]; @symbol_param<0> = [dc,327,40,42]; @symbol_param<0>_type<0> = [Dc,327,46,48]; @symbol_param<1> = [cx,327,50,52]; @symbol_param<1>_type<0> = [Number,327,56,62]; @symbol_param<2> = [cy,327,64,66]; @symbol_param<2>_type<0> = [Number,327,70,76]; @symbol_param<3> = [r,327,78,79]; @symbol_param<3>_type<0> = [Number,327,83,89]; @symbol_param<4> = [percentage,327,91,101]; @symbol_param<4>_type<0> = [Float,327,105,110]; @symbol_param<5> = [color,327,112,117]; @symbol_param<5>_type<0> = [Graphics,327,121,129]; @symbol_param<5>_type<1> = [ColorType,327,130,139]; ]
+    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 323; @symbol_functiondef = [drawCircleProgress,323,21,39]; @symbol_param<0> = [dc,323,40,42]; @symbol_param<0>_type<0> = [Dc,323,46,48]; @symbol_param<1> = [cx,323,50,52]; @symbol_param<1>_type<0> = [Number,323,56,62]; @symbol_param<2> = [cy,323,64,66]; @symbol_param<2>_type<0> = [Number,323,70,76]; @symbol_param<3> = [r,323,78,79]; @symbol_param<3>_type<0> = [Number,323,83,89]; @symbol_param<4> = [percentage,323,91,101]; @symbol_param<4>_type<0> = [Float,323,105,110]; @symbol_param<5> = [color,323,112,117]; @symbol_param<5>_type<0> = [Graphics,323,121,129]; @symbol_param<5>_type<1> = [ColorType,323,130,139]; ]
     private
     function drawCircleProgress(dc as Dc, cx as Number, cy as Number, r as Number, percentage as Float, color as Graphics.ColorType) {
-D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 329 6 ]
-        %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 329 6 8 ];
-        symbol [ setColor %tmp.2 329 9 17 ];
-        %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 329 18 26 ];
-        %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.4 329 27 39 ];
-        %tmp.4 = getv %tmp.3 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.5 329 41 49 ];
-        %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.6 329 50 63 ];
-        %tmp.6 = getv %tmp.5 :COLOR_DK_GRAY;
-        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 330 6 ]
-        %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 330 6 8 ];
-        symbol [ fillCircle %tmp.8 330 9 19 ];
-        %tmp.8 = getv function %tmp.7 :fillCircle;
-        %tmp.9 = lgetv %cx;
-        symbol [ cx %tmp.9 330 20 22 ];
-        %tmp.10 = lgetv %cy;
-        symbol [ cy %tmp.10 330 24 26 ];
-        %tmp.11 = lgetv %r;
-        symbol [ r %tmp.11 330 28 29 ];
-        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.11);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 333 6 ]
-        %tmp.12 = lgetv %dc;
-        symbol [ dc %tmp.12 333 6 8 ];
-        symbol [ setColor %tmp.13 333 9 17 ];
-        %tmp.13 = getv function %tmp.12 :setColor;
-        symbol [ Graphics %tmp.14 333 18 26 ];
-        %tmp.14 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.15 333 27 39 ];
-        %tmp.15 = getv %tmp.14 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.16 333 41 49 ];
-        %tmp.16 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.17 333 50 63 ];
-        %tmp.17 = getv %tmp.16 :COLOR_DK_GRAY;
-        invoke %tmp.12 %tmp.13(%tmp.15, %tmp.17);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 334 6 ]
-        %tmp.18 = lgetv %dc;
-        symbol [ dc %tmp.18 334 6 8 ];
-        symbol [ drawCircle %tmp.19 334 9 19 ];
-        %tmp.19 = getv function %tmp.18 :drawCircle;
-        %tmp.20 = lgetv %cx;
-        symbol [ cx %tmp.20 334 20 22 ];
-        %tmp.21 = lgetv %cy;
-        symbol [ cy %tmp.21 334 24 26 ];
-        %tmp.22 = lgetv %r;
-        symbol [ r %tmp.22 334 28 29 ];
-        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.21, %tmp.22);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 337 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_start" "D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_stop" ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 324 6 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_stmt:
+        %tmp.1 = lgetv %percentage;
+        symbol [ percentage %tmp.1 324 10 20 ];
+        %tmp.2 = 80;
+        %tmp.3 = gte %tmp.1 %tmp.2;
+        bf %tmp.3 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_28_326_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 325 8 ]
+        symbol [ Graphics %tmp.4 325 16 24 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.5 325 25 34 ];
+        %tmp.5 = getv %tmp.4 :COLOR_RED;
+        lputv %color %tmp.5;
+        symbol [ color %color 325 8 13 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_28_326_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_false:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 326 13 ]
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_stmt:
+        %tmp.6 = lgetv %percentage;
+        symbol [ percentage %tmp.6 326 17 27 ];
+        %tmp.7 = 50;
+        %tmp.8 = gte %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_else_false;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_true:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_35_328_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 327 8 ]
+        symbol [ Graphics %tmp.9 327 16 24 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.10 327 25 37 ];
+        %tmp.10 = getv %tmp.9 :COLOR_YELLOW;
+        lputv %color %tmp.10;
+        symbol [ color %color 327 8 13 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_35_328_6_stop:
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_else_false:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_328_13_330_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 329 8 ]
+        symbol [ Graphics %tmp.11 329 16 24 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.12 329 25 36 ];
+        %tmp.12 = getv %tmp.11 :COLOR_GREEN;
+        lputv %color %tmp.12;
+        symbol [ color %color 329 8 13 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_328_13_330_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_326_13_330_6_if_end:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_324_6_330_6_if_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 333 6 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 333 6 8 ];
+        symbol [ setColor %tmp.14 333 9 17 ];
+        %tmp.14 = getv function %tmp.13 :setColor;
+        symbol [ Graphics %tmp.15 333 18 26 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.16 333 27 44 ];
+        %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
+        symbol [ Graphics %tmp.17 333 46 54 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.18 333 55 68 ];
+        %tmp.18 = getv %tmp.17 :COLOR_DK_GRAY;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 334 6 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 334 6 8 ];
+        symbol [ fillCircle %tmp.20 334 9 19 ];
+        %tmp.20 = getv function %tmp.19 :fillCircle;
+        %tmp.21 = lgetv %cx;
+        symbol [ cx %tmp.21 334 20 22 ];
+        %tmp.22 = lgetv %cy;
+        symbol [ cy %tmp.22 334 24 26 ];
+        %tmp.23 = lgetv %r;
+        symbol [ r %tmp.23 334 28 29 ];
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.23);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 337 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_stop" ]
         %sweepAngle.1 = local;
         symbol [ sweepAngle %sweepAngle.1 337 10 20 ];
-        %tmp.23 = lgetv %percentage;
-        symbol [ percentage %tmp.23 337 23 33 ];
-        %tmp.24 = 360;
-        %tmp.25 = mul %tmp.23 %tmp.24;
-        %tmp.26 = 100;
-        %tmp.27 = div %tmp.25 %tmp.26;
-        lputv %sweepAngle.1 %tmp.27;
+        %tmp.24 = lgetv %percentage;
+        symbol [ percentage %tmp.24 337 23 33 ];
+        %tmp.25 = 360;
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        %tmp.27 = 100;
+        %tmp.28 = div %tmp.26 %tmp.27;
+        lputv %sweepAngle.1 %tmp.28;
         symbol [ sweepAngle %sweepAngle.1 337 10 20 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 340 6 ]
-        %tmp.28 = lgetv %dc;
-        symbol [ dc %tmp.28 340 6 8 ];
-        symbol [ setColor %tmp.29 340 9 17 ];
-        %tmp.29 = getv function %tmp.28 :setColor;
-        %tmp.30 = lgetv %color;
-        symbol [ color %tmp.30 340 18 23 ];
-        symbol [ Graphics %tmp.31 340 25 33 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 340 6 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 340 6 8 ];
+        symbol [ setColor %tmp.30 340 9 17 ];
+        %tmp.30 = getv function %tmp.29 :setColor;
+        symbol [ Graphics %tmp.31 340 18 26 ];
         %tmp.31 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.32 340 34 47 ];
+        symbol [ COLOR_DK_GRAY %tmp.32 340 27 40 ];
         %tmp.32 = getv %tmp.31 :COLOR_DK_GRAY;
-        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.32);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 341 8 ]
-        for @D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_test @D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_incr @D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_end;
-D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_init:
-        [ "D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_begin" "D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_end" ]
+        symbol [ Graphics %tmp.33 340 42 50 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.34 340 51 68 ];
+        %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+        invoke %tmp.29 %tmp.30(%tmp.32, %tmp.34);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 341 6 ]
+        for @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_test @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_incr @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_init:
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_begin" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_end" ]
         %thickness.2 = local;
-        symbol [ thickness %thickness.2 341 17 26 ];
-        %tmp.33 = 0;
-        lputv %thickness.2 %tmp.33;
-        symbol [ thickness %thickness.2 341 17 26 ];
-D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_test:
-        %tmp.34 = lgetv %thickness.2;
-        symbol [ thickness %tmp.34 341 32 41 ];
-        %tmp.35 = 3;
-        %tmp.36 = lt %tmp.34 %tmp.35;
-        bf %tmp.36 @D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_end;
-D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_begin:
-D_Workspace_GarminApp_source_first_appView_mc_341_60_343_8_start:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 342 10 ]
-        %tmp.37 = lgetv %dc;
-        symbol [ dc %tmp.37 342 10 12 ];
-        symbol [ drawArc %tmp.38 342 13 20 ];
-        %tmp.38 = getv function %tmp.37 :drawArc;
-        %tmp.39 = lgetv %cx;
-        symbol [ cx %tmp.39 342 21 23 ];
-        %tmp.40 = lgetv %cy;
-        symbol [ cy %tmp.40 342 25 27 ];
-        %tmp.41 = lgetv %r;
-        symbol [ r %tmp.41 342 29 30 ];
-        %tmp.42 = lgetv %thickness.2;
-        symbol [ thickness %tmp.42 342 33 42 ];
-        %tmp.43 = sub %tmp.41 %tmp.42;
-        symbol [ Graphics %tmp.44 342 44 52 ];
-        %tmp.44 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.45 342 53 66 ];
-        %tmp.45 = getv %tmp.44 :ARC_CLOCKWISE;
-        %tmp.46 = 0;
-        %tmp.47 = lgetv %sweepAngle.1;
-        symbol [ sweepAngle %tmp.47 342 71 81 ];
-        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40, %tmp.43, %tmp.45, %tmp.46, %tmp.47);
-D_Workspace_GarminApp_source_first_appView_mc_341_60_343_8_stop:
-D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_incr:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 341 ]
-        %tmp.50 = lgetv %thickness.2;
-        symbol [ thickness %tmp.50 341 47 56 ];
-        %tmp.51 = add %tmp.50 1;
-        lputv %thickness.2 %tmp.51;
-        symbol [ thickness %thickness.2 341 47 56 ];
-        goto @D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_test;
-D_Workspace_GarminApp_source_first_appView_mc_341_8_343_8_for_end:
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 346 6 ]
-        %tmp.52 = lgetv %dc;
-        symbol [ dc %tmp.52 346 6 8 ];
-        symbol [ setColor %tmp.53 346 9 17 ];
-        %tmp.53 = getv function %tmp.52 :setColor;
-        symbol [ Graphics %tmp.54 346 18 26 ];
-        %tmp.54 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.55 346 27 38 ];
-        %tmp.55 = getv %tmp.54 :COLOR_WHITE;
-        symbol [ Graphics %tmp.56 346 40 48 ];
-        %tmp.56 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.57 346 49 66 ];
-        %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
-        invoke %tmp.52 %tmp.53(%tmp.55, %tmp.57);
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 347 6 ]
-        [ "D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_start" "D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_stop" ]
-        %percentageStr.3 = local;
-        symbol [ percentageStr %percentageStr.3 347 10 23 ];
-        %tmp.58 = lgetv %percentage;
-        symbol [ percentage %tmp.58 347 26 36 ];
-        symbol [ format %tmp.59 347 37 43 ];
-        %tmp.59 = getv function %tmp.58 :format;
-        %tmp.60 = "%.1f";
-        %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
-        %tmp.62 = "%";
-        %tmp.63 = add %tmp.61 %tmp.62;
-        lputv %percentageStr.3 %tmp.63;
-        symbol [ percentageStr %percentageStr.3 347 10 23 ];
-[ "D:\Workspace\GarminApp\source\first-appView.mc" 348 6 ]
-        %tmp.64 = lgetv %dc;
-        symbol [ dc %tmp.64 348 6 8 ];
-        symbol [ drawText %tmp.65 348 9 17 ];
-        %tmp.65 = getv function %tmp.64 :drawText;
-        %tmp.66 = lgetv %cx;
-        symbol [ cx %tmp.66 348 18 20 ];
-        %tmp.67 = 1;
-        %tmp.68 = add %tmp.66 %tmp.67;
-        %tmp.69 = lgetv %cy;
-        symbol [ cy %tmp.69 348 26 28 ];
-        %tmp.70 = 10;
-        %tmp.71 = sub %tmp.69 %tmp.70;
-        symbol [ Graphics %tmp.72 348 35 43 ];
-        %tmp.72 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.73 348 44 54 ];
-        %tmp.73 = getv %tmp.72 :FONT_XTINY;
-        %tmp.74 = lgetv %percentageStr.3;
-        symbol [ percentageStr %tmp.74 348 56 69 ];
-        symbol [ Graphics %tmp.75 348 71 79 ];
-        %tmp.75 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.76 348 80 99 ];
-        %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.64 %tmp.65(%tmp.68, %tmp.71, %tmp.73, %tmp.74, %tmp.76);
-D_Workspace_GarminApp_source_first_appView_mc_327_141_349_4_stop:
+        symbol [ thickness %thickness.2 341 15 24 ];
+        %tmp.35 = 0;
+        lputv %thickness.2 %tmp.35;
+        symbol [ thickness %thickness.2 341 15 24 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_test:
+        %tmp.36 = lgetv %thickness.2;
+        symbol [ thickness %tmp.36 341 30 39 ];
+        %tmp.37 = 3;
+        %tmp.38 = lt %tmp.36 %tmp.37;
+        bf %tmp.38 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_58_343_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 342 8 ]
+        %tmp.39 = lgetv %dc;
+        symbol [ dc %tmp.39 342 8 10 ];
+        symbol [ drawArc %tmp.40 342 11 18 ];
+        %tmp.40 = getv function %tmp.39 :drawArc;
+        %tmp.41 = lgetv %cx;
+        symbol [ cx %tmp.41 342 19 21 ];
+        %tmp.42 = lgetv %cy;
+        symbol [ cy %tmp.42 342 23 25 ];
+        %tmp.43 = lgetv %r;
+        symbol [ r %tmp.43 342 27 28 ];
+        %tmp.44 = lgetv %thickness.2;
+        symbol [ thickness %tmp.44 342 31 40 ];
+        %tmp.45 = sub %tmp.43 %tmp.44;
+        symbol [ Graphics %tmp.46 342 42 50 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.47 342 51 64 ];
+        %tmp.47 = getv %tmp.46 :ARC_CLOCKWISE;
+        %tmp.48 = -90;
+        %tmp.49 = 270;
+        invoke %tmp.39 %tmp.40(%tmp.41, %tmp.42, %tmp.45, %tmp.47, %tmp.48, %tmp.49);
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_58_343_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_incr:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 341 ]
+        %tmp.52 = lgetv %thickness.2;
+        symbol [ thickness %tmp.52 341 45 54 ];
+        %tmp.53 = add %tmp.52 1;
+        lputv %thickness.2 %tmp.53;
+        symbol [ thickness %thickness.2 341 45 54 ];
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_test;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_341_6_343_6_for_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 346 6 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 346 6 8 ];
+        symbol [ setColor %tmp.55 346 9 17 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        %tmp.56 = lgetv %color;
+        symbol [ color %tmp.56 346 18 23 ];
+        symbol [ Graphics %tmp.57 346 25 33 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.58 346 34 51 ];
+        %tmp.58 = getv %tmp.57 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.58);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 347 6 ]
+        for @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_test @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_incr @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_init:
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_begin" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_end" ]
+        %thickness.3 = local;
+        symbol [ thickness %thickness.3 347 15 24 ];
+        %tmp.59 = 0;
+        lputv %thickness.3 %tmp.59;
+        symbol [ thickness %thickness.3 347 15 24 ];
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_test:
+        %tmp.60 = lgetv %thickness.3;
+        symbol [ thickness %tmp.60 347 30 39 ];
+        %tmp.61 = 3;
+        %tmp.62 = lt %tmp.60 %tmp.61;
+        bf %tmp.62 @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_end;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_begin:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_58_349_6_start:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 348 8 ]
+        %tmp.63 = lgetv %dc;
+        symbol [ dc %tmp.63 348 8 10 ];
+        symbol [ drawArc %tmp.64 348 11 18 ];
+        %tmp.64 = getv function %tmp.63 :drawArc;
+        %tmp.65 = lgetv %cx;
+        symbol [ cx %tmp.65 348 19 21 ];
+        %tmp.66 = lgetv %cy;
+        symbol [ cy %tmp.66 348 23 25 ];
+        %tmp.67 = lgetv %r;
+        symbol [ r %tmp.67 348 27 28 ];
+        %tmp.68 = lgetv %thickness.3;
+        symbol [ thickness %tmp.68 348 31 40 ];
+        %tmp.69 = sub %tmp.67 %tmp.68;
+        symbol [ Graphics %tmp.70 348 42 50 ];
+        %tmp.70 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.71 348 51 64 ];
+        %tmp.71 = getv %tmp.70 :ARC_CLOCKWISE;
+        %tmp.72 = -90;
+        %tmp.73 = -90;
+        %tmp.74 = lgetv %sweepAngle.1;
+        symbol [ sweepAngle %tmp.74 348 77 87 ];
+        %tmp.75 = add %tmp.73 %tmp.74;
+        invoke %tmp.63 %tmp.64(%tmp.65, %tmp.66, %tmp.69, %tmp.71, %tmp.72, %tmp.75);
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_58_349_6_stop:
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_incr:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 347 ]
+        %tmp.78 = lgetv %thickness.3;
+        symbol [ thickness %tmp.78 347 45 54 ];
+        %tmp.79 = add %tmp.78 1;
+        lputv %thickness.3 %tmp.79;
+        symbol [ thickness %thickness.3 347 45 54 ];
+        goto @_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_test;
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_347_6_349_6_for_end:
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 352 6 ]
+        %tmp.80 = lgetv %dc;
+        symbol [ dc %tmp.80 352 6 8 ];
+        symbol [ setColor %tmp.81 352 9 17 ];
+        %tmp.81 = getv function %tmp.80 :setColor;
+        symbol [ Graphics %tmp.82 352 18 26 ];
+        %tmp.82 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.83 352 27 38 ];
+        %tmp.83 = getv %tmp.82 :COLOR_WHITE;
+        symbol [ Graphics %tmp.84 352 40 48 ];
+        %tmp.84 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.85 352 49 66 ];
+        %tmp.85 = getv %tmp.84 :COLOR_TRANSPARENT;
+        invoke %tmp.80 %tmp.81(%tmp.83, %tmp.85);
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 353 6 ]
+        [ "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_start" "_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_stop" ]
+        %percentageStr.4 = local;
+        symbol [ percentageStr %percentageStr.4 353 10 23 ];
+        %tmp.86 = lgetv %percentage;
+        symbol [ percentage %tmp.86 353 26 36 ];
+        symbol [ format %tmp.87 353 37 43 ];
+        %tmp.87 = getv function %tmp.86 :format;
+        %tmp.88 = "%.1f";
+        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
+        %tmp.90 = "%";
+        %tmp.91 = add %tmp.89 %tmp.90;
+        lputv %percentageStr.4 %tmp.91;
+        symbol [ percentageStr %percentageStr.4 353 10 23 ];
+[ "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc" 354 6 ]
+        %tmp.92 = lgetv %dc;
+        symbol [ dc %tmp.92 354 6 8 ];
+        symbol [ drawText %tmp.93 354 9 17 ];
+        %tmp.93 = getv function %tmp.92 :drawText;
+        %tmp.94 = lgetv %cx;
+        symbol [ cx %tmp.94 354 18 20 ];
+        %tmp.95 = 1;
+        %tmp.96 = add %tmp.94 %tmp.95;
+        %tmp.97 = lgetv %cy;
+        symbol [ cy %tmp.97 354 26 28 ];
+        %tmp.98 = 10;
+        %tmp.99 = sub %tmp.97 %tmp.98;
+        symbol [ Graphics %tmp.100 354 35 43 ];
+        %tmp.100 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.101 354 44 54 ];
+        %tmp.101 = getv %tmp.100 :FONT_XTINY;
+        %tmp.102 = lgetv %percentageStr.4;
+        symbol [ percentageStr %tmp.102 354 56 69 ];
+        symbol [ Graphics %tmp.103 354 71 79 ];
+        %tmp.103 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.104 354 80 99 ];
+        %tmp.104 = getv %tmp.103 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.92 %tmp.93(%tmp.96, %tmp.99, %tmp.101, %tmp.102, %tmp.104);
+_Users_tankgum_Documents_Workspace_garmin_iq_app_new_face_watch_source_first_appView_mc_323_141_355_4_stop:
     }
 }
-[ @file = "D:\Workspace\GarminApp\source\first-appView.mc"; @line = 1; ]
+[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/source/first-appView.mc"; @line = 1; ]
 <init> {
 }
