@@ -1,0 +1,74 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var heartIcon as ResourceId;
+        (:initialized) var stepIcon as ResourceId;
+        (:initialized) var caloriesIcon as ResourceId;
+        (:initialized) var steepIcon as ResourceId;
+        (:initialized) var batteryFull as ResourceId;
+        (:initialized) var batteryMedium as ResourceId;
+        (:initialized) var batteryLow as ResourceId;
+        (:initialized) var connected as ResourceId;
+        (:initialized) var disConnect as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_TimeDisplay = new WatchUi.Text({:identifier=>"TimeDisplay", :color=>Gfx.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            var rez_cmp_local_text_HeartrateDisplay = new WatchUi.Text({:identifier=>"HeartrateDisplay", :color=>Gfx.COLOR_BLUE, :locX=>80, :locY=>10, :text=>"000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_heartIcon = new WatchUi.Bitmap({:identifier=>"heartIcon", :rezId=>$.Rez.Drawables.heartIcon, :locX=>95, :locY=>7});
+
+            var rez_cmp_local_text_StepCountDisplay = new WatchUi.Text({:identifier=>"StepCountDisplay", :color=>Gfx.COLOR_BLUE, :locX=>80, :locY=>30, :text=>"00000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_stepIcon = new WatchUi.Bitmap({:identifier=>"stepIcon", :rezId=>$.Rez.Drawables.stepIcon, :locX=>95, :locY=>25});
+
+            var rez_cmp_local_text_CaloriesDisplay = new WatchUi.Text({:identifier=>"CaloriesDisplay", :color=>Gfx.COLOR_BLUE, :locX=>160, :locY=>10, :text=>"0000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_caloriesIcon = new WatchUi.Bitmap({:identifier=>"caloriesIcon", :rezId=>$.Rez.Drawables.caloriesIcon, :locX=>127, :locY=>25});
+
+            var rez_cmp_local_text_FloorsClimbedDisplay = new WatchUi.Text({:identifier=>"FloorsClimbedDisplay", :color=>Gfx.COLOR_BLUE, :locX=>160, :locY=>30, :text=>"000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_steepIcon = new WatchUi.Bitmap({:identifier=>"steepIcon", :rezId=>$.Rez.Drawables.steepIcon, :locX=>127, :locY=>7});
+
+            var rez_cmp_local_text_BatteryDisplay = new WatchUi.Text({:identifier=>"BatteryDisplay", :color=>Gfx.COLOR_BLUE, :locX=>72, :locY=>188, :text=>"00%", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_batteryFull = new WatchUi.Bitmap({:identifier=>"batteryFull", :rezId=>$.Rez.Drawables.batteryFull, :locX=>60, :locY=>205});
+
+            var rez_cmp_local_bitmap_batteryMedium = new WatchUi.Bitmap({:identifier=>"batteryMedium", :rezId=>$.Rez.Drawables.batteryMedium, :locX=>60, :locY=>205});
+
+            var rez_cmp_local_bitmap_batteryLow = new WatchUi.Bitmap({:identifier=>"batteryLow", :rezId=>$.Rez.Drawables.batteryLow, :locX=>60, :locY=>205});
+
+            var rez_cmp_local_text_DeviceConnectionStatusDisplay = new WatchUi.Text({:identifier=>"DeviceConnectionStatusDisplay", :color=>Gfx.COLOR_RED, :locX=>WatchUi.LAYOUT_HALIGN_RIGHT, :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            var rez_cmp_local_bitmap_connected = new WatchUi.Bitmap({:identifier=>"connected", :rezId=>$.Rez.Drawables.connected, :locX=>2, :locY=>115});
+
+            var rez_cmp_local_bitmap_disConnect = new WatchUi.Bitmap({:identifier=>"disConnect", :rezId=>$.Rez.Drawables.disConnect, :locX=>2, :locY=>115});
+
+            var rez_cmp_local_text_DayOrNight = new WatchUi.Text({:identifier=>"DayOrNight", :color=>Gfx.COLOR_BLUE, :locX=>220, :locY=>115, :text=>"AM", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_DayProgress = new WatchUi.Text({:identifier=>"DayProgress", :color=>Gfx.COLOR_WHITE, :locX=>9, :locY=>150, :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_WeekProgress = new WatchUi.Text({:identifier=>"WeekProgress", :color=>Gfx.COLOR_WHITE, :locX=>70, :locY=>150, :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_MonthProgress = new WatchUi.Text({:identifier=>"MonthProgress", :color=>Gfx.COLOR_WHITE, :locX=>130, :locY=>150, :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_YearProgress = new WatchUi.Text({:identifier=>"YearProgress", :color=>Gfx.COLOR_WHITE, :locX=>190, :locY=>150, :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_DateDisplay = new WatchUi.Text({:identifier=>"DateDisplay", :color=>Gfx.COLOR_BLUE, :locX=>135, :locY=>205, :text=>"00/00/00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            return [rez_cmp_local_text_TimeDisplay, rez_cmp_local_text_HeartrateDisplay, rez_cmp_local_bitmap_heartIcon, rez_cmp_local_text_StepCountDisplay, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_text_CaloriesDisplay, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_text_FloorsClimbedDisplay, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_text_BatteryDisplay, rez_cmp_local_bitmap_batteryFull, rez_cmp_local_bitmap_batteryMedium, rez_cmp_local_bitmap_batteryLow, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_text_DayOrNight, rez_cmp_local_text_DayProgress, rez_cmp_local_text_WeekProgress, rez_cmp_local_text_MonthProgress, rez_cmp_local_text_YearProgress, rez_cmp_local_text_DateDisplay] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var AppName as ResourceId;
+    } // Strings
+} // Rez

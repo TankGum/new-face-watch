@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="1" lineNum="9" parent="globals/first_appView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="4" lineNum="5" parent="globals/first_appApp" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="5" lineNum="133" parent="globals/first_appView" pc="268435548" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="5" lineNum="134" parent="globals/first_appView" pc="268435552" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="5" lineNum="135" parent="globals/first_appView" pc="268435584" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="5" lineNum="136" parent="globals/first_appView" pc="268435612" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="7" lineNum="57" parent="globals/first_appView" pc="268435627" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="7" lineNum="58" parent="globals/first_appView" pc="268435631" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="7" lineNum="59" parent="globals/first_appView" pc="268435648" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="7" lineNum="60" parent="globals/first_appView" pc="268435722" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="7" lineNum="62" parent="globals/first_appView" pc="268435750" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="9" lineNum="16" parent="globals/first_appView" pc="268435765" symbol="onLayout"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="9" lineNum="17" parent="globals/first_appView" pc="268435767" symbol="onLayout"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="10" lineNum="93" parent="globals/first_appView" pc="268435809" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="10" lineNum="94" parent="globals/first_appView" pc="268435813" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="10" lineNum="95" parent="globals/first_appView" pc="268435836" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="10" lineNum="96" parent="globals/first_appView" pc="268435864" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="140" parent="globals/first_appView" pc="268435899" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="141" parent="globals/first_appView" pc="268435903" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="142" parent="globals/first_appView" pc="268435920" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="143" parent="globals/first_appView" pc="268435944" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="144" parent="globals/first_appView" pc="268436020" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="11" lineNum="145" parent="globals/first_appView" pc="268436048" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="81" parent="globals/first_appView" pc="268436063" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="82" parent="globals/first_appView" pc="268436067" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="83" parent="globals/first_appView" pc="268436087" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="85" parent="globals/first_appView" pc="268436106" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="86" parent="globals/first_appView" pc="268436117" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="12" lineNum="89" parent="globals/first_appView" pc="268436126" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="66" parent="globals/first_appView" pc="268436143" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="67" parent="globals/first_appView" pc="268436147" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="69" parent="globals/first_appView" pc="268436154" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="70" parent="globals/first_appView" pc="268436169" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="73" parent="globals/first_appView" pc="268436185" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="76" parent="globals/first_appView" pc="268436192" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="13" lineNum="77" parent="globals/first_appView" pc="268436220" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="100" parent="globals/first_appView" pc="268436235" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="101" parent="globals/first_appView" pc="268436239" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="102" parent="globals/first_appView" pc="268436267" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="103" parent="globals/first_appView" pc="268436295" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="106" parent="globals/first_appView" pc="268436323" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="107" parent="globals/first_appView" pc="268436330" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="109" parent="globals/first_appView" pc="268436347" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="110" parent="globals/first_appView" pc="268436354" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="112" parent="globals/first_appView" pc="268436371" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="113" parent="globals/first_appView" pc="268436378" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="117" parent="globals/first_appView" pc="268436395" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="118" parent="globals/first_appView" pc="268436406" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="119" parent="globals/first_appView" pc="268436413" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="121" parent="globals/first_appView" pc="268436433" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="122" parent="globals/first_appView" pc="268436444" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="123" parent="globals/first_appView" pc="268436451" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="126" parent="globals/first_appView" pc="268436471" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="15" lineNum="127" parent="globals/first_appView" pc="268436478" symbol="updateBatteryIcon"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="16" lineNum="11" parent="globals/first_appView" pc="268436496" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="16" lineNum="12" parent="globals/first_appView" pc="268436498" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="27" parent="globals/first_appView" pc="268436517" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="28" parent="globals/first_appView" pc="268436521" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="29" parent="globals/first_appView" pc="268436533" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="30" parent="globals/first_appView" pc="268436545" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="31" parent="globals/first_appView" pc="268436557" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="32" parent="globals/first_appView" pc="268436569" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="33" parent="globals/first_appView" pc="268436581" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="34" parent="globals/first_appView" pc="268436593" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="36" parent="globals/first_appView" pc="268436605" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="37" parent="globals/first_appView" pc="268436628" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="18" lineNum="39" parent="globals/first_appView" pc="268436651" symbol="onUpdate"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="19" lineNum="149" parent="globals/first_appView" pc="268436676" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="19" lineNum="150" parent="globals/first_appView" pc="268436680" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="19" lineNum="151" parent="globals/first_appView" pc="268436712" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="19" lineNum="152" parent="globals/first_appView" pc="268436740" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="19" lineNum="153" parent="globals/first_appView" pc="268436747" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="20" lineNum="158" parent="globals/first_appView" pc="268436765" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="20" lineNum="159" parent="globals/first_appView" pc="268436769" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="20" lineNum="160" parent="globals/first_appView" pc="268436801" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="20" lineNum="161" parent="globals/first_appView" pc="268436829" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appView.mc" id="20" lineNum="162" parent="globals/first_appView" pc="268436836" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="21" lineNum="12" parent="globals/first_appApp" pc="268436854" symbol="onStart"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="22" lineNum="20" parent="globals/first_appApp" pc="268436857" symbol="getInitialView"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="22" lineNum="21" parent="globals/first_appApp" pc="268436859" symbol="getInitialView"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="23" lineNum="7" parent="globals/first_appApp" pc="268436900" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="23" lineNum="8" parent="globals/first_appApp" pc="268436902" symbol="initialize"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/source/first-appApp.mc" id="24" lineNum="16" parent="globals/first_appApp" pc="268436921" symbol="onStop"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268436924" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268436936" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="23" parent="globals/Rez/Layouts" pc="268437071" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="25" parent="globals/Rez/Layouts" pc="268437196" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268437301" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268437426" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="31" parent="globals/Rez/Layouts" pc="268437531" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="33" parent="globals/Rez/Layouts" pc="268437656" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="35" parent="globals/Rez/Layouts" pc="268437761" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Layouts" pc="268437886" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Layouts" pc="268437991" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="41" parent="globals/Rez/Layouts" pc="268438116" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="43" parent="globals/Rez/Layouts" pc="268438221" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="45" parent="globals/Rez/Layouts" pc="268438326" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="47" parent="globals/Rez/Layouts" pc="268438431" symbol="WatchFace"/>
+        <entry filename="/Users/tankgum/Documents/Workspace/garmin-iq-app/first-app/bin/gen/006-B3113-00/source/Rez.mcgen" id="25" lineNum="49" parent="globals/Rez/Layouts" pc="268438556" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="14" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="23" symbol="heartIcon"/>
+        <entry id="11" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="26" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="7" object="true" symbol="first_appView"/>
+        <entry field="true" id="20" symbol="batteryLow"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="21" symbol="batteryMedium"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="6" object="true" symbol="first_appApp"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="25" symbol="stepIcon"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="8389714" symbol="INVALID_HR_SAMPLE"/>
+        <entry field="true" id="19" symbol="batteryFull"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="12" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="18" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="15" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="8" method="true" symbol="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry field="true" id="24" symbol="steepIcon"/>
+        <entry id="17" module="true" symbol="Layouts"/>
+        <entry id="10" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry id="16" method="true" symbol="updateBatteryIcon"/>
+        <entry field="true" id="22" symbol="caloriesIcon"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="13" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
+        <entry id="9" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435625" name="stepCount" stackId="1" startPc="268435552"/>
+        <entry endPc="268435625" name="stepCountDisplay" stackId="2" startPc="268435552"/>
+        <entry endPc="268435763" name="clockTime" stackId="1" startPc="268435631"/>
+        <entry endPc="268435763" name="timeString" stackId="2" startPc="268435631"/>
+        <entry endPc="268435763" name="view" stackId="3" startPc="268435631"/>
+        <entry arg="true" endPc="268435808" name="dc" stackId="1" startPc="268435765"/>
+        <entry endPc="268435897" name="battery" stackId="1" startPc="268435813"/>
+        <entry endPc="268435897" name="batteryDisplay" stackId="2" startPc="268435813"/>
+        <entry endPc="268436061" name="now" stackId="1" startPc="268435903"/>
+        <entry endPc="268436061" name="date" stackId="2" startPc="268435903"/>
+        <entry endPc="268436061" name="dateString" stackId="3" startPc="268435903"/>
+        <entry endPc="268436061" name="dateDisplay" stackId="4" startPc="268435903"/>
+        <entry endPc="268436142" name="heartrateIterator" stackId="1" startPc="268436067"/>
+        <entry endPc="268436142" name="currentHeartrate" stackId="2" startPc="268436067"/>
+        <entry endPc="268436233" name="heartRate" stackId="1" startPc="268436147"/>
+        <entry endPc="268436233" name="heartrateDisplay" stackId="2" startPc="268436147"/>
+        <entry arg="true" endPc="268436495" name="batteryPercent" stackId="1" startPc="268436235"/>
+        <entry endPc="268436494" name="batteryFull" stackId="2" startPc="268436239"/>
+        <entry endPc="268436494" name="batteryMedium" stackId="3" startPc="268436239"/>
+        <entry endPc="268436494" name="batteryLow" stackId="4" startPc="268436239"/>
+        <entry arg="true" endPc="268436675" name="dc" stackId="1" startPc="268436517"/>
+        <entry endPc="268436674" name="battery" stackId="2" startPc="268436521"/>
+        <entry endPc="268436763" name="calories" stackId="1" startPc="268436680"/>
+        <entry endPc="268436763" name="caloriesDisplay" stackId="2" startPc="268436680"/>
+        <entry endPc="268436852" name="floorsClimbed" stackId="1" startPc="268436769"/>
+        <entry endPc="268436852" name="floorsClimbedDisplay" stackId="2" startPc="268436769"/>
+        <entry arg="true" endPc="268438702" name="dc" stackId="1" startPc="268436924"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_HeartrateDisplay" stackId="3" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_heartIcon" stackId="4" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_StepCountDisplay" stackId="5" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_stepIcon" stackId="6" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_CaloriesDisplay" stackId="7" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_caloriesIcon" stackId="8" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_FloorsClimbedDisplay" stackId="9" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_steepIcon" stackId="10" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_BatteryDisplay" stackId="11" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_batteryFull" stackId="12" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_batteryMedium" stackId="13" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_bitmap_batteryLow" stackId="14" startPc="268436936"/>
+        <entry endPc="268438702" name="rez_cmp_local_text_DateDisplay" stackId="15" startPc="268436936"/>
+    </localVars>
+    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3113-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stepIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryMedium"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="steepIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryFull"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="caloriesIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryLow"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/first_appView" offset="134" parentId="globals" symbolId="first_appView" type="class"/>
+        <dataEntry label="globals/Rez" offset="301" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/first_appApp" offset="356" parentId="globals" symbolId="first_appApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="427" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="522" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="561" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="first_appView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="first_appApp" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435626" name="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;" parent="first_appView" startPc="268435548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435764" name="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;" parent="first_appView" startPc="268435627">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435808" name="onLayout" parent="first_appView" startPc="268435765">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435898" name="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;" parent="first_appView" startPc="268435809">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436062" name="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;" parent="first_appView" startPc="268435899">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436142" name="&lt;globals/first_appView/&lt;&gt;retrieveHeartrateText&gt;" parent="first_appView" startPc="268436063">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436234" name="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;" parent="first_appView" startPc="268436143">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436495" name="updateBatteryIcon" parent="first_appView" startPc="268436235">
+            <param id="batteryPercent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436516" name="initialize" parent="first_appView" startPc="268436496">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="first_appView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436675" name="onUpdate" parent="first_appView" startPc="268436517">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436764" name="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;" parent="first_appView" startPc="268436676">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436853" name="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;" parent="first_appView" startPc="268436765">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436856" name="onStart" parent="first_appApp" startPc="268436854">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436899" name="getInitialView" parent="first_appApp" startPc="268436857">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436920" name="initialize" parent="first_appApp" startPc="268436900">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436923" name="onStop" parent="first_appApp" startPc="268436921">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438702" name="WatchFace" parent="Layouts" startPc="268436924">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
