@@ -35,14 +35,17 @@ class first_appView extends WatchUi.WatchFace {
         setFloorsClimbedDisplay();
         setConnectionStatusDisplay();
         displayDayNight();
-        
-        var battery = Sys.getSystemStats().battery;
-        updateBatteryIcon(battery.toNumber());
-
         setConnectionStatusDisplay();
-        View.onUpdate(dc);
         
+        View.onUpdate(dc);
+
+        var battery = Sys.getSystemStats().battery;
+        drawBatteryBar(dc, 105, 20, 30, 12, battery);
+
         displayProgressPercentages(dc);
+        drawLineLayout(dc);
+        drawFancyHeaderLayout(dc);
+
 
     }
 
@@ -98,75 +101,81 @@ class first_appView extends WatchUi.WatchFace {
 
     // Hiển thị pin
     private function setBatteryDisplay() {
-    	var battery = Sys.getSystemStats().battery;				
+    	var battery = Sys.getSystemStats().battery;		
       var batteryDisplay = View.findDrawableById("BatteryDisplay") as Text;      
       batteryDisplay.setText(battery.format("%d")+"%");	
     }
     
     // Cập nhật icon pin
-    private function updateBatteryIcon(batteryPercent as Integer) as Void {
-      var batteryFull = View.findDrawableById("batteryFull") as Drawable;
-      var batteryMedium = View.findDrawableById("batteryMedium") as Drawable;
-      var batteryLow = View.findDrawableById("batteryLow") as Drawable;
+    private function drawBatteryBar(dc as Dc, x as Number, y as Number, width as Number, height as Number, batteryPercent as Float) {
 
-      // Ẩn tất cả icon trước
-      if (batteryFull != null) {
-        batteryFull.setVisible(false);
-      }
-      if (batteryMedium != null) {
-        batteryMedium.setVisible(false);
-      }
-      if (batteryLow != null) {
-        batteryLow.setVisible(false);
-      }
-
-      // Hiển thị icon phù hợp theo % pin
-      if (batteryPercent > 50) {
-        if (batteryFull != null) {
-          batteryFull.setVisible(true);
-        }
-      } else if (batteryPercent >= 40) {
-        if (batteryMedium != null) {
-          batteryMedium.setVisible(true);
-        }
+      // Vẽ khung ngoài pin (viền)
+      var borderColor;
+      if (batteryPercent >= 60) {
+        borderColor = Graphics.COLOR_GREEN;
+      } else if (batteryPercent >= 30) {
+        borderColor = Graphics.COLOR_YELLOW;
       } else {
-        if (batteryLow != null) {
-          batteryLow.setVisible(true);
-        }
+        borderColor = Graphics.COLOR_RED;
       }
+
+      dc.setColor(borderColor, Graphics.COLOR_TRANSPARENT);
+      var radius = 2; // độ bo góc
+      dc.drawRoundedRectangle(x, y, width, height, radius);
+
+      // Đầu pin nhỏ (chốt)
+      var capWidth = 3;
+      dc.drawRectangle(x + width, y + height/4, capWidth, height / 2);
+
+      // Chiều dài thanh pin đầy theo phần trăm
+      var innerWidth = (width - 2) * batteryPercent / 100;
+
+      // Chọn màu pin theo mức phần trăm
+      var fillColor;
+      if (batteryPercent >= 60) {
+        fillColor = Graphics.COLOR_GREEN;
+      } else if (batteryPercent >= 30) {
+        fillColor = Graphics.COLOR_YELLOW;
+      } else {
+        fillColor = Graphics.COLOR_RED;
+      }
+
+      // Vẽ mức pin (phần bên trong)
+      dc.setColor(fillColor, Graphics.COLOR_TRANSPARENT);
+      dc.fillRectangle(x + 1, y + 1, innerWidth, height - 2);
     }
 
     // Hiển thị số bước
     private function setStepCountDisplay() {
-    	var stepCount = Mon.getInfo().steps.toString();		
+    	var stepCount = Mon.getInfo().steps;		
       var stepCountDisplay = View.findDrawableById("StepCountDisplay") as Text;      
-      stepCountDisplay.setText(stepCount);		
+      stepCountDisplay.setText(formatValueWithK(stepCount));		
     }
 
     // Hiển thị ngày tháng
     private function setDateDisplay() {        
-    	var now = Time.now();
+      var now = Time.now();
       var date = Date.info(now, Time.FORMAT_LONG);
-      var dateString = Lang.format("$1$ $2$, $3$", [date.month, date.day, date.year]);
+      var dateString = Lang.format("$1$, $2$ $3$, $4$", [date.day_of_week, date.month, date.day, date.year]);
       var dateDisplay = View.findDrawableById("DateDisplay") as Text;      
       dateDisplay.setText(dateString);	    	
     }
 
     // Hiển thị calo
     private function setCaloriesDisplay() {
-      var calories = Mon.getInfo().calories.toString();
+      var calories = Mon.getInfo().calories;
       var caloriesDisplay = View.findDrawableById("CaloriesDisplay") as Text;
       if (caloriesDisplay != null) {
-        caloriesDisplay.setText(calories);
+        caloriesDisplay.setText(formatValueWithK(calories));
       }
     }
 
     // Hiển thị số tầng đã leo
     private function setFloorsClimbedDisplay() {
-      var floorsClimbed = Mon.getInfo().floorsClimbed.toString();
-      var floorsClimbedDisplay = View.findDrawableById("FloorsClimbedDisplayDisplay") as Text;
+      var floorsClimbed = Mon.getInfo().floorsClimbed;
+      var floorsClimbedDisplay = View.findDrawableById("FloorsClimbedDisplay") as Text;
       if (floorsClimbedDisplay != null) {
-        floorsClimbedDisplay.setText(floorsClimbed);
+        floorsClimbedDisplay.setText(formatValueWithK(floorsClimbed));
       }
     }
 
@@ -250,10 +259,10 @@ class first_appView extends WatchUi.WatchFace {
       //   yearLabel.setText("Y: " + percentYear.format("%.2f"));
       // }
 
-      drawCircleProgress(dc, 38, 165, 25, percentDay, Graphics.COLOR_GREEN);
-      drawCircleProgress(dc, 91, 165, 25, percentWeek, Graphics.COLOR_GREEN);
-      drawCircleProgress(dc, 145, 165, 25, percentMonth, Graphics.COLOR_GREEN);
-      drawCircleProgress(dc, 200, 165, 25, percentYear, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 39, 167, 25, percentDay, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 93, 167, 25, percentWeek, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 148, 167, 25, percentMonth, Graphics.COLOR_GREEN);
+      drawCircleProgress(dc, 201, 167, 25, percentYear, Graphics.COLOR_GREEN);
     }
 
     // Chuyển thứ sang số
@@ -319,6 +328,15 @@ class first_appView extends WatchUi.WatchFace {
       return dayCount;
     }
 
+    // Chuyển phần nghìn thành K
+    private function formatValueWithK(value as Number) as String {
+      if (value >= 1000) {
+        return (value / 1000.0).format("%.1f") + "K";
+      } else {
+        return value.toString();
+      }
+    }
+
 
     private function drawCircleProgress(dc as Dc, cx as Number, cy as Number, r as Number, percentage as Float, color as Graphics.ColorType) {
       if (percentage >= 80) {
@@ -337,14 +355,14 @@ class first_appView extends WatchUi.WatchFace {
       var sweepAngle = percentage * 360 / 100;
 
       // Vẽ vòng tròn nền (xám) - toàn bộ 360 độ
-      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-      for (var thickness = 0; thickness < 3; thickness++) {
-        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, 270);  // Vẽ toàn bộ nền
+      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 2; thickness++) {
+        dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);  // Vẽ toàn bộ nền
       }
 
       // Vẽ vòng tròn tiến trình (màu) theo phần trăm
-      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-      for (var thickness = 0; thickness < 3; thickness++) {
+      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 4; thickness++) {
         dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);  // Vẽ tiến trình
       }
 
@@ -353,6 +371,39 @@ class first_appView extends WatchUi.WatchFace {
       var percentageStr = percentage.format("%.1f") + "%";
       dc.drawText(cx + 1, cy - 10, Graphics.FONT_XTINY, percentageStr, Graphics.TEXT_JUSTIFY_CENTER);
     }
+
+    private function drawLineLayout(dc as Dc) {
+      dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+      // dc.drawLine(0, 50, 240, 50);
+      // dc.drawLine(0, 30, 240, 30);
+      dc.drawLine(0, 135, 240, 135);
+      dc.drawLine(0, 105, 240, 105);
+
+      dc.drawLine(0, 200, 240, 200);
+      // dc.drawLine(120, 0, 120, 50);
+    }
+
+    private function drawFancyHeaderLayout(dc as Dc) {
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+
+    // Hình tròn trái
+    var cx1 = 70;
+    var cy1 = 59;
+    var r = 40;
+    dc.drawCircle(cx1, cy1, r);
+
+    // Hình tròn phải
+    var cx2 = 170;
+    var cy2 = 59;
+    dc.drawCircle(cx2, cy2, r);
+
+    // Vẽ đường chia đôi hình tròn trái
+    dc.drawLine(cx1 - r, cy1, cx1 + r, cy1);
+
+    // Vẽ đường chia đôi hình tròn phải
+    dc.drawLine(cx2 - r, cy2, cx2 + r, cy2);
+}
+
 
 
 }
