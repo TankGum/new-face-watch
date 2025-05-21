@@ -8,6 +8,7 @@ module Rez {
     module Drawables {
         (:initialized) var heartIcon as ResourceId;
         (:initialized) var stepIcon as ResourceId;
+        (:initialized) var ChargingStatus as ResourceId;
         (:initialized) var connected as ResourceId;
         (:initialized) var disConnect as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
@@ -25,11 +26,13 @@ module Rez {
 
             var rez_cmp_local_bitmap_heartIcon = new WatchUi.Bitmap({:identifier=>"heartIcon", :rezId=>$.Rez.Drawables.heartIcon, :locX=>45, :locY=>60});
 
-            var rez_cmp_local_text_StepCountDisplay = new WatchUi.Text({:identifier=>"StepCountDisplay", :color=>Gfx.COLOR_WHITE, :locX=>186, :locY=>40, :text=>"00000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+            var rez_cmp_local_text_StepCountDisplay = new WatchUi.Text({:identifier=>"StepCountDisplay", :color=>Gfx.COLOR_WHITE, :locX=>187, :locY=>40, :text=>"00000", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
 
             var rez_cmp_local_bitmap_stepIcon = new WatchUi.Bitmap({:identifier=>"stepIcon", :rezId=>$.Rez.Drawables.stepIcon, :locX=>180, :locY=>60});
 
             var rez_cmp_local_text_BatteryDisplay = new WatchUi.Text({:identifier=>"BatteryDisplay", :color=>Gfx.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :text=>"00%", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_bitmap_ChargingStatus = new WatchUi.Bitmap({:identifier=>"ChargingStatus", :rezId=>$.Rez.Drawables.ChargingStatus, :locX=>127, :locY=>WatchUi.LAYOUT_VALIGN_TOP});
 
             var rez_cmp_local_text_DeviceConnectionStatusDisplay = new WatchUi.Text({:identifier=>"DeviceConnectionStatusDisplay", :color=>Gfx.COLOR_WHITE, :locX=>WatchUi.LAYOUT_HALIGN_RIGHT, :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
 
@@ -41,7 +44,7 @@ module Rez {
 
             var rez_cmp_local_text_DateDisplay = new WatchUi.Text({:identifier=>"DateDisplay", :color=>Gfx.COLOR_WHITE, :locX=>122, :locY=>39, :text=>"00/00/00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
 
-            return [rez_cmp_local_text_TimeDisplay, rez_cmp_local_text_HeartrateDisplay, rez_cmp_local_bitmap_heartIcon, rez_cmp_local_text_StepCountDisplay, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_text_BatteryDisplay, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_text_DayOrNight, rez_cmp_local_text_DateDisplay] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_TimeDisplay, rez_cmp_local_text_HeartrateDisplay, rez_cmp_local_bitmap_heartIcon, rez_cmp_local_text_StepCountDisplay, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_text_BatteryDisplay, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_text_DayOrNight, rez_cmp_local_text_DateDisplay] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

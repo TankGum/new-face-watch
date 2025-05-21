@@ -1,0 +1,1475 @@
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [ActivityMonitor,5,13,28]; @symbol_usingAlias = [Mon,5,32,35]; ]
+using Toybox.ActivityMonitor as :Mon;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [System,6,13,19]; @symbol_usingAlias = [Sys,6,23,26]; ]
+using Toybox.System as :Sys;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Time,7,13,17]; @symbol_usingdef<2> = [Gregorian,7,18,27]; @symbol_usingAlias = [Date,7,31,35]; ]
+using Toybox.Time.Gregorian as :Date;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Application,8,13,24]; ]
+using Toybox.Application;
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 10; @symbol_moduledef = [Utils,10,7,12]; ]
+module Utils {
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 11; @symbol_functiondef = [drawCircleHeartRate,11,11,30]; @symbol_param<0> = [dc,11,31,33]; @symbol_param<0>_type<0> = [Dc,11,37,39]; @symbol_param<1> = [cx,11,41,43]; @symbol_param<1>_type<0> = [Number,11,47,53]; @symbol_param<2> = [cy,11,55,57]; @symbol_param<2>_type<0> = [Number,11,61,67]; @symbol_param<3> = [r,11,69,70]; @symbol_param<3>_type<0> = [Number,11,74,80]; @symbol_param<4> = [heartRate,11,82,91]; @symbol_param<4>_type<0> = [Float,11,95,100]; @symbol_param<5> = [color,11,102,107]; @symbol_param<5>_type<0> = [Graphics,11,111,119]; @symbol_param<5>_type<1> = [ColorType,11,120,129]; ]
+    function drawCircleHeartRate(dc as Dc, cx as Number, cy as Number, r as Number, heartRate as Float, color as Graphics.ColorType) {
+D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 12 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_start" "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_stop" ]
+        %maxHeartRate.1 = local;
+        symbol [ maxHeartRate %maxHeartRate.1 12 8 20 ];
+        %tmp.1 = 210;
+        lputv %maxHeartRate.1 %tmp.1;
+        symbol [ maxHeartRate %maxHeartRate.1 12 8 20 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 14 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_start" "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_stop" ]
+        %percent.2 = local;
+        symbol [ percent %percent.2 14 8 15 ];
+        %tmp.2 = lgetv %heartRate;
+        symbol [ heartRate %tmp.2 14 18 27 ];
+        symbol [ toFloat %tmp.3 14 28 35 ];
+        %tmp.3 = getv function %tmp.2 :toFloat;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = lgetv %maxHeartRate.1;
+        symbol [ maxHeartRate %tmp.5 14 40 52 ];
+        symbol [ toFloat %tmp.6 14 53 60 ];
+        %tmp.6 = getv function %tmp.5 :toFloat;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = div %tmp.4 %tmp.7;
+        lputv %percent.2 %tmp.8;
+        symbol [ percent %percent.2 14 8 15 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 16 4 ]
+D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_stmt:
+        %tmp.9 = lgetv %percent.2;
+        symbol [ percent %tmp.9 16 8 15 ];
+        %tmp.10 = 0.9;
+        %tmp.11 = gte %tmp.9 %tmp.10;
+        bf %tmp.11 @D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_16_24_18_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 17 6 ]
+        symbol [ Graphics %tmp.12 17 14 22 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.13 17 23 32 ];
+        %tmp.13 = getv %tmp.12 :COLOR_RED;
+        lputv %color %tmp.13;
+        symbol [ color %color 17 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_16_24_18_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 18 11 ]
+D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_stmt:
+        %tmp.14 = lgetv %percent.2;
+        symbol [ percent %tmp.14 18 15 22 ];
+        %tmp.15 = 0.2;
+        %tmp.16 = lte %tmp.14 %tmp.15;
+        bf %tmp.16 @D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_18_31_20_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 19 6 ]
+        symbol [ Graphics %tmp.17 19 14 22 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.18 19 23 32 ];
+        %tmp.18 = getv %tmp.17 :COLOR_RED;
+        lputv %color %tmp.18;
+        symbol [ color %color 19 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_18_31_20_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 20 11 ]
+D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_stmt:
+        %tmp.19 = lgetv %percent.2;
+        symbol [ percent %tmp.19 20 15 22 ];
+        %tmp.20 = 0.6;
+        %tmp.21 = gte %tmp.19 %tmp.20;
+        bf %tmp.21 @D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_20_31_22_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 21 6 ]
+        symbol [ Graphics %tmp.22 21 14 22 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.23 21 23 35 ];
+        %tmp.23 = getv %tmp.22 :COLOR_YELLOW;
+        lputv %color %tmp.23;
+        symbol [ color %color 21 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_20_31_22_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_22_11_24_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 23 6 ]
+        symbol [ Graphics %tmp.24 23 14 22 ];
+        %tmp.24 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.25 23 23 34 ];
+        %tmp.25 = getv %tmp.24 :COLOR_GREEN;
+        lputv %color %tmp.25;
+        symbol [ color %color 23 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_22_11_24_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_20_11_24_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_18_11_24_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_16_4_24_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 27 4 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 27 4 6 ];
+        symbol [ setColor %tmp.27 27 7 15 ];
+        %tmp.27 = getv function %tmp.26 :setColor;
+        symbol [ Graphics %tmp.28 27 16 24 ];
+        %tmp.28 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.29 27 25 42 ];
+        %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
+        symbol [ Graphics %tmp.30 27 44 52 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.31 27 53 66 ];
+        %tmp.31 = getv %tmp.30 :COLOR_DK_GRAY;
+        invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 28 4 ]
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 28 4 6 ];
+        symbol [ fillCircle %tmp.33 28 7 17 ];
+        %tmp.33 = getv function %tmp.32 :fillCircle;
+        %tmp.34 = lgetv %cx;
+        symbol [ cx %tmp.34 28 18 20 ];
+        %tmp.35 = lgetv %cy;
+        symbol [ cy %tmp.35 28 22 24 ];
+        %tmp.36 = lgetv %r;
+        symbol [ r %tmp.36 28 26 27 ];
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35, %tmp.36);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 31 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_start" "D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_stop" ]
+        %sweepAngle.3 = local;
+        symbol [ sweepAngle %sweepAngle.3 31 8 18 ];
+        %tmp.37 = lgetv %heartRate;
+        symbol [ heartRate %tmp.37 31 21 30 ];
+        %tmp.38 = 360;
+        %tmp.39 = mul %tmp.37 %tmp.38;
+        %tmp.40 = lgetv %maxHeartRate.1;
+        symbol [ maxHeartRate %tmp.40 31 39 51 ];
+        %tmp.41 = div %tmp.39 %tmp.40;
+        lputv %sweepAngle.3 %tmp.41;
+        symbol [ sweepAngle %sweepAngle.3 31 8 18 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 34 4 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 34 4 6 ];
+        symbol [ setColor %tmp.43 34 7 15 ];
+        %tmp.43 = getv function %tmp.42 :setColor;
+        %tmp.44 = lgetv %color;
+        symbol [ color %tmp.44 34 16 21 ];
+        symbol [ Graphics %tmp.45 34 23 31 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.46 34 32 49 ];
+        %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.46);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 35 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_test @D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_end" ]
+        %thickness.4 = local;
+        symbol [ thickness %thickness.4 35 13 22 ];
+        %tmp.47 = 0;
+        lputv %thickness.4 %tmp.47;
+        symbol [ thickness %thickness.4 35 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_test:
+        %tmp.48 = lgetv %thickness.4;
+        symbol [ thickness %tmp.48 35 28 37 ];
+        %tmp.49 = 2;
+        %tmp.50 = lt %tmp.48 %tmp.49;
+        bf %tmp.50 @D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_35_56_37_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 36 6 ]
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 36 6 8 ];
+        symbol [ drawArc %tmp.52 36 9 16 ];
+        %tmp.52 = getv function %tmp.51 :drawArc;
+        %tmp.53 = lgetv %cx;
+        symbol [ cx %tmp.53 36 17 19 ];
+        %tmp.54 = lgetv %cy;
+        symbol [ cy %tmp.54 36 21 23 ];
+        %tmp.55 = lgetv %r;
+        symbol [ r %tmp.55 36 26 27 ];
+        %tmp.56 = 1;
+        %tmp.57 = sub %tmp.55 %tmp.56;
+        %tmp.58 = lgetv %thickness.4;
+        symbol [ thickness %tmp.58 36 35 44 ];
+        %tmp.59 = sub %tmp.57 %tmp.58;
+        symbol [ Graphics %tmp.60 36 46 54 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.61 36 55 68 ];
+        %tmp.61 = getv %tmp.60 :ARC_CLOCKWISE;
+        %tmp.62 = -90;
+        %tmp.63 = 270;
+        invoke %tmp.51 %tmp.52(%tmp.53, %tmp.54, %tmp.59, %tmp.61, %tmp.62, %tmp.63);
+D_Workspace_GarminApp_source_Utils_mc_35_56_37_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 35 ]
+        %tmp.66 = lgetv %thickness.4;
+        symbol [ thickness %tmp.66 35 43 52 ];
+        %tmp.67 = add %tmp.66 1;
+        lputv %thickness.4 %tmp.67;
+        symbol [ thickness %thickness.4 35 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_35_4_37_4_for_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 40 4 ]
+        %tmp.68 = lgetv %dc;
+        symbol [ dc %tmp.68 40 4 6 ];
+        symbol [ setColor %tmp.69 40 7 15 ];
+        %tmp.69 = getv function %tmp.68 :setColor;
+        symbol [ Graphics %tmp.70 40 16 24 ];
+        %tmp.70 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.71 40 25 38 ];
+        %tmp.71 = getv %tmp.70 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.72 40 40 48 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.73 40 49 66 ];
+        %tmp.73 = getv %tmp.72 :COLOR_TRANSPARENT;
+        invoke %tmp.68 %tmp.69(%tmp.71, %tmp.73);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 41 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_test @D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_end" ]
+        %thickness.5 = local;
+        symbol [ thickness %thickness.5 41 13 22 ];
+        %tmp.74 = 0;
+        lputv %thickness.5 %tmp.74;
+        symbol [ thickness %thickness.5 41 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_test:
+        %tmp.75 = lgetv %thickness.5;
+        symbol [ thickness %tmp.75 41 28 37 ];
+        %tmp.76 = 4;
+        %tmp.77 = lt %tmp.75 %tmp.76;
+        bf %tmp.77 @D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_41_56_43_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 42 6 ]
+        %tmp.78 = lgetv %dc;
+        symbol [ dc %tmp.78 42 6 8 ];
+        symbol [ drawArc %tmp.79 42 9 16 ];
+        %tmp.79 = getv function %tmp.78 :drawArc;
+        %tmp.80 = lgetv %cx;
+        symbol [ cx %tmp.80 42 17 19 ];
+        %tmp.81 = lgetv %cy;
+        symbol [ cy %tmp.81 42 21 23 ];
+        %tmp.82 = lgetv %r;
+        symbol [ r %tmp.82 42 25 26 ];
+        %tmp.83 = lgetv %thickness.5;
+        symbol [ thickness %tmp.83 42 29 38 ];
+        %tmp.84 = sub %tmp.82 %tmp.83;
+        symbol [ Graphics %tmp.85 42 40 48 ];
+        %tmp.85 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.86 42 49 62 ];
+        %tmp.86 = getv %tmp.85 :ARC_CLOCKWISE;
+        %tmp.87 = -90;
+        %tmp.88 = -90;
+        %tmp.89 = lgetv %sweepAngle.3;
+        symbol [ sweepAngle %tmp.89 42 75 85 ];
+        %tmp.90 = add %tmp.88 %tmp.89;
+        invoke %tmp.78 %tmp.79(%tmp.80, %tmp.81, %tmp.84, %tmp.86, %tmp.87, %tmp.90);
+D_Workspace_GarminApp_source_Utils_mc_41_56_43_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 41 ]
+        %tmp.93 = lgetv %thickness.5;
+        symbol [ thickness %tmp.93 41 43 52 ];
+        %tmp.94 = add %tmp.93 1;
+        lputv %thickness.5 %tmp.94;
+        symbol [ thickness %thickness.5 41 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_41_4_43_4_for_end:
+D_Workspace_GarminApp_source_Utils_mc_11_131_44_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 46; @symbol_functiondef = [drawCircleStep,46,11,25]; @symbol_param<0> = [dc,46,26,28]; @symbol_param<0>_type<0> = [Dc,46,32,34]; @symbol_param<1> = [cx,46,36,38]; @symbol_param<1>_type<0> = [Number,46,42,48]; @symbol_param<2> = [cy,46,50,52]; @symbol_param<2>_type<0> = [Number,46,56,62]; @symbol_param<3> = [r,46,64,65]; @symbol_param<3>_type<0> = [Number,46,69,75]; @symbol_param<4> = [stepCount,46,77,86]; @symbol_param<4>_type<0> = [Float,46,90,95]; @symbol_param<5> = [color,46,97,102]; @symbol_param<5>_type<0> = [Graphics,46,106,114]; @symbol_param<5>_type<1> = [ColorType,46,115,124]; ]
+    function drawCircleStep(dc as Dc, cx as Number, cy as Number, r as Number, stepCount as Float, color as Graphics.ColorType) {
+D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 47 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_start" "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_stop" ]
+        %maxSteps.1 = local;
+        symbol [ maxSteps %maxSteps.1 47 8 16 ];
+        %tmp.1 = 10000;
+        lputv %maxSteps.1 %tmp.1;
+        symbol [ maxSteps %maxSteps.1 47 8 16 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 48 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_start" "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_stop" ]
+        %percent.2 = local;
+        symbol [ percent %percent.2 48 8 15 ];
+        %tmp.2 = lgetv %stepCount;
+        symbol [ stepCount %tmp.2 48 18 27 ];
+        symbol [ toFloat %tmp.3 48 28 35 ];
+        %tmp.3 = getv function %tmp.2 :toFloat;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = lgetv %maxSteps.1;
+        symbol [ maxSteps %tmp.5 48 40 48 ];
+        symbol [ toFloat %tmp.6 48 49 56 ];
+        %tmp.6 = getv function %tmp.5 :toFloat;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = div %tmp.4 %tmp.7;
+        lputv %percent.2 %tmp.8;
+        symbol [ percent %percent.2 48 8 15 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 50 4 ]
+D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_stmt:
+        %tmp.9 = lgetv %percent.2;
+        symbol [ percent %tmp.9 50 8 15 ];
+        %tmp.10 = 0.7;
+        %tmp.11 = gte %tmp.9 %tmp.10;
+        bf %tmp.11 @D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_50_24_52_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 51 6 ]
+        symbol [ Graphics %tmp.12 51 14 22 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.13 51 23 34 ];
+        %tmp.13 = getv %tmp.12 :COLOR_GREEN;
+        lputv %color %tmp.13;
+        symbol [ color %color 51 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_50_24_52_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 52 11 ]
+D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_stmt:
+        %tmp.14 = lgetv %percent.2;
+        symbol [ percent %tmp.14 52 15 22 ];
+        %tmp.15 = 0.5;
+        %tmp.16 = gte %tmp.14 %tmp.15;
+        bf %tmp.16 @D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_52_31_54_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 53 6 ]
+        symbol [ Graphics %tmp.17 53 14 22 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.18 53 23 35 ];
+        %tmp.18 = getv %tmp.17 :COLOR_YELLOW;
+        lputv %color %tmp.18;
+        symbol [ color %color 53 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_52_31_54_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_54_11_56_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 55 6 ]
+        symbol [ Graphics %tmp.19 55 14 22 ];
+        %tmp.19 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.20 55 23 32 ];
+        %tmp.20 = getv %tmp.19 :COLOR_RED;
+        lputv %color %tmp.20;
+        symbol [ color %color 55 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_54_11_56_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_52_11_56_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_50_4_56_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 58 4 ]
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 58 4 6 ];
+        symbol [ setColor %tmp.22 58 7 15 ];
+        %tmp.22 = getv function %tmp.21 :setColor;
+        symbol [ Graphics %tmp.23 58 16 24 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.24 58 25 42 ];
+        %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+        symbol [ Graphics %tmp.25 58 44 52 ];
+        %tmp.25 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.26 58 53 66 ];
+        %tmp.26 = getv %tmp.25 :COLOR_DK_GRAY;
+        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.26);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 59 4 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 59 4 6 ];
+        symbol [ fillCircle %tmp.28 59 7 17 ];
+        %tmp.28 = getv function %tmp.27 :fillCircle;
+        %tmp.29 = lgetv %cx;
+        symbol [ cx %tmp.29 59 18 20 ];
+        %tmp.30 = lgetv %cy;
+        symbol [ cy %tmp.30 59 22 24 ];
+        %tmp.31 = lgetv %r;
+        symbol [ r %tmp.31 59 26 27 ];
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30, %tmp.31);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 62 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_start" "D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_stop" ]
+        %sweepAngle.3 = local;
+        symbol [ sweepAngle %sweepAngle.3 62 8 18 ];
+        %tmp.32 = lgetv %stepCount;
+        symbol [ stepCount %tmp.32 62 21 30 ];
+        %tmp.33 = 360;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        %tmp.35 = lgetv %maxSteps.1;
+        symbol [ maxSteps %tmp.35 62 39 47 ];
+        %tmp.36 = div %tmp.34 %tmp.35;
+        lputv %sweepAngle.3 %tmp.36;
+        symbol [ sweepAngle %sweepAngle.3 62 8 18 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 65 4 ]
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 65 4 6 ];
+        symbol [ setColor %tmp.38 65 7 15 ];
+        %tmp.38 = getv function %tmp.37 :setColor;
+        %tmp.39 = lgetv %color;
+        symbol [ color %tmp.39 65 16 21 ];
+        symbol [ Graphics %tmp.40 65 23 31 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.41 65 32 49 ];
+        %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.41);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 66 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_test @D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_end" ]
+        %thickness.4 = local;
+        symbol [ thickness %thickness.4 66 13 22 ];
+        %tmp.42 = 0;
+        lputv %thickness.4 %tmp.42;
+        symbol [ thickness %thickness.4 66 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_test:
+        %tmp.43 = lgetv %thickness.4;
+        symbol [ thickness %tmp.43 66 28 37 ];
+        %tmp.44 = 2;
+        %tmp.45 = lt %tmp.43 %tmp.44;
+        bf %tmp.45 @D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_66_56_68_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 67 6 ]
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 67 6 8 ];
+        symbol [ drawArc %tmp.47 67 9 16 ];
+        %tmp.47 = getv function %tmp.46 :drawArc;
+        %tmp.48 = lgetv %cx;
+        symbol [ cx %tmp.48 67 17 19 ];
+        %tmp.49 = lgetv %cy;
+        symbol [ cy %tmp.49 67 21 23 ];
+        %tmp.50 = lgetv %r;
+        symbol [ r %tmp.50 67 26 27 ];
+        %tmp.51 = 1;
+        %tmp.52 = sub %tmp.50 %tmp.51;
+        %tmp.53 = lgetv %thickness.4;
+        symbol [ thickness %tmp.53 67 35 44 ];
+        %tmp.54 = sub %tmp.52 %tmp.53;
+        symbol [ Graphics %tmp.55 67 46 54 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.56 67 55 68 ];
+        %tmp.56 = getv %tmp.55 :ARC_CLOCKWISE;
+        %tmp.57 = -90;
+        %tmp.58 = 270;
+        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.49, %tmp.54, %tmp.56, %tmp.57, %tmp.58);
+D_Workspace_GarminApp_source_Utils_mc_66_56_68_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 66 ]
+        %tmp.61 = lgetv %thickness.4;
+        symbol [ thickness %tmp.61 66 43 52 ];
+        %tmp.62 = add %tmp.61 1;
+        lputv %thickness.4 %tmp.62;
+        symbol [ thickness %thickness.4 66 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_66_4_68_4_for_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 71 4 ]
+        %tmp.63 = lgetv %dc;
+        symbol [ dc %tmp.63 71 4 6 ];
+        symbol [ setColor %tmp.64 71 7 15 ];
+        %tmp.64 = getv function %tmp.63 :setColor;
+        symbol [ Graphics %tmp.65 71 16 24 ];
+        %tmp.65 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.66 71 25 38 ];
+        %tmp.66 = getv %tmp.65 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.67 71 40 48 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.68 71 49 66 ];
+        %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
+        invoke %tmp.63 %tmp.64(%tmp.66, %tmp.68);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 72 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_test @D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_end" ]
+        %thickness.5 = local;
+        symbol [ thickness %thickness.5 72 13 22 ];
+        %tmp.69 = 0;
+        lputv %thickness.5 %tmp.69;
+        symbol [ thickness %thickness.5 72 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_test:
+        %tmp.70 = lgetv %thickness.5;
+        symbol [ thickness %tmp.70 72 28 37 ];
+        %tmp.71 = 4;
+        %tmp.72 = lt %tmp.70 %tmp.71;
+        bf %tmp.72 @D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_72_56_74_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 73 6 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 73 6 8 ];
+        symbol [ drawArc %tmp.74 73 9 16 ];
+        %tmp.74 = getv function %tmp.73 :drawArc;
+        %tmp.75 = lgetv %cx;
+        symbol [ cx %tmp.75 73 17 19 ];
+        %tmp.76 = lgetv %cy;
+        symbol [ cy %tmp.76 73 21 23 ];
+        %tmp.77 = lgetv %r;
+        symbol [ r %tmp.77 73 25 26 ];
+        %tmp.78 = lgetv %thickness.5;
+        symbol [ thickness %tmp.78 73 29 38 ];
+        %tmp.79 = sub %tmp.77 %tmp.78;
+        symbol [ Graphics %tmp.80 73 40 48 ];
+        %tmp.80 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.81 73 49 62 ];
+        %tmp.81 = getv %tmp.80 :ARC_CLOCKWISE;
+        %tmp.82 = -90;
+        %tmp.83 = -90;
+        %tmp.84 = lgetv %sweepAngle.3;
+        symbol [ sweepAngle %tmp.84 73 75 85 ];
+        %tmp.85 = add %tmp.83 %tmp.84;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.76, %tmp.79, %tmp.81, %tmp.82, %tmp.85);
+D_Workspace_GarminApp_source_Utils_mc_72_56_74_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 72 ]
+        %tmp.88 = lgetv %thickness.5;
+        symbol [ thickness %tmp.88 72 43 52 ];
+        %tmp.89 = add %tmp.88 1;
+        lputv %thickness.5 %tmp.89;
+        symbol [ thickness %thickness.5 72 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_72_4_74_4_for_end:
+D_Workspace_GarminApp_source_Utils_mc_46_126_75_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 78; @symbol_functiondef = [drawBatteryBar,78,11,25]; @symbol_param<0> = [dc,78,26,28]; @symbol_param<0>_type<0> = [Dc,78,32,34]; @symbol_param<1> = [x,78,36,37]; @symbol_param<1>_type<0> = [Number,78,41,47]; @symbol_param<2> = [y,78,49,50]; @symbol_param<2>_type<0> = [Number,78,54,60]; @symbol_param<3> = [width,78,62,67]; @symbol_param<3>_type<0> = [Number,78,71,77]; @symbol_param<4> = [height,78,79,85]; @symbol_param<4>_type<0> = [Number,78,89,95]; @symbol_param<5> = [batteryPercent,78,97,111]; @symbol_param<5>_type<0> = [Float,78,115,120]; ]
+    function drawBatteryBar(dc as Dc, x as Number, y as Number, width as Number, height as Number, batteryPercent as Float) {
+D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 81 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start" "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop" ]
+        %borderColor.1 = local;
+        symbol [ borderColor %borderColor.1 81 8 19 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 82 4 ]
+D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_stmt:
+        %tmp.1 = lgetv %batteryPercent;
+        symbol [ batteryPercent %tmp.1 82 8 22 ];
+        %tmp.2 = 60;
+        %tmp.3 = gte %tmp.1 %tmp.2;
+        bf %tmp.3 @D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_82_30_84_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 83 6 ]
+        symbol [ Graphics %tmp.4 83 20 28 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.5 83 29 40 ];
+        %tmp.5 = getv %tmp.4 :COLOR_GREEN;
+        lputv %borderColor.1 %tmp.5;
+        symbol [ borderColor %borderColor.1 83 6 17 ];
+D_Workspace_GarminApp_source_Utils_mc_82_30_84_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 84 11 ]
+D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_stmt:
+        %tmp.6 = lgetv %batteryPercent;
+        symbol [ batteryPercent %tmp.6 84 15 29 ];
+        %tmp.7 = 30;
+        %tmp.8 = gte %tmp.6 %tmp.7;
+        bf %tmp.8 @D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_84_37_86_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 85 6 ]
+        symbol [ Graphics %tmp.9 85 20 28 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.10 85 29 41 ];
+        %tmp.10 = getv %tmp.9 :COLOR_YELLOW;
+        lputv %borderColor.1 %tmp.10;
+        symbol [ borderColor %borderColor.1 85 6 17 ];
+D_Workspace_GarminApp_source_Utils_mc_84_37_86_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_86_11_88_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 87 6 ]
+        symbol [ Graphics %tmp.11 87 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.12 87 29 38 ];
+        %tmp.12 = getv %tmp.11 :COLOR_RED;
+        lputv %borderColor.1 %tmp.12;
+        symbol [ borderColor %borderColor.1 87 6 17 ];
+D_Workspace_GarminApp_source_Utils_mc_86_11_88_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_84_11_88_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_82_4_88_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 90 4 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 90 4 6 ];
+        symbol [ setColor %tmp.14 90 7 15 ];
+        %tmp.14 = getv function %tmp.13 :setColor;
+        %tmp.15 = lgetv %borderColor.1;
+        symbol [ borderColor %tmp.15 90 16 27 ];
+        symbol [ Graphics %tmp.16 90 29 37 ];
+        %tmp.16 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.17 90 38 55 ];
+        %tmp.17 = getv %tmp.16 :COLOR_TRANSPARENT;
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.17);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 91 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start" "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop" ]
+        %radius.2 = local;
+        symbol [ radius %radius.2 91 8 14 ];
+        %tmp.18 = 2;
+        lputv %radius.2 %tmp.18;
+        symbol [ radius %radius.2 91 8 14 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 92 4 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 92 4 6 ];
+        symbol [ drawRoundedRectangle %tmp.20 92 7 27 ];
+        %tmp.20 = getv function %tmp.19 :drawRoundedRectangle;
+        %tmp.21 = lgetv %x;
+        symbol [ x %tmp.21 92 28 29 ];
+        %tmp.22 = lgetv %y;
+        symbol [ y %tmp.22 92 31 32 ];
+        %tmp.23 = lgetv %width;
+        symbol [ width %tmp.23 92 34 39 ];
+        %tmp.24 = lgetv %height;
+        symbol [ height %tmp.24 92 41 47 ];
+        %tmp.25 = lgetv %radius.2;
+        symbol [ radius %tmp.25 92 49 55 ];
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.23, %tmp.24, %tmp.25);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 95 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start" "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop" ]
+        %capWidth.3 = local;
+        symbol [ capWidth %capWidth.3 95 8 16 ];
+        %tmp.26 = 3;
+        lputv %capWidth.3 %tmp.26;
+        symbol [ capWidth %capWidth.3 95 8 16 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 96 4 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 96 4 6 ];
+        symbol [ setColor %tmp.28 96 7 15 ];
+        %tmp.28 = getv function %tmp.27 :setColor;
+        %tmp.29 = lgetv %borderColor.1;
+        symbol [ borderColor %tmp.29 96 16 27 ];
+        %tmp.30 = lgetv %borderColor.1;
+        symbol [ borderColor %tmp.30 96 29 40 ];
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 97 4 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 97 4 6 ];
+        symbol [ fillRectangle %tmp.32 97 7 20 ];
+        %tmp.32 = getv function %tmp.31 :fillRectangle;
+        %tmp.33 = lgetv %x;
+        symbol [ x %tmp.33 97 21 22 ];
+        %tmp.34 = lgetv %width;
+        symbol [ width %tmp.34 97 25 30 ];
+        %tmp.35 = add %tmp.33 %tmp.34;
+        %tmp.36 = lgetv %y;
+        symbol [ y %tmp.36 97 32 33 ];
+        %tmp.37 = lgetv %height;
+        symbol [ height %tmp.37 97 36 42 ];
+        %tmp.38 = 4;
+        %tmp.39 = div %tmp.37 %tmp.38;
+        %tmp.40 = add %tmp.36 %tmp.39;
+        %tmp.41 = lgetv %capWidth.3;
+        symbol [ capWidth %tmp.41 97 48 56 ];
+        %tmp.42 = lgetv %height;
+        symbol [ height %tmp.42 97 58 64 ];
+        %tmp.43 = 2;
+        %tmp.44 = div %tmp.42 %tmp.43;
+        invoke %tmp.31 %tmp.32(%tmp.35, %tmp.40, %tmp.41, %tmp.44);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 100 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start" "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop" ]
+        %innerWidth.4 = local;
+        symbol [ innerWidth %innerWidth.4 100 8 18 ];
+        %tmp.45 = lgetv %width;
+        symbol [ width %tmp.45 100 22 27 ];
+        %tmp.46 = 2;
+        %tmp.47 = sub %tmp.45 %tmp.46;
+        %tmp.48 = lgetv %batteryPercent;
+        symbol [ batteryPercent %tmp.48 100 35 49 ];
+        %tmp.49 = mul %tmp.47 %tmp.48;
+        %tmp.50 = 100;
+        %tmp.51 = div %tmp.49 %tmp.50;
+        lputv %innerWidth.4 %tmp.51;
+        symbol [ innerWidth %innerWidth.4 100 8 18 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 103 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_start" "D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop" ]
+        %fillColor.5 = local;
+        symbol [ fillColor %fillColor.5 103 8 17 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 104 4 ]
+D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_stmt:
+        %tmp.52 = lgetv %batteryPercent;
+        symbol [ batteryPercent %tmp.52 104 8 22 ];
+        %tmp.53 = 60;
+        %tmp.54 = gte %tmp.52 %tmp.53;
+        bf %tmp.54 @D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_104_30_106_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 105 6 ]
+        symbol [ Graphics %tmp.55 105 18 26 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.56 105 27 38 ];
+        %tmp.56 = getv %tmp.55 :COLOR_GREEN;
+        lputv %fillColor.5 %tmp.56;
+        symbol [ fillColor %fillColor.5 105 6 15 ];
+D_Workspace_GarminApp_source_Utils_mc_104_30_106_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 106 11 ]
+D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_stmt:
+        %tmp.57 = lgetv %batteryPercent;
+        symbol [ batteryPercent %tmp.57 106 15 29 ];
+        %tmp.58 = 30;
+        %tmp.59 = gte %tmp.57 %tmp.58;
+        bf %tmp.59 @D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_106_37_108_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 107 6 ]
+        symbol [ Graphics %tmp.60 107 18 26 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.61 107 27 39 ];
+        %tmp.61 = getv %tmp.60 :COLOR_YELLOW;
+        lputv %fillColor.5 %tmp.61;
+        symbol [ fillColor %fillColor.5 107 6 15 ];
+D_Workspace_GarminApp_source_Utils_mc_106_37_108_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_108_11_110_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 109 6 ]
+        symbol [ Graphics %tmp.62 109 18 26 ];
+        %tmp.62 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.63 109 27 36 ];
+        %tmp.63 = getv %tmp.62 :COLOR_RED;
+        lputv %fillColor.5 %tmp.63;
+        symbol [ fillColor %fillColor.5 109 6 15 ];
+D_Workspace_GarminApp_source_Utils_mc_108_11_110_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_106_11_110_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_104_4_110_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 113 4 ]
+        %tmp.64 = lgetv %dc;
+        symbol [ dc %tmp.64 113 4 6 ];
+        symbol [ setColor %tmp.65 113 7 15 ];
+        %tmp.65 = getv function %tmp.64 :setColor;
+        %tmp.66 = lgetv %fillColor.5;
+        symbol [ fillColor %tmp.66 113 16 25 ];
+        symbol [ Graphics %tmp.67 113 27 35 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.68 113 36 53 ];
+        %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
+        invoke %tmp.64 %tmp.65(%tmp.66, %tmp.68);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 114 4 ]
+        %tmp.69 = lgetv %dc;
+        symbol [ dc %tmp.69 114 4 6 ];
+        symbol [ fillRectangle %tmp.70 114 7 20 ];
+        %tmp.70 = getv function %tmp.69 :fillRectangle;
+        %tmp.71 = lgetv %x;
+        symbol [ x %tmp.71 114 21 22 ];
+        %tmp.72 = 1;
+        %tmp.73 = add %tmp.71 %tmp.72;
+        %tmp.74 = lgetv %y;
+        symbol [ y %tmp.74 114 28 29 ];
+        %tmp.75 = 1;
+        %tmp.76 = add %tmp.74 %tmp.75;
+        %tmp.77 = lgetv %innerWidth.4;
+        symbol [ innerWidth %tmp.77 114 35 45 ];
+        %tmp.78 = lgetv %height;
+        symbol [ height %tmp.78 114 47 53 ];
+        %tmp.79 = 2;
+        %tmp.80 = sub %tmp.78 %tmp.79;
+        invoke %tmp.69 %tmp.70(%tmp.73, %tmp.76, %tmp.77, %tmp.80);
+D_Workspace_GarminApp_source_Utils_mc_78_122_115_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 118; @symbol_functiondef = [retrieveHeartrateText,118,11,32]; ]
+    function retrieveHeartrateText() {
+D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 119 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_start" "D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_stop" ]
+        %heartrateIterator.1 = local;
+        symbol [ heartrateIterator %heartrateIterator.1 119 8 25 ];
+        symbol [ Mon %tmp.1 119 28 31 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.2 119 32 51 ];
+        %tmp.2 = getv function %tmp.1 :getHeartRateHistory;
+        %tmp.3 = null;
+        %tmp.4 = false;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+        lputv %heartrateIterator.1 %tmp.5;
+        symbol [ heartrateIterator %heartrateIterator.1 119 8 25 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 120 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_start" "D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_stop" ]
+        %currentHeartrate.2 = local;
+        symbol [ currentHeartrate %currentHeartrate.2 120 8 24 ];
+        %tmp.6 = lgetv %heartrateIterator.1;
+        symbol [ heartrateIterator %tmp.6 120 27 44 ];
+        symbol [ next %tmp.7 120 45 49 ];
+        %tmp.7 = getv function %tmp.6 :next;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        symbol [ heartRate %tmp.9 120 52 61 ];
+        %tmp.9 = getv %tmp.8 :heartRate;
+        lputv %currentHeartrate.2 %tmp.9;
+        symbol [ currentHeartrate %currentHeartrate.2 120 8 24 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 122 4 ]
+D_Workspace_GarminApp_source_Utils_mc_122_4_124_4_if_stmt:
+        %tmp.10 = lgetv %currentHeartrate.2;
+        symbol [ currentHeartrate %tmp.10 122 7 23 ];
+        symbol [ Mon %tmp.11 122 27 30 ];
+        %tmp.11 = getm $.Toybox.ActivityMonitor;
+        symbol [ INVALID_HR_SAMPLE %tmp.12 122 31 48 ];
+        %tmp.12 = getv %tmp.11 :INVALID_HR_SAMPLE;
+        %tmp.13 = eq %tmp.10 %tmp.12;
+        bf %tmp.13 @D_Workspace_GarminApp_source_Utils_mc_122_4_124_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_122_4_124_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_122_50_124_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 123 6 ]
+        %tmp.14 = "";
+        ret %tmp.14;
+D_Workspace_GarminApp_source_Utils_mc_122_50_124_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_122_4_124_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_122_4_124_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 126 4 ]
+        %tmp.15 = lgetv %currentHeartrate.2;
+        symbol [ currentHeartrate %tmp.15 126 11 27 ];
+        symbol [ format %tmp.16 126 28 34 ];
+        %tmp.16 = getv function %tmp.15 :format;
+        %tmp.17 = "%d";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        ret %tmp.18;
+D_Workspace_GarminApp_source_Utils_mc_118_35_127_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 130; @symbol_functiondef = [formatValueWithK,130,11,27]; @symbol_param<0> = [value,130,28,33]; @symbol_param<0>_type<0> = [Number,130,37,43]; @symbol_return<0> = [String,130,48,54]; ]
+    function formatValueWithK(value as Number) as String {
+D_Workspace_GarminApp_source_Utils_mc_130_55_136_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 131 4 ]
+D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_stmt:
+        %tmp.1 = lgetv %value;
+        symbol [ value %tmp.1 131 8 13 ];
+        %tmp.2 = 1000;
+        %tmp.3 = gte %tmp.1 %tmp.2;
+        bf %tmp.3 @D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_131_23_133_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 132 6 ]
+        %tmp.4 = lgetv %value;
+        symbol [ value %tmp.4 132 14 19 ];
+        %tmp.5 = 1000.0;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        symbol [ format %tmp.7 132 30 36 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%.1f";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = "K";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        ret %tmp.11;
+D_Workspace_GarminApp_source_Utils_mc_131_23_133_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_133_11_135_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 134 6 ]
+        %tmp.12 = lgetv %value;
+        symbol [ value %tmp.12 134 13 18 ];
+        symbol [ toString %tmp.13 134 19 27 ];
+        %tmp.13 = getv function %tmp.12 :toString;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        ret %tmp.14;
+D_Workspace_GarminApp_source_Utils_mc_133_11_135_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_131_4_135_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_130_55_136_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 138; @symbol_functiondef = [drawCircleProgress,138,11,29]; @symbol_param<0> = [dc,138,30,32]; @symbol_param<0>_type<0> = [Dc,138,36,38]; @symbol_param<1> = [cx,138,40,42]; @symbol_param<1>_type<0> = [Number,138,46,52]; @symbol_param<2> = [cy,138,54,56]; @symbol_param<2>_type<0> = [Number,138,60,66]; @symbol_param<3> = [r,138,68,69]; @symbol_param<3>_type<0> = [Number,138,73,79]; @symbol_param<4> = [percentage,138,81,91]; @symbol_param<4>_type<0> = [Float,138,95,100]; @symbol_param<5> = [color,138,102,107]; @symbol_param<5>_type<0> = [Graphics,138,111,119]; @symbol_param<5>_type<1> = [ColorType,138,120,129]; ]
+    function drawCircleProgress(dc as Dc, cx as Number, cy as Number, r as Number, percentage as Float, color as Graphics.ColorType) {
+D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 139 4 ]
+D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_stmt:
+        %tmp.1 = lgetv %percentage;
+        symbol [ percentage %tmp.1 139 8 18 ];
+        %tmp.2 = 80;
+        %tmp.3 = gte %tmp.1 %tmp.2;
+        bf %tmp.3 @D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_false;
+D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_139_26_141_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 140 6 ]
+        symbol [ Graphics %tmp.4 140 14 22 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.5 140 23 32 ];
+        %tmp.5 = getv %tmp.4 :COLOR_RED;
+        lputv %color %tmp.5;
+        symbol [ color %color 140 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_139_26_141_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_false:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 141 11 ]
+D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_stmt:
+        %tmp.6 = lgetv %percentage;
+        symbol [ percentage %tmp.6 141 15 25 ];
+        %tmp.7 = 50;
+        %tmp.8 = gte %tmp.6 %tmp.7;
+        bf %tmp.8 @D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_else_false;
+D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_141_33_143_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 142 6 ]
+        symbol [ Graphics %tmp.9 142 14 22 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.10 142 23 35 ];
+        %tmp.10 = getv %tmp.9 :COLOR_YELLOW;
+        lputv %color %tmp.10;
+        symbol [ color %color 142 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_141_33_143_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_else_false:
+D_Workspace_GarminApp_source_Utils_mc_143_11_145_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 144 6 ]
+        symbol [ Graphics %tmp.11 144 14 22 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.12 144 23 34 ];
+        %tmp.12 = getv %tmp.11 :COLOR_GREEN;
+        lputv %color %tmp.12;
+        symbol [ color %color 144 6 11 ];
+D_Workspace_GarminApp_source_Utils_mc_143_11_145_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_141_11_145_4_if_end:
+D_Workspace_GarminApp_source_Utils_mc_139_4_145_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 148 4 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 148 4 6 ];
+        symbol [ setColor %tmp.14 148 7 15 ];
+        %tmp.14 = getv function %tmp.13 :setColor;
+        symbol [ Graphics %tmp.15 148 16 24 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.16 148 25 42 ];
+        %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
+        symbol [ Graphics %tmp.17 148 44 52 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.18 148 53 66 ];
+        %tmp.18 = getv %tmp.17 :COLOR_DK_GRAY;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 149 4 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 149 4 6 ];
+        symbol [ fillCircle %tmp.20 149 7 17 ];
+        %tmp.20 = getv function %tmp.19 :fillCircle;
+        %tmp.21 = lgetv %cx;
+        symbol [ cx %tmp.21 149 18 20 ];
+        %tmp.22 = lgetv %cy;
+        symbol [ cy %tmp.22 149 22 24 ];
+        %tmp.23 = lgetv %r;
+        symbol [ r %tmp.23 149 26 27 ];
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.23);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 152 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_start" "D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_stop" ]
+        %sweepAngle.1 = local;
+        symbol [ sweepAngle %sweepAngle.1 152 8 18 ];
+        %tmp.24 = lgetv %percentage;
+        symbol [ percentage %tmp.24 152 21 31 ];
+        %tmp.25 = 360;
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        %tmp.27 = 100;
+        %tmp.28 = div %tmp.26 %tmp.27;
+        lputv %sweepAngle.1 %tmp.28;
+        symbol [ sweepAngle %sweepAngle.1 152 8 18 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 155 4 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 155 4 6 ];
+        symbol [ setColor %tmp.30 155 7 15 ];
+        %tmp.30 = getv function %tmp.29 :setColor;
+        %tmp.31 = lgetv %color;
+        symbol [ color %tmp.31 155 16 21 ];
+        symbol [ Graphics %tmp.32 155 23 31 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.33 155 32 49 ];
+        %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.33);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 156 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_test @D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_end" ]
+        %thickness.2 = local;
+        symbol [ thickness %thickness.2 156 13 22 ];
+        %tmp.34 = 0;
+        lputv %thickness.2 %tmp.34;
+        symbol [ thickness %thickness.2 156 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_test:
+        %tmp.35 = lgetv %thickness.2;
+        symbol [ thickness %tmp.35 156 28 37 ];
+        %tmp.36 = 2;
+        %tmp.37 = lt %tmp.35 %tmp.36;
+        bf %tmp.37 @D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_156_56_158_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 157 6 ]
+        %tmp.38 = lgetv %dc;
+        symbol [ dc %tmp.38 157 6 8 ];
+        symbol [ drawArc %tmp.39 157 9 16 ];
+        %tmp.39 = getv function %tmp.38 :drawArc;
+        %tmp.40 = lgetv %cx;
+        symbol [ cx %tmp.40 157 17 19 ];
+        %tmp.41 = lgetv %cy;
+        symbol [ cy %tmp.41 157 21 23 ];
+        %tmp.42 = lgetv %r;
+        symbol [ r %tmp.42 157 26 27 ];
+        %tmp.43 = 1;
+        %tmp.44 = sub %tmp.42 %tmp.43;
+        %tmp.45 = lgetv %thickness.2;
+        symbol [ thickness %tmp.45 157 35 44 ];
+        %tmp.46 = sub %tmp.44 %tmp.45;
+        symbol [ Graphics %tmp.47 157 46 54 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.48 157 55 68 ];
+        %tmp.48 = getv %tmp.47 :ARC_CLOCKWISE;
+        %tmp.49 = -90;
+        %tmp.50 = 270;
+        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.41, %tmp.46, %tmp.48, %tmp.49, %tmp.50);
+D_Workspace_GarminApp_source_Utils_mc_156_56_158_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 156 ]
+        %tmp.53 = lgetv %thickness.2;
+        symbol [ thickness %tmp.53 156 43 52 ];
+        %tmp.54 = add %tmp.53 1;
+        lputv %thickness.2 %tmp.54;
+        symbol [ thickness %thickness.2 156 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_156_4_158_4_for_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 161 4 ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 161 4 6 ];
+        symbol [ setColor %tmp.56 161 7 15 ];
+        %tmp.56 = getv function %tmp.55 :setColor;
+        symbol [ Graphics %tmp.57 161 16 24 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.58 161 25 38 ];
+        %tmp.58 = getv %tmp.57 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.59 161 40 48 ];
+        %tmp.59 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.60 161 49 66 ];
+        %tmp.60 = getv %tmp.59 :COLOR_TRANSPARENT;
+        invoke %tmp.55 %tmp.56(%tmp.58, %tmp.60);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 162 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_test @D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_end" ]
+        %thickness.3 = local;
+        symbol [ thickness %thickness.3 162 13 22 ];
+        %tmp.61 = 0;
+        lputv %thickness.3 %tmp.61;
+        symbol [ thickness %thickness.3 162 13 22 ];
+D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_test:
+        %tmp.62 = lgetv %thickness.3;
+        symbol [ thickness %tmp.62 162 28 37 ];
+        %tmp.63 = 4;
+        %tmp.64 = lt %tmp.62 %tmp.63;
+        bf %tmp.64 @D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_162_56_164_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 163 6 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 163 6 8 ];
+        symbol [ drawArc %tmp.66 163 9 16 ];
+        %tmp.66 = getv function %tmp.65 :drawArc;
+        %tmp.67 = lgetv %cx;
+        symbol [ cx %tmp.67 163 17 19 ];
+        %tmp.68 = lgetv %cy;
+        symbol [ cy %tmp.68 163 21 23 ];
+        %tmp.69 = lgetv %r;
+        symbol [ r %tmp.69 163 25 26 ];
+        %tmp.70 = lgetv %thickness.3;
+        symbol [ thickness %tmp.70 163 29 38 ];
+        %tmp.71 = sub %tmp.69 %tmp.70;
+        symbol [ Graphics %tmp.72 163 40 48 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.73 163 49 62 ];
+        %tmp.73 = getv %tmp.72 :ARC_CLOCKWISE;
+        %tmp.74 = -90;
+        %tmp.75 = -90;
+        %tmp.76 = lgetv %sweepAngle.1;
+        symbol [ sweepAngle %tmp.76 163 75 85 ];
+        %tmp.77 = add %tmp.75 %tmp.76;
+        invoke %tmp.65 %tmp.66(%tmp.67, %tmp.68, %tmp.71, %tmp.73, %tmp.74, %tmp.77);
+D_Workspace_GarminApp_source_Utils_mc_162_56_164_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 162 ]
+        %tmp.80 = lgetv %thickness.3;
+        symbol [ thickness %tmp.80 162 43 52 ];
+        %tmp.81 = add %tmp.80 1;
+        lputv %thickness.3 %tmp.81;
+        symbol [ thickness %thickness.3 162 43 52 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_162_4_164_4_for_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 167 4 ]
+        %tmp.82 = lgetv %dc;
+        symbol [ dc %tmp.82 167 4 6 ];
+        symbol [ setColor %tmp.83 167 7 15 ];
+        %tmp.83 = getv function %tmp.82 :setColor;
+        symbol [ Graphics %tmp.84 167 16 24 ];
+        %tmp.84 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.85 167 25 36 ];
+        %tmp.85 = getv %tmp.84 :COLOR_WHITE;
+        symbol [ Graphics %tmp.86 167 38 46 ];
+        %tmp.86 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.87 167 47 64 ];
+        %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
+        invoke %tmp.82 %tmp.83(%tmp.85, %tmp.87);
+[ "D:\Workspace\GarminApp\source\Utils.mc" 168 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_start" "D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_stop" ]
+        %percentageStr.4 = local;
+        symbol [ percentageStr %percentageStr.4 168 8 21 ];
+        %tmp.88 = lgetv %percentage;
+        symbol [ percentage %tmp.88 168 24 34 ];
+        symbol [ format %tmp.89 168 35 41 ];
+        %tmp.89 = getv function %tmp.88 :format;
+        %tmp.90 = "%.1f";
+        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
+        %tmp.92 = "%";
+        %tmp.93 = add %tmp.91 %tmp.92;
+        lputv %percentageStr.4 %tmp.93;
+        symbol [ percentageStr %percentageStr.4 168 8 21 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 169 4 ]
+        %tmp.94 = lgetv %dc;
+        symbol [ dc %tmp.94 169 4 6 ];
+        symbol [ drawText %tmp.95 169 7 15 ];
+        %tmp.95 = getv function %tmp.94 :drawText;
+        %tmp.96 = lgetv %cx;
+        symbol [ cx %tmp.96 169 16 18 ];
+        %tmp.97 = 1;
+        %tmp.98 = add %tmp.96 %tmp.97;
+        %tmp.99 = lgetv %cy;
+        symbol [ cy %tmp.99 169 24 26 ];
+        %tmp.100 = 10;
+        %tmp.101 = sub %tmp.99 %tmp.100;
+        symbol [ Graphics %tmp.102 169 33 41 ];
+        %tmp.102 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.103 169 42 52 ];
+        %tmp.103 = getv %tmp.102 :FONT_XTINY;
+        %tmp.104 = lgetv %percentageStr.4;
+        symbol [ percentageStr %tmp.104 169 54 67 ];
+        symbol [ Graphics %tmp.105 169 69 77 ];
+        %tmp.105 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.106 169 78 97 ];
+        %tmp.106 = getv %tmp.105 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.94 %tmp.95(%tmp.98, %tmp.101, %tmp.103, %tmp.104, %tmp.106);
+D_Workspace_GarminApp_source_Utils_mc_138_131_170_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 173; @symbol_functiondef = [getDayOfWeekNumber,173,11,29]; @symbol_param<0> = [dayStr,173,30,36]; @symbol_param<0>_type<0> = [String,173,40,46]; @symbol_return<0> = [Number,173,51,57]; ]
+    function getDayOfWeekNumber(dayStr as String) as Number {
+D_Workspace_GarminApp_source_Utils_mc_173_58_187_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 174 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_173_58_187_2_start" "D_Workspace_GarminApp_source_Utils_mc_173_58_187_2_stop" ]
+        %daysMap.1 = local;
+        symbol [ daysMap %daysMap.1 174 8 15 ];
+        %tmp.1 = newd 7;
+        %tmp.2 = "Sun";
+        %tmp.3 = 0;
+        %tmp.4 = dup %tmp.1;
+        %tmp.5 = aputv %tmp.4 %tmp.2 %tmp.3;
+        %tmp.6 = "Mon";
+        %tmp.7 = 1;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        %tmp.10 = "Tue";
+        %tmp.11 = 2;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 %tmp.10 %tmp.11;
+        %tmp.14 = "Wed";
+        %tmp.15 = 3;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.18 = "Thu";
+        %tmp.19 = 4;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+        %tmp.22 = "Fri";
+        %tmp.23 = 5;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        %tmp.26 = "Sat";
+        %tmp.27 = 6;
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 %tmp.26 %tmp.27;
+        lputv %daysMap.1 %tmp.29;
+        symbol [ daysMap %daysMap.1 174 8 15 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 183 4 ]
+D_Workspace_GarminApp_source_Utils_mc_183_4_185_4_if_stmt:
+        %tmp.30 = lgetv %daysMap.1;
+        symbol [ daysMap %tmp.30 183 8 15 ];
+        symbol [ hasKey %tmp.31 183 16 22 ];
+        %tmp.31 = getv function %tmp.30 :hasKey;
+        %tmp.32 = lgetv %dayStr;
+        symbol [ dayStr %tmp.32 183 23 29 ];
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        bf %tmp.33 @D_Workspace_GarminApp_source_Utils_mc_183_4_185_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_183_4_185_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_183_32_185_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 184 6 ]
+        %tmp.34 = lgetv %daysMap.1;
+        symbol [ daysMap %tmp.34 184 13 20 ];
+        %tmp.35 = lgetv %dayStr;
+        symbol [ dayStr %tmp.35 184 21 27 ];
+        %tmp.36 = agetv %tmp.34 %tmp.35;
+        ret %tmp.36;
+D_Workspace_GarminApp_source_Utils_mc_183_32_185_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_183_4_185_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_183_4_185_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 186 4 ]
+        %tmp.37 = 0;
+        ret %tmp.37;
+D_Workspace_GarminApp_source_Utils_mc_173_58_187_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 190; @symbol_functiondef = [monthToNumber,190,11,24]; @symbol_param<0> = [monthStr,190,25,33]; @symbol_param<0>_type<0> = [String,190,37,43]; @symbol_return<0> = [Number,190,48,54]; ]
+    function monthToNumber(monthStr as String) as Number {
+D_Workspace_GarminApp_source_Utils_mc_190_55_209_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 191 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_190_55_209_2_start" "D_Workspace_GarminApp_source_Utils_mc_190_55_209_2_stop" ]
+        %monthsMap.1 = local;
+        symbol [ monthsMap %monthsMap.1 191 8 17 ];
+        %tmp.1 = newd 12;
+        %tmp.2 = "Jan";
+        %tmp.3 = 1;
+        %tmp.4 = dup %tmp.1;
+        %tmp.5 = aputv %tmp.4 %tmp.2 %tmp.3;
+        %tmp.6 = "Feb";
+        %tmp.7 = 2;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        %tmp.10 = "Mar";
+        %tmp.11 = 3;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 %tmp.10 %tmp.11;
+        %tmp.14 = "Apr";
+        %tmp.15 = 4;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.18 = "May";
+        %tmp.19 = 5;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+        %tmp.22 = "Jun";
+        %tmp.23 = 6;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        %tmp.26 = "Jul";
+        %tmp.27 = 7;
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 %tmp.26 %tmp.27;
+        %tmp.30 = "Aug";
+        %tmp.31 = 8;
+        %tmp.32 = dup %tmp.29;
+        %tmp.33 = aputv %tmp.32 %tmp.30 %tmp.31;
+        %tmp.34 = "Sep";
+        %tmp.35 = 9;
+        %tmp.36 = dup %tmp.33;
+        %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+        %tmp.38 = "Oct";
+        %tmp.39 = 10;
+        %tmp.40 = dup %tmp.37;
+        %tmp.41 = aputv %tmp.40 %tmp.38 %tmp.39;
+        %tmp.42 = "Nov";
+        %tmp.43 = 11;
+        %tmp.44 = dup %tmp.41;
+        %tmp.45 = aputv %tmp.44 %tmp.42 %tmp.43;
+        %tmp.46 = "Dec";
+        %tmp.47 = 12;
+        %tmp.48 = dup %tmp.45;
+        %tmp.49 = aputv %tmp.48 %tmp.46 %tmp.47;
+        lputv %monthsMap.1 %tmp.49;
+        symbol [ monthsMap %monthsMap.1 191 8 17 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 205 4 ]
+D_Workspace_GarminApp_source_Utils_mc_205_4_207_4_if_stmt:
+        %tmp.50 = lgetv %monthsMap.1;
+        symbol [ monthsMap %tmp.50 205 8 17 ];
+        symbol [ hasKey %tmp.51 205 18 24 ];
+        %tmp.51 = getv function %tmp.50 :hasKey;
+        %tmp.52 = lgetv %monthStr;
+        symbol [ monthStr %tmp.52 205 25 33 ];
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        bf %tmp.53 @D_Workspace_GarminApp_source_Utils_mc_205_4_207_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_205_4_207_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_205_36_207_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 206 6 ]
+        %tmp.54 = lgetv %monthsMap.1;
+        symbol [ monthsMap %tmp.54 206 13 22 ];
+        %tmp.55 = lgetv %monthStr;
+        symbol [ monthStr %tmp.55 206 23 31 ];
+        %tmp.56 = agetv %tmp.54 %tmp.55;
+        ret %tmp.56;
+D_Workspace_GarminApp_source_Utils_mc_205_36_207_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_205_4_207_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_205_4_207_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 208 4 ]
+        %tmp.57 = 0;
+        ret %tmp.57;
+D_Workspace_GarminApp_source_Utils_mc_190_55_209_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 212; @symbol_functiondef = [daysInMonthFunc,212,11,26]; @symbol_param<0> = [year,212,27,31]; @symbol_param<0>_type<0> = [Number,212,35,41]; @symbol_param<1> = [month,212,43,48]; @symbol_param<1>_type<0> = [Number,212,52,58]; @symbol_return<0> = [Number,212,63,69]; ]
+    function daysInMonthFunc(year as Number, month as Number) as Number {
+D_Workspace_GarminApp_source_Utils_mc_212_70_218_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 213 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_212_70_218_2_start" "D_Workspace_GarminApp_source_Utils_mc_212_70_218_2_stop" ]
+        %daysPerMonth.1 = local;
+        symbol [ daysPerMonth %daysPerMonth.1 213 8 20 ];
+        %tmp.1 = newa 12;
+        %tmp.2 = 31;
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = 28;
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = 31;
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = 30;
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        %tmp.14 = 31;
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 4 %tmp.14;
+        %tmp.17 = 30;
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 5 %tmp.17;
+        %tmp.20 = 31;
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 6 %tmp.20;
+        %tmp.23 = 31;
+        %tmp.24 = dup %tmp.22;
+        %tmp.25 = aputv %tmp.24 7 %tmp.23;
+        %tmp.26 = 30;
+        %tmp.27 = dup %tmp.25;
+        %tmp.28 = aputv %tmp.27 8 %tmp.26;
+        %tmp.29 = 31;
+        %tmp.30 = dup %tmp.28;
+        %tmp.31 = aputv %tmp.30 9 %tmp.29;
+        %tmp.32 = 30;
+        %tmp.33 = dup %tmp.31;
+        %tmp.34 = aputv %tmp.33 10 %tmp.32;
+        %tmp.35 = 31;
+        %tmp.36 = dup %tmp.34;
+        %tmp.37 = aputv %tmp.36 11 %tmp.35;
+        lputv %daysPerMonth.1 %tmp.37;
+        symbol [ daysPerMonth %daysPerMonth.1 213 8 20 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 214 4 ]
+D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_stmt:
+D_Workspace_GarminApp_source_Utils_mc_214_8_214_37_begin:
+        %tmp.38 = lgetv %month;
+        symbol [ month %tmp.38 214 8 13 ];
+        %tmp.39 = 2;
+        %tmp.40 = eq %tmp.38 %tmp.39;
+        bf %tmp.40 @D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_214_22_214_37_true:
+        %tmp.41 = self;
+        symbol [ isLeapYear %tmp.42 214 22 32 ];
+        %tmp.42 = getv function %tmp.41 :isLeapYear;
+        %tmp.43 = lgetv %year;
+        symbol [ year %tmp.43 214 33 37 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        push %tmp.44;
+D_Workspace_GarminApp_source_Utils_mc_214_22_214_37_end:
+        %tmp.45 = phi [%tmp.40 @D_Workspace_GarminApp_source_Utils_mc_214_8_214_37_begin] [%tmp.44 @D_Workspace_GarminApp_source_Utils_mc_214_22_214_37_true] [%tmp.45 @D_Workspace_GarminApp_source_Utils_mc_214_22_214_37_end];
+        bf %tmp.45 @D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_true:
+D_Workspace_GarminApp_source_Utils_mc_214_40_216_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 215 6 ]
+        %tmp.46 = 29;
+        ret %tmp.46;
+D_Workspace_GarminApp_source_Utils_mc_214_40_216_4_stop:
+        goto @D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_end;
+D_Workspace_GarminApp_source_Utils_mc_214_4_216_4_if_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 217 4 ]
+        %tmp.47 = lgetv %daysPerMonth.1;
+        symbol [ daysPerMonth %tmp.47 217 11 23 ];
+        %tmp.48 = lgetv %month;
+        symbol [ month %tmp.48 217 24 29 ];
+        %tmp.49 = 1;
+        %tmp.50 = sub %tmp.48 %tmp.49;
+        %tmp.51 = agetv %tmp.47 %tmp.50;
+        ret %tmp.51;
+D_Workspace_GarminApp_source_Utils_mc_212_70_218_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 221; @symbol_functiondef = [isLeapYear,221,11,21]; @symbol_param<0> = [year,221,22,26]; @symbol_param<0>_type<0> = [Number,221,30,36]; @symbol_return<0> = [Boolean,221,41,48]; ]
+    function isLeapYear(year as Number) as Boolean {
+D_Workspace_GarminApp_source_Utils_mc_221_49_223_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 222 4 ]
+D_Workspace_GarminApp_source_Utils_mc_222_11_222_65_begin:
+D_Workspace_GarminApp_source_Utils_mc_222_12_222_43_begin:
+        %tmp.1 = lgetv %year;
+        symbol [ year %tmp.1 222 12 16 ];
+        %tmp.2 = 4;
+        %tmp.3 = mod %tmp.1 %tmp.2;
+        %tmp.4 = 0;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        %tmp.6 = dup %tmp.5;
+        bf %tmp.6 @D_Workspace_GarminApp_source_Utils_mc_222_29_222_43_end;
+D_Workspace_GarminApp_source_Utils_mc_222_29_222_43_true:
+        %tmp.7 = lgetv %year;
+        symbol [ year %tmp.7 222 29 33 ];
+        %tmp.8 = 100;
+        %tmp.9 = mod %tmp.7 %tmp.8;
+        %tmp.10 = 0;
+        %tmp.11 = ne %tmp.9 %tmp.10;
+        %tmp.12 = and %tmp.5 %tmp.11;
+        push %tmp.12;
+D_Workspace_GarminApp_source_Utils_mc_222_29_222_43_end:
+        %tmp.13 = phi [%tmp.6 @D_Workspace_GarminApp_source_Utils_mc_222_12_222_43_begin] [%tmp.12 @D_Workspace_GarminApp_source_Utils_mc_222_29_222_43_true] [%tmp.13 @D_Workspace_GarminApp_source_Utils_mc_222_29_222_43_end];
+        %tmp.14 = dup %tmp.13;
+        bt %tmp.14 @D_Workspace_GarminApp_source_Utils_mc_222_49_222_65_end;
+D_Workspace_GarminApp_source_Utils_mc_222_49_222_65_false:
+        %tmp.15 = lgetv %year;
+        symbol [ year %tmp.15 222 50 54 ];
+        %tmp.16 = 400;
+        %tmp.17 = mod %tmp.15 %tmp.16;
+        %tmp.18 = 0;
+        %tmp.19 = eq %tmp.17 %tmp.18;
+        %tmp.20 = or %tmp.13 %tmp.19;
+        push %tmp.20;
+D_Workspace_GarminApp_source_Utils_mc_222_49_222_65_end:
+        %tmp.21 = phi [%tmp.14 @D_Workspace_GarminApp_source_Utils_mc_222_11_222_65_begin] [%tmp.20 @D_Workspace_GarminApp_source_Utils_mc_222_49_222_65_false] [%tmp.21 @D_Workspace_GarminApp_source_Utils_mc_222_49_222_65_end];
+        ret %tmp.21;
+D_Workspace_GarminApp_source_Utils_mc_221_49_223_2_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 226; @symbol_functiondef = [dayOfYearFunc,226,11,24]; @symbol_param<0> = [year,226,25,29]; @symbol_param<0>_type<0> = [Number,226,33,39]; @symbol_param<1> = [month,226,41,46]; @symbol_param<1>_type<0> = [Number,226,50,56]; @symbol_param<2> = [day,226,58,61]; @symbol_param<2>_type<0> = [Number,226,65,71]; @symbol_return<0> = [Number,226,76,82]; ]
+    function dayOfYearFunc(year as Number, month as Number, day as Number) as Number {
+D_Workspace_GarminApp_source_Utils_mc_226_83_233_2_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 227 4 ]
+        [ "D_Workspace_GarminApp_source_Utils_mc_226_83_233_2_start" "D_Workspace_GarminApp_source_Utils_mc_226_83_233_2_stop" ]
+        %dayCount.1 = local;
+        symbol [ dayCount %dayCount.1 227 8 16 ];
+        %tmp.1 = 0;
+        lputv %dayCount.1 %tmp.1;
+        symbol [ dayCount %dayCount.1 227 8 16 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 228 4 ]
+        for @D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_test @D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_incr @D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_init:
+        [ "D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_begin" "D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_end" ]
+        %m.2 = local;
+        symbol [ m %m.2 228 13 14 ];
+        %tmp.2 = 1;
+        lputv %m.2 %tmp.2;
+        symbol [ m %m.2 228 13 14 ];
+D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_test:
+        %tmp.3 = lgetv %m.2;
+        symbol [ m %tmp.3 228 20 21 ];
+        %tmp.4 = lgetv %month;
+        symbol [ month %tmp.4 228 24 29 ];
+        %tmp.5 = lt %tmp.3 %tmp.4;
+        bf %tmp.5 @D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_end;
+D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_begin:
+D_Workspace_GarminApp_source_Utils_mc_228_36_230_4_start:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 229 6 ]
+        %tmp.6 = lgetv %dayCount.1;
+        symbol [ dayCount %tmp.6 229 6 14 ];
+        %tmp.7 = self;
+        symbol [ daysInMonthFunc %tmp.8 229 18 33 ];
+        %tmp.8 = getv function %tmp.7 :daysInMonthFunc;
+        %tmp.9 = lgetv %year;
+        symbol [ year %tmp.9 229 34 38 ];
+        %tmp.10 = lgetv %m.2;
+        symbol [ m %tmp.10 229 40 41 ];
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10);
+        %tmp.12 = add %tmp.6 %tmp.11;
+        lputv %dayCount.1 %tmp.12;
+        symbol [ dayCount %dayCount.1 229 6 14 ];
+D_Workspace_GarminApp_source_Utils_mc_228_36_230_4_stop:
+D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_incr:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 228 ]
+        %tmp.15 = lgetv %m.2;
+        symbol [ m %tmp.15 228 31 32 ];
+        %tmp.16 = add %tmp.15 1;
+        lputv %m.2 %tmp.16;
+        symbol [ m %m.2 228 31 32 ];
+        goto @D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_test;
+D_Workspace_GarminApp_source_Utils_mc_228_4_230_4_for_end:
+[ "D:\Workspace\GarminApp\source\Utils.mc" 231 4 ]
+        %tmp.17 = lgetv %dayCount.1;
+        symbol [ dayCount %tmp.17 231 4 12 ];
+        %tmp.18 = lgetv %day;
+        symbol [ day %tmp.18 231 16 19 ];
+        %tmp.19 = add %tmp.17 %tmp.18;
+        lputv %dayCount.1 %tmp.19;
+        symbol [ dayCount %dayCount.1 231 4 12 ];
+[ "D:\Workspace\GarminApp\source\Utils.mc" 232 4 ]
+        %tmp.20 = lgetv %dayCount.1;
+        symbol [ dayCount %tmp.20 232 11 19 ];
+        ret %tmp.20;
+D_Workspace_GarminApp_source_Utils_mc_226_83_233_2_stop:
+    }
+}
+[ @file = "D:\Workspace\GarminApp\source\Utils.mc"; @line = 1; ]
+<init> {
+}
