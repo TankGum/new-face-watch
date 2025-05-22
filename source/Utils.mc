@@ -6,10 +6,18 @@ using Toybox.ActivityMonitor as Mon;
 using Toybox.System as Sys;
 using Toybox.Time.Gregorian as Date;
 using Toybox.Application;
+using Toybox.Application as App;
 
 module Utils {
   function drawCircleHeartRate(dc as Dc, cx as Number, cy as Number, r as Number, heartRate as Float, color as Graphics.ColorType) {
-    var maxHeartRate = 210; //TODO: Lấy từ input
+    var maxHeartRate = App.getApp().getProperty("maxHeartRate");
+
+    if (maxHeartRate != null) {
+      maxHeartRate = maxHeartRate.toNumber();
+      if (maxHeartRate < 30) {
+        maxHeartRate = 210;
+      }
+    }
     
     var percent = heartRate.toFloat() / maxHeartRate.toFloat();
 
@@ -44,9 +52,21 @@ module Utils {
   }
 
   function drawCircleStep(dc as Dc, cx as Number, cy as Number, r as Number, stepCount as Float, color as Graphics.ColorType) {
-    var maxSteps = 10000; //TODO: Lấy từ input
-    var percent = stepCount.toFloat() / maxSteps.toFloat();
+    var stepsGoal = App.getApp().getProperty("stepsGoal");
 
+    if (stepsGoal != null) {
+      stepsGoal = stepsGoal.toNumber();
+      if (stepsGoal < 1) {
+        stepsGoal = 10000;
+      }
+    }
+
+    var percent = stepCount.toFloat() / stepsGoal.toFloat();
+
+    if (percent > 1.0) {
+      percent = 1.0;
+    }
+  
     if (percent >= 0.7) {
       color = Graphics.COLOR_GREEN;
     } else if (percent >= 0.5) {
@@ -55,22 +75,111 @@ module Utils {
       color = Graphics.COLOR_RED;
     }
 
+    // Xóa nền
     dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
     dc.fillCircle(cx, cy, r);
 
-    // Tính góc quay (0-360 độ)
-    var sweepAngle = stepCount * 360 / maxSteps;
+    // Góc quét
+    var sweepAngle = percent * 360;
 
-    // Vẽ vòng tròn nền (xám) - toàn bộ 360 độ
+    // Vòng tròn nền
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
     for (var thickness = 0; thickness < 2; thickness++) {
       dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
     }
 
-    // Vẽ vòng tròn tiến trình (màu) theo phần trăm
+    // Vòng tròn tiến trình
     dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
     for (var thickness = 0; thickness < 4; thickness++) {
       dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+    }
+  }
+
+  function drawCircleDistance(dc as Dc, cx as Number, cy as Number, r as Number, distancesCount as Float, color as Graphics.ColorType) {
+    var distancesGoal = App.getApp().getProperty("distancesGoal");
+
+    if (distancesGoal != null) {
+      distancesGoal = distancesGoal.toNumber();
+      if (distancesGoal < 1) {
+        distancesGoal = 300;
+      }
+    }
+
+    var percent = distancesCount.toFloat() / distancesGoal.toFloat();
+
+    if (percent > 1.0) {
+      percent = 1.0;
+    }
+  
+    if (percent >= 0.7) {
+      color = Graphics.COLOR_GREEN;
+    } else if (percent >= 0.5) {
+      color = Graphics.COLOR_YELLOW;
+    } else {
+      color = Graphics.COLOR_RED;
+    }
+
+    // Xóa nền
+    dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
+    dc.fillCircle(cx, cy, r);
+
+    // Góc quét
+    var sweepAngle = percent * 360;
+
+    // Vòng tròn nền
+    dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+    for (var thickness = 0; thickness < 2; thickness++) {
+      dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
+    }
+
+    // Vòng tròn tiến trình
+    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+    for (var thickness = 0; thickness < 4; thickness++) {
+      dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+    }
+  }
+
+  function drawCircleCalories(dc as Dc, cx as Number, cy as Number, r as Number, caloriesCount as Float, color as Graphics.ColorType) {
+    var caloriesGoal = App.getApp().getProperty("caloriesGoal");
+
+    if (caloriesGoal != null) {
+      caloriesGoal = caloriesGoal.toNumber();
+      if (caloriesGoal < 1) {
+        caloriesGoal = 15000;
+      }
+    }
+
+    var percent = caloriesCount.toFloat() / caloriesGoal.toFloat();
+
+    if (percent > 1.0) {
+      percent = 1.0;
+    }
+  
+    if (percent >= 0.7) {
+      color = Graphics.COLOR_GREEN;
+    } else if (percent >= 0.5) {
+      color = Graphics.COLOR_YELLOW;
+    } else {
+      color = Graphics.COLOR_RED;
+    }
+
+    // Xóa nền
+    dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
+    dc.fillCircle(cx, cy, r);
+
+    // Góc quét
+    var sweepAngle = percent * 360;
+
+    // Vòng tròn nền
+    dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+    for (var thickness = 0; thickness < 2; thickness++) {
+        dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
+    }
+
+    // Vòng tròn tiến trình
+    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+    for (var thickness = 0; thickness < 4; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
     }
   }
 
@@ -129,7 +238,7 @@ module Utils {
   // Chuyển phần nghìn thành K
   function formatValueWithK(value as Number) as String {
     if (value >= 1000) {
-      return (value / 1000.0).format("%.1f") + "K";
+      return (value / 1000.0).format("%.1f") + "k";
     } else {
       return value.toString();
     }
@@ -165,8 +274,9 @@ module Utils {
 
     // Hiển thị phần trăm ở giữa vòng tròn
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
     var percentageStr = percentage.format("%.1f") + "%";
-    dc.drawText(cx + 1, cy - 10, Graphics.FONT_XTINY, percentageStr, Graphics.TEXT_JUSTIFY_CENTER);
+    dc.drawText(cx + 1, cy - 8, spaceGroteskFont, percentageStr, Graphics.TEXT_JUSTIFY_CENTER);
   }
 
   // Chuyển thứ sang số

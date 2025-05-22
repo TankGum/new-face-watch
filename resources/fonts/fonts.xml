@@ -1,3 +1,4 @@
 <fonts>
 	<font id="myFont" filename="myFont.fnt"/>
+	<font id="spaceGrotesk" filename="space-grotesk.fnt"/>
 </fonts>

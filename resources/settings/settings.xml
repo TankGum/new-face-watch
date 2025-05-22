@@ -1,0 +1,50 @@
+<settings>
+
+  <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle">
+    <settingConfig type="alphaNumeric" readonly="true" />
+  </setting>
+
+  <setting propertyKey="@Properties.themeBackground" title="@Strings.themeBackgroundTitle">
+    <settingConfig type="list">
+      <listEntry value="1">@Strings.themeBackgroundOrange</listEntry>
+      <listEntry value="2">@Strings.themeBackgroundPurple</listEntry>
+      <listEntry value="3">@Strings.themeBackgroundDarkRed</listEntry>
+      <listEntry value="0">@Strings.themeBackgroundTransparent</listEntry>
+    </settingConfig>
+  </setting>
+
+  <setting propertyKey="@Properties.stepsGoal" title="@Strings.stepsGoalTitle" prompt="@Strings.stepsGoalPrompt">
+    <settingConfig type="numeric" min="1" errorMessage="@Strings.stepsGoalError"/>
+  </setting>
+
+  <setting propertyKey="@Properties.distancesGoal" title="@Strings.distancesGoalTitle" prompt="@Strings.distancesGoalPrompt">
+    <settingConfig type="numeric" min="1" errorMessage="@Strings.distancesGoalError"/>
+  </setting>
+
+  <setting propertyKey="@Properties.caloriesGoal" title="@Strings.caloriesGoalTitle" prompt="@Strings.caloriesGoalPrompt">
+    <settingConfig type="numeric" min="1" errorMessage="@Strings.caloriesGoalError"/>
+  </setting>
+
+  <setting propertyKey="@Properties.maxHeartRate" title="@Strings.maxHeartRateTitle" prompt="@Strings.maxHeartRatePrompt">
+    <settingConfig type="numeric" min="30" max="210" errorMessage="@Strings.maxHeartRateError"/>
+  </setting>
+
+  <setting propertyKey="@Properties.Field1Type" title="@Strings.DataField1Title">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Step</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Distance</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.Field2Type" title="@Strings.DataField2Title">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Step</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Distance</listEntry>
+		</settingConfig>
+	</setting>
+
+</settings>

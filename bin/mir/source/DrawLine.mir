@@ -13,13 +13,11 @@ D_Workspace_GarminApp_source_DrawLine_mc_4_36_27_2_start:
         symbol [ dc %tmp.1 5 4 6 ];
         symbol [ setColor %tmp.2 5 7 15 ];
         %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 5 16 24 ];
-        %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.4 5 25 36 ];
-        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
-        symbol [ Graphics %tmp.5 5 38 46 ];
+        symbol [ textColor %tmp.4 5 16 25 ];
+        %tmp.4 = getv ? :textColor;
+        symbol [ Graphics %tmp.5 5 27 35 ];
         %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.6 5 47 64 ];
+        symbol [ COLOR_TRANSPARENT %tmp.6 5 36 53 ];
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
 [ "D:\Workspace\GarminApp\source\DrawLine.mc" 7 4 ]

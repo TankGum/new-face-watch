@@ -1,0 +1,45 @@
+<resources>
+  <!-- Cho AppVersion -->
+  <string id="AppVersionTitle">App Version</string>
+
+  <string id="themeBackgroundTitle">Select Option</string>
+  <string id="themeBackgroundOrange">Orange</string>
+  <string id="themeBackgroundPurple">Purple</string>
+  <string id="themeBackgroundDarkRed">DarkRed</string>
+  <string id="themeBackgroundTransparent">Transparent</string>
+  
+  <!-- Cho stepsGoal -->
+  <string id="stepsGoalTitle">Enter steps goal</string>
+  <string id="stepsGoalPrompt">Input required</string>
+  <string id="stepsGoalError">Invalid number</string>
+
+  <!-- Cho maxHeartRate -->
+  <string id="maxHeartRateTitle">Enter max heart rate</string>
+  <string id="maxHeartRatePrompt">Input required</string>
+  <string id="maxHeartRateError">Invalid number</string>
+
+  <!-- Cho distancesGoal -->
+  <string id="distancesGoalTitle">Enter distances goal</string>
+  <string id="distancesGoalPrompt">Input required</string>
+  <string id="distancesGoalError">Invalid number</string>
+
+  <!-- Cho caloriesGoal -->
+  <string id="caloriesGoalTitle">Enter calories goal</string>
+  <string id="caloriesGoalPrompt">Input required</string>
+  <string id="caloriesGoalError">Invalid number</string>
+
+  <!-- Cho DataField1 -->
+  <string id="DataField1Title">Select Data Field 1</string>
+  <string id="HeartRate">Heart Rate</string>
+  <string id="Step">Steps</string>
+  <string id="Calories">Calories</string>
+  <string id="Distance">Distance</string>
+
+  <!-- Cho DataField2 -->
+  <string id="DataField2Title">Select Data Field 2</string>
+  <string id="HeartRate">Heart Rate</string>
+  <string id="Step">Steps</string>
+  <string id="Calories">Calories</string>
+  <string id="Distance">Distance</string>
+
+</resources>

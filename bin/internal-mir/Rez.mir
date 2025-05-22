@@ -22,697 +22,437 @@ module Rez {
         var heartIcon as ResourceId;
         [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [stepIcon,10,27,35]; @symbol_type<0> = [ResourceId,10,39,49]; ]
         var stepIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [ChargingStatus,11,27,41]; @symbol_type<0> = [ResourceId,11,45,55]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [caloriesIcon,11,27,39]; @symbol_type<0> = [ResourceId,11,43,53]; ]
+        var caloriesIcon as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [steepIcon,12,27,36]; @symbol_type<0> = [ResourceId,12,40,50]; ]
+        var steepIcon as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [distanceIcon,13,27,39]; @symbol_type<0> = [ResourceId,13,43,53]; ]
+        var distanceIcon as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [ChargingStatus,14,27,41]; @symbol_type<0> = [ResourceId,14,45,55]; ]
         var ChargingStatus as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [connected,12,27,36]; @symbol_type<0> = [ResourceId,12,40,50]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [connected,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
         var connected as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [disConnect,13,27,37]; @symbol_type<0> = [ResourceId,13,41,51]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [disConnect,16,27,37]; @symbol_type<0> = [ResourceId,16,41,51]; ]
         var disConnect as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,14,27,39]; @symbol_type<0> = [ResourceId,14,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,17,27,39]; @symbol_type<0> = [ResourceId,17,43,53]; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 17; @symbol_moduledef = [Fonts,17,11,16]; ]
+    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 20; @symbol_moduledef = [Fonts,20,11,16]; ]
     module Fonts {
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 17; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [myFont,18,27,33]; @symbol_type<0> = [ResourceId,18,37,47]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [myFont,21,27,33]; @symbol_type<0> = [ResourceId,21,37,47]; ]
         var myFont as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [spaceGrotesk,22,27,39]; @symbol_type<0> = [ResourceId,22,43,53]; ]
+        var spaceGrotesk as ResourceId;
     }
-    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 21; @symbol_moduledef = [Layouts,21,11,18]; ]
+    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 25; @symbol_moduledef = [Layouts,25,11,18]; ]
     module Layouts {
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 21; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 25; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 22; @symbol_functiondef = [WatchFace,22,17,26]; @symbol_param<0> = [dc,22,27,29]; @symbol_param<0>_type<0> = [Graphics,22,33,41]; @symbol_param<0>_type<1> = [Dc,22,42,44]; @symbol_return<0> = [Array,22,49,54]; @symbol_return<1> = [WatchUi,22,55,62]; @symbol_return<2> = [Drawable,22,63,71]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 26; @symbol_functiondef = [WatchFace,26,17,26]; @symbol_param<0> = [dc,26,27,29]; @symbol_param<0>_type<0> = [Graphics,26,33,41]; @symbol_param<0>_type<1> = [Dc,26,42,44]; @symbol_return<0> = [Array,26,49,54]; @symbol_return<1> = [WatchUi,26,55,62]; @symbol_return<2> = [Drawable,26,63,71]; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start:
-[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 23 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_TimeDisplay.1 = local;
-            symbol [ rez_cmp_local_text_TimeDisplay %rez_cmp_local_text_TimeDisplay.1 23 16 46 ];
-            symbol [ WatchUi %tmp.3 23 53 60 ];
+d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start:
+[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 27 12 ]
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_heartIcon.1 = local;
+            symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.1 27 16 46 ];
+            symbol [ WatchUi %tmp.3 27 53 60 ];
             %tmp.3 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.4 23 61 65 ];
-            %tmp.4 = getv function ? %tmp.3 :Text;
-            %tmp.5 = newd 6;
+            symbol [ Bitmap %tmp.4 27 61 67 ];
+            %tmp.4 = getv function ? %tmp.3 :Bitmap;
+            %tmp.5 = newd 2;
             %tmp.7 = const :identifier;
-            symbol [ identifier %tmp.7 23 68 78 const ];
-            %tmp.8 = "TimeDisplay";
+            symbol [ identifier %tmp.7 27 70 80 const ];
+            %tmp.8 = "heartIcon";
             %tmp.9 = dup %tmp.5;
             %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
-            %tmp.12 = const :color;
-            symbol [ color %tmp.12 23 96 101 const ];
-            symbol [ Gfx %tmp.13 23 103 106 ];
-            %tmp.13 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.14 23 107 118 ];
-            %tmp.14 = getv %tmp.13 :COLOR_WHITE;
-            %tmp.15 = dup %tmp.10;
-            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
-            %tmp.18 = const :locX;
-            symbol [ locX %tmp.18 23 121 125 const ];
-            %tmp.19 = 240;
-            %tmp.20 = 0.5;
-            %tmp.21 = mul %tmp.19 %tmp.20;
-            %tmp.22 = dup %tmp.16;
-            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
-            %tmp.25 = const :locY;
-            symbol [ locY %tmp.25 23 141 145 const ];
-            %tmp.26 = 76;
+            %tmp.12 = const :rezId;
+            symbol [ rezId %tmp.12 27 96 101 const ];
+            symbol [ $ %tmp.13 27 103 104 ];
+            %tmp.13 = getm $;
+            symbol [ Rez %tmp.14 27 105 108 ];
+            %tmp.14 = getv %tmp.13 :Rez;
+            symbol [ Drawables %tmp.15 27 109 118 ];
+            %tmp.15 = getv %tmp.14 :Drawables;
+            symbol [ heartIcon %tmp.16 27 119 128 ];
+            %tmp.16 = getv %tmp.15 :heartIcon;
+            %tmp.17 = dup %tmp.10;
+            %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+            %tmp.1 = newc %tmp.4 (%tmp.18);
+            lputv %rez_cmp_local_bitmap_heartIcon.1 %tmp.1;
+            symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.1 27 16 46 ];
+[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 29 12 ]
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_stepIcon.2 = local;
+            symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.2 29 16 45 ];
+            symbol [ WatchUi %tmp.21 29 52 59 ];
+            %tmp.21 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.22 29 60 66 ];
+            %tmp.22 = getv function ? %tmp.21 :Bitmap;
+            %tmp.23 = newd 2;
+            %tmp.25 = const :identifier;
+            symbol [ identifier %tmp.25 29 69 79 const ];
+            %tmp.26 = "stepIcon";
             %tmp.27 = dup %tmp.23;
             %tmp.28 = aputv %tmp.27 %tmp.25 %tmp.26;
-            %tmp.30 = const :justification;
-            symbol [ justification %tmp.30 23 152 165 const ];
-            symbol [ Gfx %tmp.31 23 167 170 ];
-            %tmp.31 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.32 23 171 190 ];
-            %tmp.32 = getv %tmp.31 :TEXT_JUSTIFY_CENTER;
-            %tmp.33 = dup %tmp.28;
-            %tmp.34 = aputv %tmp.33 %tmp.30 %tmp.32;
-            %tmp.36 = const :font;
-            symbol [ font %tmp.36 23 193 197 const ];
-            symbol [ Gfx %tmp.37 23 199 202 ];
-            %tmp.37 = getm $.Toybox.Graphics;
-            symbol [ FONT_SYSTEM_NUMBER_HOT %tmp.38 23 203 225 ];
-            %tmp.38 = getv %tmp.37 :FONT_SYSTEM_NUMBER_HOT;
-            %tmp.39 = dup %tmp.34;
-            %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
-            %tmp.1 = newc %tmp.4 (%tmp.40);
-            lputv %rez_cmp_local_text_TimeDisplay.1 %tmp.1;
-            symbol [ rez_cmp_local_text_TimeDisplay %rez_cmp_local_text_TimeDisplay.1 23 16 46 ];
-[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 25 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_HeartrateDisplay.2 = local;
-            symbol [ rez_cmp_local_text_HeartrateDisplay %rez_cmp_local_text_HeartrateDisplay.2 25 16 51 ];
-            symbol [ WatchUi %tmp.43 25 58 65 ];
-            %tmp.43 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.44 25 66 70 ];
-            %tmp.44 = getv function ? %tmp.43 :Text;
-            %tmp.45 = newd 7;
-            %tmp.47 = const :identifier;
-            symbol [ identifier %tmp.47 25 73 83 const ];
-            %tmp.48 = "HeartrateDisplay";
-            %tmp.49 = dup %tmp.45;
-            %tmp.50 = aputv %tmp.49 %tmp.47 %tmp.48;
-            %tmp.52 = const :color;
-            symbol [ color %tmp.52 25 106 111 const ];
-            symbol [ Gfx %tmp.53 25 113 116 ];
-            %tmp.53 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.54 25 117 128 ];
-            %tmp.54 = getv %tmp.53 :COLOR_WHITE;
-            %tmp.55 = dup %tmp.50;
-            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
-            %tmp.58 = const :locX;
-            symbol [ locX %tmp.58 25 131 135 const ];
-            %tmp.59 = 54;
-            %tmp.60 = dup %tmp.56;
-            %tmp.61 = aputv %tmp.60 %tmp.58 %tmp.59;
-            %tmp.63 = const :locY;
-            symbol [ locY %tmp.63 25 142 146 const ];
-            %tmp.64 = 40;
-            %tmp.65 = dup %tmp.61;
-            %tmp.66 = aputv %tmp.65 %tmp.63 %tmp.64;
-            %tmp.68 = const :text;
-            symbol [ text %tmp.68 25 153 157 const ];
-            %tmp.69 = "000";
-            %tmp.70 = dup %tmp.66;
-            %tmp.71 = aputv %tmp.70 %tmp.68 %tmp.69;
-            %tmp.73 = const :justification;
-            symbol [ justification %tmp.73 25 167 180 const ];
-            symbol [ Gfx %tmp.74 25 182 185 ];
-            %tmp.74 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.75 25 186 205 ];
-            %tmp.75 = getv %tmp.74 :TEXT_JUSTIFY_CENTER;
-            %tmp.76 = dup %tmp.71;
-            %tmp.77 = aputv %tmp.76 %tmp.73 %tmp.75;
-            %tmp.79 = const :font;
-            symbol [ font %tmp.79 25 208 212 const ];
-            symbol [ Gfx %tmp.80 25 214 217 ];
-            %tmp.80 = getm $.Toybox.Graphics;
-            symbol [ FONT_XTINY %tmp.81 25 218 228 ];
-            %tmp.81 = getv %tmp.80 :FONT_XTINY;
-            %tmp.82 = dup %tmp.77;
-            %tmp.83 = aputv %tmp.82 %tmp.79 %tmp.81;
-            %tmp.41 = newc %tmp.44 (%tmp.83);
-            lputv %rez_cmp_local_text_HeartrateDisplay.2 %tmp.41;
-            symbol [ rez_cmp_local_text_HeartrateDisplay %rez_cmp_local_text_HeartrateDisplay.2 25 16 51 ];
-[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 27 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_bitmap_heartIcon.3 = local;
-            symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.3 27 16 46 ];
-            symbol [ WatchUi %tmp.86 27 53 60 ];
-            %tmp.86 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.87 27 61 67 ];
-            %tmp.87 = getv function ? %tmp.86 :Bitmap;
-            %tmp.88 = newd 4;
-            %tmp.90 = const :identifier;
-            symbol [ identifier %tmp.90 27 70 80 const ];
-            %tmp.91 = "heartIcon";
-            %tmp.92 = dup %tmp.88;
-            %tmp.93 = aputv %tmp.92 %tmp.90 %tmp.91;
-            %tmp.95 = const :rezId;
-            symbol [ rezId %tmp.95 27 96 101 const ];
-            symbol [ $ %tmp.96 27 103 104 ];
-            %tmp.96 = getm $;
-            symbol [ Rez %tmp.97 27 105 108 ];
-            %tmp.97 = getv %tmp.96 :Rez;
-            symbol [ Drawables %tmp.98 27 109 118 ];
-            %tmp.98 = getv %tmp.97 :Drawables;
-            symbol [ heartIcon %tmp.99 27 119 128 ];
-            %tmp.99 = getv %tmp.98 :heartIcon;
-            %tmp.100 = dup %tmp.93;
-            %tmp.101 = aputv %tmp.100 %tmp.95 %tmp.99;
-            %tmp.103 = const :locX;
-            symbol [ locX %tmp.103 27 131 135 const ];
-            %tmp.104 = 45;
-            %tmp.105 = dup %tmp.101;
-            %tmp.106 = aputv %tmp.105 %tmp.103 %tmp.104;
-            %tmp.108 = const :locY;
-            symbol [ locY %tmp.108 27 142 146 const ];
-            %tmp.109 = 60;
-            %tmp.110 = dup %tmp.106;
-            %tmp.111 = aputv %tmp.110 %tmp.108 %tmp.109;
-            %tmp.84 = newc %tmp.87 (%tmp.111);
-            lputv %rez_cmp_local_bitmap_heartIcon.3 %tmp.84;
-            symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.3 27 16 46 ];
-[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 29 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_StepCountDisplay.4 = local;
-            symbol [ rez_cmp_local_text_StepCountDisplay %rez_cmp_local_text_StepCountDisplay.4 29 16 51 ];
-            symbol [ WatchUi %tmp.114 29 58 65 ];
-            %tmp.114 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.115 29 66 70 ];
-            %tmp.115 = getv function ? %tmp.114 :Text;
-            %tmp.116 = newd 7;
-            %tmp.118 = const :identifier;
-            symbol [ identifier %tmp.118 29 73 83 const ];
-            %tmp.119 = "StepCountDisplay";
-            %tmp.120 = dup %tmp.116;
-            %tmp.121 = aputv %tmp.120 %tmp.118 %tmp.119;
-            %tmp.123 = const :color;
-            symbol [ color %tmp.123 29 106 111 const ];
-            symbol [ Gfx %tmp.124 29 113 116 ];
-            %tmp.124 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.125 29 117 128 ];
-            %tmp.125 = getv %tmp.124 :COLOR_WHITE;
-            %tmp.126 = dup %tmp.121;
-            %tmp.127 = aputv %tmp.126 %tmp.123 %tmp.125;
-            %tmp.129 = const :locX;
-            symbol [ locX %tmp.129 29 131 135 const ];
-            %tmp.130 = 187;
-            %tmp.131 = dup %tmp.127;
-            %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
-            %tmp.134 = const :locY;
-            symbol [ locY %tmp.134 29 143 147 const ];
-            %tmp.135 = 40;
-            %tmp.136 = dup %tmp.132;
-            %tmp.137 = aputv %tmp.136 %tmp.134 %tmp.135;
-            %tmp.139 = const :text;
-            symbol [ text %tmp.139 29 154 158 const ];
-            %tmp.140 = "00000";
-            %tmp.141 = dup %tmp.137;
-            %tmp.142 = aputv %tmp.141 %tmp.139 %tmp.140;
-            %tmp.144 = const :justification;
-            symbol [ justification %tmp.144 29 170 183 const ];
-            symbol [ Gfx %tmp.145 29 185 188 ];
-            %tmp.145 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.146 29 189 208 ];
-            %tmp.146 = getv %tmp.145 :TEXT_JUSTIFY_CENTER;
-            %tmp.147 = dup %tmp.142;
-            %tmp.148 = aputv %tmp.147 %tmp.144 %tmp.146;
-            %tmp.150 = const :font;
-            symbol [ font %tmp.150 29 211 215 const ];
-            symbol [ Gfx %tmp.151 29 217 220 ];
-            %tmp.151 = getm $.Toybox.Graphics;
-            symbol [ FONT_XTINY %tmp.152 29 221 231 ];
-            %tmp.152 = getv %tmp.151 :FONT_XTINY;
-            %tmp.153 = dup %tmp.148;
-            %tmp.154 = aputv %tmp.153 %tmp.150 %tmp.152;
-            %tmp.112 = newc %tmp.115 (%tmp.154);
-            lputv %rez_cmp_local_text_StepCountDisplay.4 %tmp.112;
-            symbol [ rez_cmp_local_text_StepCountDisplay %rez_cmp_local_text_StepCountDisplay.4 29 16 51 ];
+            %tmp.30 = const :rezId;
+            symbol [ rezId %tmp.30 29 94 99 const ];
+            symbol [ $ %tmp.31 29 101 102 ];
+            %tmp.31 = getm $;
+            symbol [ Rez %tmp.32 29 103 106 ];
+            %tmp.32 = getv %tmp.31 :Rez;
+            symbol [ Drawables %tmp.33 29 107 116 ];
+            %tmp.33 = getv %tmp.32 :Drawables;
+            symbol [ stepIcon %tmp.34 29 117 125 ];
+            %tmp.34 = getv %tmp.33 :stepIcon;
+            %tmp.35 = dup %tmp.28;
+            %tmp.36 = aputv %tmp.35 %tmp.30 %tmp.34;
+            %tmp.19 = newc %tmp.22 (%tmp.36);
+            lputv %rez_cmp_local_bitmap_stepIcon.2 %tmp.19;
+            symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.2 29 16 45 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 31 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_bitmap_stepIcon.5 = local;
-            symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.5 31 16 45 ];
-            symbol [ WatchUi %tmp.157 31 52 59 ];
-            %tmp.157 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.158 31 60 66 ];
-            %tmp.158 = getv function ? %tmp.157 :Bitmap;
-            %tmp.159 = newd 4;
-            %tmp.161 = const :identifier;
-            symbol [ identifier %tmp.161 31 69 79 const ];
-            %tmp.162 = "stepIcon";
-            %tmp.163 = dup %tmp.159;
-            %tmp.164 = aputv %tmp.163 %tmp.161 %tmp.162;
-            %tmp.166 = const :rezId;
-            symbol [ rezId %tmp.166 31 94 99 const ];
-            symbol [ $ %tmp.167 31 101 102 ];
-            %tmp.167 = getm $;
-            symbol [ Rez %tmp.168 31 103 106 ];
-            %tmp.168 = getv %tmp.167 :Rez;
-            symbol [ Drawables %tmp.169 31 107 116 ];
-            %tmp.169 = getv %tmp.168 :Drawables;
-            symbol [ stepIcon %tmp.170 31 117 125 ];
-            %tmp.170 = getv %tmp.169 :stepIcon;
-            %tmp.171 = dup %tmp.164;
-            %tmp.172 = aputv %tmp.171 %tmp.166 %tmp.170;
-            %tmp.174 = const :locX;
-            symbol [ locX %tmp.174 31 128 132 const ];
-            %tmp.175 = 180;
-            %tmp.176 = dup %tmp.172;
-            %tmp.177 = aputv %tmp.176 %tmp.174 %tmp.175;
-            %tmp.179 = const :locY;
-            symbol [ locY %tmp.179 31 140 144 const ];
-            %tmp.180 = 60;
-            %tmp.181 = dup %tmp.177;
-            %tmp.182 = aputv %tmp.181 %tmp.179 %tmp.180;
-            %tmp.155 = newc %tmp.158 (%tmp.182);
-            lputv %rez_cmp_local_bitmap_stepIcon.5 %tmp.155;
-            symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.5 31 16 45 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_caloriesIcon.3 = local;
+            symbol [ rez_cmp_local_bitmap_caloriesIcon %rez_cmp_local_bitmap_caloriesIcon.3 31 16 49 ];
+            symbol [ WatchUi %tmp.39 31 56 63 ];
+            %tmp.39 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.40 31 64 70 ];
+            %tmp.40 = getv function ? %tmp.39 :Bitmap;
+            %tmp.41 = newd 2;
+            %tmp.43 = const :identifier;
+            symbol [ identifier %tmp.43 31 73 83 const ];
+            %tmp.44 = "caloriesIcon";
+            %tmp.45 = dup %tmp.41;
+            %tmp.46 = aputv %tmp.45 %tmp.43 %tmp.44;
+            %tmp.48 = const :rezId;
+            symbol [ rezId %tmp.48 31 102 107 const ];
+            symbol [ $ %tmp.49 31 109 110 ];
+            %tmp.49 = getm $;
+            symbol [ Rez %tmp.50 31 111 114 ];
+            %tmp.50 = getv %tmp.49 :Rez;
+            symbol [ Drawables %tmp.51 31 115 124 ];
+            %tmp.51 = getv %tmp.50 :Drawables;
+            symbol [ caloriesIcon %tmp.52 31 125 137 ];
+            %tmp.52 = getv %tmp.51 :caloriesIcon;
+            %tmp.53 = dup %tmp.46;
+            %tmp.54 = aputv %tmp.53 %tmp.48 %tmp.52;
+            %tmp.37 = newc %tmp.40 (%tmp.54);
+            lputv %rez_cmp_local_bitmap_caloriesIcon.3 %tmp.37;
+            symbol [ rez_cmp_local_bitmap_caloriesIcon %rez_cmp_local_bitmap_caloriesIcon.3 31 16 49 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 33 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_BatteryDisplay.6 = local;
-            symbol [ rez_cmp_local_text_BatteryDisplay %rez_cmp_local_text_BatteryDisplay.6 33 16 49 ];
-            symbol [ WatchUi %tmp.185 33 56 63 ];
-            %tmp.185 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.186 33 64 68 ];
-            %tmp.186 = getv function ? %tmp.185 :Text;
-            %tmp.187 = newd 7;
-            %tmp.189 = const :identifier;
-            symbol [ identifier %tmp.189 33 71 81 const ];
-            %tmp.190 = "BatteryDisplay";
-            %tmp.191 = dup %tmp.187;
-            %tmp.192 = aputv %tmp.191 %tmp.189 %tmp.190;
-            %tmp.194 = const :color;
-            symbol [ color %tmp.194 33 102 107 const ];
-            symbol [ Gfx %tmp.195 33 109 112 ];
-            %tmp.195 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.196 33 113 124 ];
-            %tmp.196 = getv %tmp.195 :COLOR_WHITE;
-            %tmp.197 = dup %tmp.192;
-            %tmp.198 = aputv %tmp.197 %tmp.194 %tmp.196;
-            %tmp.200 = const :locX;
-            symbol [ locX %tmp.200 33 127 131 const ];
-            %tmp.201 = 240;
-            %tmp.202 = 0.5;
-            %tmp.203 = mul %tmp.201 %tmp.202;
-            %tmp.204 = dup %tmp.198;
-            %tmp.205 = aputv %tmp.204 %tmp.200 %tmp.203;
-            %tmp.207 = const :locY;
-            symbol [ locY %tmp.207 33 147 151 const ];
-            symbol [ WatchUi %tmp.208 33 153 160 ];
-            %tmp.208 = getm $.Toybox.WatchUi;
-            symbol [ LAYOUT_VALIGN_TOP %tmp.209 33 161 178 ];
-            %tmp.209 = getv %tmp.208 :LAYOUT_VALIGN_TOP;
-            %tmp.210 = dup %tmp.205;
-            %tmp.211 = aputv %tmp.210 %tmp.207 %tmp.209;
-            %tmp.213 = const :text;
-            symbol [ text %tmp.213 33 181 185 const ];
-            %tmp.214 = "00%";
-            %tmp.215 = dup %tmp.211;
-            %tmp.216 = aputv %tmp.215 %tmp.213 %tmp.214;
-            %tmp.218 = const :justification;
-            symbol [ justification %tmp.218 33 195 208 const ];
-            symbol [ Gfx %tmp.219 33 210 213 ];
-            %tmp.219 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.220 33 214 233 ];
-            %tmp.220 = getv %tmp.219 :TEXT_JUSTIFY_CENTER;
-            %tmp.221 = dup %tmp.216;
-            %tmp.222 = aputv %tmp.221 %tmp.218 %tmp.220;
-            %tmp.224 = const :font;
-            symbol [ font %tmp.224 33 236 240 const ];
-            symbol [ Gfx %tmp.225 33 242 245 ];
-            %tmp.225 = getm $.Toybox.Graphics;
-            symbol [ FONT_XTINY %tmp.226 33 246 256 ];
-            %tmp.226 = getv %tmp.225 :FONT_XTINY;
-            %tmp.227 = dup %tmp.222;
-            %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
-            %tmp.183 = newc %tmp.186 (%tmp.228);
-            lputv %rez_cmp_local_text_BatteryDisplay.6 %tmp.183;
-            symbol [ rez_cmp_local_text_BatteryDisplay %rez_cmp_local_text_BatteryDisplay.6 33 16 49 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_steepIcon.4 = local;
+            symbol [ rez_cmp_local_bitmap_steepIcon %rez_cmp_local_bitmap_steepIcon.4 33 16 46 ];
+            symbol [ WatchUi %tmp.57 33 53 60 ];
+            %tmp.57 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.58 33 61 67 ];
+            %tmp.58 = getv function ? %tmp.57 :Bitmap;
+            %tmp.59 = newd 2;
+            %tmp.61 = const :identifier;
+            symbol [ identifier %tmp.61 33 70 80 const ];
+            %tmp.62 = "steepIcon";
+            %tmp.63 = dup %tmp.59;
+            %tmp.64 = aputv %tmp.63 %tmp.61 %tmp.62;
+            %tmp.66 = const :rezId;
+            symbol [ rezId %tmp.66 33 96 101 const ];
+            symbol [ $ %tmp.67 33 103 104 ];
+            %tmp.67 = getm $;
+            symbol [ Rez %tmp.68 33 105 108 ];
+            %tmp.68 = getv %tmp.67 :Rez;
+            symbol [ Drawables %tmp.69 33 109 118 ];
+            %tmp.69 = getv %tmp.68 :Drawables;
+            symbol [ steepIcon %tmp.70 33 119 128 ];
+            %tmp.70 = getv %tmp.69 :steepIcon;
+            %tmp.71 = dup %tmp.64;
+            %tmp.72 = aputv %tmp.71 %tmp.66 %tmp.70;
+            %tmp.55 = newc %tmp.58 (%tmp.72);
+            lputv %rez_cmp_local_bitmap_steepIcon.4 %tmp.55;
+            symbol [ rez_cmp_local_bitmap_steepIcon %rez_cmp_local_bitmap_steepIcon.4 33 16 46 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 35 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_bitmap_ChargingStatus.7 = local;
-            symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.7 35 16 51 ];
-            symbol [ WatchUi %tmp.231 35 58 65 ];
-            %tmp.231 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.232 35 66 72 ];
-            %tmp.232 = getv function ? %tmp.231 :Bitmap;
-            %tmp.233 = newd 4;
-            %tmp.235 = const :identifier;
-            symbol [ identifier %tmp.235 35 75 85 const ];
-            %tmp.236 = "ChargingStatus";
-            %tmp.237 = dup %tmp.233;
-            %tmp.238 = aputv %tmp.237 %tmp.235 %tmp.236;
-            %tmp.240 = const :rezId;
-            symbol [ rezId %tmp.240 35 106 111 const ];
-            symbol [ $ %tmp.241 35 113 114 ];
-            %tmp.241 = getm $;
-            symbol [ Rez %tmp.242 35 115 118 ];
-            %tmp.242 = getv %tmp.241 :Rez;
-            symbol [ Drawables %tmp.243 35 119 128 ];
-            %tmp.243 = getv %tmp.242 :Drawables;
-            symbol [ ChargingStatus %tmp.244 35 129 143 ];
-            %tmp.244 = getv %tmp.243 :ChargingStatus;
-            %tmp.245 = dup %tmp.238;
-            %tmp.246 = aputv %tmp.245 %tmp.240 %tmp.244;
-            %tmp.248 = const :locX;
-            symbol [ locX %tmp.248 35 146 150 const ];
-            %tmp.249 = 127;
-            %tmp.250 = dup %tmp.246;
-            %tmp.251 = aputv %tmp.250 %tmp.248 %tmp.249;
-            %tmp.253 = const :locY;
-            symbol [ locY %tmp.253 35 158 162 const ];
-            symbol [ WatchUi %tmp.254 35 164 171 ];
-            %tmp.254 = getm $.Toybox.WatchUi;
-            symbol [ LAYOUT_VALIGN_TOP %tmp.255 35 172 189 ];
-            %tmp.255 = getv %tmp.254 :LAYOUT_VALIGN_TOP;
-            %tmp.256 = dup %tmp.251;
-            %tmp.257 = aputv %tmp.256 %tmp.253 %tmp.255;
-            %tmp.229 = newc %tmp.232 (%tmp.257);
-            lputv %rez_cmp_local_bitmap_ChargingStatus.7 %tmp.229;
-            symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.7 35 16 51 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_distanceIcon.5 = local;
+            symbol [ rez_cmp_local_bitmap_distanceIcon %rez_cmp_local_bitmap_distanceIcon.5 35 16 49 ];
+            symbol [ WatchUi %tmp.75 35 56 63 ];
+            %tmp.75 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.76 35 64 70 ];
+            %tmp.76 = getv function ? %tmp.75 :Bitmap;
+            %tmp.77 = newd 2;
+            %tmp.79 = const :identifier;
+            symbol [ identifier %tmp.79 35 73 83 const ];
+            %tmp.80 = "distanceIcon";
+            %tmp.81 = dup %tmp.77;
+            %tmp.82 = aputv %tmp.81 %tmp.79 %tmp.80;
+            %tmp.84 = const :rezId;
+            symbol [ rezId %tmp.84 35 102 107 const ];
+            symbol [ $ %tmp.85 35 109 110 ];
+            %tmp.85 = getm $;
+            symbol [ Rez %tmp.86 35 111 114 ];
+            %tmp.86 = getv %tmp.85 :Rez;
+            symbol [ Drawables %tmp.87 35 115 124 ];
+            %tmp.87 = getv %tmp.86 :Drawables;
+            symbol [ distanceIcon %tmp.88 35 125 137 ];
+            %tmp.88 = getv %tmp.87 :distanceIcon;
+            %tmp.89 = dup %tmp.82;
+            %tmp.90 = aputv %tmp.89 %tmp.84 %tmp.88;
+            %tmp.73 = newc %tmp.76 (%tmp.90);
+            lputv %rez_cmp_local_bitmap_distanceIcon.5 %tmp.73;
+            symbol [ rez_cmp_local_bitmap_distanceIcon %rez_cmp_local_bitmap_distanceIcon.5 35 16 49 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 37 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_DeviceConnectionStatusDisplay.8 = local;
-            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.8 37 16 64 ];
-            symbol [ WatchUi %tmp.260 37 71 78 ];
-            %tmp.260 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.261 37 79 83 ];
-            %tmp.261 = getv function ? %tmp.260 :Text;
-            %tmp.262 = newd 6;
-            %tmp.264 = const :identifier;
-            symbol [ identifier %tmp.264 37 86 96 const ];
-            %tmp.265 = "DeviceConnectionStatusDisplay";
-            %tmp.266 = dup %tmp.262;
-            %tmp.267 = aputv %tmp.266 %tmp.264 %tmp.265;
-            %tmp.269 = const :color;
-            symbol [ color %tmp.269 37 132 137 const ];
-            symbol [ Gfx %tmp.270 37 139 142 ];
-            %tmp.270 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.271 37 143 154 ];
-            %tmp.271 = getv %tmp.270 :COLOR_WHITE;
-            %tmp.272 = dup %tmp.267;
-            %tmp.273 = aputv %tmp.272 %tmp.269 %tmp.271;
-            %tmp.275 = const :locX;
-            symbol [ locX %tmp.275 37 157 161 const ];
-            symbol [ WatchUi %tmp.276 37 163 170 ];
-            %tmp.276 = getm $.Toybox.WatchUi;
-            symbol [ LAYOUT_HALIGN_RIGHT %tmp.277 37 171 190 ];
-            %tmp.277 = getv %tmp.276 :LAYOUT_HALIGN_RIGHT;
-            %tmp.278 = dup %tmp.273;
-            %tmp.279 = aputv %tmp.278 %tmp.275 %tmp.277;
-            %tmp.281 = const :locY;
-            symbol [ locY %tmp.281 37 193 197 const ];
-            %tmp.282 = 240;
-            %tmp.283 = lgetv %dc;
-            symbol [ dc %tmp.283 37 207 209 ];
-            symbol [ getFontHeight %tmp.284 37 210 223 ];
-            %tmp.284 = getv function %tmp.283 :getFontHeight;
-            symbol [ Gfx %tmp.285 37 224 227 ];
-            %tmp.285 = getm $.Toybox.Graphics;
-            symbol [ FONT_LARGE %tmp.286 37 228 238 ];
-            %tmp.286 = getv %tmp.285 :FONT_LARGE;
-            %tmp.287 = invoke %tmp.283 %tmp.284(%tmp.286);
-            %tmp.288 = sub %tmp.282 %tmp.287;
-            %tmp.289 = 0.5;
-            %tmp.290 = mul %tmp.288 %tmp.289;
-            %tmp.291 = dup %tmp.279;
-            %tmp.292 = aputv %tmp.291 %tmp.281 %tmp.290;
-            %tmp.294 = const :justification;
-            symbol [ justification %tmp.294 37 250 263 const ];
-            symbol [ Gfx %tmp.295 37 265 268 ];
-            %tmp.295 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.296 37 269 288 ];
-            %tmp.296 = getv %tmp.295 :TEXT_JUSTIFY_CENTER;
-            %tmp.297 = dup %tmp.292;
-            %tmp.298 = aputv %tmp.297 %tmp.294 %tmp.296;
-            %tmp.300 = const :font;
-            symbol [ font %tmp.300 37 291 295 const ];
-            symbol [ Gfx %tmp.301 37 297 300 ];
-            %tmp.301 = getm $.Toybox.Graphics;
-            symbol [ FONT_LARGE %tmp.302 37 301 311 ];
-            %tmp.302 = getv %tmp.301 :FONT_LARGE;
-            %tmp.303 = dup %tmp.298;
-            %tmp.304 = aputv %tmp.303 %tmp.300 %tmp.302;
-            %tmp.258 = newc %tmp.261 (%tmp.304);
-            lputv %rez_cmp_local_text_DeviceConnectionStatusDisplay.8 %tmp.258;
-            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.8 37 16 64 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_ChargingStatus.6 = local;
+            symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.6 37 16 51 ];
+            symbol [ WatchUi %tmp.93 37 58 65 ];
+            %tmp.93 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.94 37 66 72 ];
+            %tmp.94 = getv function ? %tmp.93 :Bitmap;
+            %tmp.95 = newd 2;
+            %tmp.97 = const :identifier;
+            symbol [ identifier %tmp.97 37 75 85 const ];
+            %tmp.98 = "ChargingStatus";
+            %tmp.99 = dup %tmp.95;
+            %tmp.100 = aputv %tmp.99 %tmp.97 %tmp.98;
+            %tmp.102 = const :rezId;
+            symbol [ rezId %tmp.102 37 106 111 const ];
+            symbol [ $ %tmp.103 37 113 114 ];
+            %tmp.103 = getm $;
+            symbol [ Rez %tmp.104 37 115 118 ];
+            %tmp.104 = getv %tmp.103 :Rez;
+            symbol [ Drawables %tmp.105 37 119 128 ];
+            %tmp.105 = getv %tmp.104 :Drawables;
+            symbol [ ChargingStatus %tmp.106 37 129 143 ];
+            %tmp.106 = getv %tmp.105 :ChargingStatus;
+            %tmp.107 = dup %tmp.100;
+            %tmp.108 = aputv %tmp.107 %tmp.102 %tmp.106;
+            %tmp.91 = newc %tmp.94 (%tmp.108);
+            lputv %rez_cmp_local_bitmap_ChargingStatus.6 %tmp.91;
+            symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.6 37 16 51 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 39 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_bitmap_connected.9 = local;
-            symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.9 39 16 46 ];
-            symbol [ WatchUi %tmp.307 39 53 60 ];
-            %tmp.307 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.308 39 61 67 ];
-            %tmp.308 = getv function ? %tmp.307 :Bitmap;
-            %tmp.309 = newd 4;
-            %tmp.311 = const :identifier;
-            symbol [ identifier %tmp.311 39 70 80 const ];
-            %tmp.312 = "connected";
-            %tmp.313 = dup %tmp.309;
-            %tmp.314 = aputv %tmp.313 %tmp.311 %tmp.312;
-            %tmp.316 = const :rezId;
-            symbol [ rezId %tmp.316 39 96 101 const ];
-            symbol [ $ %tmp.317 39 103 104 ];
-            %tmp.317 = getm $;
-            symbol [ Rez %tmp.318 39 105 108 ];
-            %tmp.318 = getv %tmp.317 :Rez;
-            symbol [ Drawables %tmp.319 39 109 118 ];
-            %tmp.319 = getv %tmp.318 :Drawables;
-            symbol [ connected %tmp.320 39 119 128 ];
-            %tmp.320 = getv %tmp.319 :connected;
-            %tmp.321 = dup %tmp.314;
-            %tmp.322 = aputv %tmp.321 %tmp.316 %tmp.320;
-            %tmp.324 = const :locX;
-            symbol [ locX %tmp.324 39 131 135 const ];
-            %tmp.325 = 10;
-            %tmp.326 = dup %tmp.322;
-            %tmp.327 = aputv %tmp.326 %tmp.324 %tmp.325;
-            %tmp.329 = const :locY;
-            symbol [ locY %tmp.329 39 142 146 const ];
-            %tmp.330 = 112;
-            %tmp.331 = dup %tmp.327;
-            %tmp.332 = aputv %tmp.331 %tmp.329 %tmp.330;
-            %tmp.305 = newc %tmp.308 (%tmp.332);
-            lputv %rez_cmp_local_bitmap_connected.9 %tmp.305;
-            symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.9 39 16 46 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 = local;
+            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 39 16 64 ];
+            symbol [ WatchUi %tmp.111 39 71 78 ];
+            %tmp.111 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.112 39 79 83 ];
+            %tmp.112 = getv function ? %tmp.111 :Text;
+            %tmp.113 = newd 6;
+            %tmp.115 = const :identifier;
+            symbol [ identifier %tmp.115 39 86 96 const ];
+            %tmp.116 = "DeviceConnectionStatusDisplay";
+            %tmp.117 = dup %tmp.113;
+            %tmp.118 = aputv %tmp.117 %tmp.115 %tmp.116;
+            %tmp.120 = const :color;
+            symbol [ color %tmp.120 39 132 137 const ];
+            symbol [ Gfx %tmp.121 39 139 142 ];
+            %tmp.121 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.122 39 143 154 ];
+            %tmp.122 = getv %tmp.121 :COLOR_WHITE;
+            %tmp.123 = dup %tmp.118;
+            %tmp.124 = aputv %tmp.123 %tmp.120 %tmp.122;
+            %tmp.126 = const :locX;
+            symbol [ locX %tmp.126 39 157 161 const ];
+            symbol [ WatchUi %tmp.127 39 163 170 ];
+            %tmp.127 = getm $.Toybox.WatchUi;
+            symbol [ LAYOUT_HALIGN_RIGHT %tmp.128 39 171 190 ];
+            %tmp.128 = getv %tmp.127 :LAYOUT_HALIGN_RIGHT;
+            %tmp.129 = dup %tmp.124;
+            %tmp.130 = aputv %tmp.129 %tmp.126 %tmp.128;
+            %tmp.132 = const :locY;
+            symbol [ locY %tmp.132 39 193 197 const ];
+            %tmp.133 = 240;
+            %tmp.134 = lgetv %dc;
+            symbol [ dc %tmp.134 39 207 209 ];
+            symbol [ getFontHeight %tmp.135 39 210 223 ];
+            %tmp.135 = getv function %tmp.134 :getFontHeight;
+            symbol [ Gfx %tmp.136 39 224 227 ];
+            %tmp.136 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.137 39 228 238 ];
+            %tmp.137 = getv %tmp.136 :FONT_LARGE;
+            %tmp.138 = invoke %tmp.134 %tmp.135(%tmp.137);
+            %tmp.139 = sub %tmp.133 %tmp.138;
+            %tmp.140 = 0.5;
+            %tmp.141 = mul %tmp.139 %tmp.140;
+            %tmp.142 = dup %tmp.130;
+            %tmp.143 = aputv %tmp.142 %tmp.132 %tmp.141;
+            %tmp.145 = const :justification;
+            symbol [ justification %tmp.145 39 250 263 const ];
+            symbol [ Gfx %tmp.146 39 265 268 ];
+            %tmp.146 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.147 39 269 288 ];
+            %tmp.147 = getv %tmp.146 :TEXT_JUSTIFY_CENTER;
+            %tmp.148 = dup %tmp.143;
+            %tmp.149 = aputv %tmp.148 %tmp.145 %tmp.147;
+            %tmp.151 = const :font;
+            symbol [ font %tmp.151 39 291 295 const ];
+            symbol [ Gfx %tmp.152 39 297 300 ];
+            %tmp.152 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.153 39 301 311 ];
+            %tmp.153 = getv %tmp.152 :FONT_LARGE;
+            %tmp.154 = dup %tmp.149;
+            %tmp.155 = aputv %tmp.154 %tmp.151 %tmp.153;
+            %tmp.109 = newc %tmp.112 (%tmp.155);
+            lputv %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 %tmp.109;
+            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 39 16 64 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 41 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_bitmap_disConnect.10 = local;
-            symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.10 41 16 47 ];
-            symbol [ WatchUi %tmp.335 41 54 61 ];
-            %tmp.335 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.336 41 62 68 ];
-            %tmp.336 = getv function ? %tmp.335 :Bitmap;
-            %tmp.337 = newd 4;
-            %tmp.339 = const :identifier;
-            symbol [ identifier %tmp.339 41 71 81 const ];
-            %tmp.340 = "disConnect";
-            %tmp.341 = dup %tmp.337;
-            %tmp.342 = aputv %tmp.341 %tmp.339 %tmp.340;
-            %tmp.344 = const :rezId;
-            symbol [ rezId %tmp.344 41 98 103 const ];
-            symbol [ $ %tmp.345 41 105 106 ];
-            %tmp.345 = getm $;
-            symbol [ Rez %tmp.346 41 107 110 ];
-            %tmp.346 = getv %tmp.345 :Rez;
-            symbol [ Drawables %tmp.347 41 111 120 ];
-            %tmp.347 = getv %tmp.346 :Drawables;
-            symbol [ disConnect %tmp.348 41 121 131 ];
-            %tmp.348 = getv %tmp.347 :disConnect;
-            %tmp.349 = dup %tmp.342;
-            %tmp.350 = aputv %tmp.349 %tmp.344 %tmp.348;
-            %tmp.352 = const :locX;
-            symbol [ locX %tmp.352 41 134 138 const ];
-            %tmp.353 = 10;
-            %tmp.354 = dup %tmp.350;
-            %tmp.355 = aputv %tmp.354 %tmp.352 %tmp.353;
-            %tmp.357 = const :locY;
-            symbol [ locY %tmp.357 41 145 149 const ];
-            %tmp.358 = 112;
-            %tmp.359 = dup %tmp.355;
-            %tmp.360 = aputv %tmp.359 %tmp.357 %tmp.358;
-            %tmp.333 = newc %tmp.336 (%tmp.360);
-            lputv %rez_cmp_local_bitmap_disConnect.10 %tmp.333;
-            symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.10 41 16 47 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_connected.8 = local;
+            symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.8 41 16 46 ];
+            symbol [ WatchUi %tmp.158 41 53 60 ];
+            %tmp.158 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.159 41 61 67 ];
+            %tmp.159 = getv function ? %tmp.158 :Bitmap;
+            %tmp.160 = newd 2;
+            %tmp.162 = const :identifier;
+            symbol [ identifier %tmp.162 41 70 80 const ];
+            %tmp.163 = "connected";
+            %tmp.164 = dup %tmp.160;
+            %tmp.165 = aputv %tmp.164 %tmp.162 %tmp.163;
+            %tmp.167 = const :rezId;
+            symbol [ rezId %tmp.167 41 96 101 const ];
+            symbol [ $ %tmp.168 41 103 104 ];
+            %tmp.168 = getm $;
+            symbol [ Rez %tmp.169 41 105 108 ];
+            %tmp.169 = getv %tmp.168 :Rez;
+            symbol [ Drawables %tmp.170 41 109 118 ];
+            %tmp.170 = getv %tmp.169 :Drawables;
+            symbol [ connected %tmp.171 41 119 128 ];
+            %tmp.171 = getv %tmp.170 :connected;
+            %tmp.172 = dup %tmp.165;
+            %tmp.173 = aputv %tmp.172 %tmp.167 %tmp.171;
+            %tmp.156 = newc %tmp.159 (%tmp.173);
+            lputv %rez_cmp_local_bitmap_connected.8 %tmp.156;
+            symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.8 41 16 46 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 43 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_DayOrNight.11 = local;
-            symbol [ rez_cmp_local_text_DayOrNight %rez_cmp_local_text_DayOrNight.11 43 16 45 ];
-            symbol [ WatchUi %tmp.363 43 52 59 ];
-            %tmp.363 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.364 43 60 64 ];
-            %tmp.364 = getv function ? %tmp.363 :Text;
-            %tmp.365 = newd 7;
-            %tmp.367 = const :identifier;
-            symbol [ identifier %tmp.367 43 67 77 const ];
-            %tmp.368 = "DayOrNight";
-            %tmp.369 = dup %tmp.365;
-            %tmp.370 = aputv %tmp.369 %tmp.367 %tmp.368;
-            %tmp.372 = const :color;
-            symbol [ color %tmp.372 43 94 99 const ];
-            symbol [ Gfx %tmp.373 43 101 104 ];
-            %tmp.373 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.374 43 105 116 ];
-            %tmp.374 = getv %tmp.373 :COLOR_WHITE;
-            %tmp.375 = dup %tmp.370;
-            %tmp.376 = aputv %tmp.375 %tmp.372 %tmp.374;
-            %tmp.378 = const :locX;
-            symbol [ locX %tmp.378 43 119 123 const ];
-            %tmp.379 = 220;
-            %tmp.380 = dup %tmp.376;
-            %tmp.381 = aputv %tmp.380 %tmp.378 %tmp.379;
-            %tmp.383 = const :locY;
-            symbol [ locY %tmp.383 43 131 135 const ];
-            %tmp.384 = 110;
-            %tmp.385 = dup %tmp.381;
-            %tmp.386 = aputv %tmp.385 %tmp.383 %tmp.384;
-            %tmp.388 = const :text;
-            symbol [ text %tmp.388 43 143 147 const ];
-            %tmp.389 = "AM";
-            %tmp.390 = dup %tmp.386;
-            %tmp.391 = aputv %tmp.390 %tmp.388 %tmp.389;
-            %tmp.393 = const :justification;
-            symbol [ justification %tmp.393 43 156 169 const ];
-            symbol [ Gfx %tmp.394 43 171 174 ];
-            %tmp.394 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.395 43 175 194 ];
-            %tmp.395 = getv %tmp.394 :TEXT_JUSTIFY_CENTER;
-            %tmp.396 = dup %tmp.391;
-            %tmp.397 = aputv %tmp.396 %tmp.393 %tmp.395;
-            %tmp.399 = const :font;
-            symbol [ font %tmp.399 43 197 201 const ];
-            symbol [ Gfx %tmp.400 43 203 206 ];
-            %tmp.400 = getm $.Toybox.Graphics;
-            symbol [ FONT_XTINY %tmp.401 43 207 217 ];
-            %tmp.401 = getv %tmp.400 :FONT_XTINY;
-            %tmp.402 = dup %tmp.397;
-            %tmp.403 = aputv %tmp.402 %tmp.399 %tmp.401;
-            %tmp.361 = newc %tmp.364 (%tmp.403);
-            lputv %rez_cmp_local_text_DayOrNight.11 %tmp.361;
-            symbol [ rez_cmp_local_text_DayOrNight %rez_cmp_local_text_DayOrNight.11 43 16 45 ];
+            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop" ]
+            %rez_cmp_local_bitmap_disConnect.9 = local;
+            symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.9 43 16 47 ];
+            symbol [ WatchUi %tmp.176 43 54 61 ];
+            %tmp.176 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.177 43 62 68 ];
+            %tmp.177 = getv function ? %tmp.176 :Bitmap;
+            %tmp.178 = newd 2;
+            %tmp.180 = const :identifier;
+            symbol [ identifier %tmp.180 43 71 81 const ];
+            %tmp.181 = "disConnect";
+            %tmp.182 = dup %tmp.178;
+            %tmp.183 = aputv %tmp.182 %tmp.180 %tmp.181;
+            %tmp.185 = const :rezId;
+            symbol [ rezId %tmp.185 43 98 103 const ];
+            symbol [ $ %tmp.186 43 105 106 ];
+            %tmp.186 = getm $;
+            symbol [ Rez %tmp.187 43 107 110 ];
+            %tmp.187 = getv %tmp.186 :Rez;
+            symbol [ Drawables %tmp.188 43 111 120 ];
+            %tmp.188 = getv %tmp.187 :Drawables;
+            symbol [ disConnect %tmp.189 43 121 131 ];
+            %tmp.189 = getv %tmp.188 :disConnect;
+            %tmp.190 = dup %tmp.183;
+            %tmp.191 = aputv %tmp.190 %tmp.185 %tmp.189;
+            %tmp.174 = newc %tmp.177 (%tmp.191);
+            lputv %rez_cmp_local_bitmap_disConnect.9 %tmp.174;
+            symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.9 43 16 47 ];
 [ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 45 12 ]
-            [ "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_start" "d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop" ]
-            %rez_cmp_local_text_DateDisplay.12 = local;
-            symbol [ rez_cmp_local_text_DateDisplay %rez_cmp_local_text_DateDisplay.12 45 16 46 ];
-            symbol [ WatchUi %tmp.406 45 53 60 ];
-            %tmp.406 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.407 45 61 65 ];
-            %tmp.407 = getv function ? %tmp.406 :Text;
-            %tmp.408 = newd 7;
-            %tmp.410 = const :identifier;
-            symbol [ identifier %tmp.410 45 68 78 const ];
-            %tmp.411 = "DateDisplay";
-            %tmp.412 = dup %tmp.408;
-            %tmp.413 = aputv %tmp.412 %tmp.410 %tmp.411;
-            %tmp.415 = const :color;
-            symbol [ color %tmp.415 45 96 101 const ];
-            symbol [ Gfx %tmp.416 45 103 106 ];
-            %tmp.416 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.417 45 107 118 ];
-            %tmp.417 = getv %tmp.416 :COLOR_WHITE;
-            %tmp.418 = dup %tmp.413;
-            %tmp.419 = aputv %tmp.418 %tmp.415 %tmp.417;
-            %tmp.421 = const :locX;
-            symbol [ locX %tmp.421 45 121 125 const ];
-            %tmp.422 = 122;
-            %tmp.423 = dup %tmp.419;
-            %tmp.424 = aputv %tmp.423 %tmp.421 %tmp.422;
-            %tmp.426 = const :locY;
-            symbol [ locY %tmp.426 45 133 137 const ];
-            %tmp.427 = 39;
-            %tmp.428 = dup %tmp.424;
-            %tmp.429 = aputv %tmp.428 %tmp.426 %tmp.427;
-            %tmp.431 = const :text;
-            symbol [ text %tmp.431 45 144 148 const ];
-            %tmp.432 = "00/00/00";
-            %tmp.433 = dup %tmp.429;
-            %tmp.434 = aputv %tmp.433 %tmp.431 %tmp.432;
-            %tmp.436 = const :justification;
-            symbol [ justification %tmp.436 45 163 176 const ];
-            symbol [ Gfx %tmp.437 45 178 181 ];
-            %tmp.437 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.438 45 182 201 ];
-            %tmp.438 = getv %tmp.437 :TEXT_JUSTIFY_CENTER;
-            %tmp.439 = dup %tmp.434;
-            %tmp.440 = aputv %tmp.439 %tmp.436 %tmp.438;
-            %tmp.442 = const :font;
-            symbol [ font %tmp.442 45 204 208 const ];
-            symbol [ Gfx %tmp.443 45 210 213 ];
-            %tmp.443 = getm $.Toybox.Graphics;
-            symbol [ FONT_XTINY %tmp.444 45 214 224 ];
-            %tmp.444 = getv %tmp.443 :FONT_XTINY;
-            %tmp.445 = dup %tmp.440;
-            %tmp.446 = aputv %tmp.445 %tmp.442 %tmp.444;
-            %tmp.404 = newc %tmp.407 (%tmp.446);
-            lputv %rez_cmp_local_text_DateDisplay.12 %tmp.404;
-            symbol [ rez_cmp_local_text_DateDisplay %rez_cmp_local_text_DateDisplay.12 45 16 46 ];
-[ "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen" 47 12 ]
-            %tmp.447 = newa 12 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.447 47 442 447 ];
-            symbol [ WatchUi %tmp.447 47 448 455 ];
-            symbol [ Drawable %tmp.447 47 456 464 ];
-            %tmp.448 = lgetv %rez_cmp_local_text_TimeDisplay.1;
-            symbol [ rez_cmp_local_text_TimeDisplay %tmp.448 47 20 50 ];
-            %tmp.449 = dup %tmp.447;
-            %tmp.450 = aputv %tmp.449 0 %tmp.448;
-            %tmp.451 = lgetv %rez_cmp_local_text_HeartrateDisplay.2;
-            symbol [ rez_cmp_local_text_HeartrateDisplay %tmp.451 47 52 87 ];
-            %tmp.452 = dup %tmp.450;
-            %tmp.453 = aputv %tmp.452 1 %tmp.451;
-            %tmp.454 = lgetv %rez_cmp_local_bitmap_heartIcon.3;
-            symbol [ rez_cmp_local_bitmap_heartIcon %tmp.454 47 89 119 ];
-            %tmp.455 = dup %tmp.453;
-            %tmp.456 = aputv %tmp.455 2 %tmp.454;
-            %tmp.457 = lgetv %rez_cmp_local_text_StepCountDisplay.4;
-            symbol [ rez_cmp_local_text_StepCountDisplay %tmp.457 47 121 156 ];
-            %tmp.458 = dup %tmp.456;
-            %tmp.459 = aputv %tmp.458 3 %tmp.457;
-            %tmp.460 = lgetv %rez_cmp_local_bitmap_stepIcon.5;
-            symbol [ rez_cmp_local_bitmap_stepIcon %tmp.460 47 158 187 ];
-            %tmp.461 = dup %tmp.459;
-            %tmp.462 = aputv %tmp.461 4 %tmp.460;
-            %tmp.463 = lgetv %rez_cmp_local_text_BatteryDisplay.6;
-            symbol [ rez_cmp_local_text_BatteryDisplay %tmp.463 47 189 222 ];
-            %tmp.464 = dup %tmp.462;
-            %tmp.465 = aputv %tmp.464 5 %tmp.463;
-            %tmp.466 = lgetv %rez_cmp_local_bitmap_ChargingStatus.7;
-            symbol [ rez_cmp_local_bitmap_ChargingStatus %tmp.466 47 224 259 ];
-            %tmp.467 = dup %tmp.465;
-            %tmp.468 = aputv %tmp.467 6 %tmp.466;
-            %tmp.469 = lgetv %rez_cmp_local_text_DeviceConnectionStatusDisplay.8;
-            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %tmp.469 47 261 309 ];
-            %tmp.470 = dup %tmp.468;
-            %tmp.471 = aputv %tmp.470 7 %tmp.469;
-            %tmp.472 = lgetv %rez_cmp_local_bitmap_connected.9;
-            symbol [ rez_cmp_local_bitmap_connected %tmp.472 47 311 341 ];
-            %tmp.473 = dup %tmp.471;
-            %tmp.474 = aputv %tmp.473 8 %tmp.472;
-            %tmp.475 = lgetv %rez_cmp_local_bitmap_disConnect.10;
-            symbol [ rez_cmp_local_bitmap_disConnect %tmp.475 47 343 374 ];
-            %tmp.476 = dup %tmp.474;
-            %tmp.477 = aputv %tmp.476 9 %tmp.475;
-            %tmp.478 = lgetv %rez_cmp_local_text_DayOrNight.11;
-            symbol [ rez_cmp_local_text_DayOrNight %tmp.478 47 376 405 ];
-            %tmp.479 = dup %tmp.477;
-            %tmp.480 = aputv %tmp.479 10 %tmp.478;
-            %tmp.481 = lgetv %rez_cmp_local_text_DateDisplay.12;
-            symbol [ rez_cmp_local_text_DateDisplay %tmp.481 47 407 437 ];
-            %tmp.482 = dup %tmp.480;
-            %tmp.483 = aputv %tmp.482 11 %tmp.481;
-            ret %tmp.483;
-d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_22_73_48_8_stop:
+            %tmp.192 = newa 9 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.192 45 340 345 ];
+            symbol [ WatchUi %tmp.192 45 346 353 ];
+            symbol [ Drawable %tmp.192 45 354 362 ];
+            %tmp.193 = lgetv %rez_cmp_local_bitmap_heartIcon.1;
+            symbol [ rez_cmp_local_bitmap_heartIcon %tmp.193 45 20 50 ];
+            %tmp.194 = dup %tmp.192;
+            %tmp.195 = aputv %tmp.194 0 %tmp.193;
+            %tmp.196 = lgetv %rez_cmp_local_bitmap_stepIcon.2;
+            symbol [ rez_cmp_local_bitmap_stepIcon %tmp.196 45 52 81 ];
+            %tmp.197 = dup %tmp.195;
+            %tmp.198 = aputv %tmp.197 1 %tmp.196;
+            %tmp.199 = lgetv %rez_cmp_local_bitmap_caloriesIcon.3;
+            symbol [ rez_cmp_local_bitmap_caloriesIcon %tmp.199 45 83 116 ];
+            %tmp.200 = dup %tmp.198;
+            %tmp.201 = aputv %tmp.200 2 %tmp.199;
+            %tmp.202 = lgetv %rez_cmp_local_bitmap_steepIcon.4;
+            symbol [ rez_cmp_local_bitmap_steepIcon %tmp.202 45 118 148 ];
+            %tmp.203 = dup %tmp.201;
+            %tmp.204 = aputv %tmp.203 3 %tmp.202;
+            %tmp.205 = lgetv %rez_cmp_local_bitmap_distanceIcon.5;
+            symbol [ rez_cmp_local_bitmap_distanceIcon %tmp.205 45 150 183 ];
+            %tmp.206 = dup %tmp.204;
+            %tmp.207 = aputv %tmp.206 4 %tmp.205;
+            %tmp.208 = lgetv %rez_cmp_local_bitmap_ChargingStatus.6;
+            symbol [ rez_cmp_local_bitmap_ChargingStatus %tmp.208 45 185 220 ];
+            %tmp.209 = dup %tmp.207;
+            %tmp.210 = aputv %tmp.209 5 %tmp.208;
+            %tmp.211 = lgetv %rez_cmp_local_text_DeviceConnectionStatusDisplay.7;
+            symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %tmp.211 45 222 270 ];
+            %tmp.212 = dup %tmp.210;
+            %tmp.213 = aputv %tmp.212 6 %tmp.211;
+            %tmp.214 = lgetv %rez_cmp_local_bitmap_connected.8;
+            symbol [ rez_cmp_local_bitmap_connected %tmp.214 45 272 302 ];
+            %tmp.215 = dup %tmp.213;
+            %tmp.216 = aputv %tmp.215 7 %tmp.214;
+            %tmp.217 = lgetv %rez_cmp_local_bitmap_disConnect.9;
+            symbol [ rez_cmp_local_bitmap_disConnect %tmp.217 45 304 335 ];
+            %tmp.218 = dup %tmp.216;
+            %tmp.219 = aputv %tmp.218 8 %tmp.217;
+            ret %tmp.219;
+d_Workspace_GarminApp_bin_gen_006_B3076_00_source_Rez_mcgen_26_73_46_8_stop:
         }
     }
-    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 51; @symbol_moduledef = [Strings,51,11,18]; ]
+    [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 49; @symbol_moduledef = [Strings,49,11,18]; ]
     module Strings {
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 51; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 49; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [AppName,52,27,34]; @symbol_type<0> = [ResourceId,52,38,48]; ]
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTransparent,50,27,53]; @symbol_type<0> = [ResourceId,50,57,67]; ]
+        var themeBackgroundTransparent as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [HeartRate,51,27,36]; @symbol_type<0> = [ResourceId,51,40,50]; ]
+        var HeartRate as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [maxHeartRatePrompt,52,27,45]; @symbol_type<0> = [ResourceId,52,49,59]; ]
+        var maxHeartRatePrompt as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 53; @position = 27; initialized = true; @symbol_vardef = [stepsGoalTitle,53,27,41]; @symbol_type<0> = [ResourceId,53,45,55]; ]
+        var stepsGoalTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [stepsGoalError,54,27,41]; @symbol_type<0> = [ResourceId,54,45,55]; ]
+        var stepsGoalError as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundPurple,55,27,48]; @symbol_type<0> = [ResourceId,55,52,62]; ]
+        var themeBackgroundPurple as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalError,56,27,44]; @symbol_type<0> = [ResourceId,56,48,58]; ]
+        var caloriesGoalError as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalTitle,57,27,44]; @symbol_type<0> = [ResourceId,57,48,58]; ]
+        var caloriesGoalTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [Step,58,27,31]; @symbol_type<0> = [ResourceId,58,35,45]; ]
+        var Step as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [AppName,59,27,34]; @symbol_type<0> = [ResourceId,59,38,48]; ]
         var AppName as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [distancesGoalTitle,60,27,45]; @symbol_type<0> = [ResourceId,60,49,59]; ]
+        var distancesGoalTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateTitle,61,27,44]; @symbol_type<0> = [ResourceId,61,48,58]; ]
+        var maxHeartRateTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [Distance,62,27,35]; @symbol_type<0> = [ResourceId,62,39,49]; ]
+        var Distance as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [AppVersionTitle,63,27,42]; @symbol_type<0> = [ResourceId,63,46,56]; ]
+        var AppVersionTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [distancesGoalPrompt,64,27,46]; @symbol_type<0> = [ResourceId,64,50,60]; ]
+        var distancesGoalPrompt as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [stepsGoalPrompt,65,27,42]; @symbol_type<0> = [ResourceId,65,46,56]; ]
+        var stepsGoalPrompt as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [Calories,66,27,35]; @symbol_type<0> = [ResourceId,66,39,49]; ]
+        var Calories as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [DataField2Title,67,27,42]; @symbol_type<0> = [ResourceId,67,46,56]; ]
+        var DataField2Title as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [DataField1Title,68,27,42]; @symbol_type<0> = [ResourceId,68,46,56]; ]
+        var DataField1Title as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTitle,69,27,47]; @symbol_type<0> = [ResourceId,69,51,61]; ]
+        var themeBackgroundTitle as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [distancesGoalError,70,27,45]; @symbol_type<0> = [ResourceId,70,49,59]; ]
+        var distancesGoalError as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundOrange,71,27,48]; @symbol_type<0> = [ResourceId,71,52,62]; ]
+        var themeBackgroundOrange as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateError,72,27,44]; @symbol_type<0> = [ResourceId,72,48,58]; ]
+        var maxHeartRateError as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalPrompt,73,27,45]; @symbol_type<0> = [ResourceId,73,49,59]; ]
+        var caloriesGoalPrompt as ResourceId;
+        [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundDarkRed,74,27,49]; @symbol_type<0> = [ResourceId,74,53,63]; ]
+        var themeBackgroundDarkRed as ResourceId;
     }
 }
 [ @file = "d:\Workspace\GarminApp\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 1; ]

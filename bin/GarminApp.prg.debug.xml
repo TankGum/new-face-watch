@@ -2,504 +2,698 @@
 <debugInfo>
     <manifest filename="D:\Workspace\GarminApp\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="1" lineNum="13" parent="globals/first_appView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="1" lineNum="16" parent="globals/first_appView" pc="268435460" symbol="&lt;init&gt;"/>
         <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
         <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
         <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="4" lineNum="5" parent="globals/first_appApp" pc="268435529" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="5" lineNum="179" parent="globals/first_appView" pc="268435548" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="5" lineNum="180" parent="globals/first_appView" pc="268435552" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="5" lineNum="181" parent="globals/first_appView" pc="268435559" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="5" lineNum="183" parent="globals/first_appView" pc="268435608" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="5" lineNum="184" parent="globals/first_appView" pc="268435636" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="73" parent="globals/first_appView" pc="268435666" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="74" parent="globals/first_appView" pc="268435670" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="76" parent="globals/first_appView" pc="268435687" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="77" parent="globals/first_appView" pc="268435728" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="78" parent="globals/first_appView" pc="268435735" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="80" parent="globals/first_appView" pc="268435742" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="83" parent="globals/first_appView" pc="268435764" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="84" parent="globals/first_appView" pc="268435783" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="85" parent="globals/first_appView" pc="268435807" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="88" parent="globals/first_appView" pc="268435831" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="95" parent="globals/first_appView" pc="268435856" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="98" parent="globals/first_appView" pc="268435876" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="105" parent="globals/first_appView" pc="268435904" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="108" parent="globals/first_appView" pc="268435927" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="115" parent="globals/first_appView" pc="268435952" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="118" parent="globals/first_appView" pc="268435972" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="125" parent="globals/first_appView" pc="268436000" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="128" parent="globals/first_appView" pc="268436023" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="215" parent="globals/first_appView" pc="268436049" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="216" parent="globals/first_appView" pc="268436053" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="217" parent="globals/first_appView" pc="268436070" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="219" parent="globals/first_appView" pc="268436080" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="220" parent="globals/first_appView" pc="268436108" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="223" parent="globals/first_appView" pc="268436136" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="224" parent="globals/first_appView" pc="268436143" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="226" parent="globals/first_appView" pc="268436160" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="227" parent="globals/first_appView" pc="268436167" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="230" parent="globals/first_appView" pc="268436184" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="231" parent="globals/first_appView" pc="268436191" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="232" parent="globals/first_appView" pc="268436198" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="235" parent="globals/first_appView" pc="268436218" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="8" lineNum="236" parent="globals/first_appView" pc="268436225" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="20" parent="globals/first_appView" pc="268436243" symbol="onLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="21" parent="globals/first_appView" pc="268436245" symbol="onLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="161" parent="globals/first_appView" pc="268436287" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="162" parent="globals/first_appView" pc="268436291" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="163" parent="globals/first_appView" pc="268436308" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="165" parent="globals/first_appView" pc="268436318" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="167" parent="globals/first_appView" pc="268436346" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="168" parent="globals/first_appView" pc="268436353" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="171" parent="globals/first_appView" pc="268436370" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="172" parent="globals/first_appView" pc="268436375" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="174" parent="globals/first_appView" pc="268436392" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="155" parent="globals/first_appView" pc="268436407" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="156" parent="globals/first_appView" pc="268436411" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="157" parent="globals/first_appView" pc="268436434" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="158" parent="globals/first_appView" pc="268436462" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="188" parent="globals/first_appView" pc="268436497" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="189" parent="globals/first_appView" pc="268436501" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="190" parent="globals/first_appView" pc="268436518" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="191" parent="globals/first_appView" pc="268436542" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="192" parent="globals/first_appView" pc="268436618" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="193" parent="globals/first_appView" pc="268436646" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="242" parent="globals/first_appView" pc="268436661" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="243" parent="globals/first_appView" pc="268436665" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="244" parent="globals/first_appView" pc="268436682" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="246" parent="globals/first_appView" pc="268436692" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="248" parent="globals/first_appView" pc="268436720" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="249" parent="globals/first_appView" pc="268436746" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="252" parent="globals/first_appView" pc="268436761" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="253" parent="globals/first_appView" pc="268436765" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="254" parent="globals/first_appView" pc="268436782" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="257" parent="globals/first_appView" pc="268436806" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="258" parent="globals/first_appView" pc="268436846" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="261" parent="globals/first_appView" pc="268436862" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="262" parent="globals/first_appView" pc="268436872" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="263" parent="globals/first_appView" pc="268436891" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="264" parent="globals/first_appView" pc="268436904" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="267" parent="globals/first_appView" pc="268436920" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="268" parent="globals/first_appView" pc="268436968" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="271" parent="globals/first_appView" pc="268437002" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="272" parent="globals/first_appView" pc="268437043" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="273" parent="globals/first_appView" pc="268437099" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="296" parent="globals/first_appView" pc="268437127" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="297" parent="globals/first_appView" pc="268437167" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="298" parent="globals/first_appView" pc="268437207" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="299" parent="globals/first_appView" pc="268437247" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="138" parent="globals/first_appView" pc="268437288" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="139" parent="globals/first_appView" pc="268437292" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="141" parent="globals/first_appView" pc="268437299" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="142" parent="globals/first_appView" pc="268437314" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="145" parent="globals/first_appView" pc="268437334" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="148" parent="globals/first_appView" pc="268437341" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="150" parent="globals/first_appView" pc="268437390" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="151" parent="globals/first_appView" pc="268437418" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="15" parent="globals/first_appView" pc="268437433" symbol="initialize"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="16" parent="globals/first_appView" pc="268437435" symbol="initialize"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="31" parent="globals/first_appView" pc="268437454" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="33" parent="globals/first_appView" pc="268437458" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="34" parent="globals/first_appView" pc="268437470" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="37" parent="globals/first_appView" pc="268437482" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="39" parent="globals/first_appView" pc="268437494" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="40" parent="globals/first_appView" pc="268437506" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="42" parent="globals/first_appView" pc="268437518" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="44" parent="globals/first_appView" pc="268437542" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="45" parent="globals/first_appView" pc="268437565" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="47" parent="globals/first_appView" pc="268437605" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="48" parent="globals/first_appView" pc="268437619" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="49" parent="globals/first_appView" pc="268437637" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="50" parent="globals/first_appView" pc="268437651" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="52" parent="globals/first_appView" pc="268437665" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="53" parent="globals/first_appView" pc="268437679" symbol="onUpdate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="21" lineNum="197" parent="globals/first_appView" pc="268437692" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="21" lineNum="198" parent="globals/first_appView" pc="268437696" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="21" lineNum="199" parent="globals/first_appView" pc="268437719" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="21" lineNum="200" parent="globals/first_appView" pc="268437747" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="21" lineNum="201" parent="globals/first_appView" pc="268437754" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="206" parent="globals/first_appView" pc="268437787" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="207" parent="globals/first_appView" pc="268437791" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="208" parent="globals/first_appView" pc="268437814" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="209" parent="globals/first_appView" pc="268437842" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="210" parent="globals/first_appView" pc="268437849" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="4" parent="globals/DrawLine" pc="268437882" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="5" parent="globals/DrawLine" pc="268437892" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="7" parent="globals/DrawLine" pc="268437914" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="8" parent="globals/DrawLine" pc="268437946" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="9" parent="globals/DrawLine" pc="268437978" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="12" parent="globals/DrawLine" pc="268438010" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="13" parent="globals/DrawLine" pc="268438042" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="14" parent="globals/DrawLine" pc="268438074" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="18" parent="globals/DrawLine" pc="268438106" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="19" parent="globals/DrawLine" pc="268438138" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="20" parent="globals/DrawLine" pc="268438170" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="23" parent="globals/DrawLine" pc="268438202" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="24" parent="globals/DrawLine" pc="268438234" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="23" lineNum="25" parent="globals/DrawLine" pc="268438266" symbol="drawLineLayout"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="78" parent="globals/Utils" pc="268438299" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="82" parent="globals/Utils" pc="268438311" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="83" parent="globals/Utils" pc="268438322" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="84" parent="globals/Utils" pc="268438332" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="85" parent="globals/Utils" pc="268438343" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="87" parent="globals/Utils" pc="268438353" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="90" parent="globals/Utils" pc="268438360" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="91" parent="globals/Utils" pc="268438379" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="92" parent="globals/Utils" pc="268438386" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="95" parent="globals/Utils" pc="268438408" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="96" parent="globals/Utils" pc="268438415" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="97" parent="globals/Utils" pc="268438431" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="100" parent="globals/Utils" pc="268438469" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="104" parent="globals/Utils" pc="268438488" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="105" parent="globals/Utils" pc="268438499" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="106" parent="globals/Utils" pc="268438509" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="107" parent="globals/Utils" pc="268438520" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="109" parent="globals/Utils" pc="268438530" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="113" parent="globals/Utils" pc="268438537" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="24" lineNum="114" parent="globals/Utils" pc="268438556" symbol="drawBatteryBar"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="138" parent="globals/Utils" pc="268438595" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="139" parent="globals/Utils" pc="268438607" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="140" parent="globals/Utils" pc="268438618" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="141" parent="globals/Utils" pc="268438628" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="142" parent="globals/Utils" pc="268438639" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="144" parent="globals/Utils" pc="268438649" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="148" parent="globals/Utils" pc="268438656" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="149" parent="globals/Utils" pc="268438678" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="152" parent="globals/Utils" pc="268438696" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="155" parent="globals/Utils" pc="268438712" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="156" parent="globals/Utils" pc="268438731" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="157" parent="globals/Utils" pc="268438749" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="161" parent="globals/Utils" pc="268438804" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="162" parent="globals/Utils" pc="268438826" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="163" parent="globals/Utils" pc="268438844" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="167" parent="globals/Utils" pc="268438896" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="168" parent="globals/Utils" pc="268438918" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="169" parent="globals/Utils" pc="268438942" symbol="drawCircleProgress"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="226" parent="globals/Utils" pc="268438983" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="227" parent="globals/Utils" pc="268438995" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="228" parent="globals/Utils" pc="268439002" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="229" parent="globals/Utils" pc="268439017" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="231" parent="globals/Utils" pc="268439050" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="232" parent="globals/Utils" pc="268439057" symbol="dayOfYearFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="46" parent="globals/Utils" pc="268439060" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="47" parent="globals/Utils" pc="268439072" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="48" parent="globals/Utils" pc="268439079" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="50" parent="globals/Utils" pc="268439104" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="51" parent="globals/Utils" pc="268439115" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="52" parent="globals/Utils" pc="268439125" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="53" parent="globals/Utils" pc="268439136" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="55" parent="globals/Utils" pc="268439146" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="58" parent="globals/Utils" pc="268439153" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="59" parent="globals/Utils" pc="268439175" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="62" parent="globals/Utils" pc="268439193" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="65" parent="globals/Utils" pc="268439206" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="66" parent="globals/Utils" pc="268439225" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="67" parent="globals/Utils" pc="268439243" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="71" parent="globals/Utils" pc="268439298" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="72" parent="globals/Utils" pc="268439320" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="73" parent="globals/Utils" pc="268439338" symbol="drawCircleStep"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="190" parent="globals/Utils" pc="268439391" symbol="monthToNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="191" parent="globals/Utils" pc="268439403" symbol="monthToNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="205" parent="globals/Utils" pc="268439567" symbol="monthToNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="206" parent="globals/Utils" pc="268439583" symbol="monthToNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="208" parent="globals/Utils" pc="268439592" symbol="monthToNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="29" lineNum="221" parent="globals/Utils" pc="268439598" symbol="isLeapYear"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="29" lineNum="222" parent="globals/Utils" pc="268439608" symbol="isLeapYear"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="212" parent="globals/Utils" pc="268439663" symbol="daysInMonthFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="213" parent="globals/Utils" pc="268439675" symbol="daysInMonthFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="214" parent="globals/Utils" pc="268439839" symbol="daysInMonthFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="215" parent="globals/Utils" pc="268439866" symbol="daysInMonthFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="217" parent="globals/Utils" pc="268439875" symbol="daysInMonthFunc"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="11" parent="globals/Utils" pc="268439887" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="12" parent="globals/Utils" pc="268439899" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="14" parent="globals/Utils" pc="268439906" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="16" parent="globals/Utils" pc="268439931" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="17" parent="globals/Utils" pc="268439942" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="18" parent="globals/Utils" pc="268439952" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="19" parent="globals/Utils" pc="268439963" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="20" parent="globals/Utils" pc="268439973" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="21" parent="globals/Utils" pc="268439984" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="23" parent="globals/Utils" pc="268439994" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="27" parent="globals/Utils" pc="268440001" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="28" parent="globals/Utils" pc="268440023" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="31" parent="globals/Utils" pc="268440041" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="34" parent="globals/Utils" pc="268440054" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="35" parent="globals/Utils" pc="268440073" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="36" parent="globals/Utils" pc="268440091" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="40" parent="globals/Utils" pc="268440146" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="41" parent="globals/Utils" pc="268440168" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="42" parent="globals/Utils" pc="268440186" symbol="drawCircleHeartRate"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="130" parent="globals/Utils" pc="268440239" symbol="formatValueWithK"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="131" parent="globals/Utils" pc="268440249" symbol="formatValueWithK"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="132" parent="globals/Utils" pc="268440260" symbol="formatValueWithK"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="134" parent="globals/Utils" pc="268440292" symbol="formatValueWithK"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="173" parent="globals/Utils" pc="268440305" symbol="getDayOfWeekNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="174" parent="globals/Utils" pc="268440317" symbol="getDayOfWeekNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="183" parent="globals/Utils" pc="268440416" symbol="getDayOfWeekNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="184" parent="globals/Utils" pc="268440432" symbol="getDayOfWeekNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="186" parent="globals/Utils" pc="268440441" symbol="getDayOfWeekNumber"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="118" parent="globals/Utils" pc="268440447" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="119" parent="globals/Utils" pc="268440459" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="120" parent="globals/Utils" pc="268440479" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="122" parent="globals/Utils" pc="268440498" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="123" parent="globals/Utils" pc="268440509" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="126" parent="globals/Utils" pc="268440518" symbol="retrieveHeartrateText"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="35" lineNum="12" parent="globals/first_appApp" pc="268440535" symbol="onStart"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="36" lineNum="20" parent="globals/first_appApp" pc="268440538" symbol="getInitialView"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="36" lineNum="21" parent="globals/first_appApp" pc="268440540" symbol="getInitialView"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="37" lineNum="7" parent="globals/first_appApp" pc="268440581" symbol="initialize"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="37" lineNum="8" parent="globals/first_appApp" pc="268440583" symbol="initialize"/>
-        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="38" lineNum="16" parent="globals/first_appApp" pc="268440602" symbol="onStop"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="22" parent="globals/Rez/Layouts" pc="268440605" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="23" parent="globals/Rez/Layouts" pc="268440617" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="25" parent="globals/Rez/Layouts" pc="268440729" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="27" parent="globals/Rez/Layouts" pc="268440854" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="29" parent="globals/Rez/Layouts" pc="268440959" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="31" parent="globals/Rez/Layouts" pc="268441084" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="33" parent="globals/Rez/Layouts" pc="268441189" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="35" parent="globals/Rez/Layouts" pc="268441314" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="37" parent="globals/Rez/Layouts" pc="268441419" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="39" parent="globals/Rez/Layouts" pc="268441554" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="41" parent="globals/Rez/Layouts" pc="268441659" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="43" parent="globals/Rez/Layouts" pc="268441764" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="45" parent="globals/Rez/Layouts" pc="268441889" symbol="WatchFace"/>
-        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="39" lineNum="47" parent="globals/Rez/Layouts" pc="268442014" symbol="WatchFace"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="74" parent="globals/first_appView" pc="268435548" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="75" parent="globals/first_appView" pc="268435552" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="77" parent="globals/first_appView" pc="268435569" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="78" parent="globals/first_appView" pc="268435610" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="79" parent="globals/first_appView" pc="268435617" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="81" parent="globals/first_appView" pc="268435624" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="84" parent="globals/first_appView" pc="268435646" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="85" parent="globals/first_appView" pc="268435665" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="86" parent="globals/first_appView" pc="268435685" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="88" parent="globals/first_appView" pc="268435695" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="89" parent="globals/first_appView" pc="268435719" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="92" parent="globals/first_appView" pc="268435743" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="99" parent="globals/first_appView" pc="268435768" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="102" parent="globals/first_appView" pc="268435788" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="109" parent="globals/first_appView" pc="268435816" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="112" parent="globals/first_appView" pc="268435839" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="119" parent="globals/first_appView" pc="268435864" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="122" parent="globals/first_appView" pc="268435884" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="129" parent="globals/first_appView" pc="268435912" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="6" lineNum="132" parent="globals/first_appView" pc="268435935" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="231" parent="globals/first_appView" pc="268435961" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="232" parent="globals/first_appView" pc="268435965" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="233" parent="globals/first_appView" pc="268435982" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="235" parent="globals/first_appView" pc="268435992" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="236" parent="globals/first_appView" pc="268436033" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="238" parent="globals/first_appView" pc="268436074" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="239" parent="globals/first_appView" pc="268436079" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="7" lineNum="241" parent="globals/first_appView" pc="268436106" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="9" lineNum="23" parent="globals/first_appView" pc="268436131" symbol="onLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="9" lineNum="24" parent="globals/first_appView" pc="268436133" symbol="onLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="210" parent="globals/first_appView" pc="268436175" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="211" parent="globals/first_appView" pc="268436179" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="212" parent="globals/first_appView" pc="268436196" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="214" parent="globals/first_appView" pc="268436206" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="216" parent="globals/first_appView" pc="268436247" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="10" lineNum="217" parent="globals/first_appView" pc="268436252" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="297" parent="globals/first_appView" pc="268436280" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="298" parent="globals/first_appView" pc="268436284" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="300" parent="globals/first_appView" pc="268436315" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="301" parent="globals/first_appView" pc="268436326" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="302" parent="globals/first_appView" pc="268436342" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="303" parent="globals/first_appView" pc="268436353" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="304" parent="globals/first_appView" pc="268436369" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="305" parent="globals/first_appView" pc="268436380" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="11" lineNum="307" parent="globals/first_appView" pc="268436396" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="283" parent="globals/first_appView" pc="268436410" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="284" parent="globals/first_appView" pc="268436414" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="285" parent="globals/first_appView" pc="268436445" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="286" parent="globals/first_appView" pc="268436456" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="287" parent="globals/first_appView" pc="268436481" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="288" parent="globals/first_appView" pc="268436492" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="289" parent="globals/first_appView" pc="268436517" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="290" parent="globals/first_appView" pc="268436528" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="292" parent="globals/first_appView" pc="268436553" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="12" lineNum="294" parent="globals/first_appView" pc="268436575" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="200" parent="globals/first_appView" pc="268436588" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="201" parent="globals/first_appView" pc="268436592" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="202" parent="globals/first_appView" pc="268436615" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="203" parent="globals/first_appView" pc="268436633" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="204" parent="globals/first_appView" pc="268436643" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="205" parent="globals/first_appView" pc="268436665" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="13" lineNum="206" parent="globals/first_appView" pc="268436706" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="222" parent="globals/first_appView" pc="268436738" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="223" parent="globals/first_appView" pc="268436742" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="224" parent="globals/first_appView" pc="268436759" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="225" parent="globals/first_appView" pc="268436783" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="226" parent="globals/first_appView" pc="268436859" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="14" lineNum="227" parent="globals/first_appView" pc="268436900" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="191" parent="globals/first_appView" pc="268436932" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="192" parent="globals/first_appView" pc="268436936" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="193" parent="globals/first_appView" pc="268436967" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="195" parent="globals/first_appView" pc="268436998" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="15" lineNum="196" parent="globals/first_appView" pc="268437024" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="246" parent="globals/first_appView" pc="268437051" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="247" parent="globals/first_appView" pc="268437055" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="248" parent="globals/first_appView" pc="268437072" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="249" parent="globals/first_appView" pc="268437082" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="250" parent="globals/first_appView" pc="268437108" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="16" lineNum="251" parent="globals/first_appView" pc="268437149" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="254" parent="globals/first_appView" pc="268437181" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="255" parent="globals/first_appView" pc="268437185" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="256" parent="globals/first_appView" pc="268437202" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="259" parent="globals/first_appView" pc="268437226" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="260" parent="globals/first_appView" pc="268437266" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="263" parent="globals/first_appView" pc="268437282" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="264" parent="globals/first_appView" pc="268437292" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="265" parent="globals/first_appView" pc="268437311" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="266" parent="globals/first_appView" pc="268437324" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="269" parent="globals/first_appView" pc="268437340" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="270" parent="globals/first_appView" pc="268437388" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="273" parent="globals/first_appView" pc="268437422" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="274" parent="globals/first_appView" pc="268437463" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="275" parent="globals/first_appView" pc="268437519" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="277" parent="globals/first_appView" pc="268437547" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="278" parent="globals/first_appView" pc="268437587" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="279" parent="globals/first_appView" pc="268437627" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="17" lineNum="280" parent="globals/first_appView" pc="268437667" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="141" parent="globals/first_appView" pc="268437708" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="142" parent="globals/first_appView" pc="268437712" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="143" parent="globals/first_appView" pc="268437719" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="145" parent="globals/first_appView" pc="268437722" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="146" parent="globals/first_appView" pc="268437724" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="153" parent="globals/first_appView" pc="268437744" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="160" parent="globals/first_appView" pc="268437764" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="167" parent="globals/first_appView" pc="268437784" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="174" parent="globals/first_appView" pc="268437804" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="147" parent="globals/first_appView" pc="268437807" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="148" parent="globals/first_appView" pc="268437847" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="149" parent="globals/first_appView" pc="268437851" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="150" parent="globals/first_appView" pc="268437900" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="151" parent="globals/first_appView" pc="268437941" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="154" parent="globals/first_appView" pc="268437944" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="155" parent="globals/first_appView" pc="268437967" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="156" parent="globals/first_appView" pc="268437986" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="157" parent="globals/first_appView" pc="268438035" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="158" parent="globals/first_appView" pc="268438076" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="161" parent="globals/first_appView" pc="268438079" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="162" parent="globals/first_appView" pc="268438102" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="163" parent="globals/first_appView" pc="268438121" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="164" parent="globals/first_appView" pc="268438170" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="165" parent="globals/first_appView" pc="268438211" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="168" parent="globals/first_appView" pc="268438214" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="169" parent="globals/first_appView" pc="268438237" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="170" parent="globals/first_appView" pc="268438262" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="171" parent="globals/first_appView" pc="268438311" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="172" parent="globals/first_appView" pc="268438352" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="175" parent="globals/first_appView" pc="268438355" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="176" parent="globals/first_appView" pc="268438362" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="180" parent="globals/first_appView" pc="268438366" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="181" parent="globals/first_appView" pc="268438407" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="182" parent="globals/first_appView" pc="268438429" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="185" parent="globals/first_appView" pc="268438454" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="18" lineNum="186" parent="globals/first_appView" pc="268438461" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="18" parent="globals/first_appView" pc="268438495" symbol="initialize"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="20" lineNum="19" parent="globals/first_appView" pc="268438497" symbol="initialize"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="34" parent="globals/first_appView" pc="268438516" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="35" parent="globals/first_appView" pc="268438520" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="36" parent="globals/first_appView" pc="268438544" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="38" parent="globals/first_appView" pc="268438558" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="39" parent="globals/first_appView" pc="268438581" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="41" parent="globals/first_appView" pc="268438621" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="42" parent="globals/first_appView" pc="268438635" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="43" parent="globals/first_appView" pc="268438653" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="44" parent="globals/first_appView" pc="268438667" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="46" parent="globals/first_appView" pc="268438681" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="47" parent="globals/first_appView" pc="268438695" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="49" parent="globals/first_appView" pc="268438709" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="50" parent="globals/first_appView" pc="268438723" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="53" parent="globals/first_appView" pc="268438737" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appView.mc" id="22" lineNum="55" parent="globals/first_appView" pc="268438751" symbol="onUpdate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="4" parent="globals/DrawLine" pc="268438774" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="5" parent="globals/DrawLine" pc="268438784" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="7" parent="globals/DrawLine" pc="268438809" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="8" parent="globals/DrawLine" pc="268438841" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="9" parent="globals/DrawLine" pc="268438873" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="12" parent="globals/DrawLine" pc="268438905" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="13" parent="globals/DrawLine" pc="268438937" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="14" parent="globals/DrawLine" pc="268438969" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="18" parent="globals/DrawLine" pc="268439001" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="19" parent="globals/DrawLine" pc="268439033" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="20" parent="globals/DrawLine" pc="268439065" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="23" parent="globals/DrawLine" pc="268439097" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="24" parent="globals/DrawLine" pc="268439129" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\DrawLine.mc" id="24" lineNum="25" parent="globals/DrawLine" pc="268439161" symbol="drawLineLayout"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="187" parent="globals/Utils" pc="268439194" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="191" parent="globals/Utils" pc="268439206" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="192" parent="globals/Utils" pc="268439217" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="193" parent="globals/Utils" pc="268439227" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="194" parent="globals/Utils" pc="268439238" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="196" parent="globals/Utils" pc="268439248" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="199" parent="globals/Utils" pc="268439255" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="200" parent="globals/Utils" pc="268439274" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="201" parent="globals/Utils" pc="268439281" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="204" parent="globals/Utils" pc="268439303" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="205" parent="globals/Utils" pc="268439310" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="206" parent="globals/Utils" pc="268439326" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="209" parent="globals/Utils" pc="268439364" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="213" parent="globals/Utils" pc="268439383" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="214" parent="globals/Utils" pc="268439394" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="215" parent="globals/Utils" pc="268439404" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="216" parent="globals/Utils" pc="268439415" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="218" parent="globals/Utils" pc="268439425" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="222" parent="globals/Utils" pc="268439432" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="25" lineNum="223" parent="globals/Utils" pc="268439451" symbol="drawBatteryBar"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="142" parent="globals/Utils" pc="268439490" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="143" parent="globals/Utils" pc="268439502" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="145" parent="globals/Utils" pc="268439533" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="146" parent="globals/Utils" pc="268439540" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="147" parent="globals/Utils" pc="268439553" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="148" parent="globals/Utils" pc="268439564" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="152" parent="globals/Utils" pc="268439577" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="154" parent="globals/Utils" pc="268439602" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="155" parent="globals/Utils" pc="268439613" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="158" parent="globals/Utils" pc="268439623" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="159" parent="globals/Utils" pc="268439634" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="160" parent="globals/Utils" pc="268439644" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="161" parent="globals/Utils" pc="268439655" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="163" parent="globals/Utils" pc="268439665" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="167" parent="globals/Utils" pc="268439672" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="168" parent="globals/Utils" pc="268439694" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="171" parent="globals/Utils" pc="268439712" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="174" parent="globals/Utils" pc="268439722" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="175" parent="globals/Utils" pc="268439741" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="176" parent="globals/Utils" pc="268439759" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="180" parent="globals/Utils" pc="268439814" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="181" parent="globals/Utils" pc="268439836" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="26" lineNum="182" parent="globals/Utils" pc="268439854" symbol="drawCircleCalories"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="247" parent="globals/Utils" pc="268439907" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="248" parent="globals/Utils" pc="268439919" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="249" parent="globals/Utils" pc="268439930" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="250" parent="globals/Utils" pc="268439940" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="251" parent="globals/Utils" pc="268439951" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="253" parent="globals/Utils" pc="268439961" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="257" parent="globals/Utils" pc="268439968" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="258" parent="globals/Utils" pc="268439990" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="261" parent="globals/Utils" pc="268440008" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="264" parent="globals/Utils" pc="268440024" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="265" parent="globals/Utils" pc="268440043" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="266" parent="globals/Utils" pc="268440061" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="270" parent="globals/Utils" pc="268440116" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="271" parent="globals/Utils" pc="268440138" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="272" parent="globals/Utils" pc="268440156" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="276" parent="globals/Utils" pc="268440208" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="277" parent="globals/Utils" pc="268440230" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="278" parent="globals/Utils" pc="268440271" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="27" lineNum="279" parent="globals/Utils" pc="268440295" symbol="drawCircleProgress"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="336" parent="globals/Utils" pc="268440333" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="337" parent="globals/Utils" pc="268440345" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="338" parent="globals/Utils" pc="268440352" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="339" parent="globals/Utils" pc="268440367" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="341" parent="globals/Utils" pc="268440400" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="28" lineNum="342" parent="globals/Utils" pc="268440407" symbol="dayOfYearFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="29" lineNum="331" parent="globals/Utils" pc="268440410" symbol="isLeapYear"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="29" lineNum="332" parent="globals/Utils" pc="268440420" symbol="isLeapYear"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="12" parent="globals/Utils" pc="268440475" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="13" parent="globals/Utils" pc="268440487" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="15" parent="globals/Utils" pc="268440518" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="16" parent="globals/Utils" pc="268440525" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="17" parent="globals/Utils" pc="268440538" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="18" parent="globals/Utils" pc="268440549" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="22" parent="globals/Utils" pc="268440562" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="24" parent="globals/Utils" pc="268440587" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="25" parent="globals/Utils" pc="268440598" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="26" parent="globals/Utils" pc="268440608" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="27" parent="globals/Utils" pc="268440619" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="28" parent="globals/Utils" pc="268440629" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="29" parent="globals/Utils" pc="268440640" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="31" parent="globals/Utils" pc="268440650" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="35" parent="globals/Utils" pc="268440657" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="36" parent="globals/Utils" pc="268440679" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="39" parent="globals/Utils" pc="268440697" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="42" parent="globals/Utils" pc="268440710" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="43" parent="globals/Utils" pc="268440729" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="44" parent="globals/Utils" pc="268440747" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="48" parent="globals/Utils" pc="268440802" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="49" parent="globals/Utils" pc="268440824" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="30" lineNum="50" parent="globals/Utils" pc="268440842" symbol="drawCircleHeartRate"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="98" parent="globals/Utils" pc="268440895" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="99" parent="globals/Utils" pc="268440907" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="101" parent="globals/Utils" pc="268440938" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="102" parent="globals/Utils" pc="268440945" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="103" parent="globals/Utils" pc="268440958" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="104" parent="globals/Utils" pc="268440969" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="108" parent="globals/Utils" pc="268440982" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="110" parent="globals/Utils" pc="268441007" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="111" parent="globals/Utils" pc="268441018" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="114" parent="globals/Utils" pc="268441028" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="115" parent="globals/Utils" pc="268441039" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="116" parent="globals/Utils" pc="268441049" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="117" parent="globals/Utils" pc="268441060" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="119" parent="globals/Utils" pc="268441070" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="123" parent="globals/Utils" pc="268441077" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="124" parent="globals/Utils" pc="268441099" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="127" parent="globals/Utils" pc="268441117" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="130" parent="globals/Utils" pc="268441127" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="131" parent="globals/Utils" pc="268441146" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="132" parent="globals/Utils" pc="268441164" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="136" parent="globals/Utils" pc="268441219" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="137" parent="globals/Utils" pc="268441241" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="31" lineNum="138" parent="globals/Utils" pc="268441259" symbol="drawCircleDistance"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="239" parent="globals/Utils" pc="268441312" symbol="formatValueWithK"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="240" parent="globals/Utils" pc="268441322" symbol="formatValueWithK"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="241" parent="globals/Utils" pc="268441333" symbol="formatValueWithK"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="32" lineNum="243" parent="globals/Utils" pc="268441365" symbol="formatValueWithK"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="227" parent="globals/Utils" pc="268441378" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="228" parent="globals/Utils" pc="268441390" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="229" parent="globals/Utils" pc="268441410" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="231" parent="globals/Utils" pc="268441429" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="232" parent="globals/Utils" pc="268441440" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="33" lineNum="235" parent="globals/Utils" pc="268441449" symbol="retrieveHeartrateText"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="54" parent="globals/Utils" pc="268441466" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="55" parent="globals/Utils" pc="268441478" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="57" parent="globals/Utils" pc="268441509" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="58" parent="globals/Utils" pc="268441516" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="59" parent="globals/Utils" pc="268441529" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="60" parent="globals/Utils" pc="268441540" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="64" parent="globals/Utils" pc="268441553" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="66" parent="globals/Utils" pc="268441578" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="67" parent="globals/Utils" pc="268441589" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="70" parent="globals/Utils" pc="268441599" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="71" parent="globals/Utils" pc="268441610" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="72" parent="globals/Utils" pc="268441620" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="73" parent="globals/Utils" pc="268441631" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="75" parent="globals/Utils" pc="268441641" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="79" parent="globals/Utils" pc="268441648" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="80" parent="globals/Utils" pc="268441670" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="83" parent="globals/Utils" pc="268441688" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="86" parent="globals/Utils" pc="268441698" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="87" parent="globals/Utils" pc="268441717" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="88" parent="globals/Utils" pc="268441735" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="92" parent="globals/Utils" pc="268441790" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="93" parent="globals/Utils" pc="268441812" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="34" lineNum="94" parent="globals/Utils" pc="268441830" symbol="drawCircleStep"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="35" lineNum="300" parent="globals/Utils" pc="268441883" symbol="monthToNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="35" lineNum="301" parent="globals/Utils" pc="268441895" symbol="monthToNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="35" lineNum="315" parent="globals/Utils" pc="268442059" symbol="monthToNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="35" lineNum="316" parent="globals/Utils" pc="268442075" symbol="monthToNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="35" lineNum="318" parent="globals/Utils" pc="268442084" symbol="monthToNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="36" lineNum="322" parent="globals/Utils" pc="268442090" symbol="daysInMonthFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="36" lineNum="323" parent="globals/Utils" pc="268442102" symbol="daysInMonthFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="36" lineNum="324" parent="globals/Utils" pc="268442266" symbol="daysInMonthFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="36" lineNum="325" parent="globals/Utils" pc="268442293" symbol="daysInMonthFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="36" lineNum="327" parent="globals/Utils" pc="268442302" symbol="daysInMonthFunc"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="37" lineNum="283" parent="globals/Utils" pc="268442314" symbol="getDayOfWeekNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="37" lineNum="284" parent="globals/Utils" pc="268442326" symbol="getDayOfWeekNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="37" lineNum="293" parent="globals/Utils" pc="268442425" symbol="getDayOfWeekNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="37" lineNum="294" parent="globals/Utils" pc="268442441" symbol="getDayOfWeekNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\Utils.mc" id="37" lineNum="296" parent="globals/Utils" pc="268442450" symbol="getDayOfWeekNumber"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="38" lineNum="12" parent="globals/first_appApp" pc="268442456" symbol="onStart"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="39" lineNum="20" parent="globals/first_appApp" pc="268442459" symbol="getInitialView"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="39" lineNum="21" parent="globals/first_appApp" pc="268442461" symbol="getInitialView"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="40" lineNum="7" parent="globals/first_appApp" pc="268442502" symbol="initialize"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="40" lineNum="8" parent="globals/first_appApp" pc="268442504" symbol="initialize"/>
+        <entry filename="D:\\Workspace\\GarminApp\\source\\first-appApp.mc" id="41" lineNum="16" parent="globals/first_appApp" pc="268442523" symbol="onStop"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="26" parent="globals/Rez/Layouts" pc="268442526" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="27" parent="globals/Rez/Layouts" pc="268442538" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="29" parent="globals/Rez/Layouts" pc="268442617" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="31" parent="globals/Rez/Layouts" pc="268442696" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="33" parent="globals/Rez/Layouts" pc="268442775" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="35" parent="globals/Rez/Layouts" pc="268442854" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="37" parent="globals/Rez/Layouts" pc="268442933" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="39" parent="globals/Rez/Layouts" pc="268443012" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="41" parent="globals/Rez/Layouts" pc="268443147" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="43" parent="globals/Rez/Layouts" pc="268443226" symbol="WatchFace"/>
+        <entry filename="d:\\Workspace\\GarminApp\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="42" lineNum="45" parent="globals/Rez/Layouts" pc="268443305" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="27" method="true" symbol="drawBatteryBar"/>
+        <entry field="true" id="75" symbol="stepsGoalError"/>
+        <entry id="35" method="true" symbol="drawBatteryBar"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="8389346" symbol="text"/>
-        <entry id="22" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry id="24" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;"/>
+        <entry field="true" id="57" symbol="spaceGrotesk"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="37" symbol="ChargingStatus"/>
-        <entry id="13" method="true" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
-        <entry field="true" id="41" symbol="heartIcon"/>
-        <entry id="18" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry field="true" id="47" symbol="ChargingStatus"/>
+        <entry id="14" method="true" symbol="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;"/>
+        <entry field="true" id="81" symbol="themeBackgroundTitle"/>
+        <entry field="true" id="31" symbol="themeBackground"/>
+        <entry field="true" id="53" symbol="heartIcon"/>
+        <entry field="true" id="74" symbol="maxHeartRateTitle"/>
+        <entry id="9" object="true" symbol="AppSettings"/>
+        <entry id="19" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry field="true" id="26" symbol="Field2Type"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="24" method="true" symbol="drawLineLayout"/>
-        <entry field="true" id="44" symbol="AppName"/>
+        <entry field="true" id="52" symbol="distanceIcon"/>
+        <entry field="true" id="61" symbol="DataField1Title"/>
+        <entry field="true" id="69" symbol="distancesGoalError"/>
+        <entry id="32" method="true" symbol="drawLineLayout"/>
+        <entry field="true" id="64" symbol="HeartRate"/>
+        <entry field="true" id="58" symbol="AppName"/>
         <entry id="7" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry id="12" object="true" symbol="first_appView"/>
+        <entry field="true" id="82" symbol="themeBackgroundTransparent"/>
+        <entry id="13" object="true" symbol="first_appView"/>
+        <entry id="23" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;"/>
+        <entry field="true" id="77" symbol="stepsGoalTitle"/>
+        <entry field="true" id="63" symbol="Distance"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="8391038" symbol="textColor"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="40" symbol="disConnect"/>
-        <entry id="11" object="true" symbol="first_appApp"/>
+        <entry field="true" id="51" symbol="disConnect"/>
+        <entry id="36" method="true" symbol="drawCircleCalories"/>
+        <entry id="12" object="true" symbol="first_appApp"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="33" method="true" symbol="isLeapYear"/>
+        <entry field="true" id="80" symbol="themeBackgroundPurple"/>
+        <entry id="43" method="true" symbol="isLeapYear"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="42" symbol="stepIcon"/>
+        <entry field="true" id="55" symbol="stepIcon"/>
+        <entry field="true" id="73" symbol="maxHeartRatePrompt"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry field="true" id="8389714" symbol="INVALID_HR_SAMPLE"/>
-        <entry id="29" method="true" symbol="drawCircleProgress"/>
+        <entry id="39" method="true" symbol="drawCircleProgress"/>
+        <entry field="true" id="71" symbol="distancesGoalTitle"/>
+        <entry field="true" id="25" symbol="Field1Type"/>
+        <entry id="17" method="true" symbol="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="15" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
-        <entry id="30" method="true" symbol="drawCircleStep"/>
+        <entry id="16" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;"/>
+        <entry field="true" id="76" symbol="stepsGoalPrompt"/>
+        <entry id="22" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;"/>
+        <entry field="true" id="78" symbol="themeBackgroundDarkRed"/>
+        <entry id="40" method="true" symbol="drawCircleStep"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry id="25" method="true" symbol="dayOfYearFunc"/>
+        <entry id="33" method="true" symbol="dayOfYearFunc"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="20" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry id="21" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="19" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
-        <entry field="true" id="39" symbol="connected"/>
-        <entry id="28" method="true" symbol="drawCircleHeartRate"/>
-        <entry id="31" method="true" symbol="formatValueWithK"/>
+        <entry field="true" id="79" symbol="themeBackgroundOrange"/>
+        <entry id="20" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;"/>
+        <entry field="true" id="50" symbol="connected"/>
+        <entry field="true" id="66" symbol="caloriesGoalError"/>
+        <entry id="38" method="true" symbol="drawCircleHeartRate"/>
+        <entry id="41" method="true" symbol="formatValueWithK"/>
+        <entry field="true" id="67" symbol="caloriesGoalPrompt"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="38" symbol="LauncherIcon"/>
+        <entry field="true" id="48" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="32" method="true" symbol="getDayOfWeekNumber"/>
+        <entry id="42" method="true" symbol="getDayOfWeekNumber"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="26" method="true" symbol="daysInMonthFunc"/>
-        <entry id="14" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
+        <entry id="34" method="true" symbol="daysInMonthFunc"/>
+        <entry field="true" id="62" symbol="DataField2Title"/>
+        <entry id="15" method="true" symbol="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="8388749" symbol="maxHeartRate"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="10" module="true" symbol="Utils"/>
-        <entry id="23" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry field="true" id="30" symbol="stepsGoal"/>
+        <entry id="11" module="true" symbol="Utils"/>
+        <entry id="37" method="true" symbol="drawCircleDistance"/>
+        <entry field="true" id="65" symbol="Step"/>
         <entry id="8" module="true" symbol="globals/Utils"/>
-        <entry id="9" module="true" symbol="DrawLine"/>
-        <entry id="35" method="true" symbol="retrieveHeartrateText"/>
+        <entry id="10" module="true" symbol="DrawLine"/>
+        <entry id="45" method="true" symbol="retrieveHeartrateText"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="70" symbol="distancesGoalPrompt"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry field="true" id="43" symbol="myFont"/>
-        <entry id="36" module="true" symbol="Layouts"/>
+        <entry field="true" id="28" symbol="caloriesGoal"/>
+        <entry field="true" id="72" symbol="maxHeartRateError"/>
+        <entry field="true" id="56" symbol="myFont"/>
+        <entry field="true" id="27" symbol="appVersion"/>
+        <entry field="true" id="29" symbol="distancesGoal"/>
+        <entry field="true" id="54" symbol="steepIcon"/>
+        <entry field="true" id="59" symbol="AppVersionTitle"/>
+        <entry id="46" module="true" symbol="Layouts"/>
+        <entry field="true" id="60" symbol="Calories"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="2" module="true" symbol="globals/DrawLine"/>
-        <entry id="17" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;"/>
+        <entry field="true" id="49" symbol="caloriesIcon"/>
+        <entry field="true" id="68" symbol="caloriesGoalTitle"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="34" method="true" symbol="monthToNumber"/>
-        <entry id="21" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;"/>
-        <entry id="16" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry id="44" method="true" symbol="monthToNumber"/>
+        <entry id="18" method="true" symbol="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435665" name="dc" stackId="1" startPc="268435548"/>
-        <entry endPc="268435664" name="stepCount" stackId="2" startPc="268435552"/>
-        <entry endPc="268435664" name="stepCountDisplay" stackId="3" startPc="268435552"/>
-        <entry arg="true" endPc="268436048" name="dc" stackId="1" startPc="268435666"/>
-        <entry endPc="268436047" name="clockTime" stackId="2" startPc="268435670"/>
-        <entry endPc="268436047" name="mHoursFont" stackId="3" startPc="268435670"/>
-        <entry endPc="268436047" name="x" stackId="4" startPc="268435670"/>
-        <entry endPc="268436047" name="y" stackId="5" startPc="268435670"/>
-        <entry endPc="268436047" name="hourStr" stackId="6" startPc="268435670"/>
-        <entry endPc="268436047" name="minStr" stackId="7" startPc="268435670"/>
-        <entry endPc="268436047" name="secStr" stackId="8" startPc="268435670"/>
-        <entry endPc="268436241" name="mySettings" stackId="1" startPc="268436053"/>
-        <entry endPc="268436241" name="phoneConnected" stackId="2" startPc="268436053"/>
-        <entry endPc="268436241" name="connected" stackId="3" startPc="268436053"/>
-        <entry endPc="268436241" name="disConnect" stackId="4" startPc="268436053"/>
-        <entry arg="true" endPc="268436286" name="dc" stackId="1" startPc="268436243"/>
-        <entry endPc="268436405" name="myStats" stackId="1" startPc="268436291"/>
-        <entry endPc="268436405" name="isCharging" stackId="2" startPc="268436291"/>
-        <entry endPc="268436405" name="chargingStatus" stackId="3" startPc="268436291"/>
-        <entry endPc="268436495" name="battery" stackId="1" startPc="268436411"/>
-        <entry endPc="268436495" name="batteryDisplay" stackId="2" startPc="268436411"/>
-        <entry endPc="268436659" name="now" stackId="1" startPc="268436501"/>
-        <entry endPc="268436659" name="date" stackId="2" startPc="268436501"/>
-        <entry endPc="268436659" name="dateString" stackId="3" startPc="268436501"/>
-        <entry endPc="268436659" name="dateDisplay" stackId="4" startPc="268436501"/>
-        <entry endPc="268436759" name="now" stackId="1" startPc="268436665"/>
-        <entry endPc="268436759" name="hour" stackId="2" startPc="268436665"/>
-        <entry endPc="268436759" name="timeLabel" stackId="3" startPc="268436665"/>
-        <entry endPc="268436759" name="period" stackId="4" startPc="268436665"/>
-        <entry arg="true" endPc="268437287" name="dc" stackId="1" startPc="268436761"/>
-        <entry endPc="268437286" name="now" stackId="2" startPc="268436765"/>
-        <entry endPc="268437286" name="today" stackId="3" startPc="268436765"/>
-        <entry endPc="268437286" name="secondsToday" stackId="4" startPc="268436765"/>
-        <entry endPc="268437286" name="percentDay" stackId="5" startPc="268436765"/>
-        <entry endPc="268437286" name="dayOfWeekStr" stackId="6" startPc="268436765"/>
-        <entry endPc="268437286" name="dayOfWeek" stackId="7" startPc="268436765"/>
-        <entry endPc="268437286" name="secondsWeek" stackId="8" startPc="268436765"/>
-        <entry endPc="268437286" name="percentWeek" stackId="9" startPc="268436765"/>
-        <entry endPc="268437286" name="daysInMonth" stackId="10" startPc="268436765"/>
-        <entry endPc="268437286" name="percentMonth" stackId="11" startPc="268436765"/>
-        <entry endPc="268437286" name="daysInYear" stackId="12" startPc="268436765"/>
-        <entry endPc="268437286" name="dayOfYear" stackId="13" startPc="268436765"/>
-        <entry endPc="268437286" name="percentYear" stackId="14" startPc="268436765"/>
-        <entry arg="true" endPc="268437432" name="dc" stackId="1" startPc="268437288"/>
-        <entry endPc="268437431" name="heartRate" stackId="2" startPc="268437292"/>
-        <entry endPc="268437431" name="heartrateDisplay" stackId="3" startPc="268437292"/>
-        <entry arg="true" endPc="268437691" name="dc" stackId="1" startPc="268437454"/>
-        <entry endPc="268437690" name="battery" stackId="2" startPc="268437458"/>
-        <entry endPc="268437785" name="calories" stackId="1" startPc="268437696"/>
-        <entry endPc="268437785" name="caloriesDisplay" stackId="2" startPc="268437696"/>
-        <entry endPc="268437880" name="floorsClimbed" stackId="1" startPc="268437791"/>
-        <entry endPc="268437880" name="floorsClimbedDisplay" stackId="2" startPc="268437791"/>
-        <entry arg="true" endPc="268438298" name="dc" stackId="1" startPc="268437882"/>
-        <entry arg="true" endPc="268438594" name="dc" stackId="1" startPc="268438299"/>
-        <entry arg="true" endPc="268438594" name="x" stackId="2" startPc="268438299"/>
-        <entry arg="true" endPc="268438594" name="y" stackId="3" startPc="268438299"/>
-        <entry arg="true" endPc="268438594" name="width" stackId="4" startPc="268438299"/>
-        <entry arg="true" endPc="268438594" name="height" stackId="5" startPc="268438299"/>
-        <entry arg="true" endPc="268438594" name="batteryPercent" stackId="6" startPc="268438299"/>
-        <entry endPc="268438593" name="borderColor" stackId="7" startPc="268438311"/>
-        <entry endPc="268438593" name="radius" stackId="8" startPc="268438311"/>
-        <entry endPc="268438593" name="capWidth" stackId="9" startPc="268438311"/>
-        <entry endPc="268438593" name="innerWidth" stackId="10" startPc="268438311"/>
-        <entry endPc="268438593" name="fillColor" stackId="11" startPc="268438311"/>
-        <entry arg="true" endPc="268438982" name="dc" stackId="1" startPc="268438595"/>
-        <entry arg="true" endPc="268438982" name="cx" stackId="2" startPc="268438595"/>
-        <entry arg="true" endPc="268438982" name="cy" stackId="3" startPc="268438595"/>
-        <entry arg="true" endPc="268438982" name="r" stackId="4" startPc="268438595"/>
-        <entry arg="true" endPc="268438982" name="percentage" stackId="5" startPc="268438595"/>
-        <entry arg="true" endPc="268438982" name="color" stackId="6" startPc="268438595"/>
-        <entry endPc="268438981" name="sweepAngle" stackId="7" startPc="268438607"/>
-        <entry endPc="268438803" name="thickness" stackId="8" startPc="268438749"/>
-        <entry endPc="268438895" name="thickness" stackId="9" startPc="268438844"/>
-        <entry endPc="268438981" name="percentageStr" stackId="10" startPc="268438607"/>
-        <entry arg="true" endPc="268439059" name="year" stackId="1" startPc="268438983"/>
-        <entry arg="true" endPc="268439059" name="month" stackId="2" startPc="268438983"/>
-        <entry arg="true" endPc="268439059" name="day" stackId="3" startPc="268438983"/>
-        <entry endPc="268439059" name="dayCount" stackId="4" startPc="268438995"/>
-        <entry endPc="268439049" name="m" stackId="5" startPc="268439017"/>
-        <entry arg="true" endPc="268439390" name="dc" stackId="1" startPc="268439060"/>
-        <entry arg="true" endPc="268439390" name="cx" stackId="2" startPc="268439060"/>
-        <entry arg="true" endPc="268439390" name="cy" stackId="3" startPc="268439060"/>
-        <entry arg="true" endPc="268439390" name="r" stackId="4" startPc="268439060"/>
-        <entry arg="true" endPc="268439390" name="stepCount" stackId="5" startPc="268439060"/>
-        <entry arg="true" endPc="268439390" name="color" stackId="6" startPc="268439060"/>
-        <entry endPc="268439389" name="maxSteps" stackId="7" startPc="268439072"/>
-        <entry endPc="268439389" name="percent" stackId="8" startPc="268439072"/>
-        <entry endPc="268439389" name="sweepAngle" stackId="9" startPc="268439072"/>
-        <entry endPc="268439297" name="thickness" stackId="10" startPc="268439243"/>
-        <entry endPc="268439389" name="thickness" stackId="11" startPc="268439338"/>
-        <entry arg="true" endPc="268439597" name="monthStr" stackId="1" startPc="268439391"/>
-        <entry endPc="268439597" name="monthsMap" stackId="2" startPc="268439403"/>
-        <entry arg="true" endPc="268439662" name="year" stackId="1" startPc="268439598"/>
-        <entry arg="true" endPc="268439886" name="year" stackId="1" startPc="268439663"/>
-        <entry arg="true" endPc="268439886" name="month" stackId="2" startPc="268439663"/>
-        <entry endPc="268439886" name="daysPerMonth" stackId="3" startPc="268439675"/>
-        <entry arg="true" endPc="268440238" name="dc" stackId="1" startPc="268439887"/>
-        <entry arg="true" endPc="268440238" name="cx" stackId="2" startPc="268439887"/>
-        <entry arg="true" endPc="268440238" name="cy" stackId="3" startPc="268439887"/>
-        <entry arg="true" endPc="268440238" name="r" stackId="4" startPc="268439887"/>
-        <entry arg="true" endPc="268440238" name="heartRate" stackId="5" startPc="268439887"/>
-        <entry arg="true" endPc="268440238" name="color" stackId="6" startPc="268439887"/>
-        <entry endPc="268440237" name="maxHeartRate" stackId="7" startPc="268439899"/>
-        <entry endPc="268440237" name="percent" stackId="8" startPc="268439899"/>
-        <entry endPc="268440237" name="sweepAngle" stackId="9" startPc="268439899"/>
-        <entry endPc="268440145" name="thickness" stackId="10" startPc="268440091"/>
-        <entry endPc="268440237" name="thickness" stackId="11" startPc="268440186"/>
-        <entry arg="true" endPc="268440304" name="value" stackId="1" startPc="268440239"/>
-        <entry arg="true" endPc="268440446" name="dayStr" stackId="1" startPc="268440305"/>
-        <entry endPc="268440446" name="daysMap" stackId="2" startPc="268440317"/>
-        <entry endPc="268440534" name="heartrateIterator" stackId="1" startPc="268440459"/>
-        <entry endPc="268440534" name="currentHeartrate" stackId="2" startPc="268440459"/>
-        <entry arg="true" endPc="268442140" name="dc" stackId="1" startPc="268440605"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_HeartrateDisplay" stackId="3" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_heartIcon" stackId="4" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_StepCountDisplay" stackId="5" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_stepIcon" stackId="6" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_BatteryDisplay" stackId="7" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_ChargingStatus" stackId="8" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_DeviceConnectionStatusDisplay" stackId="9" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_connected" stackId="10" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_bitmap_disConnect" stackId="11" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_DayOrNight" stackId="12" startPc="268440617"/>
-        <entry endPc="268442140" name="rez_cmp_local_text_DateDisplay" stackId="13" startPc="268440617"/>
+        <entry arg="true" endPc="268435960" name="dc" stackId="1" startPc="268435548"/>
+        <entry endPc="268435959" name="clockTime" stackId="2" startPc="268435552"/>
+        <entry endPc="268435959" name="mHoursFont" stackId="3" startPc="268435552"/>
+        <entry endPc="268435959" name="x" stackId="4" startPc="268435552"/>
+        <entry endPc="268435959" name="y" stackId="5" startPc="268435552"/>
+        <entry endPc="268435959" name="hourStr" stackId="6" startPc="268435552"/>
+        <entry endPc="268435959" name="minStr" stackId="7" startPc="268435552"/>
+        <entry endPc="268435959" name="secStr" stackId="8" startPc="268435552"/>
+        <entry arg="true" endPc="268436130" name="dc" stackId="1" startPc="268435961"/>
+        <entry endPc="268436129" name="mySettings" stackId="2" startPc="268435965"/>
+        <entry endPc="268436129" name="phoneConnected" stackId="3" startPc="268435965"/>
+        <entry endPc="268436129" name="getConnectedIcon" stackId="4" startPc="268435965"/>
+        <entry endPc="268436129" name="getDisConnectIcon" stackId="5" startPc="268435965"/>
+        <entry arg="true" endPc="268436174" name="dc" stackId="1" startPc="268436131"/>
+        <entry arg="true" endPc="268436279" name="dc" stackId="1" startPc="268436175"/>
+        <entry endPc="268436278" name="myStats" stackId="2" startPc="268436179"/>
+        <entry endPc="268436278" name="isCharging" stackId="3" startPc="268436179"/>
+        <entry endPc="268436278" name="chargingIcon" stackId="4" startPc="268436179"/>
+        <entry arg="true" endPc="268436409" name="dc" stackId="1" startPc="268436280"/>
+        <entry arg="true" endPc="268436409" name="color" stackId="2" startPc="268436280"/>
+        <entry endPc="268436408" name="theme" stackId="3" startPc="268436284"/>
+        <entry arg="true" endPc="268436587" name="dc" stackId="1" startPc="268436410"/>
+        <entry endPc="268436586" name="theme" stackId="2" startPc="268436414"/>
+        <entry arg="true" endPc="268436737" name="dc" stackId="1" startPc="268436588"/>
+        <entry endPc="268436736" name="battery" stackId="2" startPc="268436592"/>
+        <entry endPc="268436736" name="batteryLevel" stackId="3" startPc="268436592"/>
+        <entry endPc="268436736" name="batteryLevelStr" stackId="4" startPc="268436592"/>
+        <entry endPc="268436736" name="spaceGroteskFont" stackId="5" startPc="268436592"/>
+        <entry arg="true" endPc="268436931" name="dc" stackId="1" startPc="268436738"/>
+        <entry endPc="268436930" name="now" stackId="2" startPc="268436742"/>
+        <entry endPc="268436930" name="date" stackId="3" startPc="268436742"/>
+        <entry endPc="268436930" name="dateString" stackId="4" startPc="268436742"/>
+        <entry endPc="268436930" name="spaceGroteskFont" stackId="5" startPc="268436742"/>
+        <entry arg="true" endPc="268437050" name="dc" stackId="1" startPc="268436932"/>
+        <entry endPc="268437049" name="dataField1" stackId="2" startPc="268436936"/>
+        <entry endPc="268437049" name="dataField2" stackId="3" startPc="268436936"/>
+        <entry arg="true" endPc="268437180" name="dc" stackId="1" startPc="268437051"/>
+        <entry endPc="268437179" name="now" stackId="2" startPc="268437055"/>
+        <entry endPc="268437179" name="hour" stackId="3" startPc="268437055"/>
+        <entry endPc="268437179" name="period" stackId="4" startPc="268437055"/>
+        <entry endPc="268437179" name="spaceGroteskFont" stackId="5" startPc="268437055"/>
+        <entry arg="true" endPc="268437707" name="dc" stackId="1" startPc="268437181"/>
+        <entry endPc="268437706" name="now" stackId="2" startPc="268437185"/>
+        <entry endPc="268437706" name="today" stackId="3" startPc="268437185"/>
+        <entry endPc="268437706" name="secondsToday" stackId="4" startPc="268437185"/>
+        <entry endPc="268437706" name="percentDay" stackId="5" startPc="268437185"/>
+        <entry endPc="268437706" name="dayOfWeekStr" stackId="6" startPc="268437185"/>
+        <entry endPc="268437706" name="dayOfWeek" stackId="7" startPc="268437185"/>
+        <entry endPc="268437706" name="secondsWeek" stackId="8" startPc="268437185"/>
+        <entry endPc="268437706" name="percentWeek" stackId="9" startPc="268437185"/>
+        <entry endPc="268437706" name="daysInMonth" stackId="10" startPc="268437185"/>
+        <entry endPc="268437706" name="percentMonth" stackId="11" startPc="268437185"/>
+        <entry endPc="268437706" name="daysInYear" stackId="12" startPc="268437185"/>
+        <entry endPc="268437706" name="dayOfYear" stackId="13" startPc="268437185"/>
+        <entry endPc="268437706" name="percentYear" stackId="14" startPc="268437185"/>
+        <entry arg="true" endPc="268438494" name="dc" stackId="1" startPc="268437708"/>
+        <entry arg="true" endPc="268438494" name="fieldType" stackId="2" startPc="268437708"/>
+        <entry arg="true" endPc="268438494" name="x" stackId="3" startPc="268437708"/>
+        <entry arg="true" endPc="268438494" name="y" stackId="4" startPc="268437708"/>
+        <entry endPc="268438493" name="valueStr" stackId="5" startPc="268437712"/>
+        <entry endPc="268438493" name="icon" stackId="6" startPc="268437712"/>
+        <entry endPc="268438364" name="heartRate" stackId="7" startPc="268437724"/>
+        <entry endPc="268438364" name="steps" stackId="8" startPc="268437724"/>
+        <entry endPc="268438364" name="calories" stackId="9" startPc="268437724"/>
+        <entry endPc="268438364" name="distances" stackId="10" startPc="268437724"/>
+        <entry endPc="268438493" name="spaceGroteskFont" stackId="11" startPc="268437712"/>
+        <entry arg="true" endPc="268438773" name="dc" stackId="1" startPc="268438516"/>
+        <entry endPc="268438772" name="battery" stackId="2" startPc="268438520"/>
+        <entry arg="true" endPc="268439193" name="dc" stackId="1" startPc="268438774"/>
+        <entry arg="true" endPc="268439489" name="dc" stackId="1" startPc="268439194"/>
+        <entry arg="true" endPc="268439489" name="x" stackId="2" startPc="268439194"/>
+        <entry arg="true" endPc="268439489" name="y" stackId="3" startPc="268439194"/>
+        <entry arg="true" endPc="268439489" name="width" stackId="4" startPc="268439194"/>
+        <entry arg="true" endPc="268439489" name="height" stackId="5" startPc="268439194"/>
+        <entry arg="true" endPc="268439489" name="batteryPercent" stackId="6" startPc="268439194"/>
+        <entry endPc="268439488" name="borderColor" stackId="7" startPc="268439206"/>
+        <entry endPc="268439488" name="radius" stackId="8" startPc="268439206"/>
+        <entry endPc="268439488" name="capWidth" stackId="9" startPc="268439206"/>
+        <entry endPc="268439488" name="innerWidth" stackId="10" startPc="268439206"/>
+        <entry endPc="268439488" name="fillColor" stackId="11" startPc="268439206"/>
+        <entry arg="true" endPc="268439906" name="dc" stackId="1" startPc="268439490"/>
+        <entry arg="true" endPc="268439906" name="cx" stackId="2" startPc="268439490"/>
+        <entry arg="true" endPc="268439906" name="cy" stackId="3" startPc="268439490"/>
+        <entry arg="true" endPc="268439906" name="r" stackId="4" startPc="268439490"/>
+        <entry arg="true" endPc="268439906" name="caloriesCount" stackId="5" startPc="268439490"/>
+        <entry arg="true" endPc="268439906" name="color" stackId="6" startPc="268439490"/>
+        <entry endPc="268439905" name="caloriesGoal" stackId="7" startPc="268439502"/>
+        <entry endPc="268439905" name="percent" stackId="8" startPc="268439502"/>
+        <entry endPc="268439905" name="sweepAngle" stackId="9" startPc="268439502"/>
+        <entry endPc="268439813" name="thickness" stackId="10" startPc="268439759"/>
+        <entry endPc="268439905" name="thickness" stackId="11" startPc="268439854"/>
+        <entry arg="true" endPc="268440332" name="dc" stackId="1" startPc="268439907"/>
+        <entry arg="true" endPc="268440332" name="cx" stackId="2" startPc="268439907"/>
+        <entry arg="true" endPc="268440332" name="cy" stackId="3" startPc="268439907"/>
+        <entry arg="true" endPc="268440332" name="r" stackId="4" startPc="268439907"/>
+        <entry arg="true" endPc="268440332" name="percentage" stackId="5" startPc="268439907"/>
+        <entry arg="true" endPc="268440332" name="color" stackId="6" startPc="268439907"/>
+        <entry endPc="268440331" name="sweepAngle" stackId="7" startPc="268439919"/>
+        <entry endPc="268440115" name="thickness" stackId="8" startPc="268440061"/>
+        <entry endPc="268440207" name="thickness" stackId="9" startPc="268440156"/>
+        <entry endPc="268440331" name="spaceGroteskFont" stackId="10" startPc="268439919"/>
+        <entry endPc="268440331" name="percentageStr" stackId="11" startPc="268439919"/>
+        <entry arg="true" endPc="268440409" name="year" stackId="1" startPc="268440333"/>
+        <entry arg="true" endPc="268440409" name="month" stackId="2" startPc="268440333"/>
+        <entry arg="true" endPc="268440409" name="day" stackId="3" startPc="268440333"/>
+        <entry endPc="268440409" name="dayCount" stackId="4" startPc="268440345"/>
+        <entry endPc="268440399" name="m" stackId="5" startPc="268440367"/>
+        <entry arg="true" endPc="268440474" name="year" stackId="1" startPc="268440410"/>
+        <entry arg="true" endPc="268440894" name="dc" stackId="1" startPc="268440475"/>
+        <entry arg="true" endPc="268440894" name="cx" stackId="2" startPc="268440475"/>
+        <entry arg="true" endPc="268440894" name="cy" stackId="3" startPc="268440475"/>
+        <entry arg="true" endPc="268440894" name="r" stackId="4" startPc="268440475"/>
+        <entry arg="true" endPc="268440894" name="heartRate" stackId="5" startPc="268440475"/>
+        <entry arg="true" endPc="268440894" name="color" stackId="6" startPc="268440475"/>
+        <entry endPc="268440893" name="maxHeartRate" stackId="7" startPc="268440487"/>
+        <entry endPc="268440893" name="percent" stackId="8" startPc="268440487"/>
+        <entry endPc="268440893" name="sweepAngle" stackId="9" startPc="268440487"/>
+        <entry endPc="268440801" name="thickness" stackId="10" startPc="268440747"/>
+        <entry endPc="268440893" name="thickness" stackId="11" startPc="268440842"/>
+        <entry arg="true" endPc="268441311" name="dc" stackId="1" startPc="268440895"/>
+        <entry arg="true" endPc="268441311" name="cx" stackId="2" startPc="268440895"/>
+        <entry arg="true" endPc="268441311" name="cy" stackId="3" startPc="268440895"/>
+        <entry arg="true" endPc="268441311" name="r" stackId="4" startPc="268440895"/>
+        <entry arg="true" endPc="268441311" name="distancesCount" stackId="5" startPc="268440895"/>
+        <entry arg="true" endPc="268441311" name="color" stackId="6" startPc="268440895"/>
+        <entry endPc="268441310" name="distancesGoal" stackId="7" startPc="268440907"/>
+        <entry endPc="268441310" name="percent" stackId="8" startPc="268440907"/>
+        <entry endPc="268441310" name="sweepAngle" stackId="9" startPc="268440907"/>
+        <entry endPc="268441218" name="thickness" stackId="10" startPc="268441164"/>
+        <entry endPc="268441310" name="thickness" stackId="11" startPc="268441259"/>
+        <entry arg="true" endPc="268441377" name="value" stackId="1" startPc="268441312"/>
+        <entry endPc="268441465" name="heartrateIterator" stackId="1" startPc="268441390"/>
+        <entry endPc="268441465" name="currentHeartrate" stackId="2" startPc="268441390"/>
+        <entry arg="true" endPc="268441882" name="dc" stackId="1" startPc="268441466"/>
+        <entry arg="true" endPc="268441882" name="cx" stackId="2" startPc="268441466"/>
+        <entry arg="true" endPc="268441882" name="cy" stackId="3" startPc="268441466"/>
+        <entry arg="true" endPc="268441882" name="r" stackId="4" startPc="268441466"/>
+        <entry arg="true" endPc="268441882" name="stepCount" stackId="5" startPc="268441466"/>
+        <entry arg="true" endPc="268441882" name="color" stackId="6" startPc="268441466"/>
+        <entry endPc="268441881" name="stepsGoal" stackId="7" startPc="268441478"/>
+        <entry endPc="268441881" name="percent" stackId="8" startPc="268441478"/>
+        <entry endPc="268441881" name="sweepAngle" stackId="9" startPc="268441478"/>
+        <entry endPc="268441789" name="thickness" stackId="10" startPc="268441735"/>
+        <entry endPc="268441881" name="thickness" stackId="11" startPc="268441830"/>
+        <entry arg="true" endPc="268442089" name="monthStr" stackId="1" startPc="268441883"/>
+        <entry endPc="268442089" name="monthsMap" stackId="2" startPc="268441895"/>
+        <entry arg="true" endPc="268442313" name="year" stackId="1" startPc="268442090"/>
+        <entry arg="true" endPc="268442313" name="month" stackId="2" startPc="268442090"/>
+        <entry endPc="268442313" name="daysPerMonth" stackId="3" startPc="268442102"/>
+        <entry arg="true" endPc="268442455" name="dayStr" stackId="1" startPc="268442314"/>
+        <entry endPc="268442455" name="daysMap" stackId="2" startPc="268442326"/>
+        <entry arg="true" endPc="268443401" name="dc" stackId="1" startPc="268442526"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_heartIcon" stackId="2" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_stepIcon" stackId="3" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_caloriesIcon" stackId="4" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_steepIcon" stackId="5" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_distanceIcon" stackId="6" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_ChargingStatus" stackId="7" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_text_DeviceConnectionStatusDisplay" stackId="8" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_connected" stackId="9" startPc="268442538"/>
+        <entry endPc="268443401" name="rez_cmp_local_bitmap_disConnect" stackId="10" startPc="268442538"/>
     </localVars>
     <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3076-00"/>
     <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepsGoalError"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepsGoalTitle"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stepIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppVersionTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="distancesGoalPrompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="themeBackgroundOrange"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="distancesGoalTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="distancesGoalError"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="themeBackgroundDarkRed"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="ChargingStatus"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="caloriesIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="disConnect"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="myFont"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="connected"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DataField2Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Calories"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="caloriesGoalPrompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DataField1Title"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="steepIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="myFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="caloriesGoalTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HeartRate"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="distanceIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="themeBackgroundPurple"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Step"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="maxHeartRateError"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="maxHeartRateTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stepIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="spaceGrotesk"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="maxHeartRatePrompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepsGoalPrompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="themeBackgroundTransparent"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="caloriesGoalError"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="connected"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="themeBackgroundTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Distance"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/first_appView" offset="174" parentId="globals" symbolId="first_appView" type="class"/>
-        <dataEntry label="globals/DrawLine" offset="357" parentId="globals" symbolId="DrawLine" type="module"/>
-        <dataEntry label="globals/Utils" offset="396" parentId="globals" symbolId="Utils" type="module"/>
-        <dataEntry label="globals/Rez" offset="515" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/first_appApp" offset="578" parentId="globals" symbolId="first_appApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="649" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="728" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="767" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="806" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/first_appView" offset="190" parentId="globals" symbolId="first_appView" type="class"/>
+        <dataEntry label="globals/AppSettings" offset="373" parentId="globals" symbolId="AppSettings" type="class"/>
+        <dataEntry label="globals/DrawLine" offset="484" parentId="globals" symbolId="DrawLine" type="module"/>
+        <dataEntry label="globals/Utils" offset="523" parentId="globals" symbolId="Utils" type="module"/>
+        <dataEntry label="globals/Rez" offset="658" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/first_appApp" offset="721" parentId="globals" symbolId="first_appApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="792" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="895" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="934" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="981" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="first_appView" startPc="268435460">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="AppSettings">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="DrawLine">
@@ -514,71 +708,85 @@
         <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="first_appApp" startPc="268435529">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268435665" name="&lt;globals/first_appView/&lt;&gt;setStepCountDisplay&gt;" parent="first_appView" startPc="268435548">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
         <functionEntry accessMode="public" name="onExitSleep" parent="first_appView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268436048" name="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;" parent="first_appView" startPc="268435666">
+        <functionEntry accessMode="private" endPc="268435960" name="&lt;globals/first_appView/&lt;&gt;setClockDisplay&gt;" parent="first_appView" startPc="268435548">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268436242" name="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;" parent="first_appView" startPc="268436049">
+        <functionEntry accessMode="private" endPc="268436130" name="&lt;globals/first_appView/&lt;&gt;setConnectionStatusDisplay&gt;" parent="first_appView" startPc="268435961">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="first_appView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436286" name="onLayout" parent="first_appView" startPc="268436243">
+        <functionEntry accessMode="public" endPc="268436174" name="onLayout" parent="first_appView" startPc="268436131">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268436406" name="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;" parent="first_appView" startPc="268436287">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268436496" name="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;" parent="first_appView" startPc="268436407">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268436660" name="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;" parent="first_appView" startPc="268436497">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268436760" name="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;" parent="first_appView" startPc="268436661">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268437287" name="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;" parent="first_appView" startPc="268436761">
+        <functionEntry accessMode="private" endPc="268436279" name="&lt;globals/first_appView/&lt;&gt;checkChargingStatus&gt;" parent="first_appView" startPc="268436175">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437432" name="&lt;globals/first_appView/&lt;&gt;setHeartrateDisplay&gt;" parent="first_appView" startPc="268437288">
+        <functionEntry accessMode="private" endPc="268436409" name="&lt;globals/first_appView/&lt;&gt;setTextColor&gt;" parent="first_appView" startPc="268436280">
             <param id="dc"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436587" name="&lt;globals/first_appView/&lt;&gt;setThemeBackground&gt;" parent="first_appView" startPc="268436410">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436737" name="&lt;globals/first_appView/&lt;&gt;setBatteryDisplay&gt;" parent="first_appView" startPc="268436588">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436931" name="&lt;globals/first_appView/&lt;&gt;setDateDisplay&gt;" parent="first_appView" startPc="268436738">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437050" name="&lt;globals/first_appView/&lt;&gt;setDynamicFields&gt;" parent="first_appView" startPc="268436932">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437180" name="&lt;globals/first_appView/&lt;&gt;displayDayNight&gt;" parent="first_appView" startPc="268437051">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437707" name="&lt;globals/first_appView/&lt;&gt;displayProgressPercentages&gt;" parent="first_appView" startPc="268437181">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438494" name="&lt;globals/first_appView/&lt;&gt;drawDataField&gt;" parent="first_appView" startPc="268437708">
+            <param id="dc"/>
+            <param id="fieldType"/>
+            <param id="x"/>
+            <param id="y"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="first_appView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437453" name="initialize" parent="first_appView" startPc="268437433">
+        <functionEntry accessMode="public" endPc="268438515" name="initialize" parent="first_appView" startPc="268438495">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="first_appView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437691" name="onUpdate" parent="first_appView" startPc="268437454">
+        <functionEntry accessMode="public" endPc="268438773" name="onUpdate" parent="first_appView" startPc="268438516">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437786" name="&lt;globals/first_appView/&lt;&gt;setCaloriesDisplay&gt;" parent="first_appView" startPc="268437692">
+        <functionEntry accessMode="public" name="initialize" parent="AppSettings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437881" name="&lt;globals/first_appView/&lt;&gt;setFloorsClimbedDisplay&gt;" parent="first_appView" startPc="268437787">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438298" name="drawLineLayout" parent="DrawLine" startPc="268437882">
+        <functionEntry accessMode="public" endPc="268439193" name="drawLineLayout" parent="DrawLine" startPc="268438774">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438594" name="drawBatteryBar" parent="Utils" startPc="268438299">
+        <functionEntry accessMode="public" endPc="268439489" name="drawBatteryBar" parent="Utils" startPc="268439194">
             <param id="dc"/>
             <param id="x"/>
             <param id="y"/>
@@ -587,7 +795,16 @@
             <param id="batteryPercent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438982" name="drawCircleProgress" parent="Utils" startPc="268438595">
+        <functionEntry accessMode="public" endPc="268439906" name="drawCircleCalories" parent="Utils" startPc="268439490">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="caloriesCount"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440332" name="drawCircleProgress" parent="Utils" startPc="268439907">
             <param id="dc"/>
             <param id="cx"/>
             <param id="cy"/>
@@ -596,35 +813,17 @@
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439059" name="dayOfYearFunc" parent="Utils" startPc="268438983">
+        <functionEntry accessMode="public" endPc="268440409" name="dayOfYearFunc" parent="Utils" startPc="268440333">
             <param id="year"/>
             <param id="month"/>
             <param id="day"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439390" name="drawCircleStep" parent="Utils" startPc="268439060">
-            <param id="dc"/>
-            <param id="cx"/>
-            <param id="cy"/>
-            <param id="r"/>
-            <param id="stepCount"/>
-            <param id="color"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268439597" name="monthToNumber" parent="Utils" startPc="268439391">
-            <param id="monthStr"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268439662" name="isLeapYear" parent="Utils" startPc="268439598">
+        <functionEntry accessMode="public" endPc="268440474" name="isLeapYear" parent="Utils" startPc="268440410">
             <param id="year"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439886" name="daysInMonthFunc" parent="Utils" startPc="268439663">
-            <param id="year"/>
-            <param id="month"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440238" name="drawCircleHeartRate" parent="Utils" startPc="268439887">
+        <functionEntry accessMode="public" endPc="268440894" name="drawCircleHeartRate" parent="Utils" startPc="268440475">
             <param id="dc"/>
             <param id="cx"/>
             <param id="cy"/>
@@ -633,15 +832,42 @@
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440304" name="formatValueWithK" parent="Utils" startPc="268440239">
+        <functionEntry accessMode="public" endPc="268441311" name="drawCircleDistance" parent="Utils" startPc="268440895">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="distancesCount"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441377" name="formatValueWithK" parent="Utils" startPc="268441312">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440446" name="getDayOfWeekNumber" parent="Utils" startPc="268440305">
-            <param id="dayStr"/>
+        <functionEntry accessMode="public" endPc="268441465" name="retrieveHeartrateText" parent="Utils" startPc="268441378">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440534" name="retrieveHeartrateText" parent="Utils" startPc="268440447">
+        <functionEntry accessMode="public" endPc="268441882" name="drawCircleStep" parent="Utils" startPc="268441466">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="stepCount"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442089" name="monthToNumber" parent="Utils" startPc="268441883">
+            <param id="monthStr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442313" name="daysInMonthFunc" parent="Utils" startPc="268442090">
+            <param id="year"/>
+            <param id="month"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442455" name="getDayOfWeekNumber" parent="Utils" startPc="268442314">
+            <param id="dayStr"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -656,21 +882,21 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440537" name="onStart" parent="first_appApp" startPc="268440535">
+        <functionEntry accessMode="public" endPc="268442458" name="onStart" parent="first_appApp" startPc="268442456">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440580" name="getInitialView" parent="first_appApp" startPc="268440538">
+        <functionEntry accessMode="public" endPc="268442501" name="getInitialView" parent="first_appApp" startPc="268442459">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440601" name="initialize" parent="first_appApp" startPc="268440581">
+        <functionEntry accessMode="public" endPc="268442522" name="initialize" parent="first_appApp" startPc="268442502">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440604" name="onStop" parent="first_appApp" startPc="268440602">
+        <functionEntry accessMode="public" endPc="268442525" name="onStop" parent="first_appApp" startPc="268442523">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442140" name="WatchFace" parent="Layouts" startPc="268440605">
+        <functionEntry accessMode="public" endPc="268443401" name="WatchFace" parent="Layouts" startPc="268442526">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

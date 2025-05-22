@@ -2,7 +2,7 @@ import Toybox.Graphics;
 
 module DrawLine {
   function drawLineLayout(dc as Dc) {
-    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
 
     dc.drawLine(0, 120, 30, 150);
     dc.drawLine(30, 150, 210, 150);

@@ -6,9 +6,12 @@ using Toybox.ActivityMonitor as Mon;
 using Toybox.System as Sys;
 using Toybox.Time.Gregorian as Date;
 using Toybox.Application;
+using Toybox.Application as App;
 
 using Utils;
 using DrawLine;
+
+var textColor = Graphics.COLOR_WHITE;
 
 class first_appView extends WatchUi.WatchFace {
 
@@ -29,29 +32,27 @@ class first_appView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        
-        setBatteryDisplay();
-        setDateDisplay();
-        // setCaloriesDisplay();
-        // setFloorsClimbedDisplay();
-        setConnectionStatusDisplay();
-        
-        displayDayNight();
-        setConnectionStatusDisplay();
-        
         View.onUpdate(dc);
-
+        setThemeBackground(dc);
+        
         var battery = Sys.getSystemStats().battery;
-        Utils.drawBatteryBar(dc, 79, 20, 81, 12, battery);
+        Utils.drawBatteryBar(dc, 79, 20, 81, 14, battery);
 
         displayProgressPercentages(dc);
         DrawLine.drawLineLayout(dc);
-        setHeartrateDisplay(dc);
-        setStepCountDisplay(dc);
+        setBatteryDisplay(dc);
+        setDateDisplay(dc);
+        
+        setConnectionStatusDisplay(dc);
+        displayDayNight(dc);
 
         setClockDisplay(dc);
-        checkChargingStatus();
-        
+        checkChargingStatus(dc);
+
+        // Hiện thị 2 fields top
+        setDynamicFields(dc);
+
+        setTextColor(dc, textColor);
 
     }
 
@@ -74,13 +75,16 @@ class first_appView extends WatchUi.WatchFace {
       var clockTime = Sys.getClockTime();
 
       var mHoursFont = WatchUi.loadResource(Rez.Fonts.myFont);
-      var x = 35;
+      var x = 30;
       var y = 120;
 
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 
       // Chuỗi giờ/phút/giây
       var hourStr = clockTime.hour.toString();
+      if (hourStr.length() == 1) {
+        x = 45;
+      }
       var minStr = clockTime.min.format("%02d");
       var secStr = clockTime.sec.format("%02d");
 
@@ -134,119 +138,117 @@ class first_appView extends WatchUi.WatchFace {
       );
     }
 
-    // Hiển thị nhịp tim
-    private function setHeartrateDisplay(dc as Dc) {
-    	var heartRate = "";
-    	
-    	if(Mon has :INVALID_HR_SAMPLE) {
-    		heartRate = Utils.retrieveHeartrateText();
-    	}
-    	else {
-    		heartRate = "";
-    	}
+    private function drawDataField(dc as Dc, fieldType as String, x as Number, y as Number) {
+      var valueStr = "--";
+      var icon = null;
 
-      Utils.drawCircleHeartRate(dc, 54, 59, 25, heartRate.toNumber(), Graphics.COLOR_GREEN);
-    	
-      var heartrateDisplay = View.findDrawableById("HeartrateDisplay") as Text;      
-      heartrateDisplay.setText(heartRate);
+      switch(fieldType) {
+        case 0: //Heart Rate
+          var heartRate = (Mon has :INVALID_HR_SAMPLE) ? Utils.retrieveHeartrateText() : "--";
+          valueStr = heartRate;
+          Utils.drawCircleHeartRate(dc, x, y + 19, 25, heartRate.toNumber(), Graphics.COLOR_GREEN);
+          icon = WatchUi.loadResource(Rez.Drawables.heartIcon);
+          break;
+
+        case 1: //Step Count
+          var steps = Mon.getInfo().steps;
+          valueStr = Utils.formatValueWithK(steps);
+          Utils.drawCircleStep(dc, x, y + 19, 25, steps.toFloat(), Graphics.COLOR_GREEN);
+          icon = WatchUi.loadResource(Rez.Drawables.stepIcon);
+          break;
+
+        case 2: //Calories
+          var calories = Mon.getInfo().calories;
+          valueStr = Utils.formatValueWithK(calories);
+          Utils.drawCircleCalories(dc, x, y + 19, 25, calories.toFloat(), Graphics.COLOR_GREEN);
+          icon = WatchUi.loadResource(Rez.Drawables.caloriesIcon);
+          break;
+
+        case 3: //Distance
+          var distances = Mon.getInfo().distance;
+          valueStr = Utils.formatValueWithK(distances) + "K";
+          Utils.drawCircleDistance(dc, x, y + 19, 25, distances.toFloat(), Graphics.COLOR_GREEN);
+          icon = WatchUi.loadResource(Rez.Drawables.distanceIcon);
+          break;
+
+        default:
+          valueStr = "--";
+          break;
+      }
+
+      // Vẽ text
+      var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
+      dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+      dc.drawText(x, y, spaceGroteskFont, valueStr, Graphics.TEXT_JUSTIFY_CENTER);
+
+      // Vẽ icon nếu có
+      if (icon != null) {
+        dc.drawBitmap(x - 9, y + 20, icon);
+      }
+    }
+
+    // Hàm hiển thị hai trường dữ liệu động
+    private function setDynamicFields(dc as Dc) {
+      var dataField1 = App.getApp().getProperty("Field1Type");
+      var dataField2 = App.getApp().getProperty("Field2Type");
+
+      drawDataField(dc, dataField1, 54, 40);
+      drawDataField(dc, dataField2, 188, 40);
     }
 
     // Hiển thị pin
-    private function setBatteryDisplay() {
-    	var battery = Sys.getSystemStats().battery;		
-      var batteryDisplay = View.findDrawableById("BatteryDisplay") as Text;      
-      batteryDisplay.setText(battery.format("%d")+"%");	
+    private function setBatteryDisplay(dc as Dc) {
+    	var battery = Sys.getSystemStats().battery;
+      var batteryLevel = battery.format("%d");
+      var batteryLevelStr = batteryLevel + "%";
+      dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+      var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
+      dc.drawText(120, 20, spaceGroteskFont, batteryLevelStr, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
-    private function checkChargingStatus() {
+    // Hiển thị sạc hay không
+    private function checkChargingStatus(dc as Dc) {
       var myStats = System.getSystemStats();
       var isCharging = myStats.charging;
       
-      var chargingStatus = View.findDrawableById("ChargingStatus") as Drawable;
-      
-      if (chargingStatus != null) {
-        chargingStatus.setVisible(false);
-      }
+      var chargingIcon = WatchUi.loadResource(Rez.Drawables.ChargingStatus);
 
       if (isCharging) {
-        chargingStatus.setVisible(true);
-      } else {
-        chargingStatus.setVisible(false);
+        dc.drawBitmap(110, 0, chargingIcon);
       }
-    }
-
-    // Hiển thị số bước
-    private function setStepCountDisplay(dc as Dc) {
-      var stepCount = 6200;
-      Utils.drawCircleStep(dc, 188, 59, 25, stepCount.toFloat(), Graphics.COLOR_GREEN);
-      
-      var stepCountDisplay = View.findDrawableById("StepCountDisplay") as Text;      
-      stepCountDisplay.setText(Utils.formatValueWithK(stepCount));		
     }
 
     // Hiển thị ngày tháng
-    private function setDateDisplay() {        
+    private function setDateDisplay(dc as Dc) {        
       var now = Time.now();
       var date = Date.info(now, Time.FORMAT_LONG);
       var dateString = Lang.format("$1$\n$2$ $3$", [date.day_of_week, date.month, date.day]);
-      var dateDisplay = View.findDrawableById("DateDisplay") as Text;      
-      dateDisplay.setText(dateString);	    	
-    }
-
-    // Hiển thị calo
-    private function setCaloriesDisplay() {
-      var calories = Mon.getInfo().calories;
-      var caloriesDisplay = View.findDrawableById("CaloriesDisplay") as Text;
-      if (caloriesDisplay != null) {
-        caloriesDisplay.setText(Utils.formatValueWithK(calories));
-      }
-    }
-
-    // Hiển thị số tầng đã leo
-    private function setFloorsClimbedDisplay() {
-      var floorsClimbed = Mon.getInfo().floorsClimbed;
-      var floorsClimbedDisplay = View.findDrawableById("FloorsClimbedDisplay") as Text;
-      if (floorsClimbedDisplay != null) {
-        floorsClimbedDisplay.setText(Utils.formatValueWithK(floorsClimbed));
-      }
-    }
+      var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
+      dc.drawText(122, 45, spaceGroteskFont, dateString, Graphics.TEXT_JUSTIFY_CENTER);
+    } 
 
     // Hiển thị status kết nối
-    private function setConnectionStatusDisplay() {
+    private function setConnectionStatusDisplay(dc as Dc) {
       var mySettings = System.getDeviceSettings();
       var phoneConnected = mySettings.phoneConnected;
       
-      var connected = View.findDrawableById("connected") as Drawable;
-      var disConnect = View.findDrawableById("disConnect") as Drawable;
+      var getConnectedIcon = WatchUi.loadResource(Rez.Drawables.connected);
+      var getDisConnectIcon = WatchUi.loadResource(Rez.Drawables.disConnect);
 
-      // Ẩn tất cả icon trước
-      if (connected != null) {
-        connected.setVisible(false);
-      }
-      if (disConnect != null) {
-        disConnect.setVisible(false);
-      }
-
-      if (phoneConnected != null) {
-        if (connected != null) {
-          connected.setVisible(true);
-        }
+      if (phoneConnected) {
+        dc.drawBitmap(10, 112, getConnectedIcon);
       } else {
-        if (disConnect != null) {
-          disConnect.setVisible(true);
-        }
+        dc.drawBitmap(10, 112, getDisConnectIcon);
       }
     }
 
     // Hiển thị AM/PM
-    private function displayDayNight() {
+    private function displayDayNight(dc as Dc) {
       var now = System.getClockTime();
       var hour = now.hour;
-
-      var timeLabel = View.findDrawableById("DayOrNight") as Text;
-
       var period = (hour >= 12) ? "PM" : "AM";
-      timeLabel.setText(period);
+      var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
+      dc.drawText(220, 112, spaceGroteskFont, period, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     private function displayProgressPercentages(dc as Dc) {
@@ -272,31 +274,38 @@ class first_appView extends WatchUi.WatchFace {
       var dayOfYear = Utils.dayOfYearFunc(today.year, Utils.monthToNumber(today.month), today.day);
       var percentYear = ((dayOfYear - 1) + secondsToday / 86400.0) / daysInYear * 100;
 
-      // Hiển thị
-      // var dayLabel = View.findDrawableById("DayProgress") as Text;
-      // if (dayLabel != null) {
-      //   dayLabel.setText("D: " + percentDay.format("%.2f"));
-      // }
-
-      // var weekLabel = View.findDrawableById("WeekProgress") as Text;
-      // if (weekLabel != null) {
-      //   weekLabel.setText("W: " + percentWeek.format("%.2f"));
-      // }
-
-      // var monthLabel = View.findDrawableById("MonthProgress") as Text;
-      // if (monthLabel != null) {
-      //   monthLabel.setText("M: " + percentMonth.format("%.2f"));
-      // }
-
-      // var yearLabel = View.findDrawableById("YearProgress") as Text;
-      // if (yearLabel != null) {
-      //   yearLabel.setText("Y: " + percentYear.format("%.2f"));
-      // }
-
       Utils.drawCircleProgress(dc, 46, 180, 23, percentDay, Graphics.COLOR_GREEN);
       Utils.drawCircleProgress(dc, 95, 195, 23, percentWeek, Graphics.COLOR_GREEN);
       Utils.drawCircleProgress(dc, 146, 195, 23, percentMonth, Graphics.COLOR_GREEN);
       Utils.drawCircleProgress(dc, 194, 180, 23, percentYear, Graphics.COLOR_GREEN);
+    }
+
+    private function setThemeBackground(dc as Dc) {
+      var theme = App.getApp().getProperty("themeBackground");
+      if (theme == 1) {
+        dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_ORANGE);
+      } else if (theme == 2) {
+        dc.setColor(Graphics.COLOR_PURPLE, Graphics.COLOR_PURPLE);
+      } else if (theme == 3) {
+        dc.setColor(Graphics.COLOR_DK_RED, Graphics.COLOR_DK_RED);
+      } else {
+        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+      }
+      dc.clear();
+    }
+
+    private function setTextColor(dc as Dc, color as Number) {
+      var theme = App.getApp().getProperty("themeBackground");
+
+      if (theme == 1) {
+        textColor = Graphics.COLOR_WHITE;
+      } else if (theme == 2) {
+        textColor = Graphics.COLOR_YELLOW;
+      } else if (theme == 3) {
+        textColor = Graphics.COLOR_YELLOW;
+      } else {
+        textColor = Graphics.COLOR_WHITE;
+      }
     }
 
 }

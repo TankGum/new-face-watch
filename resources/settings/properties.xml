@@ -1,3 +1,13 @@
-<properties>
-	<property id="AppVersion" type="string">2.7.1</property>
-</properties>
+<resources>
+  <properties>
+    <property id="appVersion" type="string">1.0.0</property>
+	  <property id="themeBackground" type="number">0</property>
+    <property id="stepsGoal" type="number">8000</property>
+    <property id="distancesGoal" type="number">42</property>
+    <property id="caloriesGoal" type="number">2000</property>
+    <property id="maxHeartRate" type="number">210</property>
+
+    <property id="Field1Type" type="number">0</property>
+    <property id="Field2Type" type="number">1</property>
+  </properties>
+</resources>

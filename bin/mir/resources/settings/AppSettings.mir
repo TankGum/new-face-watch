@@ -1,0 +1,32 @@
+[ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; @symbol_classdef = [AppSettings,1,6,17]; ]
+class AppSettings {
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 2; @position = 8; @symbol_vardef = [appVersion,2,8,18]; ]
+    var appVersion;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 3; @position = 8; @symbol_vardef = [themeBackground,3,8,23]; ]
+    var themeBackground;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 4; @position = 8; @symbol_vardef = [stepsGoal,4,8,17]; ]
+    var stepsGoal;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 5; @position = 8; @symbol_vardef = [caloriesGoal,5,8,20]; ]
+    var caloriesGoal;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 6; @position = 8; @symbol_vardef = [distancesGoal,6,8,21]; ]
+    var distancesGoal;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 7; @position = 8; @symbol_vardef = [maxHeartRate,7,8,20]; ]
+    var maxHeartRate;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 8; @position = 8; @symbol_vardef = [Field1Type,8,8,18]; ]
+    var Field1Type;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 9; @position = 8; @symbol_vardef = [Field2Type,9,8,18]; ]
+    var Field2Type;
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+    }
+}
+[ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
+<init> {
+}
