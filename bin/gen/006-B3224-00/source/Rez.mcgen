@@ -1,0 +1,76 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var heartIcon as ResourceId;
+        (:initialized) var stepIcon as ResourceId;
+        (:initialized) var caloriesIcon as ResourceId;
+        (:initialized) var steepIcon as ResourceId;
+        (:initialized) var distanceIcon as ResourceId;
+        (:initialized) var ChargingStatus as ResourceId;
+        (:initialized) var connected as ResourceId;
+        (:initialized) var disConnect as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var myFont as ResourceId;
+        (:initialized) var spaceGrotesk as ResourceId;
+    } // Fonts
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_heartIcon = new WatchUi.Bitmap({:identifier=>"heartIcon", :rezId=>$.Rez.Drawables.heartIcon});
+
+            var rez_cmp_local_bitmap_stepIcon = new WatchUi.Bitmap({:identifier=>"stepIcon", :rezId=>$.Rez.Drawables.stepIcon});
+
+            var rez_cmp_local_bitmap_caloriesIcon = new WatchUi.Bitmap({:identifier=>"caloriesIcon", :rezId=>$.Rez.Drawables.caloriesIcon});
+
+            var rez_cmp_local_bitmap_steepIcon = new WatchUi.Bitmap({:identifier=>"steepIcon", :rezId=>$.Rez.Drawables.steepIcon});
+
+            var rez_cmp_local_bitmap_distanceIcon = new WatchUi.Bitmap({:identifier=>"distanceIcon", :rezId=>$.Rez.Drawables.distanceIcon});
+
+            var rez_cmp_local_bitmap_ChargingStatus = new WatchUi.Bitmap({:identifier=>"ChargingStatus", :rezId=>$.Rez.Drawables.ChargingStatus});
+
+            var rez_cmp_local_text_DeviceConnectionStatusDisplay = new WatchUi.Text({:identifier=>"DeviceConnectionStatusDisplay", :color=>Gfx.COLOR_WHITE, :locX=>WatchUi.LAYOUT_HALIGN_RIGHT, :locY=>((218 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            var rez_cmp_local_bitmap_connected = new WatchUi.Bitmap({:identifier=>"connected", :rezId=>$.Rez.Drawables.connected});
+
+            var rez_cmp_local_bitmap_disConnect = new WatchUi.Bitmap({:identifier=>"disConnect", :rezId=>$.Rez.Drawables.disConnect});
+
+            return [rez_cmp_local_bitmap_heartIcon, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_bitmap_distanceIcon, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var themeBackgroundTransparent as ResourceId;
+        (:initialized) var HeartRate as ResourceId;
+        (:initialized) var maxHeartRatePrompt as ResourceId;
+        (:initialized) var stepsGoalTitle as ResourceId;
+        (:initialized) var stepsGoalError as ResourceId;
+        (:initialized) var themeBackgroundPurple as ResourceId;
+        (:initialized) var caloriesGoalError as ResourceId;
+        (:initialized) var caloriesGoalTitle as ResourceId;
+        (:initialized) var Step as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var distancesGoalTitle as ResourceId;
+        (:initialized) var maxHeartRateTitle as ResourceId;
+        (:initialized) var Distance as ResourceId;
+        (:initialized) var AppVersionTitle as ResourceId;
+        (:initialized) var distancesGoalPrompt as ResourceId;
+        (:initialized) var stepsGoalPrompt as ResourceId;
+        (:initialized) var Calories as ResourceId;
+        (:initialized) var DataField2Title as ResourceId;
+        (:initialized) var DataField1Title as ResourceId;
+        (:initialized) var themeBackgroundTitle as ResourceId;
+        (:initialized) var distancesGoalError as ResourceId;
+        (:initialized) var themeBackgroundOrange as ResourceId;
+        (:initialized) var maxHeartRateError as ResourceId;
+        (:initialized) var caloriesGoalPrompt as ResourceId;
+        (:initialized) var themeBackgroundDarkRed as ResourceId;
+    } // Strings
+} // Rez

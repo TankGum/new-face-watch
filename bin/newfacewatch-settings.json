@@ -1,0 +1,189 @@
+{
+  "settings" : [ {
+    "key" : "appVersion",
+    "valueType" : "string",
+    "defaultValue" : "1.0.0",
+    "configTitle" : "AppVersionTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : true,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "themeBackground",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "themeBackgroundTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "themeBackgroundOrange",
+      "value" : 1
+    }, {
+      "display" : "themeBackgroundPurple",
+      "value" : 2
+    }, {
+      "display" : "themeBackgroundDarkRed",
+      "value" : 3
+    }, {
+      "display" : "themeBackgroundTransparent",
+      "value" : 0
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "stepsGoal",
+    "valueType" : "number",
+    "defaultValue" : 8000,
+    "configTitle" : "stepsGoalTitle",
+    "configPrompt" : "stepsGoalPrompt",
+    "configType" : "numeric",
+    "configError" : "stepsGoalError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 1,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "distancesGoal",
+    "valueType" : "number",
+    "defaultValue" : 42,
+    "configTitle" : "distancesGoalTitle",
+    "configPrompt" : "distancesGoalPrompt",
+    "configType" : "numeric",
+    "configError" : "distancesGoalError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 1,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "caloriesGoal",
+    "valueType" : "number",
+    "defaultValue" : 2000,
+    "configTitle" : "caloriesGoalTitle",
+    "configPrompt" : "caloriesGoalPrompt",
+    "configType" : "numeric",
+    "configError" : "caloriesGoalError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 1,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "maxHeartRate",
+    "valueType" : "number",
+    "defaultValue" : 210,
+    "configTitle" : "maxHeartRateTitle",
+    "configPrompt" : "maxHeartRatePrompt",
+    "configType" : "numeric",
+    "configError" : "maxHeartRateError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 30,
+    "configMax" : 210,
+    "configMaxLength" : null
+  }, {
+    "key" : "Field1Type",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "DataField1Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "HeartRate",
+      "value" : 0
+    }, {
+      "display" : "Step",
+      "value" : 1
+    }, {
+      "display" : "Calories",
+      "value" : 2
+    }, {
+      "display" : "Distance",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Field2Type",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "DataField2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "HeartRate",
+      "value" : 0
+    }, {
+      "display" : "Step",
+      "value" : 1
+    }, {
+      "display" : "Calories",
+      "value" : 2
+    }, {
+      "display" : "Distance",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "themeBackgroundTransparent" : "Transparent",
+      "HeartRate" : "Heart Rate",
+      "maxHeartRatePrompt" : "Input required",
+      "stepsGoalTitle" : "Enter steps goal",
+      "stepsGoalError" : "Invalid number",
+      "themeBackgroundPurple" : "Purple",
+      "caloriesGoalError" : "Invalid number",
+      "caloriesGoalTitle" : "Enter calories goal",
+      "Step" : "Steps",
+      "AppName" : "first-app",
+      "distancesGoalTitle" : "Enter distances goal",
+      "maxHeartRateTitle" : "Enter max heart rate",
+      "Distance" : "Distance",
+      "AppVersionTitle" : "App Version",
+      "distancesGoalPrompt" : "Input required",
+      "stepsGoalPrompt" : "Input required",
+      "Calories" : "Calories",
+      "DataField2Title" : "Select Data Field 2",
+      "DataField1Title" : "Select Data Field 1",
+      "themeBackgroundTitle" : "Select Option",
+      "distancesGoalError" : "Invalid number",
+      "themeBackgroundOrange" : "Orange",
+      "maxHeartRateError" : "Invalid number",
+      "caloriesGoalPrompt" : "Input required",
+      "themeBackgroundDarkRed" : "DarkRed"
+    }
+  }
+}
