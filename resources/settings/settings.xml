@@ -13,6 +13,57 @@
     </settingConfig>
   </setting>
 
+  <setting propertyKey="@Properties.borderTimeColor" title="@Strings.borderTimeColorTitle">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.borderTimeColorTransparent</listEntry>
+      <listEntry value="1">@Strings.borderTimeColorOrange</listEntry>
+      <listEntry value="2">@Strings.borderTimeColorWhite</listEntry>
+      <listEntry value="3">@Strings.borderTimeColorBlack</listEntry>
+      <listEntry value="4">@Strings.borderTimeColorGreen</listEntry>
+      <listEntry value="5">@Strings.borderTimeColorBlue</listEntry>
+      <listEntry value="6">@Strings.borderTimeColorPurple</listEntry>
+      <listEntry value="7">@Strings.borderTimeColorDarkRed</listEntry>  
+    </settingConfig>
+  </setting>
+
+  <setting propertyKey="@Properties.fillTimeColor" title="@Strings.fillTimeColorTitle">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.fillTimeColorTransparent</listEntry>
+      <listEntry value="1">@Strings.fillTimeColorOrange</listEntry>
+      <listEntry value="2">@Strings.fillTimeColorWhite</listEntry>
+      <listEntry value="3">@Strings.fillTimeColorBlack</listEntry>
+      <listEntry value="4">@Strings.fillTimeColorGreen</listEntry>
+      <listEntry value="5">@Strings.fillTimeColorBlue</listEntry>
+      <listEntry value="6">@Strings.fillTimeColorPurple</listEntry>
+      <listEntry value="7">@Strings.fillTimeColorDarkRed</listEntry>  
+    </settingConfig>
+  </setting>
+
+  <setting propertyKey="@Properties.borderLineColor" title="@Strings.borderLineColorTitle">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.borderLineColorTransparent</listEntry>
+      <listEntry value="1">@Strings.borderLineColorOrange</listEntry>
+      <listEntry value="2">@Strings.borderLineColorWhite</listEntry>
+      <listEntry value="3">@Strings.borderLineColorBlack</listEntry>
+      <listEntry value="4">@Strings.borderLineColorGreen</listEntry>
+      <listEntry value="5">@Strings.borderLineColorBlue</listEntry>
+      <listEntry value="6">@Strings.borderLineColorPurple</listEntry>
+      <listEntry value="7">@Strings.borderLineColorDarkRed</listEntry>  
+    </settingConfig>
+  </setting>
+
+  <setting propertyKey="@Properties.fillLineColor" title="@Strings.fillLineColorTitle">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.fillLineColorBlack</listEntry>
+      <listEntry value="1">@Strings.fillLineColorOrange</listEntry>
+      <listEntry value="2">@Strings.fillLineColorWhite</listEntry>
+      <listEntry value="3">@Strings.fillLineColorGreen</listEntry>
+      <listEntry value="4">@Strings.fillLineColorBlue</listEntry>
+      <listEntry value="5">@Strings.fillLineColorPurple</listEntry>
+      <listEntry value="6">@Strings.fillLineColorDarkRed</listEntry>  
+    </settingConfig>
+  </setting>
+
   <setting propertyKey="@Properties.stepsGoal" title="@Strings.stepsGoalTitle" prompt="@Strings.stepsGoalPrompt">
     <settingConfig type="numeric" min="1" errorMessage="@Strings.stepsGoalError"/>
   </setting>

@@ -110,7 +110,29 @@ class first_appView extends WatchUi.WatchFace {
 
     function drawTextWithBorder(dc, text, px, py, mHoursFont) {
       // Vẽ viền trắng 8 hướng (offset 1px)
-      dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT); // TODO: cho user chọn màu
+      var borderTimeColor = App.getApp().getProperty("borderTimeColor");
+
+      if (borderTimeColor == 0) {
+        borderTimeColor = Graphics.COLOR_TRANSPARENT;
+      } else if (borderTimeColor == 1) {
+        borderTimeColor = Graphics.COLOR_ORANGE;
+      } else if (borderTimeColor == 2) {
+        borderTimeColor = Graphics.COLOR_WHITE;
+      } else if (borderTimeColor == 3) {
+        borderTimeColor = Graphics.COLOR_BLACK;
+      } else if (borderTimeColor == 4) {
+        borderTimeColor = Graphics.COLOR_GREEN;
+      } else if (borderTimeColor == 5) {
+        borderTimeColor = Graphics.COLOR_BLUE;
+      } else if (borderTimeColor == 6) {
+        borderTimeColor = Graphics.COLOR_PURPLE;
+      } else if (borderTimeColor == 8) {
+        borderTimeColor = Graphics.COLOR_DK_RED;
+      } else {
+        borderTimeColor = Graphics.COLOR_TRANSPARENT;
+      }
+
+      dc.setColor(borderTimeColor, Graphics.COLOR_TRANSPARENT);
       dc.drawText(px - 1, py, mHoursFont, text, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
       dc.drawText(px + 1, py, mHoursFont, text, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
       dc.drawText(px, py - 1, mHoursFont, text, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -121,7 +143,30 @@ class first_appView extends WatchUi.WatchFace {
       dc.drawText(px + 1, py + 1, mHoursFont, text, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
       // Màu chữ ở giữa
-      dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT); // TODO: cho user chọn màu
+      
+      var fillTimeColor = App.getApp().getProperty("fillTimeColor");
+
+      if (fillTimeColor == 0) {
+        fillTimeColor = Graphics.COLOR_TRANSPARENT;
+      } else if (fillTimeColor == 1) {
+        fillTimeColor = Graphics.COLOR_ORANGE;
+      } else if (fillTimeColor == 2) {
+        fillTimeColor = Graphics.COLOR_WHITE;
+      } else if (fillTimeColor == 3) {
+        fillTimeColor = Graphics.COLOR_BLACK;
+      } else if (fillTimeColor == 4) {
+        fillTimeColor = Graphics.COLOR_GREEN;
+      } else if (fillTimeColor == 5) {
+        fillTimeColor = Graphics.COLOR_BLUE;
+      } else if (fillTimeColor == 6) {
+        fillTimeColor = Graphics.COLOR_PURPLE;
+      } else if (fillTimeColor == 8) {
+        fillTimeColor = Graphics.COLOR_DK_RED;
+      } else {
+        fillTimeColor = Graphics.COLOR_WHITE;
+      }
+
+      dc.setColor(fillTimeColor, Graphics.COLOR_TRANSPARENT);
       dc.drawText(px, py, mHoursFont, text, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 

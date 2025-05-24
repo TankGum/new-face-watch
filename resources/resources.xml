@@ -7,6 +7,50 @@
   <string id="themeBackgroundPurple">Purple</string>
   <string id="themeBackgroundDarkRed">DarkRed</string>
   <string id="themeBackgroundTransparent">Transparent</string>
+
+  <!-- Cho borderTimeColor -->
+  <string id="borderTimeColorTitle">Select border time color</string>
+  <string id="borderTimeColorTransparent">Transparent</string>
+  <string id="borderTimeColorOrange">Orange</string>
+  <string id="borderTimeColorWhite">White</string>
+  <string id="borderTimeColorBlack">Black</string>
+  <string id="borderTimeColorGreen">Green</string>
+  <string id="borderTimeColorBlue">Blue</string>
+  <string id="borderTimeColorPurple">Purple</string>
+  <string id="borderTimeColorDarkRed">DarkRed</string>
+  
+  <!-- Cho fillTimeColor -->
+  <string id="fillTimeColorTitle">Select fill time color</string>
+  <string id="fillTimeColorTransparent">Transparent</string>
+  <string id="fillTimeColorOrange">Orange</string>
+  <string id="fillTimeColorWhite">White</string>
+  <string id="fillTimeColorBlack">Black</string>
+  <string id="fillTimeColorGreen">Green</string>
+  <string id="fillTimeColorBlue">Blue</string>
+  <string id="fillTimeColorPurple">Purple</string>
+  <string id="fillTimeColorDarkRed">DarkRed</string>
+  
+  <!-- Cho borderLineColor -->
+  <string id="borderLineColorTitle">Select border line color</string>
+  <string id="borderLineColorTransparent">Transparent</string>
+  <string id="borderLineColorOrange">Orange</string>
+  <string id="borderLineColorWhite">White</string>
+  <string id="borderLineColorBlack">Black</string>
+  <string id="borderLineColorGreen">Green</string>
+  <string id="borderLineColorBlue">Blue</string>
+  <string id="borderLineColorPurple">Purple</string>
+  <string id="borderLineColorDarkRed">DarkRed</string>
+
+  <!-- Cho fillLineColor -->
+  <string id="fillLineColorTitle">Select border line color</string>
+  <string id="fillLineColorBlack">Black</string>
+  <string id="fillLineColorOrange">Orange</string>
+  <string id="fillLineColorWhite">White</string>
+  <string id="fillLineColorGreen">Green</string>
+  <string id="fillLineColorBlue">Blue</string>
+  <string id="fillLineColorPurple">Purple</string>
+  <string id="fillLineColorDarkRed">DarkRed</string>
+
   
   <!-- Cho stepsGoal -->
   <string id="stepsGoalTitle">Enter steps goal</string>

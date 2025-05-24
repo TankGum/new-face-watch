@@ -1,8 +1,61 @@
 import Toybox.Graphics;
+using Toybox.Application as App;
+import Toybox.System;
 
 module DrawLine {
-  var borderLineColor = Graphics.COLOR_WHITE; // TODO: cho user chọn màu
-  var fillLineColor = Graphics.COLOR_BLACK; // TODO: cho user chọn màu
+  
+
+  function getBorderLineColor() {
+    var value = App.getApp().getProperty("borderLineColor");
+
+    
+
+    if (value == 0) {
+      return Graphics.COLOR_TRANSPARENT;
+    } else if (value == 1) {
+      return Graphics.COLOR_ORANGE;
+    } else if (value == 2) {
+      return Graphics.COLOR_WHITE;
+    } else if (value == 3) {
+      return Graphics.COLOR_BLACK;
+    } else if (value == 4) {
+      return Graphics.COLOR_GREEN;
+    } else if (value == 5) {
+      return Graphics.COLOR_BLUE;
+    } else if (value == 6) {
+      return Graphics.COLOR_PURPLE;
+    } else if (value == 8) {
+      return Graphics.COLOR_DK_RED;
+    } else {
+      return Graphics.COLOR_WHITE;
+    }
+  }
+
+  function getFillLineColor() {
+    var value = App.getApp().getProperty("fillLineColor");
+
+    System.println("fillLineColor: " + value);
+
+    if (value == 0) {
+      return Graphics.COLOR_BLACK;
+    } else if (value == 1) {
+      return Graphics.COLOR_ORANGE;
+    } else if (value == 2) {
+      return Graphics.COLOR_WHITE;
+    } else if (value == 3) {
+      return Graphics.COLOR_GREEN;
+    } else if (value == 4) {
+      return Graphics.COLOR_BLUE;
+    } else if (value == 5) {
+      return Graphics.COLOR_PURPLE;
+    } else if (value == 6) {
+      return Graphics.COLOR_DK_RED;
+    } else {
+      return Graphics.COLOR_WHITE;
+    }
+  }
+
+  
 
   function sx(x, scaleX) { 
     return x * scaleX;
@@ -17,7 +70,8 @@ module DrawLine {
     var scaleX = screenWidth / 240.0;
     var scaleY = screenHeight / 240.0;
 
-    
+    var borderLineColor = getBorderLineColor();
+    var fillLineColor = getFillLineColor();
 
     // Dòng 1
     dc.setColor(borderLineColor, Graphics.COLOR_TRANSPARENT);

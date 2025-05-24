@@ -7,6 +7,10 @@ class AppSettings {
     var maxHeartRate;
     var Field1Type;
     var Field2Type;
+    var borderTimeColor;
+    var fillTimeColor;
+    var borderLineColor;
+    var fillLineColor;
 
     function initialize() {}
 }

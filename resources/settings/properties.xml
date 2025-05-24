@@ -5,6 +5,10 @@
     <property id="stepsGoal" type="number">8000</property>
     <property id="distancesGoal" type="number">42</property>
     <property id="caloriesGoal" type="number">2000</property>
+    <property id="borderTimeColor" type="number">0</property>
+    <property id="fillTimeColor" type="number">2</property>
+    <property id="borderLineColor" type="number">2</property>
+    <property id="fillLineColor" type="number">0</property>
     <property id="maxHeartRate" type="number">210</property>
 
     <property id="Field1Type" type="number">0</property>
