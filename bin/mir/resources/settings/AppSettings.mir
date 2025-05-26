@@ -1,40 +1,40 @@
-[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 1; @symbol_classdef = [AppSettings,1,6,17]; ]
+[ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; @symbol_classdef = [AppSettings,1,6,17]; ]
 class AppSettings {
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 1; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
     <init> {
     }
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 1; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
     static
     <init> {
     }
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 2; @position = 8; @symbol_vardef = [appVersion,2,8,18]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 2; @position = 8; @symbol_vardef = [appVersion,2,8,18]; ]
     var appVersion;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 3; @position = 8; @symbol_vardef = [themeBackground,3,8,23]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 3; @position = 8; @symbol_vardef = [themeBackground,3,8,23]; ]
     var themeBackground;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 4; @position = 8; @symbol_vardef = [stepsGoal,4,8,17]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 4; @position = 8; @symbol_vardef = [stepsGoal,4,8,17]; ]
     var stepsGoal;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 5; @position = 8; @symbol_vardef = [caloriesGoal,5,8,20]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 5; @position = 8; @symbol_vardef = [caloriesGoal,5,8,20]; ]
     var caloriesGoal;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 6; @position = 8; @symbol_vardef = [distancesGoal,6,8,21]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 6; @position = 8; @symbol_vardef = [distancesGoal,6,8,21]; ]
     var distancesGoal;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 7; @position = 8; @symbol_vardef = [maxHeartRate,7,8,20]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 7; @position = 8; @symbol_vardef = [maxHeartRate,7,8,20]; ]
     var maxHeartRate;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 8; @position = 8; @symbol_vardef = [Field1Type,8,8,18]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 8; @position = 8; @symbol_vardef = [Field1Type,8,8,18]; ]
     var Field1Type;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 9; @position = 8; @symbol_vardef = [Field2Type,9,8,18]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 9; @position = 8; @symbol_vardef = [Field2Type,9,8,18]; ]
     var Field2Type;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 10; @position = 8; @symbol_vardef = [borderTimeColor,10,8,23]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 10; @position = 8; @symbol_vardef = [borderTimeColor,10,8,23]; ]
     var borderTimeColor;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 11; @position = 8; @symbol_vardef = [fillTimeColor,11,8,21]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 11; @position = 8; @symbol_vardef = [fillTimeColor,11,8,21]; ]
     var fillTimeColor;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 12; @position = 8; @symbol_vardef = [borderLineColor,12,8,23]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 12; @position = 8; @symbol_vardef = [borderLineColor,12,8,23]; ]
     var borderLineColor;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 13; @position = 8; @symbol_vardef = [fillLineColor,13,8,21]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 13; @position = 8; @symbol_vardef = [fillLineColor,13,8,21]; ]
     var fillLineColor;
-    [ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 15; @symbol_functiondef = [initialize,15,13,23]; ]
+    [ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 15; @symbol_functiondef = [initialize,15,13,23]; ]
     function initialize() as Void {
     }
 }
-[ @file = "/Users/tankgum/Documents/Workspace/garmin-iq-app/new-face-watch/resources/settings/AppSettings.mc"; @line = 1; ]
+[ @file = "D:\Workspace\GarminApp\resources\settings\AppSettings.mc"; @line = 1; ]
 <init> {
 }

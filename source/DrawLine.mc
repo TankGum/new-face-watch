@@ -8,8 +8,6 @@ module DrawLine {
   function getBorderLineColor() {
     var value = App.getApp().getProperty("borderLineColor");
 
-    
-
     if (value == 0) {
       return Graphics.COLOR_TRANSPARENT;
     } else if (value == 1) {
@@ -34,8 +32,6 @@ module DrawLine {
   function getFillLineColor() {
     var value = App.getApp().getProperty("fillLineColor");
 
-    System.println("fillLineColor: " + value);
-
     if (value == 0) {
       return Graphics.COLOR_BLACK;
     } else if (value == 1) {
@@ -54,8 +50,6 @@ module DrawLine {
       return Graphics.COLOR_WHITE;
     }
   }
-
-  
 
   function sx(x, scaleX) { 
     return x * scaleX;

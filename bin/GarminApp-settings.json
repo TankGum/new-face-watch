@@ -42,6 +42,159 @@
     "configMax" : null,
     "configMaxLength" : null
   }, {
+    "key" : "borderTimeColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "borderTimeColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "borderTimeColorTransparent",
+      "value" : 0
+    }, {
+      "display" : "borderTimeColorOrange",
+      "value" : 1
+    }, {
+      "display" : "borderTimeColorWhite",
+      "value" : 2
+    }, {
+      "display" : "borderTimeColorBlack",
+      "value" : 3
+    }, {
+      "display" : "borderTimeColorGreen",
+      "value" : 4
+    }, {
+      "display" : "borderTimeColorBlue",
+      "value" : 5
+    }, {
+      "display" : "borderTimeColorPurple",
+      "value" : 6
+    }, {
+      "display" : "borderTimeColorDarkRed",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "fillTimeColor",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "fillTimeColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "fillTimeColorTransparent",
+      "value" : 0
+    }, {
+      "display" : "fillTimeColorOrange",
+      "value" : 1
+    }, {
+      "display" : "fillTimeColorWhite",
+      "value" : 2
+    }, {
+      "display" : "fillTimeColorBlack",
+      "value" : 3
+    }, {
+      "display" : "fillTimeColorGreen",
+      "value" : 4
+    }, {
+      "display" : "fillTimeColorBlue",
+      "value" : 5
+    }, {
+      "display" : "fillTimeColorPurple",
+      "value" : 6
+    }, {
+      "display" : "fillTimeColorDarkRed",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "borderLineColor",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "borderLineColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "borderLineColorTransparent",
+      "value" : 0
+    }, {
+      "display" : "borderLineColorOrange",
+      "value" : 1
+    }, {
+      "display" : "borderLineColorWhite",
+      "value" : 2
+    }, {
+      "display" : "borderLineColorBlack",
+      "value" : 3
+    }, {
+      "display" : "borderLineColorGreen",
+      "value" : 4
+    }, {
+      "display" : "borderLineColorBlue",
+      "value" : 5
+    }, {
+      "display" : "borderLineColorPurple",
+      "value" : 6
+    }, {
+      "display" : "borderLineColorDarkRed",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "fillLineColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "fillLineColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "fillLineColorBlack",
+      "value" : 0
+    }, {
+      "display" : "fillLineColorOrange",
+      "value" : 1
+    }, {
+      "display" : "fillLineColorWhite",
+      "value" : 2
+    }, {
+      "display" : "fillLineColorGreen",
+      "value" : 3
+    }, {
+      "display" : "fillLineColorBlue",
+      "value" : 4
+    }, {
+      "display" : "fillLineColorPurple",
+      "value" : 5
+    }, {
+      "display" : "fillLineColorDarkRed",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
     "key" : "stepsGoal",
     "valueType" : "number",
     "defaultValue" : 8000,
@@ -159,31 +312,66 @@
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
-      "themeBackgroundTransparent" : "Transparent",
-      "HeartRate" : "Heart Rate",
       "maxHeartRatePrompt" : "Input required",
       "stepsGoalTitle" : "Enter steps goal",
       "stepsGoalError" : "Invalid number",
+      "borderTimeColorBlack" : "Black",
+      "borderLineColorTitle" : "Select border line color",
       "themeBackgroundPurple" : "Purple",
       "caloriesGoalError" : "Invalid number",
       "caloriesGoalTitle" : "Enter calories goal",
+      "borderLineColorBlue" : "Blue",
+      "fillTimeColorWhite" : "White",
+      "fillLineColorDarkRed" : "DarkRed",
+      "fillTimeColorBlue" : "Blue",
+      "maxHeartRateTitle" : "Enter max heart rate",
+      "borderLineColorOrange" : "Orange",
+      "fillTimeColorTitle" : "Select fill time color",
+      "borderLineColorBlack" : "Black",
+      "Distance" : "Distance",
+      "borderTimeColorDarkRed" : "DarkRed",
+      "AppVersionTitle" : "App Version",
+      "fillTimeColorOrange" : "Orange",
+      "borderLineColorWhite" : "White",
+      "distancesGoalPrompt" : "Input required",
+      "fillTimeColorDarkRed" : "DarkRed",
+      "fillLineColorBlue" : "Blue",
+      "fillTimeColorTransparent" : "Transparent",
+      "fillLineColorPurple" : "Purple",
+      "borderLineColorGreen" : "Green",
+      "borderTimeColorTransparent" : "Transparent",
+      "DataField2Title" : "Select Data Field 2",
+      "fillTimeColorBlack" : "Black",
+      "fillLineColorTitle" : "Select fill line color",
+      "distancesGoalError" : "Invalid number",
+      "maxHeartRateError" : "Invalid number",
+      "caloriesGoalPrompt" : "Input required",
+      "themeBackgroundDarkRed" : "DarkRed",
+      "fillLineColorWhite" : "White",
+      "fillLineColorOrange" : "Orange",
+      "fillLineColorGreen" : "Green",
+      "themeBackgroundTransparent" : "Transparent",
+      "HeartRate" : "Heart Rate",
+      "borderLineColorTransparent" : "Transparent",
+      "fillTimeColorPurple" : "Purple",
       "Step" : "Steps",
       "AppName" : "first-app",
       "distancesGoalTitle" : "Enter distances goal",
-      "maxHeartRateTitle" : "Enter max heart rate",
-      "Distance" : "Distance",
-      "AppVersionTitle" : "App Version",
-      "distancesGoalPrompt" : "Input required",
+      "fillTimeColorGreen" : "Green",
+      "borderTimeColorBlue" : "Blue",
+      "borderLineColorDarkRed" : "DarkRed",
+      "borderTimeColorPurple" : "Purple",
       "stepsGoalPrompt" : "Input required",
+      "borderLineColorPurple" : "Purple",
       "Calories" : "Calories",
-      "DataField2Title" : "Select Data Field 2",
       "DataField1Title" : "Select Data Field 1",
       "themeBackgroundTitle" : "Select Option",
-      "distancesGoalError" : "Invalid number",
+      "fillLineColorBlack" : "Black",
+      "borderTimeColorTitle" : "Select border time color",
       "themeBackgroundOrange" : "Orange",
-      "maxHeartRateError" : "Invalid number",
-      "caloriesGoalPrompt" : "Input required",
-      "themeBackgroundDarkRed" : "DarkRed"
+      "borderTimeColorOrange" : "Orange",
+      "borderTimeColorWhite" : "White",
+      "borderTimeColorGreen" : "Green"
     }
   }
 }

@@ -42,7 +42,7 @@
   <string id="borderLineColorDarkRed">DarkRed</string>
 
   <!-- Cho fillLineColor -->
-  <string id="fillLineColorTitle">Select border line color</string>
+  <string id="fillLineColorTitle">Select fill line color</string>
   <string id="fillLineColorBlack">Black</string>
   <string id="fillLineColorOrange">Orange</string>
   <string id="fillLineColorWhite">White</string>
