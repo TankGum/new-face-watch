@@ -80,6 +80,10 @@
     <settingConfig type="numeric" min="30" max="210" errorMessage="@Strings.maxHeartRateError"/>
   </setting>
 
+  <setting propertyKey="@Properties.showSec" title="@Strings.showSecTitle">
+		<settingConfig type="boolean"/>
+	</setting>
+
   <setting propertyKey="@Properties.Field1Type" title="@Strings.DataField1Title">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.HeartRate</listEntry>

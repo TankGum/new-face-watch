@@ -11,7 +11,8 @@ using Toybox.Application as App;
 using Utils;
 using DrawLine;
 
-var textColor = Graphics.COLOR_WHITE;
+var screenWidth = System.getDeviceSettings().screenWidth;
+var screenHeight = System.getDeviceSettings().screenHeight;
 
 class first_appView extends WatchUi.WatchFace {
 
@@ -34,25 +35,78 @@ class first_appView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
         setThemeBackground(dc);
-        
+
+        /*---------- Pin ----------*/
+        var cachedBattery = null;
         var battery = Sys.getSystemStats().battery;
-        drawBatteryBar(dc, battery);
+        if (cachedBattery != battery) {
+          drawBatteryBar(dc, battery);
+          cachedBattery = battery;
+
+          setBatteryDisplay(dc, battery);
+        }
+        /*------------------------*/
 
         displayProgressPercentages(dc);
         DrawLine.drawLineLayout(dc);
-        setBatteryDisplay(dc);
-        setDateDisplay(dc);
         
-        setConnectionStatusDisplay(dc);
-        displayDayNight(dc);
+        /*---------- Date ----------*/
+        var cachedDate = null;
+        var now = Time.now();
+        var date = Date.info(now, Time.FORMAT_LONG);
+        var dateString = Lang.format("$1$\n$2$ $3$", [date.day_of_week, date.month, date.day]);
+        if (cachedDate != dateString) {
+          setDateDisplay(dc, dateString);
+          cachedDate = dateString;
+        }
+        /*-------------------------*/
+        
+        /*---------- Phone connect ----------*/
+        var cachedPhoneConnect = null;
+        var phoneConnected = System.getDeviceSettings().phoneConnected;
+        if (phoneConnected != cachedPhoneConnect) {
+          setConnectionStatusDisplay(dc, phoneConnected);
+          phoneConnected = cachedPhoneConnect;
+        }
+        /*-----------------------------------*/
+        
+        /*---------- AM/PM ----------*/
+        var cachedDayNight = null;
+        var nowClock = System.getClockTime();
+        var hour = nowClock.hour;
+        var period = (hour >= 12) ? "P" : "A";
+        if (cachedDayNight != period) {
+          displayDayNight(dc, period);
+          cachedDayNight = period;
+        }
+        /*--------------------------*/
 
         setClockDisplay(dc);
-        checkChargingStatus(dc);
 
-        // Hiện thị 2 fields top
-        setDynamicFields(dc);
+        /*---------- Charging ----------*/
+        var cachedChargingStatus = null;
+        var myStats = System.getSystemStats();
+        var isCharging = myStats.charging;
+        if (cachedChargingStatus != isCharging) {
+          checkChargingStatus(dc, isCharging);
+          cachedChargingStatus = isCharging;
+        }
+        /*--------------------------*/
 
-        setTextColor(dc, textColor);
+
+        /*--------------------------*/
+        // Hiển thị 2 fields động
+        var cachedDataField1 = null;
+        var cachedDataField2 = null;
+        var dataField1 = App.getApp().getProperty("Field1Type");
+        var dataField2 = App.getApp().getProperty("Field2Type");
+        if (cachedDataField1 != dataField1 || cachedDataField2 != dataField2) {
+          setDynamicFields(dc, dataField1, dataField2);
+          
+          cachedDataField1 = dataField1;
+          cachedDataField2 = dataField2;
+        }
+        /*--------------------------*/
 
     }
 
@@ -72,18 +126,21 @@ class first_appView extends WatchUi.WatchFace {
 
     // Hiển thị giờ
     private function setClockDisplay(dc as Dc) {
+      var showSec = App.getApp().getProperty("showSec");
+      
       var clockTime = Sys.getClockTime();
       var mHoursFont = WatchUi.loadResource(Rez.Fonts.myFont);
-
-      var screenWidth = dc.getWidth();
-      var screenHeight = dc.getHeight();
 
       var hourStr = clockTime.hour.toString();
       var minStr = clockTime.min.format("%02d");
       var secStr = clockTime.sec.format("%02d");
 
-      // Tạo chuỗi đầy đủ để tính tổng chiều rộng
-      var fullTimeStr = hourStr + ":" + minStr + ":" + secStr;
+      
+      var fullTimeStr = hourStr + ":" + minStr;
+
+      if (showSec != 0) {
+        fullTimeStr += ":" + secStr;
+      }
 
       // Tính tổng chiều rộng của chuỗi giờ
       var totalTextWidth = dc.getTextWidthInPixels(fullTimeStr, mHoursFont);
@@ -102,10 +159,11 @@ class first_appView extends WatchUi.WatchFace {
       drawTextWithBorder(dc, minStr, x, y, mHoursFont);
       x += dc.getTextWidthInPixels(minStr, mHoursFont);
 
-      drawTextWithBorder(dc, ":", x, y, mHoursFont);
-      x += dc.getTextWidthInPixels(":", mHoursFont);
-
-      drawTextWithBorder(dc, secStr, x, y, mHoursFont);
+      if (showSec != 0) {
+        drawTextWithBorder(dc, ":", x, y, mHoursFont);
+        x += dc.getTextWidthInPixels(":", mHoursFont);
+        drawTextWithBorder(dc, secStr, x, y, mHoursFont);
+      }
     }
 
     function drawTextWithBorder(dc, text, px, py, mHoursFont) {
@@ -198,8 +256,9 @@ class first_appView extends WatchUi.WatchFace {
 
         case 3: //Distance
           var distances = Mon.getInfo().distance;
-          valueStr = Utils.formatValueWithK(distances) + "K";
-          Utils.drawCircleDistance(dc, x, y + 19, 25, distances.toFloat(), Graphics.COLOR_GREEN);
+          var distanceKm = distances / 100000;
+          valueStr = Utils.formatValueWithK(distanceKm) + "K";
+          Utils.drawCircleDistance(dc, x, y + 19, 25, distanceKm.toFloat(), Graphics.COLOR_GREEN);
           icon = WatchUi.loadResource(Rez.Drawables.distanceIcon);
           break;
 
@@ -220,14 +279,9 @@ class first_appView extends WatchUi.WatchFace {
     }
 
     // Hàm hiển thị hai trường dữ liệu động
-    private function setDynamicFields(dc as Dc) {
-      var screenWidth = dc.getWidth();
-      var screenHeight = dc.getHeight();
+    private function setDynamicFields(dc as Dc, dataField1, dataField2) {
       var scaleX = screenWidth / 240.0;
       var scaleY = screenHeight / 240.0;
-
-      var dataField1 = App.getApp().getProperty("Field1Type");
-      var dataField2 = App.getApp().getProperty("Field2Type");
 
       // Scale thủ công toạ độ vẽ
       drawDataField(dc, dataField1, Math.round(52 * scaleX), Math.round(40 * scaleY));
@@ -235,12 +289,7 @@ class first_appView extends WatchUi.WatchFace {
     }
 
     // Hiển thị pin
-    private function setBatteryDisplay(dc as Dc) {
-      var screenWidth = dc.getWidth();
-      var screenHeight = dc.getHeight();
-
-      // Lấy thông tin pin
-      var battery = Sys.getSystemStats().battery;
+    private function setBatteryDisplay(dc as Dc, battery) {
       var batteryLevel = battery.format("%d");
       var batteryLevelStr = batteryLevel + "%";
 
@@ -256,9 +305,6 @@ class first_appView extends WatchUi.WatchFace {
 
     // Vẽ thanh pin
     private function drawBatteryBar(dc as Dc, battery) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
       // Ví dụ: vẽ thanh pin ở vị trí nằm ngang 1/3 màn hình, và chiều dọc 10% từ trên xuống
       var x = screenWidth * 0.33;        // 33% chiều ngang
       var y = screenHeight * 0.08;       // 10% chiều dọc
@@ -271,13 +317,7 @@ class first_appView extends WatchUi.WatchFace {
     }
 
     // Hiển thị sạc hay không
-    private function checkChargingStatus(dc as Dc) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
-      var myStats = System.getSystemStats();
-      var isCharging = myStats.charging;
-
+    private function checkChargingStatus(dc as Dc, isCharging) {
       var chargingIcon = WatchUi.loadResource(Rez.Drawables.ChargingStatus);
 
       if (isCharging) {
@@ -290,28 +330,17 @@ class first_appView extends WatchUi.WatchFace {
     }
 
     // Hiển thị ngày tháng
-    private function setDateDisplay(dc as Dc) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
+    private function setDateDisplay(dc as Dc, dateString) {
       // Ví dụ: hiển thị ở chính giữa chiều ngang và 20% chiều dọc
       var x = screenWidth / 2;             // giữa màn hình ngang
       var y = screenHeight * 0.2;          // 20% từ trên xuống
 
-      var now = Time.now();
-      var date = Date.info(now, Time.FORMAT_LONG);
-      var dateString = Lang.format("$1$\n$2$ $3$", [date.day_of_week, date.month, date.day]);
       var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
       dc.drawText(x, y, spaceGroteskFont, dateString, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     // Hiển thị status kết nối
-    private function setConnectionStatusDisplay(dc as Dc) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
-      var phoneConnected = System.getDeviceSettings().phoneConnected;
-
+    private function setConnectionStatusDisplay(dc as Dc, phoneConnected) {
       var connectedIcon = WatchUi.loadResource(Rez.Drawables.connected);
       var disconnectedIcon = WatchUi.loadResource(Rez.Drawables.disConnect);
 
@@ -326,30 +355,18 @@ class first_appView extends WatchUi.WatchFace {
       }
     }
 
-
     // Hiển thị AM/PM
-    private function displayDayNight(dc as Dc) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
+    private function displayDayNight(dc as Dc, period) {
       // Ví dụ: hiển thị phía bên phải, cách mép phải 8% và cao 47% từ trên xuống
       var x = screenWidth * 0.92;   // 92% chiều ngang, gần mép phải
       var y = screenHeight * 0.47;  // khoảng 47% chiều dọc
-
-      var now = System.getClockTime();
-      var hour = now.hour;
-      var period = (hour >= 12) ? "P" : "A";
 
       var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
       dc.drawText(x, y, spaceGroteskFont, period, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
-
     private function displayProgressPercentages(dc as Dc) {
-      var screenWidth = System.getDeviceSettings().screenWidth;
-      var screenHeight = System.getDeviceSettings().screenHeight;
-
       var now = Time.now();
       var today = Date.info(now, Time.FORMAT_MEDIUM);
 
@@ -405,20 +422,6 @@ class first_appView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
       }
       dc.clear();
-    }
-
-    private function setTextColor(dc as Dc, color as Number) {
-      var theme = App.getApp().getProperty("themeBackground");
-
-      if (theme == 1) {
-        textColor = Graphics.COLOR_WHITE;
-      } else if (theme == 2) {
-        textColor = Graphics.COLOR_YELLOW;
-      } else if (theme == 3) {
-        textColor = Graphics.COLOR_YELLOW;
-      } else {
-        textColor = Graphics.COLOR_WHITE;
-      }
     }
 
 }

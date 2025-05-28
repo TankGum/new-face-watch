@@ -72,6 +72,9 @@
   <string id="caloriesGoalPrompt">Input required</string>
   <string id="caloriesGoalError">Invalid number</string>
 
+  <!-- Cho showSec -->
+  <string id="showSecTitle">Enable show second</string>
+
   <!-- Cho DataField1 -->
   <string id="DataField1Title">Select Data Field 1</string>
   <string id="HeartRate">Heart Rate</string>

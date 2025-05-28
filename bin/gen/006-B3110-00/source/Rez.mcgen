@@ -91,6 +91,7 @@ module Rez {
         (:initialized) var fillTimeColorPurple as ResourceId;
         (:initialized) var Step as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var showSecTitle as ResourceId;
         (:initialized) var distancesGoalTitle as ResourceId;
         (:initialized) var fillTimeColorGreen as ResourceId;
         (:initialized) var borderTimeColorBlue as ResourceId;

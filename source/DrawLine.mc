@@ -58,6 +58,9 @@ module DrawLine {
     return x * scaleY;
   }
 
+  var cachedBorderLineColor = null;
+  var cachedFillLineColor = null;
+
   function drawLineLayout(dc as Dc) {
     var screenWidth = dc.getWidth();
     var screenHeight = dc.getHeight();
@@ -66,6 +69,10 @@ module DrawLine {
 
     var borderLineColor = getBorderLineColor();
     var fillLineColor = getFillLineColor();
+
+    if (cachedBorderLineColor == borderLineColor && cachedFillLineColor == fillLineColor) {
+        return; // Không cần vẽ lại
+    }
 
     // Dòng 1
     dc.setColor(borderLineColor, Graphics.COLOR_TRANSPARENT);

@@ -255,6 +255,21 @@
     "configMax" : 210,
     "configMaxLength" : null
   }, {
+    "key" : "showSec",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "showSecTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
     "key" : "Field1Type",
     "valueType" : "number",
     "defaultValue" : 0,
@@ -356,6 +371,7 @@
       "fillTimeColorPurple" : "Purple",
       "Step" : "Steps",
       "AppName" : "first-app",
+      "showSecTitle" : "Enable show second",
       "distancesGoalTitle" : "Enter distances goal",
       "fillTimeColorGreen" : "Green",
       "borderTimeColorBlue" : "Blue",
