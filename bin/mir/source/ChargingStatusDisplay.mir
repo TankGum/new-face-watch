@@ -1,0 +1,111 @@
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 3; @symbol_classdef = [ChargingStatusDisplay,3,6,27]; @symbol_extends<0> = [WatchUi,3,36,43]; @symbol_extends<1> = [Drawable,3,44,52]; ]
+class ChargingStatusDisplay extends WatchUi.Drawable {
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 4; @position = 8; @symbol_vardef = [_isCharging,4,8,19]; ]
+    var _isCharging;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 5; @position = 8; @symbol_vardef = [chargingIcon,5,8,20]; ]
+    var chargingIcon;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [params,7,24,30]; ]
+    function initialize(params) as Void {
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_7_32_10_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 8 8 ]
+        symbol [ Drawable %tmp.2 8 8 16 ];
+        %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 8 17 27 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 8 28 34 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 9 8 ]
+        symbol [ WatchUi %tmp.5 9 23 30 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.6 9 31 43 ];
+        %tmp.6 = getv function %tmp.5 :loadResource;
+        symbol [ Rez %tmp.8 9 44 47 ];
+        %tmp.8 = getv ? :Rez;
+        symbol [ Drawables %tmp.9 9 48 57 ];
+        %tmp.9 = getv %tmp.8 :Drawables;
+        symbol [ ChargingStatus %tmp.10 9 58 72 ];
+        %tmp.10 = getv %tmp.9 :ChargingStatus;
+        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.10);
+        symbol [ chargingIcon ? 9 8 20 ];
+        putv self :chargingIcon %tmp.11;
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_7_32_10_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 13; @symbol_functiondef = [setChargingStatus,13,13,30]; @symbol_param<0> = [isCharging,13,31,41]; ]
+    function setChargingStatus(isCharging) {
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_13_43_15_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 14 8 ]
+        %tmp.1 = lgetv %isCharging;
+        symbol [ isCharging %tmp.1 14 22 32 ];
+        symbol [ _isCharging ? 14 8 19 ];
+        putv self :_isCharging %tmp.1;
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_13_43_15_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 17; @symbol_functiondef = [draw,17,13,17]; @symbol_param<0> = [dc,17,18,20]; ]
+    function draw(dc) {
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 18 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop" ]
+        %x.1 = local;
+        symbol [ x %x.1 18 12 13 ];
+        symbol [ screenWidth %tmp.2 18 16 27 ];
+        %tmp.2 = getv ? :screenWidth;
+        %tmp.3 = 2;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        symbol [ chargingIcon %tmp.6 18 35 47 ];
+        %tmp.6 = getv ? :chargingIcon;
+        symbol [ getWidth %tmp.7 18 48 56 ];
+        %tmp.7 = getv function %tmp.6 :getWidth;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = 2;
+        %tmp.10 = div %tmp.8 %tmp.9;
+        %tmp.11 = sub %tmp.4 %tmp.10;
+        lputv %x.1 %tmp.11;
+        symbol [ x %x.1 18 12 13 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 19 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop" ]
+        %y.2 = local;
+        symbol [ y %y.2 19 12 13 ];
+        symbol [ screenHeight %tmp.13 19 16 28 ];
+        %tmp.13 = getv ? :screenHeight;
+        %tmp.14 = 0.9;
+        %tmp.15 = mul %tmp.13 %tmp.14;
+        lputv %y.2 %tmp.15;
+        symbol [ y %y.2 19 12 13 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 20 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 20 8 10 ];
+        symbol [ drawBitmap %tmp.17 20 11 21 ];
+        %tmp.17 = getv function %tmp.16 :drawBitmap;
+        symbol [ Math %tmp.19 20 22 26 ];
+        %tmp.19 = getv ? :Math;
+        symbol [ round %tmp.20 20 27 32 ];
+        %tmp.20 = getv function %tmp.19 :round;
+        %tmp.21 = lgetv %x.1;
+        symbol [ x %tmp.21 20 33 34 ];
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        symbol [ Math %tmp.24 20 37 41 ];
+        %tmp.24 = getv ? :Math;
+        symbol [ round %tmp.25 20 42 47 ];
+        %tmp.25 = getv function %tmp.24 :round;
+        %tmp.26 = lgetv %y.2;
+        symbol [ y %tmp.26 20 48 49 ];
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        symbol [ chargingIcon %tmp.29 20 52 64 ];
+        %tmp.29 = getv ? :chargingIcon;
+        invoke %tmp.16 %tmp.17(%tmp.22, %tmp.27, %tmp.29);
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop:
+    }
+}
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 1; ]
+<init> {
+}

@@ -42,35 +42,83 @@ module Rez {
 
             var rez_cmp_local_bitmap_disConnect = new WatchUi.Bitmap({:identifier=>"disConnect", :rezId=>$.Rez.Drawables.disConnect});
 
-            return [rez_cmp_local_bitmap_heartIcon, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_bitmap_distanceIcon, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_custom_drawable_DrawLineLayout = new DrawLineLayout({:identifier=>"DrawLineLayout"});
+
+            var rez_cmp_local_custom_drawable_BatteryDisplay = new BatteryDisplay({:identifier=>"BatteryDisplay"});
+
+            var rez_cmp_local_custom_drawable_DateDisplay = new DateDisplay({:identifier=>"DateDisplay"});
+
+            var rez_cmp_local_custom_drawable_PhoneConnectionDisplay = new PhoneConnectionDisplay({:identifier=>"PhoneConnectionDisplay"});
+
+            var rez_cmp_local_custom_drawable_DayNightDisplay = new DayNightDisplay({:identifier=>"DayNightDisplay"});
+
+            var rez_cmp_local_custom_drawable_ChargingStatusDisplay = new ChargingStatusDisplay({:identifier=>"ChargingStatusDisplay"});
+
+            return [rez_cmp_local_bitmap_heartIcon, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_bitmap_distanceIcon, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_custom_drawable_DrawLineLayout, rez_cmp_local_custom_drawable_BatteryDisplay, rez_cmp_local_custom_drawable_DateDisplay, rez_cmp_local_custom_drawable_PhoneConnectionDisplay, rez_cmp_local_custom_drawable_DayNightDisplay, rez_cmp_local_custom_drawable_ChargingStatusDisplay] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
-        (:initialized) var themeBackgroundTransparent as ResourceId;
-        (:initialized) var HeartRate as ResourceId;
         (:initialized) var maxHeartRatePrompt as ResourceId;
         (:initialized) var stepsGoalTitle as ResourceId;
         (:initialized) var stepsGoalError as ResourceId;
+        (:initialized) var borderTimeColorBlack as ResourceId;
+        (:initialized) var borderLineColorTitle as ResourceId;
         (:initialized) var themeBackgroundPurple as ResourceId;
         (:initialized) var caloriesGoalError as ResourceId;
         (:initialized) var caloriesGoalTitle as ResourceId;
-        (:initialized) var Step as ResourceId;
-        (:initialized) var AppName as ResourceId;
-        (:initialized) var distancesGoalTitle as ResourceId;
+        (:initialized) var borderLineColorBlue as ResourceId;
+        (:initialized) var use24HourTitle as ResourceId;
+        (:initialized) var fillTimeColorWhite as ResourceId;
+        (:initialized) var fillLineColorDarkRed as ResourceId;
+        (:initialized) var fillTimeColorBlue as ResourceId;
         (:initialized) var maxHeartRateTitle as ResourceId;
+        (:initialized) var borderLineColorOrange as ResourceId;
+        (:initialized) var fillTimeColorTitle as ResourceId;
+        (:initialized) var borderLineColorBlack as ResourceId;
         (:initialized) var Distance as ResourceId;
+        (:initialized) var borderTimeColorDarkRed as ResourceId;
         (:initialized) var AppVersionTitle as ResourceId;
+        (:initialized) var fillTimeColorOrange as ResourceId;
+        (:initialized) var borderLineColorWhite as ResourceId;
         (:initialized) var distancesGoalPrompt as ResourceId;
-        (:initialized) var stepsGoalPrompt as ResourceId;
-        (:initialized) var Calories as ResourceId;
+        (:initialized) var fillTimeColorDarkRed as ResourceId;
+        (:initialized) var fillLineColorBlue as ResourceId;
+        (:initialized) var fillTimeColorTransparent as ResourceId;
+        (:initialized) var fillLineColorPurple as ResourceId;
+        (:initialized) var borderLineColorGreen as ResourceId;
+        (:initialized) var borderTimeColorTransparent as ResourceId;
         (:initialized) var DataField2Title as ResourceId;
-        (:initialized) var DataField1Title as ResourceId;
-        (:initialized) var themeBackgroundTitle as ResourceId;
+        (:initialized) var fillTimeColorBlack as ResourceId;
+        (:initialized) var fillLineColorTitle as ResourceId;
         (:initialized) var distancesGoalError as ResourceId;
-        (:initialized) var themeBackgroundOrange as ResourceId;
         (:initialized) var maxHeartRateError as ResourceId;
         (:initialized) var caloriesGoalPrompt as ResourceId;
         (:initialized) var themeBackgroundDarkRed as ResourceId;
+        (:initialized) var fillLineColorWhite as ResourceId;
+        (:initialized) var fillLineColorOrange as ResourceId;
+        (:initialized) var fillLineColorGreen as ResourceId;
+        (:initialized) var themeBackgroundTransparent as ResourceId;
+        (:initialized) var HeartRate as ResourceId;
+        (:initialized) var fillTimeColorPurple as ResourceId;
+        (:initialized) var Step as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var showSecTitle as ResourceId;
+        (:initialized) var distancesGoalTitle as ResourceId;
+        (:initialized) var fillTimeColorGreen as ResourceId;
+        (:initialized) var borderTimeColorBlue as ResourceId;
+        (:initialized) var borderLineColorDarkRed as ResourceId;
+        (:initialized) var borderTimeColorPurple as ResourceId;
+        (:initialized) var stepsGoalPrompt as ResourceId;
+        (:initialized) var borderLineColorPurple as ResourceId;
+        (:initialized) var Calories as ResourceId;
+        (:initialized) var DataField1Title as ResourceId;
+        (:initialized) var themeBackgroundTitle as ResourceId;
+        (:initialized) var fillLineColorBlack as ResourceId;
+        (:initialized) var borderTimeColorTitle as ResourceId;
+        (:initialized) var themeBackgroundOrange as ResourceId;
+        (:initialized) var borderTimeColorOrange as ResourceId;
+        (:initialized) var borderTimeColorWhite as ResourceId;
+        (:initialized) var borderTimeColorGreen as ResourceId;
     } // Strings
 } // Rez

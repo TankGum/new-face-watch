@@ -41,14 +41,13 @@
 
   <setting propertyKey="@Properties.borderLineColor" title="@Strings.borderLineColorTitle">
     <settingConfig type="list">
-      <listEntry value="0">@Strings.borderLineColorTransparent</listEntry>
+      <listEntry value="0">@Strings.borderLineColorBlack</listEntry>
       <listEntry value="1">@Strings.borderLineColorOrange</listEntry>
       <listEntry value="2">@Strings.borderLineColorWhite</listEntry>
-      <listEntry value="3">@Strings.borderLineColorBlack</listEntry>
-      <listEntry value="4">@Strings.borderLineColorGreen</listEntry>
-      <listEntry value="5">@Strings.borderLineColorBlue</listEntry>
-      <listEntry value="6">@Strings.borderLineColorPurple</listEntry>
-      <listEntry value="7">@Strings.borderLineColorDarkRed</listEntry>  
+      <listEntry value="3">@Strings.borderLineColorGreen</listEntry>
+      <listEntry value="4">@Strings.borderLineColorBlue</listEntry>
+      <listEntry value="5">@Strings.borderLineColorPurple</listEntry>
+      <listEntry value="6">@Strings.borderLineColorDarkRed</listEntry>  
     </settingConfig>
   </setting>
 
@@ -81,6 +80,10 @@
   </setting>
 
   <setting propertyKey="@Properties.showSec" title="@Strings.showSecTitle">
+		<settingConfig type="boolean"/>
+	</setting>
+
+  <setting propertyKey="@Properties.use24Hour" title="@Strings.use24HourTitle">
 		<settingConfig type="boolean"/>
 	</setting>
 

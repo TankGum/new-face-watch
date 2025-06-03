@@ -11,6 +11,8 @@ class AppSettings {
     var fillTimeColor;
     var borderLineColor;
     var fillLineColor;
+    var showSec;
+    var use24Hour;
 
     function initialize() {}
 }

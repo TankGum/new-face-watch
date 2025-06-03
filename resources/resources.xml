@@ -32,10 +32,9 @@
   
   <!-- Cho borderLineColor -->
   <string id="borderLineColorTitle">Select border line color</string>
-  <string id="borderLineColorTransparent">Transparent</string>
+  <string id="borderLineColorBlack">Black</string>
   <string id="borderLineColorOrange">Orange</string>
   <string id="borderLineColorWhite">White</string>
-  <string id="borderLineColorBlack">Black</string>
   <string id="borderLineColorGreen">Green</string>
   <string id="borderLineColorBlue">Blue</string>
   <string id="borderLineColorPurple">Purple</string>
@@ -74,6 +73,9 @@
 
   <!-- Cho showSec -->
   <string id="showSecTitle">Enable show second</string>
+
+  <!-- Cho use24Hour -->
+  <string id="use24HourTitle">Display 12 or 24 for hour</string>
 
   <!-- Cho DataField1 -->
   <string id="DataField1Title">Select Data Field 1</string>

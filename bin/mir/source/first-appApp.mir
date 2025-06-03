@@ -1,63 +1,277 @@
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 5; @symbol_classdef = [first_appApp,5,6,18]; @symbol_extends<0> = [Application,5,27,38]; @symbol_extends<1> = [AppBase,5,39,46]; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Time,4,13,17]; @symbol_usingdef<2> = [Gregorian,4,18,27]; @symbol_usingAlias = [Date,4,31,35]; ]
+using Toybox.Time.Gregorian as :Date;
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 6; @symbol_classdef = [first_appApp,6,6,18]; @symbol_extends<0> = [Application,6,27,38]; @symbol_extends<1> = [AppBase,6,39,46]; ]
 class first_appApp extends Application.AppBase {
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 5; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 5; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 7; @position = 8; @symbol_vardef = [_borderColor,7,8,20]; ]
+    var _borderColor;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 8; @position = 8; @symbol_vardef = [_fillColor,8,8,18]; ]
+    var _fillColor;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 9; @position = 8; @symbol_vardef = [currentDateString,9,8,25]; ]
+    var currentDateString;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
     function initialize() as Void {
-D_Workspace_GarminApp_source_first_appApp_mc_7_26_9_4_start:
-[ "D:\Workspace\GarminApp\source\first-appApp.mc" 8 8 ]
-        symbol [ AppBase %tmp.2 8 8 15 ];
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_11_26_16_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 12 8 ]
+        symbol [ AppBase %tmp.2 12 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 8 16 26 ];
+        symbol [ initialize %tmp.3 12 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D_Workspace_GarminApp_source_first_appApp_mc_7_26_9_4_stop:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 13 8 ]
+        %tmp.4 = self;
+        symbol [ getColorOrDefault %tmp.5 13 23 40 ];
+        %tmp.5 = getv function %tmp.4 :getColorOrDefault;
+        %tmp.6 = "borderLineColor";
+        %tmp.7 = 1;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.7);
+        symbol [ _borderColor ? 13 8 20 ];
+        putv self :_borderColor %tmp.8;
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 14 8 ]
+        %tmp.9 = self;
+        symbol [ getColorOrDefault %tmp.10 14 21 38 ];
+        %tmp.10 = getv function %tmp.9 :getColorOrDefault;
+        %tmp.11 = "fillLineColor";
+        %tmp.12 = 3;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+        symbol [ _fillColor ? 14 8 18 ];
+        putv self :_fillColor %tmp.13;
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 15 8 ]
+        %tmp.14 = self;
+        symbol [ refreshDateString %tmp.15 15 8 25 ];
+        %tmp.15 = getv function %tmp.14 :refreshDateString;
+        invoke %tmp.14 %tmp.15();
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_11_26_16_4_stop:
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 12; @symbol_functiondef = [onStart,12,13,20]; @symbol_param<0> = [state,12,21,26]; @symbol_param<0>_type<0> = [Dictionary,12,30,40]; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 18; @symbol_functiondef = [onSettingsChanged,18,13,30]; ]
+    function onSettingsChanged() {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_18_33_21_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 19 8 ]
+        %tmp.1 = self;
+        symbol [ getColorOrDefault %tmp.2 19 23 40 ];
+        %tmp.2 = getv function %tmp.1 :getColorOrDefault;
+        %tmp.3 = "borderLineColor";
+        %tmp.4 = 1;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+        symbol [ _borderColor ? 19 8 20 ];
+        putv self :_borderColor %tmp.5;
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 20 8 ]
+        %tmp.6 = self;
+        symbol [ getColorOrDefault %tmp.7 20 21 38 ];
+        %tmp.7 = getv function %tmp.6 :getColorOrDefault;
+        %tmp.8 = "fillLineColor";
+        %tmp.9 = 3;
+        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9);
+        symbol [ _fillColor ? 20 8 18 ];
+        putv self :_fillColor %tmp.10;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_18_33_21_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 23; @symbol_functiondef = [getColorOrDefault,23,13,30]; @symbol_param<0> = [key,23,31,34]; @symbol_param<1> = [defaultVal,23,36,46]; ]
+    function getColorOrDefault(key, defaultVal) {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_23_48_26_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 24 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_23_48_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_23_48_26_4_stop" ]
+        %val.1 = local;
+        symbol [ val %val.1 24 12 15 ];
+        %tmp.1 = self;
+        symbol [ getProperty %tmp.2 24 18 29 ];
+        %tmp.2 = getv function %tmp.1 :getProperty;
+        %tmp.3 = lgetv %key;
+        symbol [ key %tmp.3 24 30 33 ];
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %val.1 %tmp.4;
+        symbol [ val %val.1 24 12 15 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 25 8 ]
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_begin:
+        %tmp.5 = lgetv %val.1;
+        symbol [ val %tmp.5 25 16 19 ];
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_false;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_true:
+        %tmp.8 = lgetv %defaultVal;
+        symbol [ defaultVal %tmp.8 25 31 41 ];
+        push %tmp.8;
+        goto @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_end;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_false:
+        %tmp.9 = lgetv %val.1;
+        symbol [ val %tmp.9 25 44 47 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        push %tmp.10;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_end:
+        %tmp.11 = phi [%tmp.7 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_begin] [%tmp.8 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_true] [%tmp.10 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_false] [%tmp.11 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_25_15_25_44_end];
+        ret %tmp.11;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_23_48_26_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 28; @symbol_functiondef = [getBorderColor,28,13,27]; ]
+    function getBorderColor() {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_28_30_30_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 29 8 ]
+        symbol [ _borderColor %tmp.2 29 15 27 ];
+        %tmp.2 = getv ? :_borderColor;
+        ret %tmp.2;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_28_30_30_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 32; @symbol_functiondef = [getFillColor,32,13,25]; ]
+    function getFillColor() {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_32_28_34_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 33 8 ]
+        symbol [ _fillColor %tmp.2 33 15 25 ];
+        %tmp.2 = getv ? :_fillColor;
+        ret %tmp.2;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_32_28_34_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 36; @symbol_functiondef = [refreshDateString,36,13,30]; ]
+    function refreshDateString() {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 37 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_start" "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 37 12 15 ];
+        symbol [ Time %tmp.2 37 18 22 ];
+        %tmp.2 = getv ? :Time;
+        symbol [ now %tmp.3 37 23 26 ];
+        %tmp.3 = getv function %tmp.2 :now;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %now.1 %tmp.4;
+        symbol [ now %now.1 37 12 15 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 38 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_start" "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_stop" ]
+        %date.2 = local;
+        symbol [ date %date.2 38 12 16 ];
+        symbol [ Date %tmp.5 38 19 23 ];
+        %tmp.5 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.6 38 24 28 ];
+        %tmp.6 = getv function %tmp.5 :info;
+        %tmp.7 = lgetv %now.1;
+        symbol [ now %tmp.7 38 29 32 ];
+        symbol [ Time %tmp.9 38 34 38 ];
+        %tmp.9 = getv ? :Time;
+        symbol [ FORMAT_LONG %tmp.10 38 39 50 ];
+        %tmp.10 = getv %tmp.9 :FORMAT_LONG;
+        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.10);
+        lputv %date.2 %tmp.11;
+        symbol [ date %date.2 38 12 16 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 39 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_start" "D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_stop" ]
+        %newDate.3 = local;
+        symbol [ newDate %newDate.3 39 12 19 ];
+        symbol [ Lang %tmp.12 39 22 26 ];
+        %tmp.12 = getm $.Toybox.Lang;
+        symbol [ format %tmp.13 39 27 33 ];
+        %tmp.13 = getv function %tmp.12 :format;
+        %tmp.14 = "$1$\n$2$ $3$";
+        %tmp.15 = newa 3;
+        %tmp.16 = lgetv %date.2;
+        symbol [ date %tmp.16 39 51 55 ];
+        symbol [ day_of_week %tmp.17 39 56 67 ];
+        %tmp.17 = getv %tmp.16 :day_of_week;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        %tmp.20 = lgetv %date.2;
+        symbol [ date %tmp.20 39 69 73 ];
+        symbol [ month %tmp.21 39 74 79 ];
+        %tmp.21 = getv %tmp.20 :month;
+        %tmp.22 = dup %tmp.19;
+        %tmp.23 = aputv %tmp.22 1 %tmp.21;
+        %tmp.24 = lgetv %date.2;
+        symbol [ date %tmp.24 39 81 85 ];
+        symbol [ day %tmp.25 39 86 89 ];
+        %tmp.25 = getv %tmp.24 :day;
+        %tmp.26 = dup %tmp.23;
+        %tmp.27 = aputv %tmp.26 2 %tmp.25;
+        %tmp.28 = invoke %tmp.12 %tmp.13(%tmp.14, %tmp.27);
+        lputv %newDate.3 %tmp.28;
+        symbol [ newDate %newDate.3 39 12 19 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 41 8 ]
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_stmt:
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_12_41_74_begin:
+        symbol [ currentDateString %tmp.30 41 12 29 ];
+        %tmp.30 = getv ? :currentDateString;
+        %tmp.31 = null;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bt %tmp.32 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_true;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_41_41_74_false:
+        symbol [ currentDateString %tmp.34 41 42 59 ];
+        %tmp.34 = getv ? :currentDateString;
+        %tmp.35 = as %tmp.34 { (!Null) };
+        symbol [ equals %tmp.36 41 60 66 ];
+        %tmp.36 = getv function %tmp.35 :equals;
+        %tmp.37 = lgetv %newDate.3;
+        symbol [ newDate %tmp.37 41 67 74 ];
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = not %tmp.38;
+        push %tmp.39;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_41_41_74_end:
+        %tmp.40 = phi [%tmp.32 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_12_41_74_begin] [%tmp.39 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_41_41_74_false] [%tmp.40 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_41_41_74_end];
+        bf %tmp.40 @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_end;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_true:
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_77_43_8_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 42 12 ]
+        %tmp.41 = lgetv %newDate.3;
+        symbol [ newDate %tmp.41 42 32 39 ];
+        symbol [ currentDateString ? 42 12 29 ];
+        putv self :currentDateString %tmp.41;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_77_43_8_stop:
+        goto @D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_end;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_41_8_43_8_if_end:
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_36_33_44_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 46; @symbol_functiondef = [getDateString,46,13,26]; ]
+    function getDateString() {
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_46_29_48_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 47 8 ]
+        symbol [ currentDateString %tmp.2 47 15 32 ];
+        %tmp.2 = getv ? :currentDateString;
+        ret %tmp.2;
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_46_29_48_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 51; @symbol_functiondef = [onStart,51,13,20]; @symbol_param<0> = [state,51,21,26]; @symbol_param<0>_type<0> = [Dictionary,51,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 16; @symbol_functiondef = [onStop,16,13,19]; @symbol_param<0> = [state,16,20,25]; @symbol_param<0>_type<0> = [Dictionary,16,29,39]; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 55; @symbol_functiondef = [onStop,55,13,19]; @symbol_param<0> = [state,55,20,25]; @symbol_param<0>_type<0> = [Dictionary,55,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 20; @symbol_functiondef = [getInitialView,20,13,27]; @symbol_return<0> = [Views,20,34,39]; @symbol_return<1> = [Views,20,45,50]; @symbol_return<2> = [InputDelegates,20,52,66]; ]
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 59; @symbol_functiondef = [getInitialView,59,13,27]; @symbol_return<0> = [Views,59,34,39]; @symbol_return<1> = [Views,59,45,50]; @symbol_return<2> = [InputDelegates,59,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-D_Workspace_GarminApp_source_first_appApp_mc_20_68_22_4_start:
-[ "D:\Workspace\GarminApp\source\first-appApp.mc" 21 8 ]
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_59_68_61_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 60 8 ]
         %tmp.1 = newa 1;
-        symbol [ first_appView %tmp.5 21 21 34 ];
+        symbol [ first_appView %tmp.5 60 21 34 ];
         %tmp.5 = getv ? :first_appView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-D_Workspace_GarminApp_source_first_appApp_mc_20_68_22_4_stop:
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_59_68_61_4_stop:
     }
 }
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 26; @symbol_functiondef = [getApp,26,9,15]; @symbol_return<0> = [first_appApp,26,21,33]; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 65; @symbol_functiondef = [getApp,65,9,15]; @symbol_return<0> = [first_appApp,65,21,33]; ]
 function getApp() as first_appApp {
-D_Workspace_GarminApp_source_first_appApp_mc_26_34_28_0_start:
-[ "D:\Workspace\GarminApp\source\first-appApp.mc" 27 4 ]
-    symbol [ Application %tmp.1 27 11 22 ];
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_65_34_67_0_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc" 66 4 ]
+    symbol [ Application %tmp.1 66 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 27 23 29 ];
+    symbol [ getApp %tmp.2 66 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 first_appApp;
-    symbol [ first_appApp %tmp.4 27 35 47 ];
+    symbol [ first_appApp %tmp.4 66 35 47 ];
     ret %tmp.4;
-D_Workspace_GarminApp_source_first_appApp_mc_26_34_28_0_stop:
+D_Workspace_GarminApp_new_face_watch_source_first_appApp_mc_65_34_67_0_stop:
 }
-[ @file = "D:\Workspace\GarminApp\source\first-appApp.mc"; @line = 1; ]
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\first-appApp.mc"; @line = 1; ]
 <init> {
 }

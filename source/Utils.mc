@@ -59,10 +59,11 @@ module Utils {
       if (stepsGoal < 1) {
         stepsGoal = 10000;
       }
+    } else {
+      stepsGoal = 10000;
     }
 
     var percent = stepCount.toFloat() / stepsGoal.toFloat();
-
     if (percent > 1.0) {
       percent = 1.0;
     }
@@ -79,19 +80,25 @@ module Utils {
     dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
     dc.fillCircle(cx, cy, r);
 
-    // Góc quét
-    var sweepAngle = percent * 360;
-
-    // Vòng tròn nền
+    // Vẽ vòng nền: toàn bộ vòng 360 độ màu xám nhạt
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
     for (var thickness = 0; thickness < 2; thickness++) {
       dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
     }
 
-    // Vòng tròn tiến trình
-    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-    for (var thickness = 0; thickness < 4; thickness++) {
-      dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+    // Nếu chưa đạt goal, vẽ phần tiến trình
+    if (percent < 1.0) {
+      var sweepAngle = percent * 360;
+      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 4; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+      }
+    } else {
+      // Nếu đạt hoặc vượt goal, tô toàn bộ vòng bằng màu thành tích
+      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 2; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, 360);
+      }
     }
   }
 
@@ -103,6 +110,8 @@ module Utils {
       if (distancesGoal < 1) {
         distancesGoal = 300;
       }
+    } else {
+      distancesGoal = 300;
     }
 
     var percent = distancesCount.toFloat() / distancesGoal.toFloat();
@@ -123,19 +132,25 @@ module Utils {
     dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
     dc.fillCircle(cx, cy, r);
 
-    // Góc quét
-    var sweepAngle = percent * 360;
-
     // Vòng tròn nền
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
     for (var thickness = 0; thickness < 2; thickness++) {
       dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
     }
 
-    // Vòng tròn tiến trình
-    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-    for (var thickness = 0; thickness < 4; thickness++) {
-      dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+    // Nếu chưa đạt goal, vẽ phần tiến trình
+    if (percent < 1.0) {
+      var sweepAngle = percent * 360;
+      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 4; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+      }
+    } else {
+      // Nếu đạt hoặc vượt goal, tô toàn bộ vòng bằng màu thành tích
+      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 2; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, 360);
+      }
     }
   }
 
@@ -147,6 +162,8 @@ module Utils {
       if (caloriesGoal < 1) {
         caloriesGoal = 15000;
       }
+    } else {
+      caloriesGoal = 15000;
     }
 
     var percent = caloriesCount.toFloat() / caloriesGoal.toFloat();
@@ -167,19 +184,25 @@ module Utils {
     dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_DK_GRAY);
     dc.fillCircle(cx, cy, r);
 
-    // Góc quét
-    var sweepAngle = percent * 360;
-
     // Vòng tròn nền
     dc.setColor(color, Graphics.COLOR_TRANSPARENT);
     for (var thickness = 0; thickness < 2; thickness++) {
-        dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
+      dc.drawArc(cx, cy, (r - 1) - thickness, Graphics.ARC_CLOCKWISE, -90, 270);
     }
 
-    // Vòng tròn tiến trình
-    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-    for (var thickness = 0; thickness < 4; thickness++) {
+    // Nếu chưa đạt goal, vẽ phần tiến trình
+    if (percent < 1.0) {
+      var sweepAngle = percent * 360;
+      dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 4; thickness++) {
         dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, -90 + sweepAngle);
+      }
+    } else {
+      // Nếu đạt hoặc vượt goal, tô toàn bộ vòng bằng màu thành tích
+      dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+      for (var thickness = 0; thickness < 2; thickness++) {
+        dc.drawArc(cx, cy, r - thickness, Graphics.ARC_CLOCKWISE, -90, 360);
+      }
     }
   }
 

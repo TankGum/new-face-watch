@@ -1,0 +1,138 @@
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 3; @symbol_classdef = [PhoneConnectionDisplay,3,6,28]; @symbol_extends<0> = [WatchUi,3,37,44]; @symbol_extends<1> = [Drawable,3,45,53]; ]
+class PhoneConnectionDisplay extends WatchUi.Drawable {
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 4; @position = 8; @symbol_vardef = [_currentConnected,4,8,25]; ]
+    var _currentConnected = null;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; @symbol_param<0> = [params,6,24,30]; ]
+    function initialize(params) as Void {
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_6_32_8_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 7 8 ]
+        symbol [ Drawable %tmp.2 7 8 16 ];
+        %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 7 17 27 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 7 28 34 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_6_32_8_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 10; @symbol_functiondef = [setConnected,10,13,25]; @symbol_param<0> = [isConnected,10,26,37]; ]
+    function setConnected(isConnected) {
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_10_39_12_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 11 8 ]
+        %tmp.1 = lgetv %isConnected;
+        symbol [ isConnected %tmp.1 11 28 39 ];
+        symbol [ _currentConnected ? 11 8 25 ];
+        putv self :_currentConnected %tmp.1;
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_10_39_12_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 14; @symbol_functiondef = [draw,14,13,17]; @symbol_param<0> = [dc,14,18,20]; ]
+    function draw(dc) {
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 15 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop" ]
+        %icon.1 = local;
+        symbol [ icon %icon.1 15 12 16 ];
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_begin:
+        symbol [ _currentConnected %tmp.2 15 19 36 ];
+        %tmp.2 = getv ? :_currentConnected;
+        bf %tmp.2 @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_false;
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_true:
+        symbol [ WatchUi %tmp.3 16 14 21 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.4 16 22 34 ];
+        %tmp.4 = getv function %tmp.3 :loadResource;
+        symbol [ Rez %tmp.6 16 35 38 ];
+        %tmp.6 = getv ? :Rez;
+        symbol [ Drawables %tmp.7 16 39 48 ];
+        %tmp.7 = getv %tmp.6 :Drawables;
+        symbol [ connected %tmp.8 16 49 58 ];
+        %tmp.8 = getv %tmp.7 :connected;
+        %tmp.9 = invoke %tmp.3 %tmp.4(%tmp.8);
+        push %tmp.9;
+        goto @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_end;
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_false:
+        symbol [ WatchUi %tmp.10 17 14 21 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.11 17 22 34 ];
+        %tmp.11 = getv function %tmp.10 :loadResource;
+        symbol [ Rez %tmp.13 17 35 38 ];
+        %tmp.13 = getv ? :Rez;
+        symbol [ Drawables %tmp.14 17 39 48 ];
+        %tmp.14 = getv %tmp.13 :Drawables;
+        symbol [ disConnect %tmp.15 17 49 59 ];
+        %tmp.15 = getv %tmp.14 :disConnect;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.15);
+        push %tmp.16;
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_end:
+        %tmp.17 = phi [%tmp.2 @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_begin] [%tmp.9 @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_true] [%tmp.16 @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_false] [%tmp.17 @D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_15_19_17_59_end];
+        lputv %icon.1 %tmp.17;
+        symbol [ icon %icon.1 15 12 16 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 19 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop" ]
+        %screenWidth.2 = local;
+        symbol [ screenWidth %screenWidth.2 19 12 23 ];
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 19 26 28 ];
+        symbol [ getWidth %tmp.19 19 29 37 ];
+        %tmp.19 = getv function %tmp.18 :getWidth;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        lputv %screenWidth.2 %tmp.20;
+        symbol [ screenWidth %screenWidth.2 19 12 23 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 20 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop" ]
+        %screenHeight.3 = local;
+        symbol [ screenHeight %screenHeight.3 20 12 24 ];
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 20 27 29 ];
+        symbol [ getHeight %tmp.22 20 30 39 ];
+        %tmp.22 = getv function %tmp.21 :getHeight;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %screenHeight.3 %tmp.23;
+        symbol [ screenHeight %screenHeight.3 20 12 24 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 22 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop" ]
+        %x.4 = local;
+        symbol [ x %x.4 22 12 13 ];
+        %tmp.24 = lgetv %screenWidth.2;
+        symbol [ screenWidth %tmp.24 22 16 27 ];
+        %tmp.25 = 0.04;
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        lputv %x.4 %tmp.26;
+        symbol [ x %x.4 22 12 13 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 23 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_start" "D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop" ]
+        %y.5 = local;
+        symbol [ y %y.5 23 12 13 ];
+        %tmp.27 = lgetv %screenHeight.3;
+        symbol [ screenHeight %tmp.27 23 16 28 ];
+        %tmp.28 = 0.47;
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        lputv %y.5 %tmp.29;
+        symbol [ y %y.5 23 12 13 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc" 25 8 ]
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 25 8 10 ];
+        symbol [ drawBitmap %tmp.31 25 11 21 ];
+        %tmp.31 = getv function %tmp.30 :drawBitmap;
+        %tmp.32 = lgetv %x.4;
+        symbol [ x %tmp.32 25 22 23 ];
+        %tmp.33 = lgetv %y.5;
+        symbol [ y %tmp.33 25 25 26 ];
+        %tmp.34 = lgetv %icon.1;
+        symbol [ icon %tmp.34 25 28 32 ];
+        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.33, %tmp.34);
+D_Workspace_GarminApp_new_face_watch_source_PhoneConnectionDisplay_mc_14_22_26_4_stop:
+    }
+}
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\PhoneConnectionDisplay.mc"; @line = 1; ]
+<init> {
+}

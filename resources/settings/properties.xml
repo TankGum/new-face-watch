@@ -11,6 +11,7 @@
     <property id="fillLineColor" type="number">0</property>
     <property id="maxHeartRate" type="number">210</property>
     <property id="showSec" type="boolean">false</property>
+    <property id="use24Hour" type="boolean">false</property>
 
     <property id="Field1Type" type="number">0</property>
     <property id="Field2Type" type="number">1</property>

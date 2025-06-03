@@ -38,6 +38,14 @@
   <!-- <label id="DayOrNight" text="AM" x="220" y="110" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
 
   <!-- <label id="DateDisplay" text="00/00/00" x="122" y="39" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
+
+  <drawable id="DrawLineLayout" class="DrawLineLayout"/>
+  <drawable id="BatteryDisplay" class="BatteryDisplay"/>
+  <drawable id="DateDisplay" class="DateDisplay"/>
+  <drawable id="PhoneConnectionDisplay" class="PhoneConnectionDisplay" />
+  <drawable id="DayNightDisplay" class="DayNightDisplay" />
+  <drawable id="ChargingStatusDisplay" class="ChargingStatusDisplay" />
+
   
 
 </layout>

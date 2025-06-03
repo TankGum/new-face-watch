@@ -131,7 +131,7 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
-      "display" : "borderLineColorTransparent",
+      "display" : "borderLineColorBlack",
       "value" : 0
     }, {
       "display" : "borderLineColorOrange",
@@ -140,20 +140,17 @@
       "display" : "borderLineColorWhite",
       "value" : 2
     }, {
-      "display" : "borderLineColorBlack",
+      "display" : "borderLineColorGreen",
       "value" : 3
     }, {
-      "display" : "borderLineColorGreen",
+      "display" : "borderLineColorBlue",
       "value" : 4
     }, {
-      "display" : "borderLineColorBlue",
+      "display" : "borderLineColorPurple",
       "value" : 5
     }, {
-      "display" : "borderLineColorPurple",
-      "value" : 6
-    }, {
       "display" : "borderLineColorDarkRed",
-      "value" : 7
+      "value" : 6
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -255,6 +252,36 @@
     "configMax" : 210,
     "configMaxLength" : null
   }, {
+    "key" : "showSec",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "showSecTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "use24Hour",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "use24HourTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
     "key" : "Field1Type",
     "valueType" : "number",
     "defaultValue" : 0,
@@ -321,6 +348,7 @@
       "caloriesGoalError" : "Invalid number",
       "caloriesGoalTitle" : "Enter calories goal",
       "borderLineColorBlue" : "Blue",
+      "use24HourTitle" : "Display 12 or 24 for hour",
       "fillTimeColorWhite" : "White",
       "fillLineColorDarkRed" : "DarkRed",
       "fillTimeColorBlue" : "Blue",
@@ -342,7 +370,7 @@
       "borderTimeColorTransparent" : "Transparent",
       "DataField2Title" : "Select Data Field 2",
       "fillTimeColorBlack" : "Black",
-      "fillLineColorTitle" : "Select border line color",
+      "fillLineColorTitle" : "Select fill line color",
       "distancesGoalError" : "Invalid number",
       "maxHeartRateError" : "Invalid number",
       "caloriesGoalPrompt" : "Input required",
@@ -352,10 +380,10 @@
       "fillLineColorGreen" : "Green",
       "themeBackgroundTransparent" : "Transparent",
       "HeartRate" : "Heart Rate",
-      "borderLineColorTransparent" : "Transparent",
       "fillTimeColorPurple" : "Purple",
       "Step" : "Steps",
       "AppName" : "first-app",
+      "showSecTitle" : "Enable show second",
       "distancesGoalTitle" : "Enter distances goal",
       "fillTimeColorGreen" : "Green",
       "borderTimeColorBlue" : "Blue",

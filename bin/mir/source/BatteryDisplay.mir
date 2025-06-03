@@ -1,0 +1,241 @@
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 3; @symbol_classdef = [BatteryDisplay,3,6,20]; @symbol_extends<0> = [WatchUi,3,29,36]; @symbol_extends<1> = [Drawable,3,37,45]; ]
+class BatteryDisplay extends WatchUi.Drawable {
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 4; @position = 8; @symbol_vardef = [_battery,4,8,16]; ]
+    var _battery = null;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 5; @position = 8; @symbol_vardef = [_font,5,8,13]; ]
+    var _font = null;
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [params,7,24,30]; ]
+    function initialize(params) as Void {
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_7_32_10_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 8 8 ]
+        symbol [ Drawable %tmp.2 8 8 16 ];
+        %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 8 17 27 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 8 28 34 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 9 8 ]
+        symbol [ WatchUi %tmp.5 9 16 23 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.6 9 24 36 ];
+        %tmp.6 = getv function %tmp.5 :loadResource;
+        symbol [ Rez %tmp.8 9 37 40 ];
+        %tmp.8 = getv ? :Rez;
+        symbol [ Fonts %tmp.9 9 41 46 ];
+        %tmp.9 = getv %tmp.8 :Fonts;
+        symbol [ spaceGrotesk %tmp.10 9 47 59 ];
+        %tmp.10 = getv %tmp.9 :spaceGrotesk;
+        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.10);
+        symbol [ _font ? 9 8 13 ];
+        putv self :_font %tmp.11;
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_7_32_10_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 12; @symbol_functiondef = [setBatteryLevel,12,13,28]; @symbol_param<0> = [battery,12,29,36]; ]
+    function setBatteryLevel(battery) {
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_12_38_14_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 13 8 ]
+        %tmp.1 = lgetv %battery;
+        symbol [ battery %tmp.1 13 19 26 ];
+        symbol [ _battery ? 13 8 16 ];
+        putv self :_battery %tmp.1;
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_12_38_14_4_stop:
+    }
+    [ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 16; @symbol_functiondef = [draw,16,13,17]; @symbol_param<0> = [dc,16,18,20]; ]
+    function draw(dc) {
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 17 8 ]
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_8_17_38_if_stmt:
+        symbol [ _battery %tmp.2 17 12 20 ];
+        %tmp.2 = getv ? :_battery;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_8_17_38_if_end;
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_8_17_38_if_true:
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_30_17_38_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 17 31 ]
+        ret ?;
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_30_17_38_stop:
+        goto @D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_8_17_38_if_end;
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_17_8_17_38_if_end:
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 19 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %batteryStr.1 = local;
+        symbol [ batteryStr %batteryStr.1 19 12 22 ];
+        symbol [ _battery %tmp.6 19 25 33 ];
+        %tmp.6 = getv ? :_battery;
+        symbol [ format %tmp.7 19 34 40 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = "%";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        lputv %batteryStr.1 %tmp.11;
+        symbol [ batteryStr %batteryStr.1 19 12 22 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 21 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %screenWidth.2 = local;
+        symbol [ screenWidth %screenWidth.2 21 12 23 ];
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 21 26 28 ];
+        symbol [ getWidth %tmp.13 21 29 37 ];
+        %tmp.13 = getv function %tmp.12 :getWidth;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        lputv %screenWidth.2 %tmp.14;
+        symbol [ screenWidth %screenWidth.2 21 12 23 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 22 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %screenHeight.3 = local;
+        symbol [ screenHeight %screenHeight.3 22 12 24 ];
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 22 27 29 ];
+        symbol [ getHeight %tmp.16 22 30 39 ];
+        %tmp.16 = getv function %tmp.15 :getHeight;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %screenHeight.3 %tmp.17;
+        symbol [ screenHeight %screenHeight.3 22 12 24 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 25 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %xText.4 = local;
+        symbol [ xText %xText.4 25 12 17 ];
+        %tmp.18 = lgetv %screenWidth.2;
+        symbol [ screenWidth %tmp.18 25 20 31 ];
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        lputv %xText.4 %tmp.20;
+        symbol [ xText %xText.4 25 12 17 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 26 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %yText.5 = local;
+        symbol [ yText %yText.5 26 12 17 ];
+        %tmp.21 = lgetv %screenHeight.3;
+        symbol [ screenHeight %tmp.21 26 20 32 ];
+        %tmp.22 = 0.08;
+        %tmp.23 = mul %tmp.21 %tmp.22;
+        lputv %yText.5 %tmp.23;
+        symbol [ yText %yText.5 26 12 17 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 27 8 ]
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 27 8 10 ];
+        symbol [ setColor %tmp.25 27 11 19 ];
+        %tmp.25 = getv function %tmp.24 :setColor;
+        symbol [ Graphics %tmp.27 27 20 28 ];
+        %tmp.27 = getv ? :Graphics;
+        symbol [ COLOR_WHITE %tmp.28 27 29 40 ];
+        %tmp.28 = getv %tmp.27 :COLOR_WHITE;
+        symbol [ Graphics %tmp.30 27 42 50 ];
+        %tmp.30 = getv ? :Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.31 27 51 68 ];
+        %tmp.31 = getv %tmp.30 :COLOR_TRANSPARENT;
+        invoke %tmp.24 %tmp.25(%tmp.28, %tmp.31);
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 28 8 ]
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 28 8 10 ];
+        symbol [ drawText %tmp.33 28 11 19 ];
+        %tmp.33 = getv function %tmp.32 :drawText;
+        %tmp.34 = lgetv %xText.4;
+        symbol [ xText %tmp.34 28 20 25 ];
+        %tmp.35 = lgetv %yText.5;
+        symbol [ yText %tmp.35 28 27 32 ];
+        symbol [ _font %tmp.37 28 34 39 ];
+        %tmp.37 = getv ? :_font;
+        %tmp.38 = lgetv %batteryStr.1;
+        symbol [ batteryStr %tmp.38 28 41 51 ];
+        symbol [ Graphics %tmp.40 28 53 61 ];
+        %tmp.40 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.41 28 62 81 ];
+        %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35, %tmp.37, %tmp.38, %tmp.41);
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 31 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %xBar.6 = local;
+        symbol [ xBar %xBar.6 31 12 16 ];
+        %tmp.42 = lgetv %screenWidth.2;
+        symbol [ screenWidth %tmp.42 31 19 30 ];
+        %tmp.43 = 0.33;
+        %tmp.44 = mul %tmp.42 %tmp.43;
+        lputv %xBar.6 %tmp.44;
+        symbol [ xBar %xBar.6 31 12 16 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 32 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %yBar.7 = local;
+        symbol [ yBar %yBar.7 32 12 16 ];
+        %tmp.45 = lgetv %screenHeight.3;
+        symbol [ screenHeight %tmp.45 32 19 31 ];
+        %tmp.46 = 0.08;
+        %tmp.47 = mul %tmp.45 %tmp.46;
+        lputv %yBar.7 %tmp.47;
+        symbol [ yBar %yBar.7 32 12 16 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 33 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %widthBar.8 = local;
+        symbol [ widthBar %widthBar.8 33 12 20 ];
+        %tmp.48 = lgetv %screenWidth.2;
+        symbol [ screenWidth %tmp.48 33 23 34 ];
+        %tmp.49 = 0.35;
+        %tmp.50 = mul %tmp.48 %tmp.49;
+        lputv %widthBar.8 %tmp.50;
+        symbol [ widthBar %widthBar.8 33 12 20 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 34 8 ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_start" "D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop" ]
+        %heightBar.9 = local;
+        symbol [ heightBar %heightBar.9 34 12 21 ];
+        %tmp.51 = lgetv %screenHeight.3;
+        symbol [ screenHeight %tmp.51 34 24 36 ];
+        %tmp.52 = 0.06;
+        %tmp.53 = mul %tmp.51 %tmp.52;
+        lputv %heightBar.9 %tmp.53;
+        symbol [ heightBar %heightBar.9 34 12 21 ];
+[ "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc" 35 8 ]
+        symbol [ Utils %tmp.55 35 8 13 ];
+        %tmp.55 = getv ? :Utils;
+        symbol [ drawBatteryBar %tmp.56 35 14 28 ];
+        %tmp.56 = getv function %tmp.55 :drawBatteryBar;
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 35 29 31 ];
+        symbol [ Math %tmp.59 35 33 37 ];
+        %tmp.59 = getv ? :Math;
+        symbol [ round %tmp.60 35 38 43 ];
+        %tmp.60 = getv function %tmp.59 :round;
+        %tmp.61 = lgetv %xBar.6;
+        symbol [ xBar %tmp.61 35 44 48 ];
+        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
+        symbol [ Math %tmp.64 35 51 55 ];
+        %tmp.64 = getv ? :Math;
+        symbol [ round %tmp.65 35 56 61 ];
+        %tmp.65 = getv function %tmp.64 :round;
+        %tmp.66 = lgetv %yBar.7;
+        symbol [ yBar %tmp.66 35 62 66 ];
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        symbol [ Math %tmp.69 35 69 73 ];
+        %tmp.69 = getv ? :Math;
+        symbol [ round %tmp.70 35 74 79 ];
+        %tmp.70 = getv function %tmp.69 :round;
+        %tmp.71 = lgetv %widthBar.8;
+        symbol [ widthBar %tmp.71 35 80 88 ];
+        %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
+        symbol [ Math %tmp.74 35 91 95 ];
+        %tmp.74 = getv ? :Math;
+        symbol [ round %tmp.75 35 96 101 ];
+        %tmp.75 = getv function %tmp.74 :round;
+        %tmp.76 = lgetv %heightBar.9;
+        symbol [ heightBar %tmp.76 35 102 111 ];
+        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
+        symbol [ _battery %tmp.79 35 114 122 ];
+        %tmp.79 = getv ? :_battery;
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.62, %tmp.67, %tmp.72, %tmp.77, %tmp.79);
+D_Workspace_GarminApp_new_face_watch_source_BatteryDisplay_mc_16_22_36_4_stop:
+    }
+}
+[ @file = "D:\Workspace\GarminApp\new-face-watch\source\BatteryDisplay.mc"; @line = 1; ]
+<init> {
+}
