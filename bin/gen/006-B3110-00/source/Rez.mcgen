@@ -52,7 +52,9 @@ module Rez {
 
             var rez_cmp_local_custom_drawable_DayNightDisplay = new DayNightDisplay({:identifier=>"DayNightDisplay"});
 
-            return [rez_cmp_local_bitmap_heartIcon, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_bitmap_distanceIcon, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_custom_drawable_DrawLineLayout, rez_cmp_local_custom_drawable_BatteryDisplay, rez_cmp_local_custom_drawable_DateDisplay, rez_cmp_local_custom_drawable_PhoneConnectionDisplay, rez_cmp_local_custom_drawable_DayNightDisplay] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_custom_drawable_ChargingStatusDisplay = new ChargingStatusDisplay({:identifier=>"ChargingStatusDisplay"});
+
+            return [rez_cmp_local_bitmap_heartIcon, rez_cmp_local_bitmap_stepIcon, rez_cmp_local_bitmap_caloriesIcon, rez_cmp_local_bitmap_steepIcon, rez_cmp_local_bitmap_distanceIcon, rez_cmp_local_bitmap_ChargingStatus, rez_cmp_local_text_DeviceConnectionStatusDisplay, rez_cmp_local_bitmap_connected, rez_cmp_local_bitmap_disConnect, rez_cmp_local_custom_drawable_DrawLineLayout, rez_cmp_local_custom_drawable_BatteryDisplay, rez_cmp_local_custom_drawable_DateDisplay, rez_cmp_local_custom_drawable_PhoneConnectionDisplay, rez_cmp_local_custom_drawable_DayNightDisplay, rez_cmp_local_custom_drawable_ChargingStatusDisplay] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

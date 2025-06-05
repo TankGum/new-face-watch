@@ -16,9 +16,6 @@ class PhoneConnectionDisplay extends WatchUi.Drawable {
             ? WatchUi.loadResource(Rez.Drawables.connected)
             : WatchUi.loadResource(Rez.Drawables.disConnect);
 
-        var screenWidth = dc.getWidth();
-        var screenHeight = dc.getHeight();
-
         var x = screenWidth * 0.04;
         var y = screenHeight * 0.47;
 

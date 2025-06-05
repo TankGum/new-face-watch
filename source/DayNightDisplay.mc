@@ -14,9 +14,6 @@ class DayNightDisplay extends WatchUi.Drawable {
     }
 
     function draw(dc) {
-        var screenWidth = dc.getWidth();
-        var screenHeight = dc.getHeight();
-
         var x = screenWidth * 0.92;
         var y = screenHeight * 0.47;
 

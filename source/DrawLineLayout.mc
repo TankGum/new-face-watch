@@ -31,9 +31,7 @@ class DrawLineLayout extends WatchUi.Drawable {
     function draw(dc) {
       var borderColor = App.getApp().getBorderColor();
       var fillColor = App.getApp().getFillColor();
-
-      var screenWidth = dc.getWidth();
-      var screenHeight = dc.getHeight();
+      
       var scaleX = screenWidth / 240.0;
       var scaleY = screenHeight / 240.0;
 

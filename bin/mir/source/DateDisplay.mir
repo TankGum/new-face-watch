@@ -52,82 +52,60 @@ D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_12_26_14_4_stop:
     }
     [ @file = "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc"; @line = 16; @symbol_functiondef = [draw,16,13,17]; @symbol_param<0> = [dc,16,18,20]; ]
     function draw(dc) {
-D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_start:
+D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_start:
 [ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 17 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_stop" ]
-        %screenWidth.1 = local;
-        symbol [ screenWidth %screenWidth.1 17 12 23 ];
-        %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 17 26 28 ];
-        symbol [ getWidth %tmp.2 17 29 37 ];
-        %tmp.2 = getv function %tmp.1 :getWidth;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        lputv %screenWidth.1 %tmp.3;
-        symbol [ screenWidth %screenWidth.1 17 12 23 ];
+        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_stop" ]
+        %x.1 = local;
+        symbol [ x %x.1 17 12 13 ];
+        symbol [ screenWidth %tmp.2 17 16 27 ];
+        %tmp.2 = getv ? :screenWidth;
+        %tmp.3 = 2;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        lputv %x.1 %tmp.4;
+        symbol [ x %x.1 17 12 13 ];
 [ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 18 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_stop" ]
-        %screenHeight.2 = local;
-        symbol [ screenHeight %screenHeight.2 18 12 24 ];
-        %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 18 27 29 ];
-        symbol [ getHeight %tmp.5 18 30 39 ];
-        %tmp.5 = getv function %tmp.4 :getHeight;
-        %tmp.6 = invoke %tmp.4 %tmp.5();
-        lputv %screenHeight.2 %tmp.6;
-        symbol [ screenHeight %screenHeight.2 18 12 24 ];
-[ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 19 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_stop" ]
-        %x.3 = local;
-        symbol [ x %x.3 19 12 13 ];
-        %tmp.7 = lgetv %screenWidth.1;
-        symbol [ screenWidth %tmp.7 19 16 27 ];
-        %tmp.8 = 2;
-        %tmp.9 = div %tmp.7 %tmp.8;
-        lputv %x.3 %tmp.9;
-        symbol [ x %x.3 19 12 13 ];
+        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_stop" ]
+        %y.2 = local;
+        symbol [ y %y.2 18 12 13 ];
+        symbol [ screenHeight %tmp.6 18 16 28 ];
+        %tmp.6 = getv ? :screenHeight;
+        %tmp.7 = 0.2;
+        %tmp.8 = mul %tmp.6 %tmp.7;
+        lputv %y.2 %tmp.8;
+        symbol [ y %y.2 18 12 13 ];
 [ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 20 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_start" "D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_stop" ]
-        %y.4 = local;
-        symbol [ y %y.4 20 12 13 ];
-        %tmp.10 = lgetv %screenHeight.2;
-        symbol [ screenHeight %tmp.10 20 16 28 ];
-        %tmp.11 = 0.2;
-        %tmp.12 = mul %tmp.10 %tmp.11;
-        lputv %y.4 %tmp.12;
-        symbol [ y %y.4 20 12 13 ];
-[ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 22 8 ]
-        %tmp.13 = lgetv %dc;
-        symbol [ dc %tmp.13 22 8 10 ];
-        symbol [ setColor %tmp.14 22 11 19 ];
-        %tmp.14 = getv function %tmp.13 :setColor;
-        symbol [ Graphics %tmp.16 22 20 28 ];
-        %tmp.16 = getv ? :Graphics;
-        symbol [ COLOR_WHITE %tmp.17 22 29 40 ];
-        %tmp.17 = getv %tmp.16 :COLOR_WHITE;
-        symbol [ Graphics %tmp.19 22 42 50 ];
-        %tmp.19 = getv ? :Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.20 22 51 68 ];
-        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
-        invoke %tmp.13 %tmp.14(%tmp.17, %tmp.20);
-[ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 23 8 ]
-        %tmp.21 = lgetv %dc;
-        symbol [ dc %tmp.21 23 8 10 ];
-        symbol [ drawText %tmp.22 23 11 19 ];
-        %tmp.22 = getv function %tmp.21 :drawText;
-        %tmp.23 = lgetv %x.3;
-        symbol [ x %tmp.23 23 20 21 ];
-        %tmp.24 = lgetv %y.4;
-        symbol [ y %tmp.24 23 23 24 ];
-        symbol [ _font %tmp.26 23 26 31 ];
-        %tmp.26 = getv ? :_font;
-        symbol [ _dateString %tmp.28 23 33 44 ];
-        %tmp.28 = getv ? :_dateString;
-        symbol [ Graphics %tmp.30 23 46 54 ];
-        %tmp.30 = getv ? :Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.31 23 55 74 ];
-        %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24, %tmp.26, %tmp.28, %tmp.31);
-D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_24_4_stop:
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 20 8 10 ];
+        symbol [ setColor %tmp.10 20 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.12 20 20 28 ];
+        %tmp.12 = getv ? :Graphics;
+        symbol [ COLOR_WHITE %tmp.13 20 29 40 ];
+        %tmp.13 = getv %tmp.12 :COLOR_WHITE;
+        symbol [ Graphics %tmp.15 20 42 50 ];
+        %tmp.15 = getv ? :Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.16 20 51 68 ];
+        %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.13, %tmp.16);
+[ "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc" 21 8 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 21 8 10 ];
+        symbol [ drawText %tmp.18 21 11 19 ];
+        %tmp.18 = getv function %tmp.17 :drawText;
+        %tmp.19 = lgetv %x.1;
+        symbol [ x %tmp.19 21 20 21 ];
+        %tmp.20 = lgetv %y.2;
+        symbol [ y %tmp.20 21 23 24 ];
+        symbol [ _font %tmp.22 21 26 31 ];
+        %tmp.22 = getv ? :_font;
+        symbol [ _dateString %tmp.24 21 33 44 ];
+        %tmp.24 = getv ? :_dateString;
+        symbol [ Graphics %tmp.26 21 46 54 ];
+        %tmp.26 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 21 55 74 ];
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20, %tmp.22, %tmp.24, %tmp.27);
+D_Workspace_GarminApp_new_face_watch_source_DateDisplay_mc_16_22_22_4_stop:
     }
 }
 [ @file = "D:\Workspace\GarminApp\new-face-watch\source\DateDisplay.mc"; @line = 1; ]

@@ -1,51 +1,17 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-
-  <!-- Giờ ở trung tâm -->
-  <!-- <label id="TimeDisplay" x="center" y="76" font="Gfx.FONT_SYSTEM_NUMBER_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-
-  <!-- Cụm thông số trên (2 cột) -->
-  <!-- Cột bên trái -->
-  <!-- <label id="HeartrateDisplay" text="000" x="54" y="40" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-  <!-- <label text="bpm" x="95" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
   <bitmap id="heartIcon" filename="../images/heart.png"/>
-
-  <!-- <label id="StepCountDisplay" text="00000" x="187" y="40" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-  <!-- <label text="steps" x="95" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
   <bitmap id="stepIcon" filename="../images/step.png"/>
-
-  <!-- Cột bên phải -->
-  <!-- <label id="CaloriesDisplay" text="0000" x="185" y="40" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-  <!-- <label text="cal" x="170" y="10" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
   <bitmap id="caloriesIcon" filename="../images/calories.png"/>
-
-  <!-- <label id="FloorsClimbedDisplay" text="000" x="185" y="40" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-  <!-- <label text="floors" x="175" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
   <bitmap id="steepIcon" filename="../images/steep.png"/>
-
   <bitmap id="distanceIcon" filename="../images/distance.png"/>
-
-  <!-- Pin và Ngày (dưới cùng) -->
-  <!-- <label id="BatteryDisplay" text="00%" x="center" y="top" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
   <bitmap id="ChargingStatus" filename="../images/electric.png"/>
-  <!-- <bitmap id="batteryFull" x="center" y="70" filename="../images/battery-full.png"/>
-  <bitmap id="batteryMedium" x="center" y="70" filename="../images/battery-medium.png"/>
-  <bitmap id="batteryLow" x="center" y="70" filename="../images/battery-low.png"/> -->
-
   <label id="DeviceConnectionStatusDisplay" x="right" y="center" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
   <bitmap id="connected" filename="../images/connected.png"/>
   <bitmap id="disConnect" filename="../images/disconnect.png"/>
-
-  <!-- <label id="DayOrNight" text="AM" x="220" y="110" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-
-  <!-- <label id="DateDisplay" text="00/00/00" x="122" y="39" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" /> -->
-
   <drawable id="DrawLineLayout" class="DrawLineLayout"/>
   <drawable id="BatteryDisplay" class="BatteryDisplay"/>
   <drawable id="DateDisplay" class="DateDisplay"/>
   <drawable id="PhoneConnectionDisplay" class="PhoneConnectionDisplay" />
   <drawable id="DayNightDisplay" class="DayNightDisplay" />
   <drawable id="ChargingStatusDisplay" class="ChargingStatusDisplay" />
-
-  
-
 </layout>

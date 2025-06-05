@@ -14,8 +14,6 @@ class DateDisplay extends WatchUi.Drawable {
     }
 
     function draw(dc) {
-        var screenWidth = dc.getWidth();
-        var screenHeight = dc.getHeight();
         var x = screenWidth / 2;
         var y = screenHeight * 0.2;
 

@@ -1,62 +1,62 @@
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
 using Toybox.Graphics;
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
 module Rez {
-    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
     module Drawables {
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [heartIcon,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [heartIcon,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
         var heartIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [stepIcon,10,27,35]; @symbol_type<0> = [ResourceId,10,39,49]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [stepIcon,10,27,35]; @symbol_type<0> = [ResourceId,10,39,49]; ]
         var stepIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [caloriesIcon,11,27,39]; @symbol_type<0> = [ResourceId,11,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [caloriesIcon,11,27,39]; @symbol_type<0> = [ResourceId,11,43,53]; ]
         var caloriesIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [steepIcon,12,27,36]; @symbol_type<0> = [ResourceId,12,40,50]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [steepIcon,12,27,36]; @symbol_type<0> = [ResourceId,12,40,50]; ]
         var steepIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [distanceIcon,13,27,39]; @symbol_type<0> = [ResourceId,13,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [distanceIcon,13,27,39]; @symbol_type<0> = [ResourceId,13,43,53]; ]
         var distanceIcon as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [ChargingStatus,14,27,41]; @symbol_type<0> = [ResourceId,14,45,55]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [ChargingStatus,14,27,41]; @symbol_type<0> = [ResourceId,14,45,55]; ]
         var ChargingStatus as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [connected,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [connected,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
         var connected as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [disConnect,16,27,37]; @symbol_type<0> = [ResourceId,16,41,51]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [disConnect,16,27,37]; @symbol_type<0> = [ResourceId,16,41,51]; ]
         var disConnect as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,17,27,39]; @symbol_type<0> = [ResourceId,17,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,17,27,39]; @symbol_type<0> = [ResourceId,17,43,53]; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 20; @symbol_moduledef = [Fonts,20,11,16]; ]
+    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 20; @symbol_moduledef = [Fonts,20,11,16]; ]
     module Fonts {
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 20; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [myFont,21,27,33]; @symbol_type<0> = [ResourceId,21,37,47]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [myFont,21,27,33]; @symbol_type<0> = [ResourceId,21,37,47]; ]
         var myFont as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [spaceGrotesk,22,27,39]; @symbol_type<0> = [ResourceId,22,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [spaceGrotesk,22,27,39]; @symbol_type<0> = [ResourceId,22,43,53]; ]
         var spaceGrotesk as ResourceId;
     }
-    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 25; @symbol_moduledef = [Layouts,25,11,18]; ]
+    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 25; @symbol_moduledef = [Layouts,25,11,18]; ]
     module Layouts {
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 25; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 25; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 26; @symbol_functiondef = [WatchFace,26,17,26]; @symbol_param<0> = [dc,26,27,29]; @symbol_param<0>_type<0> = [Graphics,26,33,41]; @symbol_param<0>_type<1> = [Dc,26,42,44]; @symbol_return<0> = [Array,26,49,54]; @symbol_return<1> = [WatchUi,26,55,62]; @symbol_return<2> = [Drawable,26,63,71]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 26; @symbol_functiondef = [WatchFace,26,17,26]; @symbol_param<0> = [dc,26,27,29]; @symbol_param<0>_type<0> = [Graphics,26,33,41]; @symbol_param<0>_type<1> = [Dc,26,42,44]; @symbol_return<0> = [Array,26,49,54]; @symbol_return<1> = [WatchUi,26,55,62]; @symbol_return<2> = [Drawable,26,63,71]; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start:
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 27 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start:
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 27 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_heartIcon.1 = local;
             symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.1 27 16 46 ];
             symbol [ WatchUi %tmp.3 27 53 60 ];
@@ -84,8 +84,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.1 = newc %tmp.4 (%tmp.18);
             lputv %rez_cmp_local_bitmap_heartIcon.1 %tmp.1;
             symbol [ rez_cmp_local_bitmap_heartIcon %rez_cmp_local_bitmap_heartIcon.1 27 16 46 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 29 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 29 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_stepIcon.2 = local;
             symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.2 29 16 45 ];
             symbol [ WatchUi %tmp.21 29 52 59 ];
@@ -113,8 +113,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.19 = newc %tmp.22 (%tmp.36);
             lputv %rez_cmp_local_bitmap_stepIcon.2 %tmp.19;
             symbol [ rez_cmp_local_bitmap_stepIcon %rez_cmp_local_bitmap_stepIcon.2 29 16 45 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 31 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 31 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_caloriesIcon.3 = local;
             symbol [ rez_cmp_local_bitmap_caloriesIcon %rez_cmp_local_bitmap_caloriesIcon.3 31 16 49 ];
             symbol [ WatchUi %tmp.39 31 56 63 ];
@@ -142,8 +142,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.37 = newc %tmp.40 (%tmp.54);
             lputv %rez_cmp_local_bitmap_caloriesIcon.3 %tmp.37;
             symbol [ rez_cmp_local_bitmap_caloriesIcon %rez_cmp_local_bitmap_caloriesIcon.3 31 16 49 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 33 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 33 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_steepIcon.4 = local;
             symbol [ rez_cmp_local_bitmap_steepIcon %rez_cmp_local_bitmap_steepIcon.4 33 16 46 ];
             symbol [ WatchUi %tmp.57 33 53 60 ];
@@ -171,8 +171,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.55 = newc %tmp.58 (%tmp.72);
             lputv %rez_cmp_local_bitmap_steepIcon.4 %tmp.55;
             symbol [ rez_cmp_local_bitmap_steepIcon %rez_cmp_local_bitmap_steepIcon.4 33 16 46 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 35 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 35 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_distanceIcon.5 = local;
             symbol [ rez_cmp_local_bitmap_distanceIcon %rez_cmp_local_bitmap_distanceIcon.5 35 16 49 ];
             symbol [ WatchUi %tmp.75 35 56 63 ];
@@ -200,8 +200,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.73 = newc %tmp.76 (%tmp.90);
             lputv %rez_cmp_local_bitmap_distanceIcon.5 %tmp.73;
             symbol [ rez_cmp_local_bitmap_distanceIcon %rez_cmp_local_bitmap_distanceIcon.5 35 16 49 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 37 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 37 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_ChargingStatus.6 = local;
             symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.6 37 16 51 ];
             symbol [ WatchUi %tmp.93 37 58 65 ];
@@ -229,8 +229,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.91 = newc %tmp.94 (%tmp.108);
             lputv %rez_cmp_local_bitmap_ChargingStatus.6 %tmp.91;
             symbol [ rez_cmp_local_bitmap_ChargingStatus %rez_cmp_local_bitmap_ChargingStatus.6 37 16 51 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 39 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 39 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 = local;
             symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 39 16 64 ];
             symbol [ WatchUi %tmp.111 39 71 78 ];
@@ -295,8 +295,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.109 = newc %tmp.112 (%tmp.155);
             lputv %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 %tmp.109;
             symbol [ rez_cmp_local_text_DeviceConnectionStatusDisplay %rez_cmp_local_text_DeviceConnectionStatusDisplay.7 39 16 64 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 41 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 41 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_connected.8 = local;
             symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.8 41 16 46 ];
             symbol [ WatchUi %tmp.158 41 53 60 ];
@@ -324,8 +324,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.156 = newc %tmp.159 (%tmp.173);
             lputv %rez_cmp_local_bitmap_connected.8 %tmp.156;
             symbol [ rez_cmp_local_bitmap_connected %rez_cmp_local_bitmap_connected.8 41 16 46 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 43 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 43 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_bitmap_disConnect.9 = local;
             symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.9 43 16 47 ];
             symbol [ WatchUi %tmp.176 43 54 61 ];
@@ -353,8 +353,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.174 = newc %tmp.177 (%tmp.191);
             lputv %rez_cmp_local_bitmap_disConnect.9 %tmp.174;
             symbol [ rez_cmp_local_bitmap_disConnect %rez_cmp_local_bitmap_disConnect.9 43 16 47 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 45 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 45 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_DrawLineLayout.10 = local;
             symbol [ rez_cmp_local_custom_drawable_DrawLineLayout %rez_cmp_local_custom_drawable_DrawLineLayout.10 45 16 60 ];
             symbol [ DrawLineLayout %tmp.195 45 67 81 ];
@@ -368,8 +368,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.192 = newc %tmp.195 (%tmp.201);
             lputv %rez_cmp_local_custom_drawable_DrawLineLayout.10 %tmp.192;
             symbol [ rez_cmp_local_custom_drawable_DrawLineLayout %rez_cmp_local_custom_drawable_DrawLineLayout.10 45 16 60 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 47 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 47 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_BatteryDisplay.11 = local;
             symbol [ rez_cmp_local_custom_drawable_BatteryDisplay %rez_cmp_local_custom_drawable_BatteryDisplay.11 47 16 60 ];
             symbol [ BatteryDisplay %tmp.205 47 67 81 ];
@@ -383,8 +383,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.202 = newc %tmp.205 (%tmp.211);
             lputv %rez_cmp_local_custom_drawable_BatteryDisplay.11 %tmp.202;
             symbol [ rez_cmp_local_custom_drawable_BatteryDisplay %rez_cmp_local_custom_drawable_BatteryDisplay.11 47 16 60 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 49 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 49 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_DateDisplay.12 = local;
             symbol [ rez_cmp_local_custom_drawable_DateDisplay %rez_cmp_local_custom_drawable_DateDisplay.12 49 16 57 ];
             symbol [ DateDisplay %tmp.215 49 64 75 ];
@@ -398,8 +398,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.212 = newc %tmp.215 (%tmp.221);
             lputv %rez_cmp_local_custom_drawable_DateDisplay.12 %tmp.212;
             symbol [ rez_cmp_local_custom_drawable_DateDisplay %rez_cmp_local_custom_drawable_DateDisplay.12 49 16 57 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 51 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 51 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_PhoneConnectionDisplay.13 = local;
             symbol [ rez_cmp_local_custom_drawable_PhoneConnectionDisplay %rez_cmp_local_custom_drawable_PhoneConnectionDisplay.13 51 16 68 ];
             symbol [ PhoneConnectionDisplay %tmp.225 51 75 97 ];
@@ -413,8 +413,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.222 = newc %tmp.225 (%tmp.231);
             lputv %rez_cmp_local_custom_drawable_PhoneConnectionDisplay.13 %tmp.222;
             symbol [ rez_cmp_local_custom_drawable_PhoneConnectionDisplay %rez_cmp_local_custom_drawable_PhoneConnectionDisplay.13 51 16 68 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 53 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 53 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_DayNightDisplay.14 = local;
             symbol [ rez_cmp_local_custom_drawable_DayNightDisplay %rez_cmp_local_custom_drawable_DayNightDisplay.14 53 16 61 ];
             symbol [ DayNightDisplay %tmp.235 53 68 83 ];
@@ -428,8 +428,8 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.232 = newc %tmp.235 (%tmp.241);
             lputv %rez_cmp_local_custom_drawable_DayNightDisplay.14 %tmp.232;
             symbol [ rez_cmp_local_custom_drawable_DayNightDisplay %rez_cmp_local_custom_drawable_DayNightDisplay.14 53 16 61 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 55 12 ]
-            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop" ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 55 12 ]
+            [ "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_start" "d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop" ]
             %rez_cmp_local_custom_drawable_ChargingStatusDisplay.15 = local;
             symbol [ rez_cmp_local_custom_drawable_ChargingStatusDisplay %rez_cmp_local_custom_drawable_ChargingStatusDisplay.15 55 16 67 ];
             symbol [ ChargingStatusDisplay %tmp.245 55 74 95 ];
@@ -443,7 +443,7 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.242 = newc %tmp.245 (%tmp.251);
             lputv %rez_cmp_local_custom_drawable_ChargingStatusDisplay.15 %tmp.242;
             symbol [ rez_cmp_local_custom_drawable_ChargingStatusDisplay %rez_cmp_local_custom_drawable_ChargingStatusDisplay.15 55 16 67 ];
-[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen" 57 12 ]
+[ "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen" 57 12 ]
             %tmp.252 = newa 15 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.252 57 629 634 ];
             symbol [ WatchUi %tmp.252 57 635 642 ];
@@ -509,138 +509,138 @@ d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73
             %tmp.296 = dup %tmp.294;
             %tmp.297 = aputv %tmp.296 14 %tmp.295;
             ret %tmp.297;
-d_Workspace_GarminApp_new_face_watch_bin_gen_006_B2900_00_source_Rez_mcgen_26_73_58_8_stop:
+d_Workspace_GarminApp_new_face_watch_bin_gen_006_B3110_00_source_Rez_mcgen_26_73_58_8_stop:
         }
     }
-    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 61; @symbol_moduledef = [Strings,61,11,18]; ]
+    [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 61; @symbol_moduledef = [Strings,61,11,18]; ]
     module Strings {
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 61; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 61; ]
         <init> {
         }
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [maxHeartRatePrompt,62,27,45]; @symbol_type<0> = [ResourceId,62,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [maxHeartRatePrompt,62,27,45]; @symbol_type<0> = [ResourceId,62,49,59]; ]
         var maxHeartRatePrompt as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [stepsGoalTitle,63,27,41]; @symbol_type<0> = [ResourceId,63,45,55]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [stepsGoalTitle,63,27,41]; @symbol_type<0> = [ResourceId,63,45,55]; ]
         var stepsGoalTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [stepsGoalError,64,27,41]; @symbol_type<0> = [ResourceId,64,45,55]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [stepsGoalError,64,27,41]; @symbol_type<0> = [ResourceId,64,45,55]; ]
         var stepsGoalError as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorBlack,65,27,47]; @symbol_type<0> = [ResourceId,65,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorBlack,65,27,47]; @symbol_type<0> = [ResourceId,65,51,61]; ]
         var borderTimeColorBlack as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [borderLineColorTitle,66,27,47]; @symbol_type<0> = [ResourceId,66,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [borderLineColorTitle,66,27,47]; @symbol_type<0> = [ResourceId,66,51,61]; ]
         var borderLineColorTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundPurple,67,27,48]; @symbol_type<0> = [ResourceId,67,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundPurple,67,27,48]; @symbol_type<0> = [ResourceId,67,52,62]; ]
         var themeBackgroundPurple as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalError,68,27,44]; @symbol_type<0> = [ResourceId,68,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalError,68,27,44]; @symbol_type<0> = [ResourceId,68,48,58]; ]
         var caloriesGoalError as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalTitle,69,27,44]; @symbol_type<0> = [ResourceId,69,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalTitle,69,27,44]; @symbol_type<0> = [ResourceId,69,48,58]; ]
         var caloriesGoalTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [borderLineColorBlue,70,27,46]; @symbol_type<0> = [ResourceId,70,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [borderLineColorBlue,70,27,46]; @symbol_type<0> = [ResourceId,70,50,60]; ]
         var borderLineColorBlue as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [use24HourTitle,71,27,41]; @symbol_type<0> = [ResourceId,71,45,55]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [use24HourTitle,71,27,41]; @symbol_type<0> = [ResourceId,71,45,55]; ]
         var use24HourTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorWhite,72,27,45]; @symbol_type<0> = [ResourceId,72,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorWhite,72,27,45]; @symbol_type<0> = [ResourceId,72,49,59]; ]
         var fillTimeColorWhite as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [fillLineColorDarkRed,73,27,47]; @symbol_type<0> = [ResourceId,73,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [fillLineColorDarkRed,73,27,47]; @symbol_type<0> = [ResourceId,73,51,61]; ]
         var fillLineColorDarkRed as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorBlue,74,27,44]; @symbol_type<0> = [ResourceId,74,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorBlue,74,27,44]; @symbol_type<0> = [ResourceId,74,48,58]; ]
         var fillTimeColorBlue as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateTitle,75,27,44]; @symbol_type<0> = [ResourceId,75,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateTitle,75,27,44]; @symbol_type<0> = [ResourceId,75,48,58]; ]
         var maxHeartRateTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [borderLineColorOrange,76,27,48]; @symbol_type<0> = [ResourceId,76,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [borderLineColorOrange,76,27,48]; @symbol_type<0> = [ResourceId,76,52,62]; ]
         var borderLineColorOrange as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorTitle,77,27,45]; @symbol_type<0> = [ResourceId,77,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorTitle,77,27,45]; @symbol_type<0> = [ResourceId,77,49,59]; ]
         var fillTimeColorTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [borderLineColorBlack,78,27,47]; @symbol_type<0> = [ResourceId,78,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [borderLineColorBlack,78,27,47]; @symbol_type<0> = [ResourceId,78,51,61]; ]
         var borderLineColorBlack as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [Distance,79,27,35]; @symbol_type<0> = [ResourceId,79,39,49]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [Distance,79,27,35]; @symbol_type<0> = [ResourceId,79,39,49]; ]
         var Distance as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorDarkRed,80,27,49]; @symbol_type<0> = [ResourceId,80,53,63]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorDarkRed,80,27,49]; @symbol_type<0> = [ResourceId,80,53,63]; ]
         var borderTimeColorDarkRed as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 81; @position = 27; initialized = true; @symbol_vardef = [AppVersionTitle,81,27,42]; @symbol_type<0> = [ResourceId,81,46,56]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 81; @position = 27; initialized = true; @symbol_vardef = [AppVersionTitle,81,27,42]; @symbol_type<0> = [ResourceId,81,46,56]; ]
         var AppVersionTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 82; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorOrange,82,27,46]; @symbol_type<0> = [ResourceId,82,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 82; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorOrange,82,27,46]; @symbol_type<0> = [ResourceId,82,50,60]; ]
         var fillTimeColorOrange as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 83; @position = 27; initialized = true; @symbol_vardef = [borderLineColorWhite,83,27,47]; @symbol_type<0> = [ResourceId,83,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 83; @position = 27; initialized = true; @symbol_vardef = [borderLineColorWhite,83,27,47]; @symbol_type<0> = [ResourceId,83,51,61]; ]
         var borderLineColorWhite as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 84; @position = 27; initialized = true; @symbol_vardef = [distancesGoalPrompt,84,27,46]; @symbol_type<0> = [ResourceId,84,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 84; @position = 27; initialized = true; @symbol_vardef = [distancesGoalPrompt,84,27,46]; @symbol_type<0> = [ResourceId,84,50,60]; ]
         var distancesGoalPrompt as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 85; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorDarkRed,85,27,47]; @symbol_type<0> = [ResourceId,85,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 85; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorDarkRed,85,27,47]; @symbol_type<0> = [ResourceId,85,51,61]; ]
         var fillTimeColorDarkRed as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 86; @position = 27; initialized = true; @symbol_vardef = [fillLineColorBlue,86,27,44]; @symbol_type<0> = [ResourceId,86,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 86; @position = 27; initialized = true; @symbol_vardef = [fillLineColorBlue,86,27,44]; @symbol_type<0> = [ResourceId,86,48,58]; ]
         var fillLineColorBlue as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 87; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorTransparent,87,27,51]; @symbol_type<0> = [ResourceId,87,55,65]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 87; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorTransparent,87,27,51]; @symbol_type<0> = [ResourceId,87,55,65]; ]
         var fillTimeColorTransparent as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 88; @position = 27; initialized = true; @symbol_vardef = [fillLineColorPurple,88,27,46]; @symbol_type<0> = [ResourceId,88,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 88; @position = 27; initialized = true; @symbol_vardef = [fillLineColorPurple,88,27,46]; @symbol_type<0> = [ResourceId,88,50,60]; ]
         var fillLineColorPurple as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 89; @position = 27; initialized = true; @symbol_vardef = [borderLineColorGreen,89,27,47]; @symbol_type<0> = [ResourceId,89,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 89; @position = 27; initialized = true; @symbol_vardef = [borderLineColorGreen,89,27,47]; @symbol_type<0> = [ResourceId,89,51,61]; ]
         var borderLineColorGreen as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 90; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorTransparent,90,27,53]; @symbol_type<0> = [ResourceId,90,57,67]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 90; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorTransparent,90,27,53]; @symbol_type<0> = [ResourceId,90,57,67]; ]
         var borderTimeColorTransparent as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 91; @position = 27; initialized = true; @symbol_vardef = [DataField2Title,91,27,42]; @symbol_type<0> = [ResourceId,91,46,56]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 91; @position = 27; initialized = true; @symbol_vardef = [DataField2Title,91,27,42]; @symbol_type<0> = [ResourceId,91,46,56]; ]
         var DataField2Title as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 92; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorBlack,92,27,45]; @symbol_type<0> = [ResourceId,92,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 92; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorBlack,92,27,45]; @symbol_type<0> = [ResourceId,92,49,59]; ]
         var fillTimeColorBlack as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 93; @position = 27; initialized = true; @symbol_vardef = [fillLineColorTitle,93,27,45]; @symbol_type<0> = [ResourceId,93,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 93; @position = 27; initialized = true; @symbol_vardef = [fillLineColorTitle,93,27,45]; @symbol_type<0> = [ResourceId,93,49,59]; ]
         var fillLineColorTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 94; @position = 27; initialized = true; @symbol_vardef = [distancesGoalError,94,27,45]; @symbol_type<0> = [ResourceId,94,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 94; @position = 27; initialized = true; @symbol_vardef = [distancesGoalError,94,27,45]; @symbol_type<0> = [ResourceId,94,49,59]; ]
         var distancesGoalError as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 95; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateError,95,27,44]; @symbol_type<0> = [ResourceId,95,48,58]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 95; @position = 27; initialized = true; @symbol_vardef = [maxHeartRateError,95,27,44]; @symbol_type<0> = [ResourceId,95,48,58]; ]
         var maxHeartRateError as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 96; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalPrompt,96,27,45]; @symbol_type<0> = [ResourceId,96,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 96; @position = 27; initialized = true; @symbol_vardef = [caloriesGoalPrompt,96,27,45]; @symbol_type<0> = [ResourceId,96,49,59]; ]
         var caloriesGoalPrompt as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 97; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundDarkRed,97,27,49]; @symbol_type<0> = [ResourceId,97,53,63]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 97; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundDarkRed,97,27,49]; @symbol_type<0> = [ResourceId,97,53,63]; ]
         var themeBackgroundDarkRed as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; @symbol_vardef = [fillLineColorWhite,98,27,45]; @symbol_type<0> = [ResourceId,98,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; @symbol_vardef = [fillLineColorWhite,98,27,45]; @symbol_type<0> = [ResourceId,98,49,59]; ]
         var fillLineColorWhite as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; @symbol_vardef = [fillLineColorOrange,99,27,46]; @symbol_type<0> = [ResourceId,99,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; @symbol_vardef = [fillLineColorOrange,99,27,46]; @symbol_type<0> = [ResourceId,99,50,60]; ]
         var fillLineColorOrange as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 100; @position = 27; initialized = true; @symbol_vardef = [fillLineColorGreen,100,27,45]; @symbol_type<0> = [ResourceId,100,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 100; @position = 27; initialized = true; @symbol_vardef = [fillLineColorGreen,100,27,45]; @symbol_type<0> = [ResourceId,100,49,59]; ]
         var fillLineColorGreen as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 101; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTransparent,101,27,53]; @symbol_type<0> = [ResourceId,101,57,67]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 101; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTransparent,101,27,53]; @symbol_type<0> = [ResourceId,101,57,67]; ]
         var themeBackgroundTransparent as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 102; @position = 27; initialized = true; @symbol_vardef = [HeartRate,102,27,36]; @symbol_type<0> = [ResourceId,102,40,50]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 102; @position = 27; initialized = true; @symbol_vardef = [HeartRate,102,27,36]; @symbol_type<0> = [ResourceId,102,40,50]; ]
         var HeartRate as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 103; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorPurple,103,27,46]; @symbol_type<0> = [ResourceId,103,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 103; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorPurple,103,27,46]; @symbol_type<0> = [ResourceId,103,50,60]; ]
         var fillTimeColorPurple as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 104; @position = 27; initialized = true; @symbol_vardef = [Step,104,27,31]; @symbol_type<0> = [ResourceId,104,35,45]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 104; @position = 27; initialized = true; @symbol_vardef = [Step,104,27,31]; @symbol_type<0> = [ResourceId,104,35,45]; ]
         var Step as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 105; @position = 27; initialized = true; @symbol_vardef = [AppName,105,27,34]; @symbol_type<0> = [ResourceId,105,38,48]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 105; @position = 27; initialized = true; @symbol_vardef = [AppName,105,27,34]; @symbol_type<0> = [ResourceId,105,38,48]; ]
         var AppName as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 106; @position = 27; initialized = true; @symbol_vardef = [showSecTitle,106,27,39]; @symbol_type<0> = [ResourceId,106,43,53]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 106; @position = 27; initialized = true; @symbol_vardef = [showSecTitle,106,27,39]; @symbol_type<0> = [ResourceId,106,43,53]; ]
         var showSecTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 107; @position = 27; initialized = true; @symbol_vardef = [distancesGoalTitle,107,27,45]; @symbol_type<0> = [ResourceId,107,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 107; @position = 27; initialized = true; @symbol_vardef = [distancesGoalTitle,107,27,45]; @symbol_type<0> = [ResourceId,107,49,59]; ]
         var distancesGoalTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 108; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorGreen,108,27,45]; @symbol_type<0> = [ResourceId,108,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 108; @position = 27; initialized = true; @symbol_vardef = [fillTimeColorGreen,108,27,45]; @symbol_type<0> = [ResourceId,108,49,59]; ]
         var fillTimeColorGreen as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 109; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorBlue,109,27,46]; @symbol_type<0> = [ResourceId,109,50,60]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 109; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorBlue,109,27,46]; @symbol_type<0> = [ResourceId,109,50,60]; ]
         var borderTimeColorBlue as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; @symbol_vardef = [borderLineColorDarkRed,110,27,49]; @symbol_type<0> = [ResourceId,110,53,63]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; @symbol_vardef = [borderLineColorDarkRed,110,27,49]; @symbol_type<0> = [ResourceId,110,53,63]; ]
         var borderLineColorDarkRed as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorPurple,111,27,48]; @symbol_type<0> = [ResourceId,111,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorPurple,111,27,48]; @symbol_type<0> = [ResourceId,111,52,62]; ]
         var borderTimeColorPurple as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; @symbol_vardef = [stepsGoalPrompt,112,27,42]; @symbol_type<0> = [ResourceId,112,46,56]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; @symbol_vardef = [stepsGoalPrompt,112,27,42]; @symbol_type<0> = [ResourceId,112,46,56]; ]
         var stepsGoalPrompt as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 113; @position = 27; initialized = true; @symbol_vardef = [borderLineColorPurple,113,27,48]; @symbol_type<0> = [ResourceId,113,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 113; @position = 27; initialized = true; @symbol_vardef = [borderLineColorPurple,113,27,48]; @symbol_type<0> = [ResourceId,113,52,62]; ]
         var borderLineColorPurple as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 114; @position = 27; initialized = true; @symbol_vardef = [Calories,114,27,35]; @symbol_type<0> = [ResourceId,114,39,49]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 114; @position = 27; initialized = true; @symbol_vardef = [Calories,114,27,35]; @symbol_type<0> = [ResourceId,114,39,49]; ]
         var Calories as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; @symbol_vardef = [DataField1Title,115,27,42]; @symbol_type<0> = [ResourceId,115,46,56]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; @symbol_vardef = [DataField1Title,115,27,42]; @symbol_type<0> = [ResourceId,115,46,56]; ]
         var DataField1Title as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTitle,116,27,47]; @symbol_type<0> = [ResourceId,116,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundTitle,116,27,47]; @symbol_type<0> = [ResourceId,116,51,61]; ]
         var themeBackgroundTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; @symbol_vardef = [fillLineColorBlack,117,27,45]; @symbol_type<0> = [ResourceId,117,49,59]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; @symbol_vardef = [fillLineColorBlack,117,27,45]; @symbol_type<0> = [ResourceId,117,49,59]; ]
         var fillLineColorBlack as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorTitle,118,27,47]; @symbol_type<0> = [ResourceId,118,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorTitle,118,27,47]; @symbol_type<0> = [ResourceId,118,51,61]; ]
         var borderTimeColorTitle as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 119; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundOrange,119,27,48]; @symbol_type<0> = [ResourceId,119,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 119; @position = 27; initialized = true; @symbol_vardef = [themeBackgroundOrange,119,27,48]; @symbol_type<0> = [ResourceId,119,52,62]; ]
         var themeBackgroundOrange as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 120; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorOrange,120,27,48]; @symbol_type<0> = [ResourceId,120,52,62]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 120; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorOrange,120,27,48]; @symbol_type<0> = [ResourceId,120,52,62]; ]
         var borderTimeColorOrange as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 121; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorWhite,121,27,47]; @symbol_type<0> = [ResourceId,121,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 121; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorWhite,121,27,47]; @symbol_type<0> = [ResourceId,121,51,61]; ]
         var borderTimeColorWhite as ResourceId;
-        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 122; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorGreen,122,27,47]; @symbol_type<0> = [ResourceId,122,51,61]; ]
+        [ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 122; @position = 27; initialized = true; @symbol_vardef = [borderTimeColorGreen,122,27,47]; @symbol_type<0> = [ResourceId,122,51,61]; ]
         var borderTimeColorGreen as ResourceId;
     }
 }
-[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B2900-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "d:\Workspace\GarminApp\new-face-watch\bin\gen\006-B3110-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

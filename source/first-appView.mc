@@ -32,6 +32,7 @@ class first_appView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+      try {
         View.onUpdate(dc);
         setThemeBackground(dc);
 
@@ -91,7 +92,17 @@ class first_appView extends WatchUi.WatchFace {
         var dataField2 = App.getApp().getProperty("Field2Type");
         setDynamicFields(dc, dataField1, dataField2);
         /*--------------------------------------------*/
+      } catch(e) {
+        System.println("Error in onUpdate: " + e.toString());
+      }
+    }
 
+    function onPartialUpdate(dc as Dc) {
+      try {
+        setClockDisplay(dc);
+      } catch(e) {
+        System.println("Error in onPartialUpdate: " + e.toString());
+      }
     }
 
     // Called when this View is removed from the screen. Save the
