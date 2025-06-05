@@ -17,7 +17,9 @@ class ChargingStatusDisplay extends WatchUi.Drawable {
     function draw(dc) {
         var x = screenWidth / 2 - (chargingIcon.getWidth() / 2);
         var y = screenHeight * 0.9;
-        dc.drawBitmap(Math.round(x), Math.round(y), chargingIcon);
+        if (_isCharging == true) {
+            dc.drawBitmap(Math.round(x), Math.round(y), chargingIcon);
+        }
     }
 }
 

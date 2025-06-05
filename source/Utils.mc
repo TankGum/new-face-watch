@@ -7,6 +7,7 @@ using Toybox.System as Sys;
 using Toybox.Time.Gregorian as Date;
 using Toybox.Application;
 using Toybox.Application as App;
+using Toybox.Activity as Activity;
 
 module Utils {
   function drawCircleHeartRate(dc as Dc, cx as Number, cy as Number, r as Number, heartRate as Float, color as Graphics.ColorType) {
@@ -248,20 +249,19 @@ module Utils {
 
   // Lấy nhịp tim
   function retrieveHeartrateText() {
-    var heartrateIterator = Mon.getHeartRateHistory(null, false);
-    var currentHeartrate = heartrateIterator.next().heartRate;
+    var heartRate = null;
+    var activityInfo = Activity.getActivityInfo();
 
-    if(currentHeartrate == Mon.INVALID_HR_SAMPLE) {
-      return "";
-    }		
-
-    return currentHeartrate.format("%d");
+    if (activityInfo != null && activityInfo.currentHeartRate != null) {
+      heartRate = activityInfo.currentHeartRate.format("%d");
+    }
+    return heartRate;
   }
 
   // Chuyển phần nghìn thành K
   function formatValueWithK(value as Number) as String {
     if (value >= 1000) {
-      return (value / 1000.0).format("%.1f") + "k";
+      return ((value / 1000.0).format("%.1f")).toString() + "k";
     } else {
       return value.toString();
     }

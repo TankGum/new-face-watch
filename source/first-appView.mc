@@ -36,61 +36,74 @@ class first_appView extends WatchUi.WatchFace {
         View.onUpdate(dc);
         setThemeBackground(dc);
 
+        var stats = Sys.getSystemStats();
         /*---------- Pin ----------*/
-        var battery = Sys.getSystemStats().battery;
-        var batteryDisplay = View.findDrawableById("BatteryDisplay") as BatteryDisplay;
-        if (batteryDisplay != null) {
-            batteryDisplay.setBatteryLevel(battery);
+        if (stats != null && stats.battery != null) {
+          var batteryDisplay = View.findDrawableById("BatteryDisplay") as BatteryDisplay;
+          if (batteryDisplay != null) {
+            batteryDisplay.setBatteryLevel(stats.battery);
+          }
         }
         /*------------------------*/
 
         displayProgressPercentages(dc);
         
         /*---------- Date ----------*/
-        var app = App.getApp() as first_appApp;
-        app.refreshDateString();
+        var app = App.getApp();
+        if (app != null && app instanceof first_appApp) {
+          var myApp = app as first_appApp;
+          myApp.refreshDateString();
 
-        var dateDisplay = View.findDrawableById("DateDisplay") as DateDisplay;
-        if (dateDisplay != null) {
-            dateDisplay.setDate(app.getDateString());
+          var dateDisplay = View.findDrawableById("DateDisplay") as DateDisplay;
+          if (dateDisplay != null) {
+            dateDisplay.setDate(myApp.getDateString());
+          }
         }
         /*-------------------------*/
         
         /*---------- Phone connect ----------*/
-        var phoneConnected = System.getDeviceSettings().phoneConnected;
+        var settings = System.getDeviceSettings();
+        if (settings != null) {
+          var phoneConnected = settings.phoneConnected;
 
-        var phoneDisplay = View.findDrawableById("PhoneConnectionDisplay") as PhoneConnectionDisplay;
-        if (phoneDisplay != null) {
+          var phoneDisplay = View.findDrawableById("PhoneConnectionDisplay") as PhoneConnectionDisplay;
+          if (phoneDisplay != null) {
             phoneDisplay.setConnected(phoneConnected);
+          }
         }
         /*-----------------------------------*/
         
         /*---------- AM/PM ----------*/
         var nowClock = System.getClockTime();
-        var hour = nowClock.hour;
-        var period = (hour >= 12) ? "P" : "A";
+        if (nowClock != null) {
+          var hour = nowClock.hour;
+          var period = (hour >= 12) ? "P" : "A";
 
-        var dayNightDisplay = View.findDrawableById("DayNightDisplay") as DayNightDisplay;
-        if (dayNightDisplay != null) {
+          var dayNightDisplay = View.findDrawableById("DayNightDisplay") as DayNightDisplay;
+          if (dayNightDisplay != null) {
             dayNightDisplay.setPeriod(period);
+          }
         }
         /*--------------------------*/
 
         setClockDisplay(dc);
 
         /*---------- Charging ----------*/
-        var myStats = System.getSystemStats();
-        var isCharging = myStats.charging;
-        var chargingStatusDisplay = View.findDrawableById("ChargingStatusDisplay") as ChargingStatusDisplay;
-        if (dayNightDisplay != null) {
-          chargingStatusDisplay.setChargingStatus(isCharging);
+        if (stats != null && stats.charging != null) {
+          var chargingStatusDisplay = View.findDrawableById("ChargingStatusDisplay") as ChargingStatusDisplay;
+          if (chargingStatusDisplay != null) {
+            chargingStatusDisplay.setChargingStatus(stats.charging);
+          }
         }
         /*------------------------------*/
 
         /*---------- Hiển thị 2 fields động ----------*/
-        var dataField1 = App.getApp().getProperty("Field1Type");
-        var dataField2 = App.getApp().getProperty("Field2Type");
-        setDynamicFields(dc, dataField1, dataField2);
+        var field1 = app.getProperty("Field1Type");
+        var field2 = app.getProperty("Field2Type");
+
+        if (field1 != null || field2 != null) {
+          setDynamicFields(dc, field1, field2);
+        }
         /*--------------------------------------------*/
       } catch(e) {
         System.println("Error in onUpdate: " + e.toString());
@@ -121,8 +134,8 @@ class first_appView extends WatchUi.WatchFace {
 
     // Hiển thị giờ
     private function setClockDisplay(dc as Dc) {
-      var showSec = App.getApp().getProperty("showSec");
-      var use24Hour = App.getApp().getProperty("use24Hour");
+      var showSec = App.getApp().getProperty("showSec") | 0;
+      var use24Hour = App.getApp().getProperty("use24Hour") | 0;
 
       var clockTime = Sys.getClockTime();
       var mHoursFont = WatchUi.loadResource(Rez.Fonts.myFont);
@@ -164,7 +177,7 @@ class first_appView extends WatchUi.WatchFace {
 
     function drawTextWithBorder(dc, text, px, py, mHoursFont) {
       // Vẽ viền trắng 8 hướng (offset 1px)
-      var borderTimeColor = App.getApp().getProperty("borderTimeColor");
+      var borderTimeColor = App.getApp().getProperty("borderTimeColor") | 0;
 
       if (borderTimeColor == 0) {
         borderTimeColor = Graphics.COLOR_TRANSPARENT;
@@ -198,7 +211,7 @@ class first_appView extends WatchUi.WatchFace {
 
       // Màu chữ ở giữa
       
-      var fillTimeColor = App.getApp().getProperty("fillTimeColor");
+      var fillTimeColor = App.getApp().getProperty("fillTimeColor") | 0;
 
       if (fillTimeColor == 0) {
         fillTimeColor = Graphics.COLOR_TRANSPARENT;
@@ -227,34 +240,43 @@ class first_appView extends WatchUi.WatchFace {
     private function drawDataField(dc as Dc, fieldType as String, x as Number, y as Number) {
       var valueStr = "--";
       var icon = null;
+      var monInfo = Mon.getInfo();
 
       switch(fieldType) {
         case 0: //Heart Rate
-          var heartRate = (Mon has :INVALID_HR_SAMPLE) ? Utils.retrieveHeartrateText() : "--";
+          var heartRate = Utils.retrieveHeartrateText();
           valueStr = heartRate;
-          Utils.drawCircleHeartRate(dc, x, y + 19, 25, heartRate.toNumber(), Graphics.COLOR_GREEN);
+          if (heartRate != null) {
+            var heartRateValue = heartRate.toFloat();
+            Utils.drawCircleHeartRate(dc, x, y + 19, 25, heartRateValue, Graphics.COLOR_GREEN);
+          } else {
+            Utils.drawCircleHeartRate(dc, x, y + 19, 25, 0.0, Graphics.COLOR_GREEN);
+          }
           icon = WatchUi.loadResource(Rez.Drawables.heartIcon);
           break;
 
         case 1: //Step Count
-          var steps = Mon.getInfo().steps;
-          valueStr = Utils.formatValueWithK(steps);
-          Utils.drawCircleStep(dc, x, y + 19, 25, steps.toFloat(), Graphics.COLOR_GREEN);
+          if (monInfo != null && monInfo.steps != null) {
+            valueStr = Utils.formatValueWithK(monInfo.steps);
+            Utils.drawCircleStep(dc, x, y + 19, 25, monInfo.steps.toFloat(), Graphics.COLOR_GREEN);
+          }
           icon = WatchUi.loadResource(Rez.Drawables.stepIcon);
           break;
 
         case 2: //Calories
-          var calories = Mon.getInfo().calories;
-          valueStr = Utils.formatValueWithK(calories);
-          Utils.drawCircleCalories(dc, x, y + 19, 25, calories.toFloat(), Graphics.COLOR_GREEN);
+          if (monInfo != null && monInfo.calories != null) {
+            valueStr = Utils.formatValueWithK(monInfo.calories);
+            Utils.drawCircleCalories(dc, x, y + 19, 25, monInfo.calories.toFloat(), Graphics.COLOR_GREEN);
+          }
           icon = WatchUi.loadResource(Rez.Drawables.caloriesIcon);
           break;
 
         case 3: //Distance 
-          var distances = Mon.getInfo().distance;
-          var distanceKm = distances / 100000;
-          valueStr = Utils.formatValueWithK(distanceKm) + "K";
-          Utils.drawCircleDistance(dc, x, y + 19, 25, distanceKm.toFloat(), Graphics.COLOR_GREEN);
+          if (monInfo != null && monInfo.distance != null) {
+            var distanceKm = monInfo.distance / 100000;
+            valueStr = Utils.formatValueWithK(distanceKm) + "K";
+            Utils.drawCircleDistance(dc, x, y + 19, 25, distanceKm.toFloat(), Graphics.COLOR_GREEN);
+          }
           icon = WatchUi.loadResource(Rez.Drawables.distanceIcon);
           break;
 
@@ -266,7 +288,11 @@ class first_appView extends WatchUi.WatchFace {
       // Vẽ text
       var spaceGroteskFont = WatchUi.loadResource(Rez.Fonts.spaceGrotesk);
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-      dc.drawText(x, y + 5, spaceGroteskFont, valueStr, Graphics.TEXT_JUSTIFY_CENTER);
+      if (valueStr == null) {
+        dc.drawText(x, y + 5, spaceGroteskFont, "--", Graphics.TEXT_JUSTIFY_CENTER);
+      } else {
+        dc.drawText(x, y + 5, spaceGroteskFont, valueStr, Graphics.TEXT_JUSTIFY_CENTER);
+      }
 
       // Vẽ icon nếu có
       if (icon != null) {
@@ -329,7 +355,7 @@ class first_appView extends WatchUi.WatchFace {
     }
 
     private function setThemeBackground(dc as Dc) {
-      var theme = App.getApp().getProperty("themeBackground");
+      var theme = App.getApp().getProperty("themeBackground") | 0;
       if (theme == 1) {
         dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_ORANGE);
       } else if (theme == 2) {

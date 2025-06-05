@@ -52,9 +52,9 @@ D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_13_43_15_4_
     }
     [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 17; @symbol_functiondef = [draw,17,13,17]; @symbol_param<0> = [dc,17,18,20]; ]
     function draw(dc) {
-D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start:
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_start:
 [ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 18 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop" ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_stop" ]
         %x.1 = local;
         symbol [ x %x.1 18 12 13 ];
         symbol [ screenWidth %tmp.2 18 16 27 ];
@@ -72,7 +72,7 @@ D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_
         lputv %x.1 %tmp.11;
         symbol [ x %x.1 18 12 13 ];
 [ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 19 8 ]
-        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop" ]
+        [ "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_start" "D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_stop" ]
         %y.2 = local;
         symbol [ y %y.2 19 12 13 ];
         symbol [ screenHeight %tmp.13 19 16 28 ];
@@ -82,28 +82,40 @@ D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_
         lputv %y.2 %tmp.15;
         symbol [ y %y.2 19 12 13 ];
 [ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 20 8 ]
-        %tmp.16 = lgetv %dc;
-        symbol [ dc %tmp.16 20 8 10 ];
-        symbol [ drawBitmap %tmp.17 20 11 21 ];
-        %tmp.17 = getv function %tmp.16 :drawBitmap;
-        symbol [ Math %tmp.19 20 22 26 ];
-        %tmp.19 = getv ? :Math;
-        symbol [ round %tmp.20 20 27 32 ];
-        %tmp.20 = getv function %tmp.19 :round;
-        %tmp.21 = lgetv %x.1;
-        symbol [ x %tmp.21 20 33 34 ];
-        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
-        symbol [ Math %tmp.24 20 37 41 ];
-        %tmp.24 = getv ? :Math;
-        symbol [ round %tmp.25 20 42 47 ];
-        %tmp.25 = getv function %tmp.24 :round;
-        %tmp.26 = lgetv %y.2;
-        symbol [ y %tmp.26 20 48 49 ];
-        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
-        symbol [ chargingIcon %tmp.29 20 52 64 ];
-        %tmp.29 = getv ? :chargingIcon;
-        invoke %tmp.16 %tmp.17(%tmp.22, %tmp.27, %tmp.29);
-D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_21_4_stop:
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_8_22_8_if_stmt:
+        symbol [ _isCharging %tmp.17 20 12 23 ];
+        %tmp.17 = getv ? :_isCharging;
+        %tmp.18 = true;
+        %tmp.19 = eq %tmp.17 %tmp.18;
+        bf %tmp.19 @D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_8_22_8_if_end;
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_8_22_8_if_true:
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_33_22_8_start:
+[ "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc" 21 12 ]
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 21 12 14 ];
+        symbol [ drawBitmap %tmp.21 21 15 25 ];
+        %tmp.21 = getv function %tmp.20 :drawBitmap;
+        symbol [ Math %tmp.23 21 26 30 ];
+        %tmp.23 = getv ? :Math;
+        symbol [ round %tmp.24 21 31 36 ];
+        %tmp.24 = getv function %tmp.23 :round;
+        %tmp.25 = lgetv %x.1;
+        symbol [ x %tmp.25 21 37 38 ];
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        symbol [ Math %tmp.28 21 41 45 ];
+        %tmp.28 = getv ? :Math;
+        symbol [ round %tmp.29 21 46 51 ];
+        %tmp.29 = getv function %tmp.28 :round;
+        %tmp.30 = lgetv %y.2;
+        symbol [ y %tmp.30 21 52 53 ];
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        symbol [ chargingIcon %tmp.33 21 56 68 ];
+        %tmp.33 = getv ? :chargingIcon;
+        invoke %tmp.20 %tmp.21(%tmp.26, %tmp.31, %tmp.33);
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_33_22_8_stop:
+        goto @D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_8_22_8_if_end;
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_20_8_22_8_if_end:
+D_Workspace_GarminApp_new_face_watch_source_ChargingStatusDisplay_mc_17_22_23_4_stop:
     }
 }
 [ @file = "D:\Workspace\GarminApp\new-face-watch\source\ChargingStatusDisplay.mc"; @line = 1; ]
